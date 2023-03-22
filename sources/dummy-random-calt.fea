@@ -1,3 +1,5 @@
+# 230313_1735
+
 feature aalt {
   sub space from [space.alt1 space.alt2 space.alt3 space.alt4 space.alt5 space.alt6];
   sub A from [A.alt1 A.alt2 A.alt3 A.alt4 A.alt5 A.alt6];
@@ -86,9 +88,9 @@ feature aalt {
   sub lcaron from [lcaron.alt1 lcaron.alt2 lcaron.alt3 lcaron.alt4 lcaron.alt5 lcaron.alt6];
   sub ldot from [ldot.alt1 ldot.alt2 ldot.alt3 ldot.alt4 ldot.alt5 ldot.alt6];
   sub ohorn from [ohorn.alt1 ohorn.alt2 ohorn.alt3 ohorn.alt4 ohorn.alt5 ohorn.alt6];
-  sub tcaron from [tcaron.alt1 tcaron.alt2 tcaron.alt3 tcaron.alt4 tcaron.alt5 tcaron.alt6];
+  # sub tcaron from [tcaron.alt1 tcaron.alt2 tcaron.alt3 tcaron.alt4 tcaron.alt5 tcaron.alt6];
   sub uhorn from [uhorn.alt1 uhorn.alt2 uhorn.alt3 uhorn.alt4 uhorn.alt5 uhorn.alt6];
-  sub lcaron.ss01 from [lcaron.ss01.alt1 lcaron.ss01.alt2 lcaron.ss01.alt3 lcaron.ss01.alt4 lcaron.ss01.alt5 lcaron.ss01.alt6];
+  # sub lcaron.ss01 from [lcaron.ss01.alt1 lcaron.ss01.alt2 lcaron.ss01.alt3 lcaron.ss01.alt4 lcaron.ss01.alt5 lcaron.ss01.alt6];
   sub ldot.ss01 from [ldot.ss01.alt1 ldot.ss01.alt2 ldot.ss01.alt3 ldot.ss01.alt4 ldot.ss01.alt5 ldot.ss01.alt6];
   #
 } aalt;
@@ -181,7 +183,6 @@ feature aalt {
     sub Odotbelow by O dotbelowcomb;
     sub Ohookabove by O hookabovecomb.case;
 
-    # [jca added]
     sub Ohornacute by Ohorn acutecomb.case;
     sub Ohorndotbelow by Ohorn dotbelowcomb;
     sub Ohorngrave by Ohorn gravecomb.case;
@@ -216,7 +217,6 @@ feature aalt {
     sub Udotbelow by U dotbelowcomb;
     sub Uhookabove by U hookabovecomb.case;
 
-    # [jca added]
     sub Uhornacute by Uhorn acutecomb.case;
     sub Uhorndotbelow by Uhorn dotbelowcomb;
     sub Uhorngrave by Uhorn gravecomb.case;
@@ -263,7 +263,7 @@ feature aalt {
     sub ccedilla by c cedillacomb;
     sub ccircumflex by c circumflexcomb;
     sub cdotaccent by c dotaccentcomb;
-    sub dcaron by d caron.alt;
+    # sub dcaron by d caron.alt;
     sub eacute by e acutecomb;
     sub ebreve by e brevecomb;
     sub ecaron by e caroncomb;
@@ -310,7 +310,6 @@ feature aalt {
     sub odotbelow by o dotbelowcomb;
     sub ohookabove by o hookabovecomb;
 
-    # [jca added]
     sub ohornacute by ohorn acutecomb;
     sub ohorndotbelow by ohorn dotbelowcomb;
     sub ohorngrave by ohorn gravecomb;
@@ -325,7 +324,7 @@ feature aalt {
     sub scedilla by s cedillacomb;
     sub scircumflex by s circumflexcomb;
     sub scommaaccent by s commaaccentcomb;
-    sub tcaron by t caron.alt;
+    # sub tcaron by t caron.alt;
     sub tcedilla by t cedillacomb;
     sub tcommaaccent by t commaaccentcomb;
     sub uacute by u acutecomb;
@@ -345,7 +344,6 @@ feature aalt {
     sub udotbelow by u dotbelowcomb;
     sub uhookabove by u hookabovecomb;
     
-    # [jca added]
     sub uhornacute by uhorn acutecomb;
     sub uhorndotbelow by uhorn dotbelowcomb;
     sub uhorngrave by uhorn gravecomb;
@@ -366,6 +364,16 @@ feature aalt {
     sub zacute by z acutecomb;
     sub zcaron by z caroncomb;
     sub zdotaccent by z dotaccentcomb;
+
+    sub Eth by E strokeshortcomb.case;
+    sub Hbar by H strokelongcomb;
+    sub Lslash by L strokeshortcomb.case;
+    sub Oslash by O slashlongcomb.case;
+    sub dcroat by d strokeshortcomb;
+    sub hbar by h strokeshortcomb;
+    sub lslash by l slashshortcomb;
+    sub oslash by o slashlongcomb;
+    sub tbar by t strokeshortcomb.t;
   } ccmp_decomp;
 } ccmp;
 
@@ -858,6 +866,13 @@ feature ss01 {
   sub l.alt4 by l.ss01.alt4;
   sub l.alt5 by l.ss01.alt5;
   sub l.alt6 by l.ss01.alt6;
+  sub lcaron by lcaron.ss01;
+  sub lcaron.alt1 by lcaron.ss01.alt1;
+  sub lcaron.alt2 by lcaron.ss01.alt2;
+  sub lcaron.alt3 by lcaron.ss01.alt3;
+  sub lcaron.alt4 by lcaron.ss01.alt4;
+  sub lcaron.alt5 by lcaron.ss01.alt5;
+  sub lcaron.alt6 by lcaron.ss01.alt6;
   sub y by y.ss01;
   sub y.alt1 by y.ss01.alt1;
   sub y.alt2 by y.ss01.alt2;
