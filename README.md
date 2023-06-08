@@ -1,2 +1,4 @@
-# Sensei-Informal
-TypeTogether Sensei Informal font
+# Playpen Sans
+TypeTogether's Playpen Sans font.
+
+## Build instructions
