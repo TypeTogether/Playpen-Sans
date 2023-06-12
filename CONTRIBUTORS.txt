@@ -16,4 +16,17 @@
 # Please keep the list sorted.
 # (first name; alphabetical order)
 
-TypeTogether <info@type-together.com>
+Azza Alameddine <azza@type-together.com>
+Cecilia Brarda <ceciliabrarda@gmail.com>
+Elena Veguillas <elena@type-together.com>
+Fernando Pujolá <fernandopujola83@gmail.com>
+Filip Blazek <filip@designiq.cz>
+Joancarles Casasín <joanca@type-together.com>
+Joshua Farmer <jfjudah@yahoo.com>
+Laura Meseguer <laura@laurameseguer.com>
+Luciana Sottini <lucianasottini@gmail.com>
+Martín Sesto <martinsesto82@gmail.com>
+Rabab Charafeddine <rabab@type-together.com>
+Yorlmar Campos <tipouno@gmail.com>
+
+

@@ -6,4 +6,6 @@
 # Name or Organization <email address>
 # The email address is not required for organizations.
 
-Octavio Pardo <octavio@ashler.design> http://www.ashler.design
+José Scaglione <jose@type-together.com>
+Veronika Burian <vik@type-together.com>
+TypeTogether <info@type-together.com>
