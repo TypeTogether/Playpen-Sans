@@ -12,6 +12,7 @@ rm -rf $otfFontsPath $ttfFontsPath $webFontsPath
 mkdir -p $otfFontsPath $ttfFontsPath $webFontsPath
 
 # pack source as .glyphspackage is not supported yet by fontmake
+echo
 echo "glyphspkg: Converting PlaypenSans.glyphspackage to PlaypenSans.glyphs"
 glyphspkg PlaypenSans.glyphspackage
 
@@ -26,7 +27,8 @@ echo
 fontmake -g ./PlaypenSans.glyphs -i -o otf --output-dir $otfFontsPath
 # Build TTF fonts
 fontmake -g ./PlaypenSans.glyphs -i -o ttf --output-dir $ttfFontsPath \
-			--filter DecomposeTransformedComponentsFilter
+			--filter DecomposeTransformedComponentsFilter \
+			--flatten-components
 
 echo "
 ======================

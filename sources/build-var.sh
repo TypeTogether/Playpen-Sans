@@ -8,6 +8,7 @@ rm -rf $varFontsPath
 mkdir -p $varFontsPath
 
 # pack source as .glyphspackage is not supported yet by fontmake
+echo
 echo "glyphspkg: Converting PlaypenSans.glyphspackage to PlaypenSans.glyphs"
 glyphspkg PlaypenSans.glyphspackage
 
@@ -19,10 +20,11 @@ echo "
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
-# fontmake -g ./PlaypenSans.glyphs -o variable --output-dir $varFontsPath
 fontmake -g ./PlaypenSans.glyphs -o variable --output-path \
 			$varFontsPath/PlaypenSans[wght].ttf \
 			--filter DecomposeTransformedComponentsFilter
+			# --flatten-components
+
 
 # Build WEB font
 echo "
