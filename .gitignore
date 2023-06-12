@@ -1,5 +1,6 @@
 *.glyphs
 *sublime*
+_fbakery*
 .DS_Store
 env
 venv
