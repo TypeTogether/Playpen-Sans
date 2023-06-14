@@ -1,9 +1,12 @@
 # Playpen Sans
-TypeTogether's Playpen Sans font.
+
+Playpen Sans is one of the font families produced by [TypeTogether](https://type-together.com) after more than two years of primary research into handwriting education for Latin-based languages. It has seven automatic alternates for each character and a built-in shuffler that ensures variation and avoids repetitive shapes in close proximity. This feature adds to the overall organic and spontaneous feel of the handwritten style.
+
+Playpen Sans is variable font with a weight range from Thin to Extrabold, and includes support for over 150 Latin-based languages a set of reward icons specifically designed for parents and primary school teachers. These icons serve as a means to encourage and motivate young children, adding a playful and engaging element to the font family.
 
 ## Build instructions
 
-*Playpen Sans* fonts are built using [gftools](https://github.com/googlefonts/gftools) and [glyphspkg](https://github.com/jenskutilek/glyphspkg).
+Playpen Sans fonts are built using [gftools](https://github.com/googlefonts/gftools) and [glyphspkg](https://github.com/jenskutilek/glyphspkg).
 
 ### Create a virtual environment
 
@@ -22,7 +25,7 @@ python3 -m venv env
 source env/bin/activate
 # Upgrade pip before installing packages:
 pip install --upgrade pip
-# Install the needed packages:
+# Install the needed Python packages:
 pip install -r requirements.txt
 ```
 
