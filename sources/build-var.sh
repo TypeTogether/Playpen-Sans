@@ -36,16 +36,18 @@ ttfs=$(ls $varFontsPath/*.ttf)
 for ttf in $ttfs
 do
 	echo $ttf
-	ttfautohint $ttf "$ttf.fix";
+	# ttfautohint $ttf "$ttf.fix";
+	# mv "$ttf.fix" $ttf;
+	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
-	gftools fix-hinting $ttf;
-	mv "$ttf.fix" $ttf;
+	rm $varFontsPath/*gasp*
 
 	# add STAT
 	gftools gen-stat --src config.yml --inplace $ttf
 	echo "Done building STAT table"
 	woff2_compress $ttf
 done
+
 
 # Clean up
 rm -rf ./master_ufo/ ./instance_ufo/

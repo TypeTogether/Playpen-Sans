@@ -1,4 +1,4 @@
-"PlaypenSans[wght].ttf":
+"PlaypenSans[wght].ttf": 
 - name: Weight
   tag: wght
   values:
@@ -11,6 +11,7 @@
   - name: Regular
     value: 400
     linkedValue: 700
+    flags: 2
   - name: Medium
     value: 500
   - name: SemiBold

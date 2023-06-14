@@ -8,10 +8,11 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
+pos = (4,0);
 ref = l.ss01.alt6;
 },
 {
-pos = (168,105);
+pos = (172,105);
 ref = periodcentered;
 }
 );
@@ -31,7 +32,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 344;
+width = 348;
 },
 {
 layerId = m003;

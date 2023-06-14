@@ -1,6 +1,7 @@
 *.glyphs
 *sublime*
-_fbakery*
 .DS_Store
+UIState.plist
+_fbakery*
 env
 venv
