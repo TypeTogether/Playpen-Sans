@@ -450,6 +450,42 @@ lookup SOFTDOT_DECOMP {
 } ccmp;
 
 
+# Icons Stylistic Set before calt
+feature ss02 {
+  featureNames {
+    name "Icons"; # Windows English
+    name 1 0 0 "Icons"; # Mac English
+  };
+  sub A by shootingStar;
+  sub B by birthdayCake;
+  sub C by artistPalette;
+  sub D by whiteUpBackhandIndex;
+  sub E by thumbsUpSign;
+  sub F by thumbsDownSign;
+  sub G by openBook;
+  sub H by cheeringMegaphone;
+  sub I by battery;
+  sub J by unicornFace;
+  sub K by jigsawPuzzlePiece;
+  sub L by ringedPlanet;
+  sub M by pencil;
+  sub N by checkmark;
+  sub O by crossMark;
+  sub P by roundTarget;
+  sub Q by dinosaur;
+  sub R by homework;
+  sub S by paperplane;
+  sub T by pencilbook;
+  sub U by reward;
+  sub V by suninlove;
+  sub W by sunpirate;
+  sub X by sunFace;
+  sub Y by sunsad;
+  sub Z by sunwink;
+} ss02;
+
+
+
 feature calt {
   lookup pseudoRandom {
     #
@@ -890,14 +926,14 @@ feature case {
 } case;
 
 
-feature liga {
-  sub f f i by f_f_i;
-  sub f f l by f_f_l;
-  sub f f by f_f;
-  sub f i by fi;
-  sub f l by fl;
-  sub t t by t_t;
-} liga;
+# feature liga {
+#   sub f f i by f_f_i;
+#   sub f f l by f_f_l;
+#   sub f f by f_f;
+#   sub f i by fi;
+#   sub f l by fl;
+#   sub t t by t_t;
+# } liga;
 
 feature ss01 {
   featureNames {

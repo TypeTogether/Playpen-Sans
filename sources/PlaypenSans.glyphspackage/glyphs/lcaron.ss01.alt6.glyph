@@ -11,7 +11,7 @@ alignment = -1;
 ref = l.ss01.alt6;
 },
 {
-pos = (145,22);
+pos = (141,22);
 ref = caron.alt;
 }
 );

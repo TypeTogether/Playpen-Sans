@@ -1,5 +1,5 @@
 {
-.appVersion = "3199";
+.appVersion = "3200";
 .formatVersion = 3;
 axes = (
 {
@@ -1153,7 +1153,33 @@ minus,
 plusminus,
 divide,
 multiply,
-logicalnot
+logicalnot,
+shootingStar,
+birthdayCake,
+artistPalette,
+whiteUpBackhandIndex,
+thumbsUpSign,
+thumbsDownSign,
+openBook,
+cheeringMegaphone,
+battery,
+unicornFace,
+jigsawPuzzlePiece,
+ringedPlanet,
+pencil,
+checkmark,
+crossMark,
+roundTarget,
+dinosaur,
+homework,
+paperplane,
+pencilbook,
+reward,
+suninlove,
+sunpirate,
+sunFace,
+sunsad,
+sunwink
 );
 },
 {
