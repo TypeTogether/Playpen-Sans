@@ -191,7 +191,7 @@ feature locl {
     sub Lacute by L acutecomb.case;
     sub Lcaron by L caron.alt;
     sub Lcommaaccent by L commaaccentcomb;
-    sub Ldot by L periodcentered;
+    # sub Ldot by L periodcentered;
     sub Nacute by N acutecomb.case;
     sub Ncaron by N caroncomb.case;
     sub Ncommaaccent by N commaaccentcomb;

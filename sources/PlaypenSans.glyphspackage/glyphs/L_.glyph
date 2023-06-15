@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = CATdot;
-pos = (422,409);
+pos = (472,409);
 },
 {
 name = bottom;
@@ -87,7 +87,7 @@ width = 589;
 anchors = (
 {
 name = CATdot;
-pos = (400,409);
+pos = (460,409);
 },
 {
 name = bottom;
@@ -166,7 +166,7 @@ width = 586;
 anchors = (
 {
 name = CATdot;
-pos = (415,409);
+pos = (445,409);
 },
 {
 name = bottom;
