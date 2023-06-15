@@ -487,6 +487,35 @@ feature ss02 {
 
 
 feature calt {
+  lookup ICONS {
+    sub colon s h o o t i n g hyphen s t a r colon by shootingStar;
+    sub colon b i r t h d a y hyphen c a k e colon by birthdayCake;
+    sub colon p a i n t colon by artistPalette;
+    sub colon a t t e n t i o n hyphen i n d e x colon by whiteUpBackhandIndex;
+    sub colon t h u m b s hyphen u p colon by thumbsUpSign;
+    sub colon t h u m b s hyphen d o w n colon by thumbsDownSign;
+    sub colon r e a d colon by openBook;
+    sub colon a n n o u n c e m e n t colon by cheeringMegaphone;
+    sub colon b a t t e r y colon by battery;
+    sub colon u n i c o r n colon by unicornFace;
+    sub colon d i n o s a u r colon by dinosaur;
+    sub colon p u z z l e colon by jigsawPuzzlePiece;
+    sub colon p l a n e t colon by ringedPlanet;
+    sub colon p e n c i l colon by pencil;
+    sub colon c h e c k hyphen m a r k colon by checkmark;
+    sub colon c r o s s hyphen m a r k colon by crossMark;
+    sub colon t a r g e t colon by roundTarget;
+    sub colon h a p p y hyphen s u n colon by sunFace;
+    sub colon l o v i n g hyphen s u n colon by suninlove;
+    sub colon p i r a t e hyphen s u n colon by sunpirate;
+    sub colon s a d hyphen s u n colon by sunsad;
+    sub colon w i n k hyphen s u n colon by sunwink;
+    sub colon h o m e w o r k colon by homework;
+    sub colon p a p e r hyphen p l a n e colon by paperplane;
+    sub colon w r i t e colon by pencilbook;
+    sub colon a c c o m p l i s h m e n t colon by reward;
+  } ICONS;
+
   lookup pseudoRandom {
     #
     sub @dflt_1' @dflt_1 @dflt_1 @dflt_1 by @alt4_1;

@@ -1,8 +1,12 @@
 # Playpen Sans
 
+![Hello Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_01.png)
+
 Playpen Sans is one of the font families produced by [TypeTogether](https://type-together.com) after more than two years of primary research into handwriting education for Latin-based languages. It has seven automatic alternates for each character and a built-in shuffler that both ensures variation and avoids repetitive shapes in close proximity. This feature adds to the overall organic, spontaneous, and authentic feel of the handwritten style.
 
 Playpen Sans is a variable font with a weight range from Thin to Extrabold, including support for over 150 Latin-based languages and a set of reward icons. The icons help parents and primary school teachers encourage and motivate young children, adding a playful and engaging element to the font family.
+
+![Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_02.png)
 
 ## Build instructions
 
@@ -54,13 +58,15 @@ cd sources
 sh build-all-fonts.sh
 ```
 
+![Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_04.png)
+
+
 ## Source file
 
 The Playpen Sans source file is in Glyphs ".glyphspackage" format (which is more git-friendly than ".glyphs").
 
 ### Version 1.000
 First release of Playpen Sans.
-
 
 ## License
 

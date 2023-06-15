@@ -1066,6 +1066,8 @@ slashlongcomb.case,
 strokeshortcomb.t,
 apostrophemod,
 degree,
+minute,
+second,
 asterisk,
 numbersign,
 ampersand,
@@ -1166,5 +1168,6 @@ suninlove,
 sunpirate,
 sunFace,
 sunsad,
-sunwink
+sunwink,
+dottedCircle
 )

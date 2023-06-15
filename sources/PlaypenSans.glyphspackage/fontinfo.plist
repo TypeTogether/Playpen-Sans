@@ -1079,6 +1079,8 @@ slashlongcomb.case,
 strokeshortcomb.t,
 apostrophemod,
 degree,
+minute,
+second,
 asterisk,
 numbersign,
 ampersand,
@@ -1179,7 +1181,8 @@ suninlove,
 sunpirate,
 sunFace,
 sunsad,
-sunwink
+sunwink,
+dottedCircle
 );
 },
 {
@@ -1275,14 +1278,6 @@ Axis = Weight;
 Location = 100;
 }
 );
-}
-);
-guides = (
-{
-pos = (160,814);
-},
-{
-pos = (94,631);
 }
 );
 iconName = Light;
