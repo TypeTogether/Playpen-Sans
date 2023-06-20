@@ -8,10 +8,10 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = y;
+ref = y.ss01;
 },
 {
-pos = (281,-252);
+pos = (342,-3);
 ref = dotbelowcomb;
 }
 );
@@ -31,16 +31,16 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 570;
+width = 514;
 },
 {
 layerId = m003;
 shapes = (
 {
-ref = y;
+ref = y.ss01;
 },
 {
-pos = (276,-262);
+pos = (454,0);
 ref = dotbelowcomb;
 }
 );
@@ -60,16 +60,16 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 586;
+width = 590;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
-ref = y;
+ref = y.ss01;
 },
 {
-pos = (271,-261);
+pos = (342,0);
 ref = dotbelowcomb;
 }
 );
@@ -89,7 +89,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 573;
+width = 516;
 }
 );
 unicode = 7925;

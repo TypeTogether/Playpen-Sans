@@ -1,5 +1,5 @@
 {
-.appVersion = "3200";
+.appVersion = "3201";
 .formatVersion = 3;
 axes = (
 {
@@ -1227,7 +1227,7 @@ languagesystem latn TAT;
 languagesystem latn TRK;
 
 include(features/classes-PlaypenSans.fea);
-include(features/calt-PlaypenSans.fea);
+include(features/PlaypenSans.fea);
 ";
 name = Languagesystems;
 }
@@ -1240,11 +1240,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -392;
 },
 {
 name = hheaLineGap;
@@ -1252,11 +1252,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1321;
+value = 1294;
 },
 {
 name = winDescent;
-value = 504;
+value = 392;
 },
 {
 name = typoLineGap;
@@ -1264,11 +1264,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = typoDescender;
-value = -504;
+value = -392;
 },
 {
 name = "Axis Location";
@@ -1278,6 +1278,11 @@ Axis = Weight;
 Location = 100;
 }
 );
+}
+);
+guides = (
+{
+pos = (679,1147);
 }
 );
 iconName = Light;
@@ -1319,11 +1324,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -392;
 },
 {
 name = hheaLineGap;
@@ -1331,11 +1336,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1321;
+value = 1294;
 },
 {
 name = winDescent;
-value = 504;
+value = 392;
 },
 {
 name = typoLineGap;
@@ -1343,11 +1348,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = typoDescender;
-value = -504;
+value = -392;
 },
 {
 name = "Axis Location";
@@ -1357,6 +1362,11 @@ Axis = Weight;
 Location = 400;
 }
 );
+}
+);
+guides = (
+{
+pos = (206,1212);
 }
 );
 id = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -1397,11 +1407,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = hheaDescender;
-value = -504;
+value = -392;
 },
 {
 name = hheaLineGap;
@@ -1409,11 +1419,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1321;
+value = 1294;
 },
 {
 name = winDescent;
-value = 504;
+value = 392;
 },
 {
 name = typoLineGap;
@@ -1421,11 +1431,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1321;
+value = 1294;
 },
 {
 name = typoDescender;
-value = -504;
+value = -392;
 },
 {
 name = "Axis Location";
@@ -1443,6 +1453,9 @@ pos = (184,822);
 },
 {
 pos = (61,536);
+},
+{
+pos = (176,1279);
 },
 {
 pos = (176,1065);

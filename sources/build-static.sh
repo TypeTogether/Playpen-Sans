@@ -6,7 +6,7 @@ otfFontsPath="../fonts/static/otf"
 ttfFontsPath="../fonts/static/ttf"
 webFontsPath="../fonts/static/web"
 sourcePath="./source-glyphs"
-fix="./fix"
+scripts="./scripts"
 
 rm -rf $otfFontsPath $ttfFontsPath $webFontsPath
 mkdir -p $otfFontsPath $ttfFontsPath $webFontsPath
@@ -39,7 +39,7 @@ otfs=$(ls $otfFontsPath/*.otf)
 for otf in $otfs
 do
 	echo $otf
-	python $fix/fix-usWeightClass-otf.py $otf
+	python $scripts/fix-usWeightClass-otf.py $otf
 	psautohint --no-zones-stems -a $otf
 done
 

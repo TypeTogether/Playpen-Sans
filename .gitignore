@@ -3,5 +3,6 @@
 .DS_Store
 UIState.plist
 _fbakery*
+_temp-*
 env
 venv

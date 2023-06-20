@@ -26,15 +26,23 @@ icons_dict = {"shooting-star": "shootingStar",
               "accomplishment": "reward",
               }
 
-def splitKeyword(keyword, glyphName):
+
+def keywordSubCode(keyword, glyphName):
+	calt_subs = []
 	sub_key = [f"{c} " for c in keyword]
 	sub_str = "".join(sub_key)
 	sub_str = sub_str.replace("-", "hyphen")
 	calt_str = f"sub colon {sub_str}colon by {glyphName};"
-	return calt_str
+	calt_subs += [calt_str]
+	title_sub = f"sub colon {sub_str[0].upper() + sub_str[1:]}colon by {glyphName};"
+	calt_subs += [title_sub]
+	upper_str = sub_str.upper().replace("HYPHEN", "hyphen")
+	upper_sub = f"sub colon {upper_str}colon by {glyphName};"
+	calt_subs += [upper_sub]
+	return calt_subs
 
 calt_code = []
 for k, val in icons_dict.items():
-	calt_code.append(splitKeyword(k, val))
+	calt_code += keywordSubCode(k, val)
 
 print("\n".join(calt_code))
