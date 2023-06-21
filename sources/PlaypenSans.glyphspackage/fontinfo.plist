@@ -1176,13 +1176,14 @@ dinosaur,
 homework,
 paperplane,
 pencilbook,
-sportsMedal,
+reward,
 suninlove,
 sunpirate,
 sunFace,
 sunsad,
 sunwink,
-dottedCircle
+dottedCircle,
+slashlongcomb.jump
 );
 },
 {
@@ -1670,6 +1671,12 @@ Axis = Weight;
 Location = 700;
 }
 );
+},
+{
+name = "Rename Glyphs";
+value = (
+"slashlongcomb=slashlongcomb.jump"
+);
 }
 );
 instanceInterpolations = {
@@ -1693,6 +1700,12 @@ value = (
 Axis = Weight;
 Location = 800;
 }
+);
+},
+{
+name = "Rename Glyphs";
+value = (
+"slashlongcomb=slashlongcomb.jump"
 );
 }
 );

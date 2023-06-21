@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = sportsMedal;
+glyphname = reward;
 layers = (
 {
 background = {
@@ -3096,5 +3096,4 @@ nodes = (
 width = 1096;
 }
 );
-unicode = 127941;
 }
