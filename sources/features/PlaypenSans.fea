@@ -472,7 +472,7 @@ feature ss02 {
   sub N by checkmark;
   sub O by crossMark;
   sub P by roundTarget;
-  sub Q by dinosaur;
+  sub Q by tRex;
   sub R by homework;
   sub S by paperplane;
   sub T by pencilbook;
@@ -581,9 +581,9 @@ feature calt {
     sub colon p e r f e c t colon by roundTarget;
     sub colon P e r f e c t colon by roundTarget;
     sub colon P E R F E C T colon by roundTarget;
-    sub colon d i n o s a u r colon by dinosaur;
-    sub colon D i n o s a u r colon by dinosaur;
-    sub colon D I N O S A U R colon by dinosaur;
+    sub colon d i n o s a u r colon by tRex;
+    sub colon D i n o s a u r colon by tRex;
+    sub colon D I N O S A U R colon by tRex;
     sub colon h o m e w o r k colon by homework;
     sub colon H o m e w o r k colon by homework;
     sub colon H O M E W O R K colon by homework;
@@ -1145,4 +1145,8 @@ feature ss01 {
   sub y.alt5 by y.ss01.alt5;
   sub y.alt6 by y.ss01.alt6;
 } ss01;
+
+# feature rvrn {
+#   sub slashlongcomb by slashlongcomb.jump;
+# } rvrn;
 

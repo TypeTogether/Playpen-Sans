@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = dinosaur;
+glyphname = tRex;
 layers = (
 {
 layerId = m01;
@@ -1071,4 +1071,5 @@ nodes = (
 width = 1170;
 }
 );
+unicode = 129430;
 }

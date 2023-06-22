@@ -1172,7 +1172,7 @@ pencil,
 checkmark,
 crossMark,
 roundTarget,
-dinosaur,
+tRex,
 homework,
 paperplane,
 pencilbook,
@@ -1231,6 +1231,19 @@ include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
 ";
 name = Languagesystems;
+}
+);
+features = (
+{
+code = "#ifdef VARIABLE
+
+condition 599 < wght < 800;
+sub slashlongcomb by slashlongcomb.jump;
+
+#endif
+";
+disabled = 1;
+tag = rvrn;
 }
 );
 fontMaster = (
@@ -1509,6 +1522,10 @@ value = 0;
 {
 name = fileName;
 value = "PlaypenSans[wght]";
+},
+{
+name = "Feature for Feature Variations";
+value = rvrn;
 }
 );
 name = Regular;
@@ -1648,6 +1665,12 @@ value = (
 Axis = Weight;
 Location = 600;
 }
+);
+},
+{
+name = "Rename Glyphs";
+value = (
+"slashlongcomb=slashlongcomb.jump"
 );
 }
 );
@@ -3369,6 +3392,7 @@ m01 = {
 "@MMK_R_four" = -5;
 "@MMK_R_germandbls" = -20;
 "@MMK_R_guillemetleft" = -30;
+"@MMK_R_hbar" = 20;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 40;
@@ -6120,6 +6144,7 @@ m01 = {
 "@MMK_R_four" = -10;
 "@MMK_R_germandbls" = -19;
 "@MMK_R_guillemetleft" = -26;
+"@MMK_R_hbar" = 50;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 61;
@@ -8872,6 +8897,7 @@ m003 = {
 "@MMK_R_four" = -10;
 "@MMK_R_germandbls" = -10;
 "@MMK_R_guillemetleft" = -30;
+"@MMK_R_hbar" = 80;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 70;
