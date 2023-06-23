@@ -1244,6 +1244,18 @@ sub slashlongcomb by slashlongcomb.jump;
 ";
 disabled = 1;
 tag = rvrn;
+},
+{
+code = "# Automatic Code
+
+pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 20 
+  (wght:440) 50
+  (wght:800) 80
+[h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6]' strokeshortcomb;
+
+# End Automatic Code";
+disabled = 1;
+tag = kern;
 }
 );
 fontMaster = (
@@ -1254,11 +1266,11 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = hheaDescender;
-value = -392;
+value = -390;
 },
 {
 name = hheaLineGap;
@@ -1270,7 +1282,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 392;
+value = 390;
 },
 {
 name = typoLineGap;
@@ -1278,11 +1290,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = typoDescender;
-value = -392;
+value = -390;
 },
 {
 name = "Axis Location";
@@ -3392,7 +3404,6 @@ m01 = {
 "@MMK_R_four" = -5;
 "@MMK_R_germandbls" = -20;
 "@MMK_R_guillemetleft" = -30;
-"@MMK_R_hbar" = 20;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 40;
@@ -6144,7 +6155,6 @@ m01 = {
 "@MMK_R_four" = -10;
 "@MMK_R_germandbls" = -19;
 "@MMK_R_guillemetleft" = -26;
-"@MMK_R_hbar" = 50;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 61;
@@ -8897,7 +8907,6 @@ m003 = {
 "@MMK_R_four" = -10;
 "@MMK_R_germandbls" = -10;
 "@MMK_R_guillemetleft" = -30;
-"@MMK_R_hbar" = 80;
 "@MMK_R_hyphen" = -20;
 "@MMK_R_hyphen.case" = -20;
 "@MMK_R_iwide" = 70;
