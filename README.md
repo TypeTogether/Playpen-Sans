@@ -13,7 +13,7 @@ Playpen Sans is a variable font with a weight range from Thin to Extrabold, incl
 Icons in Playpen Sans show up autmatically upon entering the keyword in between colons [:]. For example **:happy-sun:**. Find below a full list of icons and keywords.
 
 | glyph Name           | uni | 1st | 2nd|
-|---|---|---| --- | --- |
+| --- | --- | --- | --- |
 | sunFace              | 1F31E | :happy-sun: | :happy: |
 | shootingStar         | 1F320 | :shooting-star: | :star: |
 | birthdayCake         | 1F382 | :birthday-cake: | :cake: |
