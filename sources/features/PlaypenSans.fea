@@ -458,6 +458,12 @@ feature frac {
 } frac;
 
 
+# Ordinals
+feature ordn {
+  sub N o period by numero;
+} ordn;
+
+
 # Icons Stylistic Set before calt
 feature ss02 {
   featureNames {
