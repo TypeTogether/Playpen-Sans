@@ -1,5 +1,5 @@
 {
-.appVersion = "3201";
+.appVersion = "3202";
 .formatVersion = 3;
 axes = (
 {
@@ -1236,10 +1236,8 @@ name = Languagesystems;
 features = (
 {
 code = "#ifdef VARIABLE
-
 condition 599 < wght < 800;
 sub slashlongcomb by slashlongcomb.jump;
-
 #endif
 ";
 disabled = 1;
@@ -1247,15 +1245,24 @@ tag = rvrn;
 },
 {
 code = "# Automatic Code
-
 pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 20 
   (wght:440) 50
   (wght:800) 80
 [h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6]' strokeshortcomb;
-
-# End Automatic Code";
+";
 disabled = 1;
 tag = kern;
+},
+{
+code = "#ifdef VARIABLE
+
+condition 599 < wght < 800;
+sub slashlongcomb by slashlongcomb.jump;
+
+#endif
+";
+disabled = 1;
+tag = rlig;
 }
 );
 fontMaster = (
@@ -1349,12 +1356,21 @@ axesValues = (
 );
 customParameters = (
 {
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+},
+{
 name = hheaAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = hheaDescender;
-value = -392;
+value = -390;
 },
 {
 name = hheaLineGap;
@@ -1366,7 +1382,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 392;
+value = 390;
 },
 {
 name = typoLineGap;
@@ -1374,20 +1390,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = typoDescender;
-value = -392;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
+value = -390;
 }
 );
 guides = (
@@ -1432,12 +1439,21 @@ axesValues = (
 );
 customParameters = (
 {
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+},
+{
 name = hheaAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = hheaDescender;
-value = -392;
+value = -390;
 },
 {
 name = hheaLineGap;
@@ -1449,7 +1465,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 392;
+value = 390;
 },
 {
 name = typoLineGap;
@@ -1457,20 +1473,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1294;
+value = 1220;
 },
 {
 name = typoDescender;
-value = -392;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 800;
-}
-);
+value = -390;
 }
 );
 guides = (

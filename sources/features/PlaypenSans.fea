@@ -450,6 +450,14 @@ lookup SOFTDOT_DECOMP {
 } ccmp;
 
 
+# Fractions
+feature frac {
+  sub one slash two by onehalf;
+  sub one slash four by onequarter;
+  sub three slash four by threequarters;
+} frac;
+
+
 # Icons Stylistic Set before calt
 feature ss02 {
   featureNames {
@@ -1145,3 +1153,4 @@ feature ss01 {
   sub y.alt5 by y.ss01.alt5;
   sub y.alt6 by y.ss01.alt6;
 } ss01;
+
