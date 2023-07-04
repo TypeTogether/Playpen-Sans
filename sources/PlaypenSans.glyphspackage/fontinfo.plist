@@ -1233,38 +1233,6 @@ include(features/PlaypenSans.fea);
 name = Languagesystems;
 }
 );
-features = (
-{
-code = "#ifdef VARIABLE
-condition 599 < wght < 800;
-sub slashlongcomb by slashlongcomb.jump;
-#endif
-";
-disabled = 1;
-tag = rvrn;
-},
-{
-code = "# Automatic Code
-pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 20 
-  (wght:440) 50
-  (wght:800) 80
-[h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6]' strokeshortcomb;
-";
-disabled = 1;
-tag = kern;
-},
-{
-code = "#ifdef VARIABLE
-
-condition 599 < wght < 800;
-sub slashlongcomb by slashlongcomb.jump;
-
-#endif
-";
-disabled = 1;
-tag = rlig;
-}
-);
 fontMaster = (
 {
 axesValues = (
