@@ -262,7 +262,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 802;
+width = 774;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -368,7 +368,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 675;
+width = 665;
 }
 );
 metricLeft = f;

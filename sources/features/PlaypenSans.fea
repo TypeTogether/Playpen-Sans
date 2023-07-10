@@ -1160,3 +1160,8 @@ feature ss01 {
   sub y.alt6 by y.ss01.alt6;
 } ss01;
 
+
+feature kern {
+  # Automatic Code
+  pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 80 [h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6] strokeshortcomb;
+} kern;
