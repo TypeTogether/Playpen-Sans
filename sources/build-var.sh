@@ -3,6 +3,7 @@
 set -e
 
 varFontsPath="../fonts/variable"
+scripts="./scripts"
 
 rm -rf $varFontsPath
 mkdir -p $varFontsPath
@@ -36,11 +37,11 @@ ttfs=$(ls $varFontsPath/*.ttf)
 for ttf in $ttfs
 do
 	echo $ttf
-	# ttfautohint $ttf "$ttf.fix";
-	# mv "$ttf.fix" $ttf;
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 	rm $varFontsPath/*gasp*
+	# version up while development
+	python $scripts/versioneer.py $ttf
 
 	# add STAT
 	gftools gen-stat --src config.yml --inplace $ttf
@@ -48,6 +49,8 @@ do
 	woff2_compress $ttf
 done
 
+# update version
+python $scripts/version-upgrade.py
 
 # Clean up
 rm -rf ./master_ufo/ ./instance_ufo/

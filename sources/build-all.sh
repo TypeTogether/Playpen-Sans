@@ -1,15 +1,16 @@
-# build Playpen Sans fonts
+# Build all formats
 
 set -e
 
 otfFontsPath="../fonts/static/otf"
 ttfFontsPath="../fonts/static/ttf"
+varFontsPath="../fonts/variable"
 webFontsPath="../fonts/static/web"
 sourcePath="./source-glyphs"
 scripts="./scripts"
 
-rm -rf $otfFontsPath $ttfFontsPath $webFontsPath
-mkdir -p $otfFontsPath $ttfFontsPath $webFontsPath
+rm -rf $otfFontsPath $ttfFontsPath $webFontsPath $varFontsPath
+mkdir -p $otfFontsPath $ttfFontsPath $webFontsPath $varFontsPath
 
 # pack source as .glyphspackage is not supported yet by fontmake
 echo
@@ -67,6 +68,44 @@ do
 	echo "Compressing to .woff:"
 	mv ${ttf:0:$lenght-4}.woff $webFontsPath
 	mv ${ttf:0:$lenght-4}.woff2 $webFontsPath
+done
+
+# ============================================================
+
+# # Build VAR font
+echo "
+==========
+ Build VF 
+==========
+ $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
+echo
+
+fontmake -g ./PlaypenSans.glyphs -o variable --output-path \
+			$varFontsPath/PlaypenSans[wght].ttf \
+			--filter DecomposeTransformedComponentsFilter
+			# --flatten-components
+
+
+# Build WEB font
+echo "
+=================================
+ Autohint, add STAT, make woff2 
+=================================
+"
+ttfs=$(ls $varFontsPath/*.ttf)
+for ttf in $ttfs
+do
+	echo $ttf
+	gftools fix-nonhinting $ttf "$ttf.fix";
+	mv "$ttf.fix" $ttf;
+	rm $varFontsPath/*gasp*
+	# version up while development
+	python $scripts/versioneer.py $ttf
+
+	# add STAT
+	gftools gen-stat --src config.yml --inplace $ttf
+	echo "Done building STAT table"
+	woff2_compress $ttf
 done
 
 # update version
