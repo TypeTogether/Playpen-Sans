@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (263,-21);
+pos = (271,-21);
 ref = slashlongcomb;
 }
 );
@@ -69,7 +69,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (277,-21);
+pos = (280,-21);
 ref = slashlongcomb;
 }
 );

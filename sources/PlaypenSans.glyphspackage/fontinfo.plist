@@ -1,5 +1,5 @@
 {
-.appVersion = "3205";
+.appVersion = "3206";
 .formatVersion = 3;
 axes = (
 {
@@ -1509,10 +1509,6 @@ value = 0;
 {
 name = fileName;
 value = "PlaypenSans[wght]";
-},
-{
-name = "Feature for Feature Variations";
-value = rvrn;
 }
 );
 name = Regular;
@@ -1653,12 +1649,6 @@ Axis = Weight;
 Location = 600;
 }
 );
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb=slashlongcomb.jump"
-);
 }
 );
 instanceInterpolations = {
@@ -1680,12 +1670,6 @@ value = (
 Axis = Weight;
 Location = 700;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb=slashlongcomb.jump"
 );
 }
 );
@@ -1710,12 +1694,6 @@ value = (
 Axis = Weight;
 Location = 800;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb=slashlongcomb.jump"
 );
 }
 );
