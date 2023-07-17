@@ -90,7 +90,7 @@ sh build-var.sh
 
 ```sh
 cd sources
-sh build-all-fonts.sh
+sh build-all.sh
 ```
 
 ![Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_04.png)

@@ -62,9 +62,10 @@ do
 	python $scripts/versioneer.py $ttf
 
 	sfnt2woff $ttf
-	woff2_compress $ttf
+	# woff2_compress $ttf
+	echo "Compressing to .woff2:"
+	fonttools ttLib.woff2 compress $ttf
 	lenght=${#ttf}
-	echo "Compressing to .woff:"
 	mv ${ttf:0:$lenght-4}.woff $webFontsPath
 	mv ${ttf:0:$lenght-4}.woff2 $webFontsPath
 done

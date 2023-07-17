@@ -46,7 +46,9 @@ do
 	# add STAT
 	gftools gen-stat --src config.yml --inplace $ttf
 	echo "Done building STAT table"
-	woff2_compress $ttf
+	echo "Compressing to .woff2:"
+	fonttools ttLib.woff2 compress $ttf
+	# woff2_compress $ttf
 done
 
 # update version

@@ -18,10 +18,7 @@ def versionUp(font, vpath):
         vf.close()
     font['name'].setName(f"Version {up}", 5, 3, 1, 1033)
     print(f"Version {up}")
-    # # update version
-    # with open(vpath, "w") as version:
-    #     version.write(str(up))
-    #     version.close()
+
 ttfont = TTFont(fpath)
 versionUp(ttfont, version_file)
 ttfont.save(fpath)
