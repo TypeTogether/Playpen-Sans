@@ -115,3 +115,4 @@ python $scripts/version-upgrade.py
 
 # Clean up
 rm -rf ./master_ufo/ ./instance_ufo/
+# rm ./PlaypenSans.glyphs
