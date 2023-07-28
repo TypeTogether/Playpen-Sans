@@ -62,7 +62,7 @@ do
 	# version up while development
 	python $scripts/versioneer.py $ttf
 
-	sfnt2woff $ttf
+	# sfnt2woff $ttf
 	# woff2_compress $ttf
 	echo "Compressing to .woff2:"
 	fonttools ttLib.woff2 compress $ttf
