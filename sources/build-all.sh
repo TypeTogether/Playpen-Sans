@@ -67,7 +67,7 @@ do
 	echo "Compressing to .woff2:"
 	fonttools ttLib.woff2 compress $ttf
 	lenght=${#ttf}
-	mv ${ttf:0:$lenght-4}.woff $webFontsPath
+	# mv ${ttf:0:$lenght-4}.woff $webFontsPath
 	mv ${ttf:0:$lenght-4}.woff2 $webFontsPath
 done
 
