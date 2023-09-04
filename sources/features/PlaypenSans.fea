@@ -406,11 +406,11 @@ feature locl {
     sub tbar by t strokeshortcomb.t;
   } ccmp_decomp;
 
-lookup SOFTDOT_DECOMP {
-    sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless ogonekcomb;
-    sub i' [cedillacomb commaaccentcomb ogonekcomb] [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless;
-    sub j' commaaccentcomb [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by jdotless;
-  } SOFTDOT_DECOMP;
+# lookup SOFTDOT_DECOMP {
+#     sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless ogonekcomb;
+#     sub i' [cedillacomb commaaccentcomb ogonekcomb] [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless;
+#     sub j' commaaccentcomb [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by jdotless;
+#   } SOFTDOT_DECOMP;
 
   lookup ccmp_DFLT_1 {
     lookupflag 0;
