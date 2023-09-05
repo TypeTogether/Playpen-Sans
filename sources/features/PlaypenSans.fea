@@ -406,11 +406,9 @@ feature locl {
     sub tbar by t strokeshortcomb.t;
   } ccmp_decomp;
 
-# lookup SOFTDOT_DECOMP {
-#     sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless ogonekcomb;
-#     sub i' [cedillacomb commaaccentcomb ogonekcomb] [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb] by idotless;
-#     sub j' commaaccentcomb [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by jdotless;
-#   } SOFTDOT_DECOMP;
+  lookup SOFTDOT_IOGONEK {
+    sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by idotless ogonekcomb;
+  } SOFTDOT_IOGONEK;
 
   lookup ccmp_DFLT_1 {
     lookupflag 0;
@@ -427,6 +425,7 @@ feature locl {
   lookup ccmp_Other_1 {
     @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
     @CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
     sub [i j]' @CombiningTopAccents by [idotless jdotless];
     sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
     @Markscomb = [brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb strokeshortcomb slashshortcomb slashlongcomb];
