@@ -13,7 +13,7 @@ echo
 echo "glyphspkg: Converting PlaypenSans.glyphspackage to PlaypenSans.glyphs"
 glyphspkg PlaypenSans.glyphspackage
 
-# # Build VAR font
+# Build VAR font
 echo "
 ==========
  Build VF 
@@ -26,8 +26,6 @@ fontmake -g ./PlaypenSans.glyphs -o variable --output-path \
 			--filter DecomposeTransformedComponentsFilter
 			# --flatten-components
 
-
-# Build WEB font
 echo "
 =================================
  Autohint, add STAT, make woff2 
@@ -40,20 +38,14 @@ do
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 	rm $varFontsPath/*gasp*
-	# version up while development
-	python $scripts/versioneer.py $ttf
 
 	# add STAT
 	gftools gen-stat --src config.yml --inplace $ttf
 	echo "Done building STAT table"
 	echo "Compressing to .woff2:"
 	fonttools ttLib.woff2 compress $ttf
-	# woff2_compress $ttf
 done
-
-# update version
-python $scripts/version-upgrade.py
 
 # Clean up
 rm -rf ./master_ufo/ ./instance_ufo/
-# rm ./PlaypenSans.glyphs
+rm ./PlaypenSans.glyphs
