@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3217";
 .formatVersion = 3;
 axes = (
 {
@@ -1240,12 +1240,21 @@ axesValues = (
 );
 customParameters = (
 {
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 100;
+}
+);
+},
+{
 name = hheaAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = hheaDescender;
-value = -390;
+value = -340;
 },
 {
 name = hheaLineGap;
@@ -1257,7 +1266,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 390;
+value = 432;
 },
 {
 name = typoLineGap;
@@ -1265,20 +1274,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = typoDescender;
-value = -390;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 100;
-}
-);
+value = -340;
 }
 );
 guides = (
@@ -1334,11 +1334,11 @@ Location = 400;
 },
 {
 name = hheaAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = hheaDescender;
-value = -390;
+value = -340;
 },
 {
 name = hheaLineGap;
@@ -1350,7 +1350,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 390;
+value = 432;
 },
 {
 name = typoLineGap;
@@ -1358,11 +1358,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = typoDescender;
-value = -390;
+value = -340;
 }
 );
 guides = (
@@ -1417,11 +1417,11 @@ Location = 800;
 },
 {
 name = hheaAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = hheaDescender;
-value = -390;
+value = -340;
 },
 {
 name = hheaLineGap;
@@ -1433,7 +1433,7 @@ value = 1294;
 },
 {
 name = winDescent;
-value = 390;
+value = 432;
 },
 {
 name = typoLineGap;
@@ -1441,11 +1441,11 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 1220;
+value = 1170;
 },
 {
 name = typoDescender;
-value = -390;
+value = -340;
 }
 );
 guides = (
