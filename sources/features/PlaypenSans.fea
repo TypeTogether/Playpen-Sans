@@ -484,7 +484,7 @@ feature ss02 {
   sub M by pencil;
   sub N by checkmark;
   sub O by crossMark;
-  sub P by roundTarget;
+  sub P by directHit;
   sub Q by tRex;
   sub R by homework;
   sub S by paperplane;
@@ -588,12 +588,12 @@ feature calt {
     sub colon i n c o r r e c t colon by crossMark;
     sub colon I n c o r r e c t colon by crossMark;
     sub colon I N C O R R E C T colon by crossMark;
-    sub colon o n hyphen t a r g e t colon by roundTarget;
-    sub colon O n hyphen t a r g e t colon by roundTarget;
-    sub colon O N hyphen T A R G E T colon by roundTarget;
-    sub colon p e r f e c t colon by roundTarget;
-    sub colon P e r f e c t colon by roundTarget;
-    sub colon P E R F E C T colon by roundTarget;
+    sub colon o n hyphen t a r g e t colon by directHit;
+    sub colon O n hyphen t a r g e t colon by directHit;
+    sub colon O N hyphen T A R G E T colon by directHit;
+    sub colon p e r f e c t colon by directHit;
+    sub colon P e r f e c t colon by directHit;
+    sub colon P E R F E C T colon by directHit;
     sub colon d i n o s a u r colon by tRex;
     sub colon D i n o s a u r colon by tRex;
     sub colon D I N O S A U R colon by tRex;

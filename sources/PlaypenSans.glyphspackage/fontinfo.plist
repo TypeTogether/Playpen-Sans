@@ -1,5 +1,5 @@
 {
-.appVersion = "3217";
+.appVersion = "3219";
 .formatVersion = 3;
 axes = (
 {
@@ -1000,12 +1000,8 @@ ldot.ss01.alt3,
 ldot.ss01.alt4,
 ldot.ss01.alt5,
 ldot.ss01.alt6,
-f_f,
 fi,
 fl,
-f_f_i,
-f_f_l,
-t_t,
 grave,
 acute,
 circumflex,
@@ -1020,7 +1016,6 @@ hungarumlaut,
 caron,
 cedilla,
 ogonek,
-commaaccentbelow,
 commaturnedmod,
 caron.alt,
 brevecomb_acutecomb.case,
@@ -1171,7 +1166,7 @@ ringedPlanet,
 pencil,
 checkmark,
 crossMark,
-roundTarget,
+directHit,
 tRex,
 homework,
 paperplane,
@@ -1182,8 +1177,7 @@ sunpirate,
 sunFace,
 sunsad,
 sunwink,
-dottedCircle,
-slashlongcomb.jump
+dottedCircle
 );
 },
 {
