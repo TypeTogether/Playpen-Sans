@@ -30,8 +30,8 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | pencil               | 270F  | `:pencil:` |  |
 | checkmark            | 2713  | `:check-mark:` | `:correct:` |
 | crossMark            | 274C  | `:cross-mark:` | `:incorrect:` |
-| roundTarget          | 1F78B | `:on-target:` | `:perfect:` |
-| dinosaur             | None  | `:dinosaur:` |  |
+| directHit            | 1F3AF | `:on-target:` | `:perfect:` |
+| dinosaur             | 1F996 | `:dinosaur:` |  |
 | homework             | None  | `:homework:` | `:study:` |
 | paperplane           | None  | `:paper-plane:` |  |
 | pencilbook           | None  | `:write:` |  |
