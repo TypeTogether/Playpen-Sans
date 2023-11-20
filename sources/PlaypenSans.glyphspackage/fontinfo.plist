@@ -10042,7 +10042,7 @@ value = TT;
 },
 {
 key = versionString;
-value = "Version 1.001";
+value = "Version 1.002";
 }
 );
 stems = (
@@ -13569,5 +13569,5 @@ width = 78;
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
