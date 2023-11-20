@@ -1,5 +1,5 @@
 {
-.appVersion = "3219";
+.appVersion = "3227";
 .formatVersion = 3;
 axes = (
 {
@@ -1000,8 +1000,12 @@ ldot.ss01.alt3,
 ldot.ss01.alt4,
 ldot.ss01.alt5,
 ldot.ss01.alt6,
+f_f,
 fi,
 fl,
+f_f_i,
+f_f_l,
+t_t,
 grave,
 acute,
 circumflex,
@@ -1016,6 +1020,7 @@ hungarumlaut,
 caron,
 cedilla,
 ogonek,
+commaaccentbelow,
 commaturnedmod,
 caron.alt,
 brevecomb_acutecomb.case,
@@ -1159,14 +1164,14 @@ thumbsUpSign,
 thumbsDownSign,
 openBook,
 cheeringMegaphone,
-battery,
+lowBattery,
 unicornFace,
 jigsawPuzzlePiece,
 ringedPlanet,
 pencil,
 checkmark,
 crossMark,
-directHit,
+roundTarget,
 tRex,
 homework,
 paperplane,
@@ -1177,7 +1182,8 @@ sunpirate,
 sunFace,
 sunsad,
 sunwink,
-dottedCircle
+dottedCircle,
+slashlongcomb.jump
 );
 },
 {
@@ -1303,7 +1309,6 @@ over = -16;
 pos = -264;
 },
 {
-over = -16;
 }
 );
 name = Thin;
@@ -1386,7 +1391,6 @@ over = -16;
 pos = -264;
 },
 {
-over = -16;
 }
 );
 name = Regular;
@@ -1479,7 +1483,6 @@ over = -16;
 pos = -264;
 },
 {
-over = -16;
 }
 );
 name = ExtraBold;
@@ -9977,40 +9980,6 @@ type = "italic angle";
 );
 properties = (
 {
-key = versionString;
-value = "Version 1.001";
-},
-{
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-key = manufacturerURL;
-value = "www.type-together.com";
-},
-{
-key = designerURL;
-value = "www.type-together.com";
-},
-{
-key = descriptions;
-values = (
-{
-language = dflt;
-value = "First Release";
-}
-);
-},
-{
-key = licenses;
-values = (
-{
-language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-}
-);
-},
-{
 key = copyrights;
 values = (
 {
@@ -10020,11 +9989,11 @@ value = "Copyright 2023 The Playpen Sans Project Authors (https://github.com/Typ
 );
 },
 {
-key = manufacturers;
+key = descriptions;
 values = (
 {
 language = dflt;
-value = TypeTogether;
+value = "First Release";
 }
 );
 },
@@ -10038,8 +10007,42 @@ value = "Laura Meseguer, Veronika Burian, José Scaglione";
 );
 },
 {
+key = designerURL;
+value = "www.type-together.com";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = TypeTogether;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "www.type-together.com";
+},
+{
 key = vendorID;
 value = TT;
+},
+{
+key = versionString;
+value = "Version 1.001";
 }
 );
 stems = (

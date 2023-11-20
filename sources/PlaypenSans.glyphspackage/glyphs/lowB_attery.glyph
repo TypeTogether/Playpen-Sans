@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = battery;
+glyphname = lowBattery;
 layers = (
 {
 layerId = m01;
@@ -348,5 +348,5 @@ nodes = (
 width = 687;
 }
 );
-unicode = 128267;
+unicode = 129707;
 }

@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = directHit;
+glyphname = roundTarget;
 layers = (
 {
 layerId = m01;
@@ -753,5 +753,5 @@ nodes = (
 width = 1100;
 }
 );
-unicode = 127919;
+unicode = 128907;
 }
