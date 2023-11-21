@@ -41,8 +41,6 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | sunsad               | None  | `:sad-sun:` | `:sad:` |
 | sunwink              | None  | `:wink-sun:` | `:wink:` |
 
-![Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_06.png)
-
 ## Build instructions
 
 Playpen Sans fonts are built using [gftools](https://github.com/googlefonts/gftools) and [glyphspkg](https://github.com/jenskutilek/glyphspkg).
@@ -100,7 +98,7 @@ sh build-all.sh
 
 The Playpen Sans source file is in Glyphs ".glyphspackage" format (which is more git-friendly than ".glyphs").
 
-### Version 1.000
+### Version 1.002
 First release of Playpen Sans.
 
 ## License
