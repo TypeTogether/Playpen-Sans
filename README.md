@@ -39,7 +39,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | suninlove            | 1F60D |
 | sunpirate            | 2620  |
 | sunsad               | 2639  |
-| sunwink              | None  |
+| sunwink              | 1F609 |
 
 ## Build instructions
 
