@@ -4,13 +4,13 @@
 
 Playpen Sans is one of the font families produced by [TypeTogether](https://type-together.com) after more than two years of primary research into handwriting education for Latin-based languages. It has seven automatic alternates for each character and a built-in shuffler that both ensures variation and avoids repetitive shapes in close proximity. This feature adds to the overall organic, spontaneous, and authentic feel of the handwritten style.
 
-Playpen Sans is a variable font with a weight range from Thin to Extrabold, including support for over 150 Latin-based languages and a set of reward icons. The icons help parents and primary school teachers encourage and motivate young children, adding a playful and engaging element to the font family.
+Playpen Sans is a variable font with a weight range from Thin to Extrabold, including support for over 150 Latin-based languages and a set of reward emojis. The emojis help parents and primary school teachers encourage and motivate young children, adding a playful and engaging element to the font family.
 
 ![Playpen Sans](documentation/images/PLAYPEN-SANS-TYPETOGETHER_02.png)
 
-## How to access icons
+## How to access emojis
 
-Icons in Playpen Sans show up autmatically upon entering the keyword in between colons [:]. For example **:happy-sun:**. Find below a full list of icons and keywords.
+The emojis in Playpen Sans show up autmatically upon entering the standard emoji. For example to get the Sun wink, introduce the standard winking face. Find below a full list of the standard emojis for to get the ones included in the font.
 
 
 | glyph name           | uni |  standard emoji  |
