@@ -12,34 +12,34 @@ Playpen Sans is a variable font with a weight range from Thin to Extrabold, incl
 
 Icons in Playpen Sans show up autmatically upon entering the keyword in between colons [:]. For example **:happy-sun:**. Find below a full list of icons and keywords.
 
-| glyph Name           | uni | 1st | 2nd |
-| --- | --- | --- | --- |
-| sunFace              | 1F31E | `:happy-sun:` | `:happy:` |
-| shootingStar         | 1F320 | `:shooting-star:` | `:star:` |
-| birthdayCake         | 1F382 | `:birthday-cake:` | `:cake:` |
-| artistPalette        | 1F3A8 | `:paint:` | `:color-palette:` |
-| whiteUpBackhandIndex | 1F446 | `:attention-index:` | `:point-up:` |
-| thumbsUpSign         | 1F44D | `:thumbs-up:` | `:good:` |
-| thumbsDownSign       | 1F44E | `:thumbs-down:` | `:bad:` |
-| openBook             | 1F4D6 | `:read:` | `:open-book:` |
-| cheeringMegaphone    | 1F4E3 | `:announcement:` | `:attention:` |
-| battery              | 1F50B | `:low-battery:` | `:incomplete:` |
-| unicornFace          | 1F984 | `:unicorn:` | `:magic:` |
-| jigsawPuzzlePiece    | 1F9E9 | `:puzzle:` |  |
-| ringedPlanet         | 1FA90 | `:planet:` |  |
-| pencil               | 270F  | `:pencil:` |  |
-| checkmark            | 2713  | `:check-mark:` | `:correct:` |
-| crossMark            | 274C  | `:cross-mark:` | `:incorrect:` |
-| directHit            | 1F3AF | `:on-target:` | `:perfect:` |
-| dinosaur             | 1F996 | `:dinosaur:` |  |
-| homework             | None  | `:homework:` | `:study:` |
-| paperplane           | None  | `:paper-plane:` |  |
-| pencilbook           | None  | `:write:` |  |
-| sportsMedal          | 1F3C5 | `:reward:` | `:prize:` |
-| suninlove            | None  | `:loving-sun:` | `:love:` |
-| sunpirate            | None  | `:pirate-sun:` | `:pirate:` |
-| sunsad               | None  | `:sad-sun:` | `:sad:` |
-| sunwink              | None  | `:wink-sun:` | `:wink:` |
+| glyph Name           | uni |
+| --- | --- |
+| shootingStar         | 1F320 |
+| birthdayCake         | 1F382 |
+| artistPalette        | 1F3A8 |
+| whiteUpBackhandIndex | 1F446 |
+| thumbsUpSign         | 1F44D |
+| thumbsDownSign       | 1F44E |
+| openBook             | 1F4D6 |
+| cheeringMegaphone    | 1F4E3 |
+| battery              | 1F50B |
+| unicornFace          | 1F984 |
+| jigsawPuzzlePiece    | 1F9E9 |
+| ringedPlanet         | 1FA90 |
+| pencil               | 270F  |
+| checkmark            | 2713  |
+| crossMark            | 274C  |
+| directHit            | 1F3AF |
+| dinosaur             | 1F996 |
+| homework             | None  |
+| paperplane           | None  |
+| pencilbook           | None  |
+| sportsMedal          | 1F3C5 |
+| sunFace              | 1F31E |
+| suninlove            | None  |
+| sunpirate            | None  |
+| sunsad               | None  |
+| sunwink              | None  |
 
 ## Build instructions
 
