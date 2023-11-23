@@ -33,7 +33,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | dinosaur             | 1F996 |
 | homework             | 1F3E0 |
 | paperplane           | 2708  |
-| pencilbook           | None  |
+| pencilbook           | 270D  |
 | sportsMedal          | 1F3C5 |
 | sunFace              | 1F31E |
 | suninlove            | None  |
