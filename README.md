@@ -38,7 +38,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | sunFace              | 1F31E |
 | suninlove            | 1F60D |
 | sunpirate            | 2620  |
-| sunsad               | None  |
+| sunsad               | 2639  |
 | sunwink              | None  |
 
 ## Build instructions
