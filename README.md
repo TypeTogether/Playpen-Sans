@@ -36,7 +36,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | pencilbook           | 270D  |
 | sportsMedal          | 1F3C5 |
 | sunFace              | 1F31E |
-| suninlove            | None  |
+| suninlove            | 1F60D |
 | sunpirate            | None  |
 | sunsad               | None  |
 | sunwink              | None  |
