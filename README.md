@@ -31,7 +31,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | crossMark            | 274C  |
 | directHit            | 1F3AF |
 | dinosaur             | 1F996 |
-| homework             | None  |
+| homework             | 1F3E0 |
 | paperplane           | None  |
 | pencilbook           | None  |
 | sportsMedal          | 1F3C5 |
