@@ -32,7 +32,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | directHit            | 1F3AF |
 | dinosaur             | 1F996 |
 | homework             | 1F3E0 |
-| paperplane           | None  |
+| paperplane           | 2708  |
 | pencilbook           | None  |
 | sportsMedal          | 1F3C5 |
 | sunFace              | 1F31E |
