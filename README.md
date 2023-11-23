@@ -37,7 +37,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | sportsMedal          | 1F3C5 |
 | sunFace              | 1F31E |
 | suninlove            | 1F60D |
-| sunpirate            | None  |
+| sunpirate            | 2620  |
 | sunsad               | None  |
 | sunwink              | None  |
 
