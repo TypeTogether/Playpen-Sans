@@ -12,34 +12,35 @@ Playpen Sans is a variable font with a weight range from Thin to Extrabold, incl
 
 Icons in Playpen Sans show up autmatically upon entering the keyword in between colons [:]. For example **:happy-sun:**. Find below a full list of icons and keywords.
 
-| glyph Name           | uni |
-| --- | --- |
-| shootingStar         | 1F320 |
-| birthdayCake         | 1F382 |
-| artistPalette        | 1F3A8 |
-| whiteUpBackhandIndex | 1F446 |
-| thumbsUpSign         | 1F44D |
-| thumbsDownSign       | 1F44E |
-| openBook             | 1F4D6 |
-| cheeringMegaphone    | 1F4E3 |
-| lowBattery           | 1FAAB |
-| unicornFace          | 1F984 |
-| jigsawPuzzlePiece    | 1F9E9 |
-| ringedPlanet         | 1FA90 |
-| pencil               | 270F  |
-| checkmark            | 2713  |
-| crossMark            | 274C  |
-| directHit            | 1F3AF |
-| dinosaur             | 1F996 |
-| homework             | 1F3E0 |
-| paperplane           | 2708  |
-| pencilbook           | 270D  |
-| sportsMedal          | 1F3C5 |
-| sunFace              | 1F31E |
-| suninlove            | 1F60D |
-| sunpirate            | 2620  |
-| sunsad               | 2639  |
-| sunwink              | 1F609 |
+
+| glyph name           | uni |  standard emoji  |
+| --- | --- | --- |
+| shootingStar         | 1F320 |  🌠  |
+| birthdayCake         | 1F382 |  🎂  |
+| artistPalette        | 1F3A8 |  🎨  |
+| whiteUpBackhandIndex | 1F446 |  👆  |
+| thumbsUpSign         | 1F44D |  👍  |
+| thumbsDownSign       | 1F44E |  👎  |
+| openBook             | 1F4D6 |  📖  |
+| cheeringMegaphone    | 1F4E3 |  📣  |
+| lowBattery           | 1FAAB |  🪫  |
+| unicornFace          | 1F984 |  🦄  |
+| jigsawPuzzlePiece    | 1F9E9 |  🧩  |
+| ringedPlanet         | 1FA90 |  🪐  |
+| pencil               | 270F  |  ✏  |
+| checkmark            | 2713  |  ✓  |
+| crossMark            | 274C  |  ❌  |
+| directHit            | 1F3AF |  🎯  |
+| dinosaur             | 1F996 |  🦖  |
+| homework             | 1F3E0 |  🏠  |
+| paperplane           | 2708  |  ✈︎  |
+| pencilbook           | 270D  |  ✍️  |
+| sportsMedal          | 1F3C5 |  🏅  |
+| sunFace              | 1F31E |  🌞  |
+| suninlove            | 1F60D |  😍  |
+| sunpirate            | 2620  |  ☠️  |
+| sunsad               | 2639  |  ☹️  |
+| sunwink              | 1F609 |  😉  |
 
 ## Build instructions
 
