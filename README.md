@@ -22,7 +22,7 @@ Icons in Playpen Sans show up autmatically upon entering the keyword in between 
 | thumbsDownSign       | 1F44E |
 | openBook             | 1F4D6 |
 | cheeringMegaphone    | 1F4E3 |
-| battery              | 1F50B |
+| lowBattery           | 1FAAB |
 | unicornFace          | 1F984 |
 | jigsawPuzzlePiece    | 1F9E9 |
 | ringedPlanet         | 1FA90 |
