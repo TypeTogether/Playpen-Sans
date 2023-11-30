@@ -28,7 +28,7 @@ The emojis in Playpen Sans show up autmatically upon entering the standard emoji
 | jigsawPuzzlePiece    | 1F9E9 |  🧩  |
 | ringedPlanet         | 1FA90 |  🪐  |
 | pencil               | 270F  |  ✏  |
-| checkmark            | 2713  |  ✓  |
+| checkmark            | 2705  |  ✅  |
 | crossMark            | 274C  |  ❌  |
 | directHit            | 1F3AF |  🎯  |
 | dinosaur             | 1F996 |  🦖  |
