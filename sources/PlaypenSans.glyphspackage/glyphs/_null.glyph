@@ -21,7 +21,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 16;
+width = 0;
 },
 {
 layerId = m003;
@@ -61,7 +61,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 5.4;
+width = 0;
 }
 );
 }
