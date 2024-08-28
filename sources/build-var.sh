@@ -5,13 +5,13 @@ set -e
 varFontsPath="../fonts/variable"
 scripts="./scripts"
 
-rm -rf $varFontsPath
-mkdir -p $varFontsPath
+# rm -rf $varFontsPath
+# mkdir -p $varFontsPath
 
-# pack source as .glyphspackage is not supported yet by fontmake
-echo
-echo "glyphspkg: Converting PlaypenSans.glyphspackage to PlaypenSans.glyphs"
-glyphspkg PlaypenSans.glyphspackage
+# # pack source as .glyphspackage is not supported yet by fontmake
+# echo
+# echo "glyphspkg: Converting PlaypenSans.glyphspackage to PlaypenSans.glyphs"
+# glyphspkg PlaypenSans.glyphspackage
 
 # Build VAR font
 echo "
@@ -21,8 +21,8 @@ echo "
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
-fontmake -g ./PlaypenSans.glyphs -o variable --output-path \
-			$varFontsPath/PlaypenSans[wght].ttf \
+fontmake -g ./PlaypenSans.glyphspackage -o variable --output-path \
+			$varFontsPath/PlaypenSans[wght]-dev.ttf \
 			--filter DecomposeTransformedComponentsFilter
 			# --flatten-components
 
@@ -31,7 +31,7 @@ echo "
  Autohint, add STAT, make woff2 
 =================================
 "
-ttfs=$(ls $varFontsPath/*.ttf)
+ttfs=$(ls $varFontsPath/*-dev.ttf)
 for ttf in $ttfs
 do
 	echo $ttf
@@ -46,6 +46,6 @@ do
 	fonttools ttLib.woff2 compress $ttf
 done
 
-# Clean up
-rm -rf ./master_ufo/ ./instance_ufo/
-rm ./PlaypenSans.glyphs
+# # Clean up
+# rm -rf ./master_ufo/ ./instance_ufo/
+# rm ./PlaypenSans.glyphs
