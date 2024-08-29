@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = ycircumflex;
-kernLeft = y;
+kernLeft = u;
 kernRight = y;
 layers = (
 {

@@ -1,0 +1,40 @@
+{
+glyphname = Aturned.alt1;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+angle = 180;
+pos = (749,764);
+ref = A.alt2;
+}
+);
+width = 749;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+angle = 180;
+pos = (755,764);
+ref = A.alt2;
+}
+);
+width = 755;
+},
+{
+layerId = m003;
+shapes = (
+{
+angle = 180;
+pos = (786,764);
+ref = A.alt2;
+}
+);
+width = 786;
+}
+);
+}

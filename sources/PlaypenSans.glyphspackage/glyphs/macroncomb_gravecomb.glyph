@@ -1,0 +1,44 @@
+{
+glyphname = macroncomb_gravecomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = macroncomb;
+},
+{
+pos = (12,207);
+ref = gravecomb;
+}
+);
+width = 266;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = macroncomb;
+},
+{
+pos = (10,213);
+ref = gravecomb;
+}
+);
+width = 255;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = macroncomb;
+},
+{
+pos = (10,244);
+ref = gravecomb;
+}
+);
+width = 250;
+}
+);
+}

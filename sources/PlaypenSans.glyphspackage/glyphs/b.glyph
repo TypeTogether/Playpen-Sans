@@ -5,6 +5,20 @@ kernLeft = h;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (270,0);
+},
+{
+name = center;
+pos = (183,688);
+},
+{
+name = top;
+pos = (144,810);
+}
+);
 background = {
 shapes = (
 {
@@ -159,6 +173,20 @@ com.hugojourdan.ColorFlow = {
 width = 540;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (301,0);
+},
+{
+name = center;
+pos = (197,673);
+},
+{
+name = top;
+pos = (180,810);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -245,6 +273,20 @@ com.hugojourdan.ColorFlow = {
 width = 606;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (288,0);
+},
+{
+name = center;
+pos = (170,675);
+},
+{
+name = top;
+pos = (176,810);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

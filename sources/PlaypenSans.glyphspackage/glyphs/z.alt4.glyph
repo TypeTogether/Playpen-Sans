@@ -11,7 +11,7 @@ pos = (230,-7);
 },
 {
 name = center;
-pos = (257,268);
+pos = (255,268);
 },
 {
 name = top;
@@ -218,7 +218,7 @@ pos = (272,-10);
 },
 {
 name = center;
-pos = (258,266);
+pos = (266,266);
 },
 {
 name = top;
@@ -310,7 +310,7 @@ pos = (240,-10);
 },
 {
 name = center;
-pos = (212,258);
+pos = (244,258);
 },
 {
 name = top;

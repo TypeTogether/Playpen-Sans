@@ -9,7 +9,7 @@ pos = (18,536);
 },
 {
 name = top;
-pos = (27,780);
+pos = (22,736);
 }
 );
 background = {
@@ -89,7 +89,7 @@ pos = (10,536);
 },
 {
 name = top;
-pos = (20,780);
+pos = (17,762);
 }
 );
 background = {
@@ -159,7 +159,7 @@ pos = (13,536);
 },
 {
 name = top;
-pos = (23,780);
+pos = (18,731);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

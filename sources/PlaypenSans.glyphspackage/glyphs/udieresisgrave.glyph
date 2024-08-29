@@ -15,7 +15,7 @@ pos = (284,10);
 ref = dieresiscomb;
 },
 {
-pos = (283,-3);
+pos = (277,-20);
 ref = gravecomb.case;
 }
 );
@@ -48,7 +48,7 @@ pos = (308,10);
 ref = dieresiscomb;
 },
 {
-pos = (310,32);
+pos = (306,19);
 ref = gravecomb.case;
 }
 );
@@ -81,7 +81,7 @@ pos = (278,10);
 ref = dieresiscomb;
 },
 {
-pos = (279,12);
+pos = (269,-14);
 ref = gravecomb.case;
 }
 );

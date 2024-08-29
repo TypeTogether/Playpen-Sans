@@ -1,0 +1,18 @@
+{
+glyphname = graphemejoinercomb;
+layers = (
+{
+layerId = m01;
+width = 300;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+width = 300;
+},
+{
+layerId = m003;
+width = 0;
+}
+);
+unicode = 847;
+}

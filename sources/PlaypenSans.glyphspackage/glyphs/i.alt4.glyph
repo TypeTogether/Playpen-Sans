@@ -8,6 +8,10 @@ anchors = (
 {
 name = bottom;
 pos = (156,-10);
+},
+{
+name = center;
+pos = (158,305);
 }
 );
 layerId = m01;
@@ -82,6 +86,10 @@ anchors = (
 {
 name = bottom;
 pos = (163,-6);
+},
+{
+name = center;
+pos = (156,292);
 }
 );
 layerId = m003;
@@ -155,7 +163,11 @@ width = 308;
 anchors = (
 {
 name = bottom;
-pos = (135,-10);
+pos = (143,-10);
+},
+{
+name = center;
+pos = (144,294);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

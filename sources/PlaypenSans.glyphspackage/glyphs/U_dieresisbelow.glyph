@@ -1,0 +1,48 @@
+{
+color = 10;
+glyphname = Udieresisbelow;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (368,0);
+ref = dieresisbelowcomb;
+}
+);
+width = 748;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (383,-9);
+ref = dieresisbelowcomb;
+}
+);
+width = 780;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = U;
+},
+{
+pos = (379,0);
+ref = dieresisbelowcomb;
+}
+);
+width = 756;
+}
+);
+unicode = 7794;
+}

@@ -11,11 +11,11 @@ pos = (346,9);
 },
 {
 name = center;
-pos = (352,369);
+pos = (331,369);
 },
 {
 name = top;
-pos = (405,773);
+pos = (392,773);
 }
 );
 layerId = m01;
@@ -50,11 +50,11 @@ pos = (325,0);
 },
 {
 name = center;
-pos = (338,382);
+pos = (319,382);
 },
 {
 name = top;
-pos = (351,764);
+pos = (350,759);
 }
 );
 layerId = m003;
@@ -89,11 +89,11 @@ pos = (324,0);
 },
 {
 name = center;
-pos = (337,382);
+pos = (329,382);
 },
 {
 name = top;
-pos = (350,764);
+pos = (362,764);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

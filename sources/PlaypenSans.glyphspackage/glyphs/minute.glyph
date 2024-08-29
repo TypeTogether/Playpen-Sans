@@ -1,5 +1,7 @@
 {
 glyphname = minute;
+kernLeft = minute;
+kernRight = minute;
 layers = (
 {
 background = {

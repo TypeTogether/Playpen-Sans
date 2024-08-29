@@ -1,0 +1,42 @@
+{
+color = 4;
+glyphname = amod;
+kernLeft = superior;
+kernRight = superior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-160);
+ref = ordfeminine;
+}
+);
+width = 505;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (0,-170);
+ref = ordfeminine;
+}
+);
+width = 528;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (0,-170);
+ref = ordfeminine;
+}
+);
+width = 538;
+}
+);
+unicode = 7491;
+}

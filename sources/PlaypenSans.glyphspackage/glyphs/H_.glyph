@@ -23,6 +23,12 @@ name = topleft;
 pos = (52,764);
 }
 );
+guides = (
+{
+angle = 87;
+pos = (33,480);
+}
+);
 layerId = m01;
 name = Regular;
 shapes = (

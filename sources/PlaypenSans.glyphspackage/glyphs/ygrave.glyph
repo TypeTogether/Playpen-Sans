@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = ygrave;
-kernLeft = y;
+kernLeft = u;
 kernRight = y;
 layers = (
 {

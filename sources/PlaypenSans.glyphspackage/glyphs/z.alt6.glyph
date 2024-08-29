@@ -11,7 +11,7 @@ pos = (220,-9);
 },
 {
 name = center;
-pos = (243,277);
+pos = (242,277);
 },
 {
 name = top;
@@ -207,7 +207,7 @@ width = 447;
 anchors = (
 {
 name = bottom;
-pos = (235,1);
+pos = (240,1);
 },
 {
 name = center;
@@ -303,7 +303,7 @@ pos = (193,-8);
 },
 {
 name = center;
-pos = (222,278);
+pos = (223,278);
 },
 {
 name = top;
