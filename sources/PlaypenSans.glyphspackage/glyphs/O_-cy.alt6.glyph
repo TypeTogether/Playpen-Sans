@@ -1,0 +1,32 @@
+{
+glyphname = "O-cy.alt6";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = O.alt6;
+}
+);
+width = 778;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = O.alt6;
+}
+);
+width = 770;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = O.alt6;
+}
+);
+width = 788;
+}
+);
+}

@@ -1,0 +1,33 @@
+{
+glyphname = "pe-cy.loclBGR.alt5";
+kernLeft = "en-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = n.alt5;
+}
+);
+width = 629;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = n.alt5;
+}
+);
+width = 627;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = n.alt5;
+}
+);
+width = 624;
+}
+);
+}

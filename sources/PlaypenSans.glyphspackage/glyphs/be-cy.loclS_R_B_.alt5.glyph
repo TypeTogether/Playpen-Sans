@@ -1,0 +1,32 @@
+{
+glyphname = "be-cy.loclSRB.alt5";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "be-cy.loclSRB.alt2";
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "be-cy.loclSRB.alt2";
+}
+);
+width = 561;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "be-cy.loclSRB.alt2";
+}
+);
+width = 576;
+}
+);
+}

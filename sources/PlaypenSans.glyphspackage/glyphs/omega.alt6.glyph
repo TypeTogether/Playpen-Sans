@@ -1,0 +1,36 @@
+{
+glyphname = omega.alt6;
+kernLeft = omega;
+kernRight = omega;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = omega.alt3;
+}
+);
+width = 803;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = omega.alt3;
+}
+);
+width = 867;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = omega.alt3;
+}
+);
+width = 839;
+}
+);
+metricLeft = omega;
+metricRight = omega;
+}

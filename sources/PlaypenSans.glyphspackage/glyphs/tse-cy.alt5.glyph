@@ -1,0 +1,36 @@
+{
+glyphname = "tse-cy.alt5";
+kernLeft = "sha-cy";
+kernRight = "tse-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "tse-cy.alt1";
+}
+);
+width = 639;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "tse-cy.alt1";
+}
+);
+width = 703;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "tse-cy.alt1";
+}
+);
+width = 663;
+}
+);
+metricLeft = "sha-cy";
+metricRight = "tse-cy";
+}

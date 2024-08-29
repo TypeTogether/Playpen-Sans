@@ -1,0 +1,34 @@
+{
+glyphname = "ustraightstroke-cy.alt4";
+kernLeft = "sha-cy";
+kernRight = "ustraight-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "ustraightstroke-cy.alt1";
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "ustraightstroke-cy.alt1";
+}
+);
+width = 600;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ustraightstroke-cy.alt1";
+}
+);
+width = 600;
+}
+);
+}

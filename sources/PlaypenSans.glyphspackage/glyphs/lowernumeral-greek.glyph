@@ -1,0 +1,37 @@
+{
+glyphname = "lowernumeral-greek";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (-4,-770);
+ref = minute;
+}
+);
+width = 213;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (-11,-710);
+ref = minute;
+}
+);
+width = 227;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (10,-745);
+ref = minute;
+}
+);
+width = 227;
+}
+);
+unicode = 885;
+}

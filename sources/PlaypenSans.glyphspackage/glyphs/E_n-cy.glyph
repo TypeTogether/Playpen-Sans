@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "En-cy";
+kernLeft = "En-cy";
+kernRight = "En-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = H;
+}
+);
+width = 773;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = H;
+}
+);
+width = 788;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = H;
+}
+);
+width = 775;
+}
+);
+unicode = 1053;
+}

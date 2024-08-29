@@ -1,0 +1,35 @@
+{
+color = 4;
+glyphname = Mu.ss01;
+kernLeft = Mu.ss01;
+kernRight = Mu.ss01;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = M.ss01.alt1;
+}
+);
+width = 960;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = M.ss01.alt1;
+}
+);
+width = 1031;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = M.ss01.alt1;
+}
+);
+width = 1000;
+}
+);
+}

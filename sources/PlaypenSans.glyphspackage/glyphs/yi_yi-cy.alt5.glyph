@@ -1,0 +1,32 @@
+{
+glyphname = "yi_yi-cy.alt5";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "yi_yi-cy.alt2";
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "yi_yi-cy.alt2";
+}
+);
+width = 600;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "yi_yi-cy.alt2";
+}
+);
+width = 600;
+}
+);
+}

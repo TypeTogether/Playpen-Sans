@@ -1,0 +1,35 @@
+{
+color = 4;
+glyphname = "u-cy.ss01";
+kernLeft = "u-cy.ss01";
+kernRight = "u-cy.ss01";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = y.ss01;
+}
+);
+width = 514;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = y.ss01;
+}
+);
+width = 590;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = y.ss01;
+}
+);
+width = 516;
+}
+);
+}

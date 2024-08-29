@@ -1,0 +1,52 @@
+{
+glyphname = Iota.alt4;
+kernLeft = Eta;
+kernRight = Eta;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (101,761);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = I.alt2;
+}
+);
+width = 288;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (58,750);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = I.alt2;
+}
+);
+width = 298;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (89,756);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = I.alt2;
+}
+);
+width = 279;
+}
+);
+}

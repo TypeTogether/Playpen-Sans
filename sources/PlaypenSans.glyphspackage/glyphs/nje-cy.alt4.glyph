@@ -1,0 +1,35 @@
+{
+glyphname = "nje-cy.alt4";
+kernLeft = "en-cy";
+kernRight = "softsign-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "nje-cy.alt1";
+}
+);
+width = 768;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "nje-cy.alt1";
+}
+);
+width = 859;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "nje-cy.alt1";
+}
+);
+width = 803;
+}
+);
+metricRight = "softsign-cy";
+}

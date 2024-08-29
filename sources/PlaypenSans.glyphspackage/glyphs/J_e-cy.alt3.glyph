@@ -1,0 +1,34 @@
+{
+glyphname = "Je-cy.alt3";
+kernLeft = "Je-cy";
+kernRight = "Je-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = J.alt3;
+}
+);
+width = 524;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = J.alt3;
+}
+);
+width = 584;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = J.alt3;
+}
+);
+width = 567;
+}
+);
+}

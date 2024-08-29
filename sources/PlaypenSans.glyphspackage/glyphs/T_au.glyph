@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = Tau;
+kernLeft = Tau;
+kernRight = Tau;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T.alt6;
+}
+);
+width = 644;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = T.alt6;
+}
+);
+width = 649;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = T.alt6;
+}
+);
+width = 666;
+}
+);
+unicode = 932;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = kappa.alt5;
+kernLeft = kappa;
+kernRight = kappa;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = kappa.alt2;
+}
+);
+width = 606;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = kappa.alt2;
+}
+);
+width = 679;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = kappa.alt2;
+}
+);
+width = 629;
+}
+);
+metricLeft = kappa;
+metricRight = kappa;
+}

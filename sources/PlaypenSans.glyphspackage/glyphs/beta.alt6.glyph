@@ -1,0 +1,36 @@
+{
+glyphname = beta.alt6;
+kernLeft = beta;
+kernRight = beta;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = beta.alt2;
+}
+);
+width = 558;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = beta.alt2;
+}
+);
+width = 593;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = beta.alt2;
+}
+);
+width = 584;
+}
+);
+metricLeft = beta;
+metricRight = beta;
+}

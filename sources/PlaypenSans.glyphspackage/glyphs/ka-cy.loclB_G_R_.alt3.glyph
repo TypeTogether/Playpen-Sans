@@ -1,0 +1,32 @@
+{
+glyphname = "ka-cy.loclBGR.alt3";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.alt3;
+}
+);
+width = 507;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = k.alt3;
+}
+);
+width = 676;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = k.alt3;
+}
+);
+width = 561;
+}
+);
+}

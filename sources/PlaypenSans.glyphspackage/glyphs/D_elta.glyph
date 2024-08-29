@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = Delta;
 kernLeft = A;
 kernRight = A;
@@ -7,28 +8,31 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (-4,0);
 ref = increment;
 }
 );
-width = 718;
+width = 715;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
+pos = (-29,0);
 ref = increment;
 }
 );
-width = 760;
+width = 709;
 },
 {
 layerId = m003;
 shapes = (
 {
+pos = (-2,0);
 ref = increment;
 }
 );
-width = 774;
+width = 761;
 }
 );
 unicode = 916;

@@ -1,0 +1,32 @@
+{
+glyphname = "Palochka-cy.alt1";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = I.alt1;
+}
+);
+width = 325;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = I.alt1;
+}
+);
+width = 317;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = I.alt1;
+}
+);
+width = 308;
+}
+);
+}

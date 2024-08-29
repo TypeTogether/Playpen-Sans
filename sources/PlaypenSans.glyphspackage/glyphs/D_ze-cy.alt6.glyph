@@ -1,0 +1,34 @@
+{
+glyphname = "Dze-cy.alt6";
+kernLeft = "Dze-cy";
+kernRight = "Dze-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S.alt6;
+}
+);
+width = 625;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = S.alt6;
+}
+);
+width = 645;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = S.alt6;
+}
+);
+width = 631;
+}
+);
+}

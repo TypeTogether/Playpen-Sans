@@ -1,0 +1,36 @@
+{
+glyphname = theta.ss01.alt4;
+kernLeft = beta;
+kernRight = theta;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = theta.ss01.alt2;
+}
+);
+width = 565;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = theta.ss01.alt2;
+}
+);
+width = 638;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = theta.ss01.alt2;
+}
+);
+width = 593;
+}
+);
+metricLeft = theta;
+metricRight = theta;
+}

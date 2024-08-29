@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "O-cy";
+kernLeft = "O-cy";
+kernRight = "O-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = O;
+}
+);
+width = 784;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = O;
+}
+);
+width = 812;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = O;
+}
+);
+width = 805;
+}
+);
+unicode = 1054;
+}

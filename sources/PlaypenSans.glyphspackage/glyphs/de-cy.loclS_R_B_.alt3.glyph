@@ -1,0 +1,33 @@
+{
+glyphname = "de-cy.loclSRB.alt3";
+kernLeft = "de-cy.loclBGR";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = g.alt3;
+}
+);
+width = 558;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = g.alt3;
+}
+);
+width = 489;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = g.alt3;
+}
+);
+width = 525;
+}
+);
+}

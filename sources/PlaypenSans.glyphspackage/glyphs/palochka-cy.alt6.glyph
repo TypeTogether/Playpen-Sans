@@ -1,0 +1,32 @@
+{
+glyphname = "palochka-cy.alt6";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = l.alt6;
+}
+);
+width = 284;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = l.alt6;
+}
+);
+width = 268;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = l.alt6;
+}
+);
+width = 271;
+}
+);
+}

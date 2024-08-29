@@ -1,0 +1,32 @@
+{
+glyphname = "Ie-cy.alt2";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E.alt2;
+}
+);
+width = 636;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = E.alt2;
+}
+);
+width = 641;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = E.alt2;
+}
+);
+width = 644;
+}
+);
+}

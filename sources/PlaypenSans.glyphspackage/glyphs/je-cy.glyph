@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "je-cy";
+kernLeft = "je-cy";
+kernRight = "je-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = j;
+}
+);
+width = 267;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = j;
+}
+);
+width = 358;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = j;
+}
+);
+width = 283;
+}
+);
+unicode = 1112;
+}

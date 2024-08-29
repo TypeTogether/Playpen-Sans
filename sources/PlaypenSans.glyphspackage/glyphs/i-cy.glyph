@@ -1,0 +1,35 @@
+{
+glyphname = "i-cy";
+kernLeft = "i-cy";
+kernRight = "i-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+}
+);
+width = 267;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = i;
+}
+);
+width = 316;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = i;
+}
+);
+width = 280;
+}
+);
+unicode = 1110;
+}

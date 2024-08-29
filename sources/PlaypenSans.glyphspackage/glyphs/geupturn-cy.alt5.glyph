@@ -1,0 +1,35 @@
+{
+glyphname = "geupturn-cy.alt5";
+kernLeft = "en-cy";
+kernRight = "ge-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "geupturn-cy.alt2";
+}
+);
+width = 406;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "geupturn-cy.alt2";
+}
+);
+width = 465;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "geupturn-cy.alt2";
+}
+);
+width = 426;
+}
+);
+metricLeft = "en-cy";
+}

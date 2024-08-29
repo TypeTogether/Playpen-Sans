@@ -1,0 +1,54 @@
+{
+color = 4;
+glyphname = Omicron;
+kernLeft = Omicron;
+kernRight = Omicron;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (131,758);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = O.alt1;
+}
+);
+width = 806;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (117,755);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = O.alt1;
+}
+);
+width = 811;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (124,757);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = O.alt1;
+}
+);
+width = 824;
+}
+);
+unicode = 927;
+}

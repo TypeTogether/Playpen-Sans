@@ -1,0 +1,64 @@
+{
+color = 4;
+glyphname = alpha.ss01;
+kernLeft = alpha;
+kernRight = alphaalt;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.alt1;
+}
+);
+width = 588;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = a.alt1;
+}
+);
+width = 701;
+},
+{
+associatedMasterId = m003;
+layerId = "50EA29EF-E26B-4202-A1E2-04D6FD409072";
+name = skeleton;
+shapes = (
+{
+closed = 0;
+nodes = (
+(561,513,l),
+(515,339,o),
+(409,48,o),
+(251,48,cs),
+(157,48,o),
+(120,139,o),
+(120,237,cs),
+(120,353,o),
+(174,478,o),
+(293,478,cs),
+(450,478,o),
+(429,53,o),
+(558,53,cs),
+(593,53,o),
+(611,64,o),
+(632,86,c)
+);
+}
+);
+width = 683;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = a.alt1;
+}
+);
+width = 613;
+}
+);
+}

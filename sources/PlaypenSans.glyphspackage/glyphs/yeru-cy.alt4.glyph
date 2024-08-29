@@ -1,0 +1,34 @@
+{
+glyphname = "yeru-cy.alt4";
+kernRight = "en-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "yeru-cy.alt1";
+}
+);
+width = 670;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "yeru-cy.alt1";
+}
+);
+width = 793;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "yeru-cy.alt1";
+}
+);
+width = 717;
+}
+);
+metricRight = "en-cy";
+}

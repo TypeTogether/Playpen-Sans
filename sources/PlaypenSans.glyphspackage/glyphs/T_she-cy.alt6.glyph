@@ -1,0 +1,36 @@
+{
+glyphname = "Tshe-cy.alt6";
+kernLeft = "Tshe-cy";
+kernRight = "Tshe-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "Tshe-cy.alt1";
+}
+);
+width = 827;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "Tshe-cy.alt1";
+}
+);
+width = 789;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Tshe-cy.alt1";
+}
+);
+width = 803;
+}
+);
+metricLeft = "Tshe-cy";
+metricRight = "Tshe-cy";
+}

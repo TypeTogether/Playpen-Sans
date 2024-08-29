@@ -1,0 +1,36 @@
+{
+glyphname = "hardsign-cy.alt6";
+kernLeft = "hardsign-cy";
+kernRight = "softsign-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "hardsign-cy.alt3";
+}
+);
+width = 578;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "hardsign-cy.alt3";
+}
+);
+width = 678;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "hardsign-cy.alt3";
+}
+);
+width = 617;
+}
+);
+metricLeft = "hardsign-cy";
+metricRight = "softsign-cy";
+}

@@ -1,0 +1,34 @@
+{
+glyphname = "i-cy.alt2";
+kernLeft = "i-cy";
+kernRight = "i-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i.alt2;
+}
+);
+width = 284;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = i.alt2;
+}
+);
+width = 285;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = i.alt2;
+}
+);
+width = 289;
+}
+);
+}

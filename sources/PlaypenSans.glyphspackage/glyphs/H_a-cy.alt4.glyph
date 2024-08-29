@@ -1,0 +1,32 @@
+{
+glyphname = "Ha-cy.alt4";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = X.alt4;
+}
+);
+width = 644;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = X.alt4;
+}
+);
+width = 631;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = X.alt4;
+}
+);
+width = 633;
+}
+);
+}

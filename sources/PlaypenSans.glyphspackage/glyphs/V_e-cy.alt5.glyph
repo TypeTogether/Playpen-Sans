@@ -1,0 +1,33 @@
+{
+glyphname = "Ve-cy.alt5";
+kernLeft = "En-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = B.alt5;
+}
+);
+width = 689;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = B.alt5;
+}
+);
+width = 754;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = B.alt5;
+}
+);
+width = 708;
+}
+);
+}

@@ -1,0 +1,54 @@
+{
+color = 4;
+glyphname = Epsilon;
+kernLeft = Eta;
+kernRight = Epsilon;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (120,768);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = E.alt1;
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (83,756);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = E.alt1;
+}
+);
+width = 624;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (125,763);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = E.alt1;
+}
+);
+width = 633;
+}
+);
+unicode = 917;
+}

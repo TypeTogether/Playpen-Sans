@@ -1,0 +1,34 @@
+{
+glyphname = "te-cy.loclBGR.alt2";
+kernLeft = "sha-cy";
+kernRight = "en-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = m.alt2;
+}
+);
+width = 860;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = m.alt2;
+}
+);
+width = 940;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = m.alt2;
+}
+);
+width = 876;
+}
+);
+}

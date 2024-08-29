@@ -1,0 +1,34 @@
+{
+glyphname = "Geupturn-cy.alt6";
+kernLeft = "En-cy";
+kernRight = "Ge-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "Geupturn-cy.alt4";
+}
+);
+width = 589;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "Geupturn-cy.alt4";
+}
+);
+width = 461;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Geupturn-cy.alt4";
+}
+);
+width = 508;
+}
+);
+}

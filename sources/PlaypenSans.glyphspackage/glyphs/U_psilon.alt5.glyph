@@ -1,0 +1,52 @@
+{
+glyphname = Upsilon.alt5;
+kernLeft = Upsilon;
+kernRight = Upsilon;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (76,755);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = Y;
+}
+);
+width = 632;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (24,747);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = Y;
+}
+);
+width = 646;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (59,752);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Y;
+}
+);
+width = 642;
+}
+);
+}

@@ -1,0 +1,36 @@
+{
+glyphname = kaiSymbol.alt6;
+kernLeft = kappa;
+kernRight = kai;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = kaiSymbol.alt1;
+}
+);
+width = 577;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = kaiSymbol.alt1;
+}
+);
+width = 669;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = kaiSymbol.alt1;
+}
+);
+width = 615;
+}
+);
+metricLeft = kaiSymbol;
+metricRight = kaiSymbol;
+}
