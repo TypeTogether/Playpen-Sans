@@ -1,5 +1,5 @@
 # DEFAULT CLASSES:
-@dflt_grk_1 = [rho alpha.ss01 iota pi Zeta gamma kaiSymbol omicron mu Xi nu Rho epsilon zeta];
+@dflt_grk_1 = [rho alpha.ss01 iota pi Zeta gamma kaiSymbol omicron mu Xi nu Rho epsilon zeta space];
 @dflt_grk_2 = [tau Mu KaiSymbol Omicron Theta Beta lambda delta Nu Iota Tau phi Mu.ss01 Psi];
 @dflt_grk_3 = [Gamma Alpha beta upsilon psi Eta Delta Epsilon Sigma Phi Lambda xi kappa omega];
 @dflt_grk_4 = [Omega sigmafinal lambda.ss01 chi Pi theta.ss01 theta alpha eta delta.ss01 sigma Chi Upsilon Kappa];
@@ -7,12 +7,12 @@
 
 # ALTERNATE CLASSES:
 #
-@alt1_grk_1 = [rho.alt1 alpha.ss01.alt1 iota.alt1 pi.alt1 Zeta.alt1 gamma.alt1 kaiSymbol.alt1 omicron.alt1 mu.alt1 Xi.alt1 nu.alt1 Rho.alt1 epsilon.alt1 zeta.alt1];
-@alt2_grk_1 = [rho.alt2 alpha.ss01.alt2 iota.alt2 pi.alt2 Zeta.alt2 gamma.alt2 kaiSymbol.alt2 omicron.alt2 mu.alt2 Xi.alt2 nu.alt2 Rho.alt2 epsilon.alt2 zeta.alt2];
-@alt3_grk_1 = [rho.alt3 alpha.ss01.alt3 iota.alt3 pi.alt3 Zeta.alt3 gamma.alt3 kaiSymbol.alt3 omicron.alt3 mu.alt3 Xi.alt3 nu.alt3 Rho.alt3 epsilon.alt3 zeta.alt3];
-@alt4_grk_1 = [rho.alt4 alpha.ss01.alt4 iota.alt4 pi.alt4 Zeta.alt4 gamma.alt4 kaiSymbol.alt4 omicron.alt4 mu.alt4 Xi.alt4 nu.alt4 Rho.alt4 epsilon.alt4 zeta.alt4];
-@alt5_grk_1 = [rho.alt5 alpha.ss01.alt5 iota.alt5 pi.alt5 Zeta.alt5 gamma.alt5 kaiSymbol.alt5 omicron.alt5 mu.alt5 Xi.alt5 nu.alt5 Rho.alt5 epsilon.alt5 zeta.alt5];
-@alt6_grk_1 = [rho.alt6 alpha.ss01.alt6 iota.alt6 pi.alt6 Zeta.alt6 gamma.alt6 kaiSymbol.alt6 omicron.alt6 mu.alt6 Xi.alt6 nu.alt6 Rho.alt6 epsilon.alt6 zeta.alt6];
+@alt1_grk_1 = [rho.alt1 alpha.ss01.alt1 iota.alt1 pi.alt1 Zeta.alt1 gamma.alt1 kaiSymbol.alt1 omicron.alt1 mu.alt1 Xi.alt1 nu.alt1 Rho.alt1 epsilon.alt1 zeta.alt1 space.alt1];
+@alt2_grk_1 = [rho.alt2 alpha.ss01.alt2 iota.alt2 pi.alt2 Zeta.alt2 gamma.alt2 kaiSymbol.alt2 omicron.alt2 mu.alt2 Xi.alt2 nu.alt2 Rho.alt2 epsilon.alt2 zeta.alt2 space.alt2];
+@alt3_grk_1 = [rho.alt3 alpha.ss01.alt3 iota.alt3 pi.alt3 Zeta.alt3 gamma.alt3 kaiSymbol.alt3 omicron.alt3 mu.alt3 Xi.alt3 nu.alt3 Rho.alt3 epsilon.alt3 zeta.alt3 space.alt3];
+@alt4_grk_1 = [rho.alt4 alpha.ss01.alt4 iota.alt4 pi.alt4 Zeta.alt4 gamma.alt4 kaiSymbol.alt4 omicron.alt4 mu.alt4 Xi.alt4 nu.alt4 Rho.alt4 epsilon.alt4 zeta.alt4 space.alt4];
+@alt5_grk_1 = [rho.alt5 alpha.ss01.alt5 iota.alt5 pi.alt5 Zeta.alt5 gamma.alt5 kaiSymbol.alt5 omicron.alt5 mu.alt5 Xi.alt5 nu.alt5 Rho.alt5 epsilon.alt5 zeta.alt5 space.alt5];
+@alt6_grk_1 = [rho.alt6 alpha.ss01.alt6 iota.alt6 pi.alt6 Zeta.alt6 gamma.alt6 kaiSymbol.alt6 omicron.alt6 mu.alt6 Xi.alt6 nu.alt6 Rho.alt6 epsilon.alt6 zeta.alt6 space.alt6];
 #
 @alt1_grk_2 = [tau.alt1 Mu.alt1 KaiSymbol.alt1 Omicron.alt1 Theta.alt1 Beta.alt1 lambda.alt1 delta.alt1 Nu.alt1 Iota.alt1 Tau.alt1 phi.alt1 Mu.ss01.alt1 Psi.alt1];
 @alt2_grk_2 = [tau.alt2 Mu.alt2 KaiSymbol.alt2 Omicron.alt2 Theta.alt2 Beta.alt2 lambda.alt2 delta.alt2 Nu.alt2 Iota.alt2 Tau.alt2 phi.alt2 Mu.ss01.alt2 Psi.alt2];
