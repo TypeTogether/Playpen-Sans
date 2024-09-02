@@ -8,7 +8,8 @@ shapes = (
 ref = gravecomb;
 },
 {
-pos = (9,244);
+alignment = -1;
+pos = (5,197);
 ref = macroncomb;
 }
 );
@@ -21,7 +22,8 @@ shapes = (
 ref = gravecomb;
 },
 {
-pos = (10,244);
+alignment = -1;
+pos = (10,234);
 ref = macroncomb;
 }
 );
@@ -34,7 +36,8 @@ shapes = (
 ref = gravecomb;
 },
 {
-pos = (10,244);
+alignment = -1;
+pos = (10,277);
 ref = macroncomb;
 }
 );

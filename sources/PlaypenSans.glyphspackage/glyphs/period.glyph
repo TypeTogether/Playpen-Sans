@@ -5,27 +5,6 @@ kernLeft = period;
 kernRight = period;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(71,51,o),
-(71,35,cs),
-(71,17,o),
-(82,-1,o),
-(97,-1,cs),
-(115,-1,o),
-(127,17,o),
-(127,37,cs),
-(127,55,o),
-(122,75,o),
-(99,75,cs),
-(80,75,o)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -65,27 +44,6 @@ com.hugojourdan.ColorFlow = {
 width = 204;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(18,128,o),
-(18,66,cs),
-(18,8,o),
-(57,-20,o),
-(119,-20,cs),
-(186,-20,o),
-(231,15,o),
-(231,77,cs),
-(231,114,o),
-(210,164,o),
-(117,164,cs),
-(63,164,o)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

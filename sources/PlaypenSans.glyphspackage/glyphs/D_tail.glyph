@@ -4,13 +4,6 @@ kernLeft = Eth;
 kernRight = D;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = Dcroat;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -43,13 +36,6 @@ nodes = (
 width = 763;
 },
 {
-background = {
-shapes = (
-{
-ref = Dcroat;
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -82,13 +68,6 @@ nodes = (
 width = 780;
 },
 {
-background = {
-shapes = (
-{
-ref = Dcroat;
-}
-);
-};
 layerId = m003;
 shapes = (
 {

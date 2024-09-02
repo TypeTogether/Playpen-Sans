@@ -107,16 +107,6 @@ name = top;
 pos = (439,782);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(235,374,ls)
-);
-}
-);
-};
 layerId = m003;
 metricRight = "=G-30";
 shapes = (

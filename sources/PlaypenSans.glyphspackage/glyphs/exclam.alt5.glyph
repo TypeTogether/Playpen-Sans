@@ -4,27 +4,6 @@ kernLeft = exclam;
 kernRight = exclam;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(163,-11,o),
-(178,8,o),
-(178,28,cs),
-(178,46,o),
-(170,61,o),
-(147,61,cs),
-(128,61,o),
-(116,39,o),
-(116,23,cs),
-(116,0,o),
-(130,-11,o),
-(145,-11,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {

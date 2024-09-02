@@ -5,17 +5,6 @@ kernLeft = istroke;
 kernRight = istroke;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = u;
-},
-{
-pos = (291,-49);
-ref = strokelongcomb;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -30,17 +19,6 @@ scale = (0.8,1);
 width = 581;
 },
 {
-background = {
-shapes = (
-{
-ref = u;
-},
-{
-pos = (286,-48);
-ref = strokelongcomb;
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -55,17 +33,6 @@ scale = (0.8,1);
 width = 582;
 },
 {
-background = {
-shapes = (
-{
-ref = u;
-},
-{
-pos = (302,-46);
-ref = strokelongcomb;
-}
-);
-};
 layerId = m003;
 shapes = (
 {

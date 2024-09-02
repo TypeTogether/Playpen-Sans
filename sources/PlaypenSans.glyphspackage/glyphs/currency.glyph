@@ -132,16 +132,6 @@ com.hugojourdan.ColorFlow = {
 width = 600;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(576,337,ls)
-);
-}
-);
-};
 guides = (
 {
 pos = (413,602);

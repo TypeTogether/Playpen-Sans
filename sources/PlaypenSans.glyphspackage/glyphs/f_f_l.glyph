@@ -24,13 +24,6 @@ name = topright;
 pos = (889,773);
 }
 );
-background = {
-shapes = (
-{
-ref = f;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -229,13 +222,6 @@ name = topright;
 pos = (1148,770);
 }
 );
-background = {
-shapes = (
-{
-ref = f;
-}
-);
-};
 layerId = m003;
 shapes = (
 {

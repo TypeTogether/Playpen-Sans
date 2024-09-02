@@ -35,19 +35,6 @@ com.hugojourdan.ColorFlow = {
 width = 315;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-ref = l.ss01.alt1;
-},
-{
-alignment = -1;
-pos = (240,36);
-ref = caron.alt;
-}
-);
-};
 layerId = m003;
 shapes = (
 {

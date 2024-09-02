@@ -4,25 +4,6 @@ kernLeft = u;
 kernRight = uhorn;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(602,727,o),
-(526,684,o),
-(566,628,cs),
-(603,575,o),
-(585,514,o),
-(483,510,c),
-(480,439,l),
-(669,449,o),
-(698,594,o),
-(639,676,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {

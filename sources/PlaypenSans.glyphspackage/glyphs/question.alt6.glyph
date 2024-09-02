@@ -4,30 +4,6 @@ kernLeft = question;
 kernRight = question;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(197,60,o),
-(183,41,o),
-(183,21,cs),
-(183,3,o),
-(198,-11,o),
-(216,-11,cs),
-(228,-11,o),
-(247,0,o),
-(247,31,cs),
-(247,53,o),
-(226,60,o),
-(214,60,cs)
-);
-},
-{
-ref = question;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -110,13 +86,6 @@ com.hugojourdan.ColorFlow = {
 width = 519;
 },
 {
-background = {
-shapes = (
-{
-ref = question;
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -199,30 +168,6 @@ com.hugojourdan.ColorFlow = {
 width = 519;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(167,99,o),
-(146,71,o),
-(145,42,cs),
-(145,10,o),
-(175,-16,o),
-(209,-16,cs),
-(232,-16,o),
-(265,-3,o),
-(265,36,cs),
-(265,83,o),
-(225,99,o),
-(202,99,cs)
-);
-},
-{
-ref = question;
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

@@ -7,17 +7,19 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (541,526);
+pos = (526,526);
 ref = a.ss01.alt1;
 }
 );
-width = 541;
+width = 533;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
+alignment = -1;
 angle = 180;
 pos = (569,537);
 ref = a.ss01.alt1;
@@ -29,12 +31,13 @@ width = 569;
 layerId = m003;
 shapes = (
 {
+alignment = -1;
 angle = 180;
-pos = (619,546);
+pos = (612,546);
 ref = a.ss01.alt1;
 }
 );
-width = 619;
+width = 620;
 }
 );
 }

@@ -2,31 +2,6 @@
 glyphname = horncomb;
 layers = (
 {
-background = {
-anchors = (
-{
-name = _topright;
-pos = (0,412);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(95,573,o),
-(67,552,o),
-(77,538,cs),
-(120,477,o),
-(102,416,o),
-(0,412,c),
-(0,391,l),
-(119,383,o),
-(165,476,o),
-(106,558,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -64,31 +39,6 @@ com.hugojourdan.ColorFlow = {
 width = 266;
 },
 {
-background = {
-anchors = (
-{
-name = _topright;
-pos = (0,412);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(95,573,o),
-(67,552,o),
-(77,538,cs),
-(120,477,o),
-(102,416,o),
-(0,412,c),
-(0,391,l),
-(119,383,o),
-(165,476,o),
-(106,558,cs)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

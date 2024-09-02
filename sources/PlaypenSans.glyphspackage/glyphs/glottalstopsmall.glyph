@@ -55,30 +55,6 @@ nodes = (
 width = 550;
 },
 {
-background = {
-shapes = (
-{
-attr = {
-lineCapEnd = "1";
-lineCapStart = "1";
-strokeWidth = 30;
-};
-closed = 0;
-nodes = (
-(68,357,l),
-(94,461,o),
-(182,536,o),
-(278,536,cs),
-(396,536,o),
-(481,457,o),
-(481,349,cs),
-(481,121,o),
-(244,205,o),
-(244,0,c)
-);
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
