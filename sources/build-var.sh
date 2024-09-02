@@ -43,10 +43,6 @@ do
 	# add STAT
 	gftools gen-stat --src config.yml --inplace $ttf
 	echo "Done building STAT table"
-	echo "Compressing to .woff2:"
-	fonttools ttLib.woff2 compress $ttf
+	# echo "Compressing to .woff2:"
+	# fonttools ttLib.woff2 compress $ttf
 done
-
-# # Clean up
-# rm -rf ./master_ufo/ ./instance_ufo/
-# rm ./PlaypenSans.glyphs
