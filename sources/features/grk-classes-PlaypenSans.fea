@@ -1,0 +1,50 @@
+# DEFAULT CLASSES:
+@dflt_grk_1 = [rho alpha.ss01 iota pi Zeta gamma kaiSymbol omicron mu Xi nu Rho epsilon zeta];
+@dflt_grk_2 = [tau Mu KaiSymbol Omicron Theta Beta lambda delta Nu Iota Tau phi Mu.ss01 Psi];
+@dflt_grk_3 = [Gamma Alpha beta upsilon psi Eta Delta Epsilon Sigma Phi Lambda xi kappa omega];
+@dflt_grk_4 = [Omega sigmafinal lambda.ss01 chi Pi theta.ss01 theta alpha eta delta.ss01 sigma Chi Upsilon Kappa];
+
+
+# ALTERNATE CLASSES:
+#
+@alt1_grk_1 = [rho.alt1 alpha.ss01.alt1 iota.alt1 pi.alt1 Zeta.alt1 gamma.alt1 kaiSymbol.alt1 omicron.alt1 mu.alt1 Xi.alt1 nu.alt1 Rho.alt1 epsilon.alt1 zeta.alt1];
+@alt2_grk_1 = [rho.alt2 alpha.ss01.alt2 iota.alt2 pi.alt2 Zeta.alt2 gamma.alt2 kaiSymbol.alt2 omicron.alt2 mu.alt2 Xi.alt2 nu.alt2 Rho.alt2 epsilon.alt2 zeta.alt2];
+@alt3_grk_1 = [rho.alt3 alpha.ss01.alt3 iota.alt3 pi.alt3 Zeta.alt3 gamma.alt3 kaiSymbol.alt3 omicron.alt3 mu.alt3 Xi.alt3 nu.alt3 Rho.alt3 epsilon.alt3 zeta.alt3];
+@alt4_grk_1 = [rho.alt4 alpha.ss01.alt4 iota.alt4 pi.alt4 Zeta.alt4 gamma.alt4 kaiSymbol.alt4 omicron.alt4 mu.alt4 Xi.alt4 nu.alt4 Rho.alt4 epsilon.alt4 zeta.alt4];
+@alt5_grk_1 = [rho.alt5 alpha.ss01.alt5 iota.alt5 pi.alt5 Zeta.alt5 gamma.alt5 kaiSymbol.alt5 omicron.alt5 mu.alt5 Xi.alt5 nu.alt5 Rho.alt5 epsilon.alt5 zeta.alt5];
+@alt6_grk_1 = [rho.alt6 alpha.ss01.alt6 iota.alt6 pi.alt6 Zeta.alt6 gamma.alt6 kaiSymbol.alt6 omicron.alt6 mu.alt6 Xi.alt6 nu.alt6 Rho.alt6 epsilon.alt6 zeta.alt6];
+#
+@alt1_grk_2 = [tau.alt1 Mu.alt1 KaiSymbol.alt1 Omicron.alt1 Theta.alt1 Beta.alt1 lambda.alt1 delta.alt1 Nu.alt1 Iota.alt1 Tau.alt1 phi.alt1 Mu.ss01.alt1 Psi.alt1];
+@alt2_grk_2 = [tau.alt2 Mu.alt2 KaiSymbol.alt2 Omicron.alt2 Theta.alt2 Beta.alt2 lambda.alt2 delta.alt2 Nu.alt2 Iota.alt2 Tau.alt2 phi.alt2 Mu.ss01.alt2 Psi.alt2];
+@alt3_grk_2 = [tau.alt3 Mu.alt3 KaiSymbol.alt3 Omicron.alt3 Theta.alt3 Beta.alt3 lambda.alt3 delta.alt3 Nu.alt3 Iota.alt3 Tau.alt3 phi.alt3 Mu.ss01.alt3 Psi.alt3];
+@alt4_grk_2 = [tau.alt4 Mu.alt4 KaiSymbol.alt4 Omicron.alt4 Theta.alt4 Beta.alt4 lambda.alt4 delta.alt4 Nu.alt4 Iota.alt4 Tau.alt4 phi.alt4 Mu.ss01.alt4 Psi.alt4];
+@alt5_grk_2 = [tau.alt5 Mu.alt5 KaiSymbol.alt5 Omicron.alt5 Theta.alt5 Beta.alt5 lambda.alt5 delta.alt5 Nu.alt5 Iota.alt5 Tau.alt5 phi.alt5 Mu.ss01.alt5 Psi.alt5];
+@alt6_grk_2 = [tau.alt6 Mu.alt6 KaiSymbol.alt6 Omicron.alt6 Theta.alt6 Beta.alt6 lambda.alt6 delta.alt6 Nu.alt6 Iota.alt6 Tau.alt6 phi.alt6 Mu.ss01.alt6 Psi.alt6];
+#
+@alt1_grk_3 = [Gamma.alt1 Alpha.alt1 beta.alt1 upsilon.alt1 psi.alt1 Eta.alt1 Delta.alt1 Epsilon.alt1 Sigma.alt1 Phi.alt1 Lambda.alt1 xi.alt1 kappa.alt1 omega.alt1];
+@alt2_grk_3 = [Gamma.alt2 Alpha.alt2 beta.alt2 upsilon.alt2 psi.alt2 Eta.alt2 Delta.alt2 Epsilon.alt2 Sigma.alt2 Phi.alt2 Lambda.alt2 xi.alt2 kappa.alt2 omega.alt2];
+@alt3_grk_3 = [Gamma.alt3 Alpha.alt3 beta.alt3 upsilon.alt3 psi.alt3 Eta.alt3 Delta.alt3 Epsilon.alt3 Sigma.alt3 Phi.alt3 Lambda.alt3 xi.alt3 kappa.alt3 omega.alt3];
+@alt4_grk_3 = [Gamma.alt4 Alpha.alt4 beta.alt4 upsilon.alt4 psi.alt4 Eta.alt4 Delta.alt4 Epsilon.alt4 Sigma.alt4 Phi.alt4 Lambda.alt4 xi.alt4 kappa.alt4 omega.alt4];
+@alt5_grk_3 = [Gamma.alt5 Alpha.alt5 beta.alt5 upsilon.alt5 psi.alt5 Eta.alt5 Delta.alt5 Epsilon.alt5 Sigma.alt5 Phi.alt5 Lambda.alt5 xi.alt5 kappa.alt5 omega.alt5];
+@alt6_grk_3 = [Gamma.alt6 Alpha.alt6 beta.alt6 upsilon.alt6 psi.alt6 Eta.alt6 Delta.alt6 Epsilon.alt6 Sigma.alt6 Phi.alt6 Lambda.alt6 xi.alt6 kappa.alt6 omega.alt6];
+#
+@alt1_grk_4 = [Omega.alt1 sigmafinal.alt1 lambda.ss01.alt1 chi.alt1 Pi.alt1 theta.ss01.alt1 theta.alt1 alpha.alt1 eta.alt1 delta.ss01.alt1 sigma.alt1 Chi.alt1 Upsilon.alt1 Kappa.alt1];
+@alt2_grk_4 = [Omega.alt2 sigmafinal.alt2 lambda.ss01.alt2 chi.alt2 Pi.alt2 theta.ss01.alt2 theta.alt2 alpha.alt2 eta.alt2 delta.ss01.alt2 sigma.alt2 Chi.alt2 Upsilon.alt2 Kappa.alt2];
+@alt3_grk_4 = [Omega.alt3 sigmafinal.alt3 lambda.ss01.alt3 chi.alt3 Pi.alt3 theta.ss01.alt3 theta.alt3 alpha.alt3 eta.alt3 delta.ss01.alt3 sigma.alt3 Chi.alt3 Upsilon.alt3 Kappa.alt3];
+@alt4_grk_4 = [Omega.alt4 sigmafinal.alt4 lambda.ss01.alt4 chi.alt4 Pi.alt4 theta.ss01.alt4 theta.alt4 alpha.alt4 eta.alt4 delta.ss01.alt4 sigma.alt4 Chi.alt4 Upsilon.alt4 Kappa.alt4];
+@alt5_grk_4 = [Omega.alt5 sigmafinal.alt5 lambda.ss01.alt5 chi.alt5 Pi.alt5 theta.ss01.alt5 theta.alt5 alpha.alt5 eta.alt5 delta.ss01.alt5 sigma.alt5 Chi.alt5 Upsilon.alt5 Kappa.alt5];
+@alt6_grk_4 = [Omega.alt6 sigmafinal.alt6 lambda.ss01.alt6 chi.alt6 Pi.alt6 theta.ss01.alt6 theta.alt6 alpha.alt6 eta.alt6 delta.ss01.alt6 sigma.alt6 Chi.alt6 Upsilon.alt6 Kappa.alt6];
+
+# #ALL
+# @dflt_grk_ALL = [@dflt_grk_1 @dflt_grk_2 @dflt_grk_3 @dflt_grk_4];
+# @alt1_grk_ALL = [@alt1_grk_1 @alt1_grk_2 @alt1_grk_3 @alt1_grk_4];
+# @alt2_grk_ALL = [@alt2_grk_1 @alt2_grk_2 @alt2_grk_3 @alt2_grk_4];
+# @alt3_grk_ALL = [@alt3_grk_1 @alt3_grk_2 @alt3_grk_3 @alt3_grk_4];
+# @alt4_grk_ALL = [@alt4_grk_1 @alt4_grk_2 @alt4_grk_3 @alt4_grk_4];
+# @alt5_grk_ALL = [@alt5_grk_1 @alt5_grk_2 @alt5_grk_3 @alt5_grk_4];
+# @alt6_grk_ALL = [@alt6_grk_1 @alt6_grk_2 @alt6_grk_3 @alt6_grk_4];
+# #
+# # NO ALTERNATES
+# @NO_grk_ALTS = [dottedCircle];
+# #
+# @ALL_grk_ALL = [@dflt_grk_ALL @alt1_grk_ALL @alt2_grk_ALL @alt3_grk_ALL @NO_grk_ALTS];

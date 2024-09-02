@@ -31,6 +31,7 @@ echo "
  Autohint, add STAT, make woff2 
 =================================
 "
+# do it only for PlaypenSans[wght]-dev.ttf
 ttfs=$(ls $varFontsPath/*-dev.ttf)
 for ttf in $ttfs
 do

@@ -1,5 +1,5 @@
 {
-.appVersion = "3241";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -3014,7 +3014,7 @@ tag = slng;
 }
 );
 date = "2024-07-10 13:57:35 +0000";
-familyName = "Playpen Sans LATX";
+familyName = "Playpen Sans";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -3031,7 +3031,8 @@ languagesystem latn ROM;
 languagesystem latn TAT;
 languagesystem latn TRK;
 
-include(features/latx-classes-PlaypenSans.fea);
+include(features/cyr-classes-PlaypenSans.fea);
+include(features/grk-classes-PlaypenSans.fea);
 include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
 ";
