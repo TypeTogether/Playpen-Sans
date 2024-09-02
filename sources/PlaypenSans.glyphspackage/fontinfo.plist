@@ -3033,6 +3033,7 @@ languagesystem latn TRK;
 
 include(features/cyr-classes-PlaypenSans.fea);
 include(features/grk-classes-PlaypenSans.fea);
+include(features/latx-classes-PlaypenSans.fea);
 include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
 ";
