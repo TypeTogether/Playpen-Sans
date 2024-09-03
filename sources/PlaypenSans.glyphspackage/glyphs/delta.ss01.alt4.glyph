@@ -70,7 +70,6 @@ nodes = (
 width = 561;
 },
 {
-color = 5;
 layerId = m003;
 metricRight = "=delta.ss01+15";
 shapes = (
@@ -137,7 +136,6 @@ nodes = (
 width = 611;
 },
 {
-color = 5;
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 metricRight = "=delta.ss01+15";
 shapes = (

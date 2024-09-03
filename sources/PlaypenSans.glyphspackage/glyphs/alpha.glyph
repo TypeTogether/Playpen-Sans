@@ -87,7 +87,6 @@ name = top;
 pos = (335,539);
 }
 );
-color = 4;
 layerId = m003;
 shapes = (
 {
@@ -193,7 +192,6 @@ name = top;
 pos = (321,533);
 }
 );
-color = 4;
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

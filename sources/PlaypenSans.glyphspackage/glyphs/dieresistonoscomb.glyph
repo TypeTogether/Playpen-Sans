@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 0;
+color = 10;
 glyphname = dieresistonoscomb;
 layers = (
 {

@@ -60,7 +60,6 @@ nodes = (
 width = 469;
 },
 {
-color = 5;
 layerId = m003;
 shapes = (
 {
@@ -117,7 +116,6 @@ nodes = (
 width = 554;
 },
 {
-color = 5;
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
