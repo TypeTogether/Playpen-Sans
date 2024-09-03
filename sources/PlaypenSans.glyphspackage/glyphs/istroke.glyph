@@ -16,7 +16,7 @@ ref = i;
 alignment = -1;
 pos = (161,-82);
 ref = strokeshortcomb;
-scale = (0.9,1);
+scale = (0.85,1);
 }
 );
 width = 287;
@@ -33,7 +33,7 @@ ref = i;
 alignment = -1;
 pos = (158,-93);
 ref = strokeshortcomb;
-scale = (0.9,1);
+scale = (0.83,1);
 }
 );
 width = 300;

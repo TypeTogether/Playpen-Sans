@@ -5,6 +5,16 @@ kernLeft = eturned;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = ogonek;
+pos = (312,35);
+},
+{
+name = top;
+pos = (234,533);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -56,6 +66,16 @@ nodes = (
 width = 501;
 },
 {
+anchors = (
+{
+name = ogonek;
+pos = (335,33);
+},
+{
+name = top;
+pos = (253,536);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -107,6 +127,16 @@ nodes = (
 width = 528;
 },
 {
+anchors = (
+{
+name = ogonek;
+pos = (365,38);
+},
+{
+name = top;
+pos = (254,536);
+}
+);
 layerId = m003;
 shapes = (
 {

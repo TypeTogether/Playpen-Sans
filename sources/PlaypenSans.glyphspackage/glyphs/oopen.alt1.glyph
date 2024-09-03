@@ -10,8 +10,12 @@ name = bottom;
 pos = (217,-8);
 },
 {
+name = ogonek;
+pos = (312,25);
+},
+{
 name = top;
-pos = (238,522);
+pos = (244,533);
 }
 );
 layerId = m01;
@@ -71,6 +75,10 @@ anchors = (
 {
 name = bottom;
 pos = (226,1);
+},
+{
+name = ogonek;
+pos = (350,43);
 },
 {
 name = top;
@@ -134,6 +142,10 @@ anchors = (
 {
 name = bottom;
 pos = (264,10);
+},
+{
+name = ogonek;
+pos = (374,28);
 },
 {
 name = top;

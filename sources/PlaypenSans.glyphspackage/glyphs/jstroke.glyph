@@ -11,9 +11,9 @@ shapes = (
 ref = j;
 },
 {
-pos = (142,-82);
+pos = (143,-82);
 ref = strokeshortcomb;
-scale = (0.9,1);
+scale = (0.84,1);
 }
 );
 width = 267;
