@@ -126,7 +126,8 @@ feature locl {
 
 
  feature ccmp {
-  lookup ccmp_decomp {
+  lookup decomp_LAT {
+    # lookupflag 0;
     sub Aacute by A acutecomb.case;
     sub Abreve by A brevecomb.case;
     sub Acaron by A caroncomb.case;
@@ -404,12 +405,155 @@ feature locl {
     sub lslash by l slashshortcomb;
     sub oslash by o slashlongcomb;
     sub tbar by t strokeshortcomb.t;
-  } ccmp_decomp;
+  } decomp_LAT;
+
+    lookup decomp_CYRL {
+    # lookupflag 0;
+    sub Gje-cy by Ge-cy acutecomb.case;
+    sub Iishort-cy by Ii-cy breve-cy.case;
+    sub Iigrave-cy by Ii-cy gravecomb.case;
+    sub Kje-cy by Ka-cy acutecomb.case;
+    sub Ushort-cy by U-cy breve-cy.case;
+    sub gje-cy by ge-cy acutecomb;
+    sub iegrave-cy by e gravecomb;
+    sub io-cy by e dieresiscomb;
+    # sub iishort-cy by u.alt1 breve-cy;
+    sub iigrave-cy by ii-cy gravecomb;
+    sub kje-cy by ka-cy acutecomb;
+    sub ushort-cy by y breve-cy;
+    sub ushort-cy.ss01 by y.ss01 breve-cy;
+  } decomp_CYRL;
+
+  lookup decomp_GREK {
+    # lookupflag 0;
+    sub Alphatonos by Alpha tonos.case;
+    sub Epsilontonos by Epsilon tonos.case;
+    sub Etatonos by Eta tonos.case;
+    sub Iotatonos by Iota tonos.case;
+    sub Omicrontonos by Omicron tonos.case;
+    sub Upsilontonos by Upsilon tonos.case;
+    sub Omegatonos by Omega tonos.case;
+    sub Iotadieresis by Iota dieresiscomb;
+    sub Upsilondieresis by Upsilon dieresiscomb;
+    sub alphatonos by alpha tonos;
+    sub epsilontonos by epsilon tonos;
+    sub etatonos by eta tonos;
+    sub iotatonos by iota tonos;
+    sub omicrontonos by omicron tonos;
+    sub upsilontonos by upsilon tonos;
+    sub omegatonos by omega tonos;
+    sub iotadieresis by iota dieresiscomb;
+    sub upsilondieresis by upsilon dieresiscomb;
+    sub iotadieresistonos by iota dieresistonoscomb;
+    sub upsilondieresistonos by upsilon dieresistonoscomb;
+  } decomp_GREK;
+
+  lookup decomp_LATX {
+    # lookupflag 0;
+    sub Adblgrave by A dblgravecomb.case;
+    sub AEmacron by AE macroncomb.case;
+    sub Bdotbelow by B dotbelowcomb;
+    sub Dcircumflexbelow by D circumflexbelowcomb;
+    sub Ddotbelow by D dotbelowcomb;
+    sub Dmacronbelow by D macronbelowcomb;
+    sub Edblgrave by E dblgravecomb.case;
+    sub Ecedilla by E cedillacomb;
+    sub Ecedillabreve by E cedillacomb brevecomb.case;
+    sub Etildebelow by E tildebelowcomb;
+    sub Ezhcaron by Ezh caroncomb.case;
+    sub Gcaron by G caroncomb.case;
+    sub Hdotbelow by H dotbelowcomb;
+    sub Idblgrave by I dblgravecomb.case;
+    sub Idieresisacute by I dieresiscomb.case acutecomb.case;
+    sub Istroke by I strokeshortcomb.case;
+    sub Itildebelow by I tildebelowcomb;
+    sub Jcaron by J caroncomb.case;
+    sub Jstroke by J strokeshortcomb.case;
+    sub Lcircumflexbelow by L circumflexbelowcomb;
+    sub Ldotbelow by L dotbelowcomb;
+    sub Macute by M acutecomb.case;
+    sub Ncircumflexbelow by N circumflexbelowcomb;
+    sub Ndotaccent by N dotaccentcomb.case;
+    sub Ngrave by N gravecomb.case;
+    sub Nmacronbelow by N macronbelowcomb;
+    sub Odblgrave by O dblgravecomb.case;
+    sub Oogonek by O ogonekcomb;
+    sub Oslashacute by Oslash acutecomb.case;
+    sub Otildeacute by O tildecomb.case acutecomb.case;
+    sub Otildedieresis by O tildecomb.case dieresiscomb.case;
+    sub Pacute by P acutecomb.case;
+    sub Sdotbelow by S dotbelowcomb;
+    sub Tcircumflexbelow by T circumflexbelowcomb;
+    sub Tdotbelow by T dotbelowcomb;
+    sub Tmacronbelow by T macronbelowcomb;
+    sub Udblgrave by U dblgravecomb.case;
+    sub Udieresisbelow by U dieresisbelowcomb;
+    sub Utildeacute by U tildecomb.case acutecomb.case;
+    sub Utildebelow by U tildebelowcomb;
+    sub Xdotaccent by X dotaccentcomb.case;
+    sub Zcircumflex by Z circumflexcomb.case;
+    sub Zdotbelow by Z dotbelowcomb;
+    sub Zmacronbelow by Z macronbelowcomb;
+    sub adblgrave by a dblgravecomb;
+    sub aemacron by ae macroncomb;
+    sub bdotbelow by b dotbelowcomb;
+    sub dcircumflexbelow by d circumflexbelowcomb;
+    sub ddotbelow by d dotbelowcomb;
+    sub dmacronbelow by d macronbelowcomb;
+    sub edblgrave by e dblgravecomb;
+    sub ecedilla by e cedillacomb;
+    sub ecedillabreve by e cedillacomb brevecomb;
+    sub etildebelow by e tildebelowcomb;
+    sub ezhcaron by ezh caroncomb;
+    sub gcaron by g caroncomb;
+    sub hdotbelow by h dotbelowcomb;
+    sub idblgrave by idotless dblgravecomb;
+    sub idieresisacute by idotless dieresiscomb acutecomb.case;
+    sub istroke by i strokeshortcomb;
+    sub itildebelow by i tildebelowcomb;
+    sub jcaron by jdotless caroncomb;
+    sub jstroke by j strokeshortcomb;
+    sub lcircumflexbelow by l circumflexbelowcomb;
+    sub ldotbelow by l dotbelowcomb;
+    sub macute by m acutecomb;
+    sub ncircumflexbelow by n circumflexbelowcomb;
+    sub ndotaccent by n dotaccentcomb;
+    sub ngrave by n gravecomb;
+    sub nmacronbelow by n macronbelowcomb;
+    sub odblgrave by o dblgravecomb;
+    sub oogonek by o ogonekcomb;
+    sub oslashacute by oslash acutecomb;
+    sub otildeacute by o tildecomb acutecomb.case;
+    sub otildedieresis by o tildecomb dieresiscomb.case;
+    sub pacute by p acutecomb;
+    sub rmacronbelow by r macronbelowcomb;
+    sub rstroke by r strokeshortcomb;
+    sub sdotbelow by s dotbelowcomb;
+    sub tcircumflexbelow by t circumflexbelowcomb;
+    sub tdotbelow by t dotbelowcomb;
+    sub tmacronbelow by t macronbelowcomb;
+    sub udblgrave by u dblgravecomb;
+    sub udieresisbelow by u dieresisbelowcomb;
+    sub utildeacute by u tildecomb acutecomb.case;
+    sub utildebelow by u tildebelowcomb;
+    sub ubar by u strokelongcomb;
+    sub xdotaccent by x dotaccentcomb;
+    sub zcircumflex by z circumflexcomb;
+    sub zdotbelow by z dotbelowcomb;
+    sub zmacronbelow by z macronbelowcomb;
+    sub gravecomb_macroncomb by gravecomb macroncomb;
+    sub acutecomb_macroncomb by acutecomb macroncomb;
+    sub macroncomb_gravecomb by macroncomb gravecomb;
+    sub macroncomb_acutecomb by macroncomb acutecomb;
+  } decomp_LATX;
+
+  # End decomposition
 
   lookup SOFTDOT_IOGONEK {
     sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by idotless ogonekcomb;
   } SOFTDOT_IOGONEK;
 
+  # Comes from Glyphs.app
   lookup ccmp_DFLT_1 {
     lookupflag 0;
     sub brevecomb acutecomb by brevecomb_acutecomb;
@@ -446,6 +590,7 @@ feature locl {
 
   script latn;
   lookup ccmp_latn_1;
+
 } ccmp;
 
 
@@ -981,6 +1126,75 @@ feature ss01 {
   sub y.alt4 by y.ss01.alt4;
   sub y.alt5 by y.ss01.alt5;
   sub y.alt6 by y.ss01.alt6;
+  #
+  sub Eng by Eng.ss01;
+  sub Eng.alt1 by Eng.ss01.alt1;
+  sub Eng.alt2 by Eng.ss01.alt2;
+  sub Eng.alt3 by Eng.ss01.alt3;
+  sub a-cy by a-cy.ss01;
+  sub a-cy.alt1 by a-cy.ss01.alt1;
+  sub a-cy.alt2 by a-cy.ss01.alt2;
+  sub a-cy.alt3 by a-cy.ss01.alt3;
+  sub a-cy.alt4 by a-cy.ss01.alt4;
+  sub a-cy.alt5 by a-cy.ss01.alt5;
+  sub a-cy.alt6 by a-cy.ss01.alt6;
+  sub u-cy by u-cy.ss01;
+  sub u-cy.alt1 by u-cy.ss01.alt1;
+  sub u-cy.alt2 by u-cy.ss01.alt2;
+  sub u-cy.alt3 by u-cy.ss01.alt3;
+  sub u-cy.alt4 by u-cy.ss01.alt4;
+  sub u-cy.alt5 by u-cy.ss01.alt5;
+  sub u-cy.alt6 by u-cy.ss01.alt6;
+  sub ushort-cy by ushort-cy.ss01;
+  sub ii-cy by ii-cy.ss01;
+  sub ii-cy.alt1 by ii-cy.ss01.alt1;
+  sub ii-cy.alt2 by ii-cy.ss01.alt2;
+  sub ii-cy.alt3 by ii-cy.ss01.alt3;
+  sub ii-cy.alt4 by ii-cy.ss01.alt4;
+  sub ii-cy.alt5 by ii-cy.ss01.alt5;
+  sub ii-cy.alt6 by ii-cy.ss01.alt6;
+  sub iishort-cy by iishort-cy.ss01;
+  sub iishort-cy.alt1 by iishort-cy.ss01.alt1;
+  sub iishort-cy.alt2 by iishort-cy.ss01.alt2;
+  sub iishort-cy.alt3 by iishort-cy.ss01.alt3;
+  sub iishort-cy.alt4 by iishort-cy.ss01.alt4;
+  sub iishort-cy.alt5 by iishort-cy.ss01.alt5;
+  sub iishort-cy.alt6 by iishort-cy.ss01.alt6;
+  sub Mu by Mu.ss01;
+  sub Mu.alt1 by Mu.ss01.alt1;
+  sub Mu.alt2 by Mu.ss01.alt2;
+  sub Mu.alt3 by Mu.ss01.alt3;
+  sub Mu.alt4 by Mu.ss01.alt4;
+  sub Mu.alt5 by Mu.ss01.alt5;
+  sub Mu.alt6 by Mu.ss01.alt6;
+  sub alpha by alpha.ss01;
+  sub alpha.alt1 by alpha.ss01.alt1;
+  sub alpha.alt2 by alpha.ss01.alt2;
+  sub alpha.alt3 by alpha.ss01.alt3;
+  sub alpha.alt4 by alpha.ss01.alt4;
+  sub alpha.alt5 by alpha.ss01.alt5;
+  sub alpha.alt6 by alpha.ss01.alt6;
+  sub delta by delta.ss01;
+  sub delta.alt1 by delta.ss01.alt1;
+  sub delta.alt2 by delta.ss01.alt2;
+  sub delta.alt3 by delta.ss01.alt3;
+  sub delta.alt4 by delta.ss01.alt4;
+  sub delta.alt5 by delta.ss01.alt5;
+  sub delta.alt6 by delta.ss01.alt6;
+  sub theta by theta.ss01;
+  sub theta.alt1 by theta.ss01.alt1;
+  sub theta.alt2 by theta.ss01.alt2;
+  sub theta.alt3 by theta.ss01.alt3;
+  sub theta.alt4 by theta.ss01.alt4;
+  sub theta.alt5 by theta.ss01.alt5;
+  sub theta.alt6 by theta.ss01.alt6;
+  sub lambda by lambda.ss01;
+  sub lambda.alt1 by lambda.ss01.alt1;
+  sub lambda.alt2 by lambda.ss01.alt2;
+  sub lambda.alt3 by lambda.ss01.alt3;
+  sub lambda.alt4 by lambda.ss01.alt4;
+  sub lambda.alt5 by lambda.ss01.alt5;
+  sub lambda.alt6 by lambda.ss01.alt6;
 } ss01;
 
 
