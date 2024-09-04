@@ -527,7 +527,7 @@ feature locl {
     sub otildedieresis by o tildecomb dieresiscomb.case;
     sub pacute by p acutecomb;
     sub rmacronbelow by r macronbelowcomb;
-    sub rstroke by r strokeshortcomb;
+    sub rstroke by r strokeshortcomb.narrow;
     sub sdotbelow by s dotbelowcomb;
     sub tcircumflexbelow by t circumflexbelowcomb;
     sub tdotbelow by t dotbelowcomb;
