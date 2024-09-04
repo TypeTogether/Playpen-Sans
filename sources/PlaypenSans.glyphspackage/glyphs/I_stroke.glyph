@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 9;
 glyphname = Istroke;
 kernLeft = Istroke;
 kernRight = Istroke;
@@ -14,7 +14,7 @@ ref = I;
 },
 {
 pos = (170,10);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 377;
@@ -29,7 +29,7 @@ ref = I;
 },
 {
 pos = (171,10);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 369;
@@ -51,7 +51,7 @@ ref = I;
 },
 {
 pos = (194,10);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 389;

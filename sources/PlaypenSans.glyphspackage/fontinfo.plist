@@ -1114,6 +1114,9 @@ slashlongcomb,
 strokeshortcomb.case,
 slashshortcomb.case,
 slashlongcomb.case,
+strokeshortcomb.narrow,
+strokelongcomb.narrow,
+strokeshortcomb.case.narrow,
 strokeshortcomb.t,
 apostrophemod,
 degree,
@@ -3133,6 +3136,7 @@ GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -3226,6 +3230,7 @@ GSOffsetKeepCompatible = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -3318,6 +3323,7 @@ GSOffsetHorizontal = -21;
 GSOffsetKeepCompatible = 1;
 GSOffsetVertical = -7;
 };
+visible = 1;
 }
 );
 instances = (

@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = Jstroke;
 kernLeft = J;
 kernRight = Istroke;
@@ -12,7 +13,7 @@ ref = J;
 },
 {
 pos = (390,60);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 555;
@@ -26,7 +27,7 @@ ref = J;
 },
 {
 pos = (428,60);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 612;
@@ -40,7 +41,7 @@ ref = J;
 },
 {
 pos = (430,60);
-ref = strokeshortcomb.case;
+ref = strokeshortcomb.case.narrow;
 }
 );
 width = 633;

@@ -1,5 +1,5 @@
 {
-color = 10;
+color = 9;
 glyphname = ubar;
 kernLeft = istroke;
 kernRight = istroke;
@@ -11,9 +11,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (293,-49);
-ref = strokelongcomb;
-scale = (0.8,1);
+pos = (290,-49);
+ref = strokelongcomb.narrow;
 }
 );
 width = 581;
@@ -25,9 +24,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (288,-49);
-ref = strokelongcomb;
-scale = (0.8,1);
+pos = (286,-49);
+ref = strokelongcomb.narrow;
 }
 );
 width = 582;
@@ -39,9 +37,8 @@ shapes = (
 ref = u;
 },
 {
-pos = (302,-47);
-ref = strokelongcomb;
-scale = (0.8,1);
+pos = (301,-47);
+ref = strokelongcomb.narrow;
 }
 );
 width = 622;
