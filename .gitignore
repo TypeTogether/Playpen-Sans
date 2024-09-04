@@ -1,5 +1,6 @@
 *.glyphs
 *sublime*
+*(Autosaved)*
 .DS_Store
 UIState.plist
 _fbakery*

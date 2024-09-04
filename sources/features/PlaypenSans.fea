@@ -555,7 +555,15 @@ feature locl {
 
   # Comes from Glyphs.app
   lookup ccmp_DFLT_1 {
+    @CombiningTopAccents = [acutecomb acutemacroncomb brevecomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb gravemacroncomb hookabovecomb hungarumlautcomb macronacutecomb macroncomb macrongravecomb ringcomb tildecomb verticallineabovecomb];
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub i' @CombiningTopAccents by idotless;
+    sub j' @CombiningTopAccents by jdotless;
+  } ccmp_DFLT_1;
+
+  lookup ccmp_DFLT_2 {
     lookupflag 0;
+    sub acutecomb macroncomb by acutecomb_macroncomb;
     sub brevecomb acutecomb by brevecomb_acutecomb;
     sub brevecomb gravecomb by brevecomb_gravecomb;
     sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
@@ -564,32 +572,39 @@ feature locl {
     sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
     sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
     sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-  } ccmp_DFLT_1;
+    sub gravecomb macroncomb by gravecomb_macroncomb;
+    sub macroncomb acutecomb by macroncomb_acutecomb;
+    sub macroncomb gravecomb by macroncomb_gravecomb;
+  } ccmp_DFLT_2;
 
   lookup ccmp_Other_1 {
-    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-    @CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-    lookupflag UseMarkFilteringSet @CombiningTopAccents;
-    sub [i j]' @CombiningTopAccents by [idotless jdotless];
-    sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-    @Markscomb = [brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb strokeshortcomb slashshortcomb slashlongcomb];
-    @MarkscombCase = [brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+    lookupflag 0;
+    @Markscomb = [brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb strokeshortcomb slashshortcomb slashlongcomb verticallineabovecomb dblgravecomb tonos];
+    @MarkscombCase = [brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case verticallineabovecomb.case dblgravecomb.case tonos.case];
     sub @Markscomb @Markscomb' by @MarkscombCase;
     sub @Uppercase @Markscomb' by @MarkscombCase;
   } ccmp_Other_1;
 
   lookup ccmp_Other_2 {
+    lookupflag 0;
     sub @Markscomb' @MarkscombCase by @MarkscombCase;
     sub @MarkscombCase @Markscomb' by @MarkscombCase;
   } ccmp_Other_2;
 
   lookup ccmp_latn_1 {
+    lookupflag 0;
+    sub itildebelow by i tildebelowcomb;
+  } ccmp_latn_1;
+
+  lookup ccmp_latn_2 {
+    lookupflag 0;
     sub fi by f i;
     sub fl by f l;
-  } ccmp_latn_1;
+  } ccmp_latn_2;
 
   script latn;
   lookup ccmp_latn_1;
+  lookup ccmp_latn_2;
 
 } ccmp;
 
