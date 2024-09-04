@@ -509,10 +509,10 @@ feature locl {
     sub hdotbelow by h dotbelowcomb;
     sub idblgrave by idotless dblgravecomb;
     sub idieresisacute by idotless dieresiscomb acutecomb.case;
-    sub istroke by i strokeshortcomb;
+    sub istroke by i strokeshortcomb.narrow;
     sub itildebelow by i tildebelowcomb;
     sub jcaron by jdotless caroncomb;
-    sub jstroke by j strokeshortcomb;
+    sub jstroke by j strokeshortcomb.narrow;
     sub lcircumflexbelow by l circumflexbelowcomb;
     sub ldotbelow by l dotbelowcomb;
     sub macute by m acutecomb;
@@ -536,7 +536,7 @@ feature locl {
     sub udieresisbelow by u dieresisbelowcomb;
     sub utildeacute by u tildecomb acutecomb.case;
     sub utildebelow by u tildebelowcomb;
-    sub ubar by u strokelongcomb;
+    # sub ubar by u strokelongcomb;
     sub xdotaccent by x dotaccentcomb;
     sub zcircumflex by z circumflexcomb;
     sub zdotbelow by z dotbelowcomb;
