@@ -465,7 +465,7 @@ feature locl {
     sub Hdotbelow by H dotbelowcomb;
     sub Idblgrave by I dblgravecomb.case;
     sub Idieresisacute by I dieresiscomb.case acutecomb.case;
-    sub Istroke by I strokeshortcomb.case;
+    sub Istroke by I strokeshortcomb.case.narrow;
     sub Itildebelow by I tildebelowcomb;
     sub Jcaron by J caroncomb.case;
     sub Jstroke by J strokeshortcomb.case;
