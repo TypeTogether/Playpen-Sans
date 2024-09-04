@@ -1,5 +1,5 @@
 {
-color = 9;
+color = 10;
 glyphname = rstroke;
 kernLeft = n;
 kernRight = r;
@@ -25,7 +25,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (145,-231);
+pos = (145,-211);
 ref = strokeshortcomb.narrow;
 }
 );
@@ -38,7 +38,7 @@ shapes = (
 ref = r;
 },
 {
-pos = (160,-231);
+pos = (154,-208);
 ref = strokeshortcomb.narrow;
 }
 );
