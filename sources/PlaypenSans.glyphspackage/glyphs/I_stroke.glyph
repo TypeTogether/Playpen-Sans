@@ -13,7 +13,7 @@ pos = (30,0);
 ref = I;
 },
 {
-pos = (170,10);
+pos = (168,10);
 ref = strokeshortcomb.case.narrow;
 }
 );
@@ -28,20 +28,13 @@ pos = (30,0);
 ref = I;
 },
 {
-pos = (171,10);
+pos = (172,10);
 ref = strokeshortcomb.case.narrow;
 }
 );
 width = 369;
 },
 {
-annotations = (
-{
-pos = (312.206,172.01);
-text = "Check if /I needs a center anchor";
-type = Text;
-}
-);
 layerId = m003;
 shapes = (
 {
@@ -50,7 +43,7 @@ pos = (30,0);
 ref = I;
 },
 {
-pos = (194,10);
+pos = (191,10);
 ref = strokeshortcomb.case.narrow;
 }
 );

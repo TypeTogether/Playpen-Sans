@@ -11,7 +11,7 @@ pos = (151,0);
 },
 {
 name = center;
-pos = (123,305);
+pos = (143,305);
 },
 {
 name = ogonek;
@@ -80,7 +80,7 @@ pos = (111,0);
 },
 {
 name = center;
-pos = (134,292);
+pos = (135,292);
 },
 {
 name = ogonek;
@@ -149,7 +149,7 @@ pos = (156,-12);
 },
 {
 name = center;
-pos = (136,294);
+pos = (145,294);
 },
 {
 name = ogonek;
