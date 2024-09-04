@@ -553,6 +553,10 @@ feature locl {
     sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by idotless ogonekcomb;
   } SOFTDOT_IOGONEK;
 
+  lookup SOFTDOT_OTHERS {
+    sub i' strokeshortcomb.narrow [acutecomb gravecomb circumflexcomb] by idotless;
+  } SOFTDOT_OTHERS;
+
   # Comes from Glyphs.app
   lookup ccmp_DFLT_1 {
     @CombiningTopAccents = [acutecomb acutemacroncomb brevecomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb gravemacroncomb hookabovecomb hungarumlautcomb macronacutecomb macroncomb macrongravecomb ringcomb tildecomb verticallineabovecomb];
