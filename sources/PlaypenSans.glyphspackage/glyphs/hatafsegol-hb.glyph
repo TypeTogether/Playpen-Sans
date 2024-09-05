@@ -1,0 +1,65 @@
+{
+glyphname = "hatafsegol-hb";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-52,0);
+ref = "segol-hb";
+},
+{
+pos = (106,2);
+ref = "sheva-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-67,-16);
+ref = "segol-hb";
+},
+{
+pos = (133,-3);
+ref = "sheva-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (-58,-7);
+ref = "segol-hb";
+},
+{
+alignment = -1;
+pos = (116,0);
+ref = "sheva-hb";
+}
+);
+width = 0;
+}
+);
+unicode = 1457;
+}

@@ -1,0 +1,65 @@
+{
+glyphname = "tsere-hb";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (50,-763);
+ref = "holam-hb";
+},
+{
+pos = (-51,-763);
+ref = "holam-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (63,-805);
+ref = "holam-hb";
+},
+{
+pos = (-71,-805);
+ref = "holam-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (55,-780);
+ref = "holam-hb";
+},
+{
+alignment = -1;
+pos = (-58,-780);
+ref = "holam-hb";
+}
+);
+width = 0;
+}
+);
+unicode = 1461;
+}

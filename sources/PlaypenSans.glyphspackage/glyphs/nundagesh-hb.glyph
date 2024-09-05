@@ -1,0 +1,97 @@
+{
+color = 4;
+glyphname = "nundagesh-hb";
+kernLeft = "nundagesh-hb";
+kernRight = "vav-hb";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (72,-165);
+},
+{
+name = top;
+pos = (166,570);
+},
+{
+name = topleft;
+pos = (60,570);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (20,0);
+ref = "nun-hb";
+},
+{
+pos = (32,29);
+ref = "dagesh-hb";
+}
+);
+width = 294;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (104,-221);
+},
+{
+name = top;
+pos = (192,596);
+},
+{
+name = topleft;
+pos = (54,596);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (36,0);
+ref = "nun-hb";
+},
+{
+pos = (33,22);
+ref = "dagesh-hb";
+}
+);
+width = 361;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (84,-188);
+},
+{
+name = top;
+pos = (176,581);
+},
+{
+name = topleft;
+pos = (58,581);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (26,0);
+ref = "nun-hb";
+},
+{
+alignment = -1;
+pos = (32,26);
+ref = "dagesh-hb";
+}
+);
+width = 319;
+}
+);
+unicode = 64320;
+}
