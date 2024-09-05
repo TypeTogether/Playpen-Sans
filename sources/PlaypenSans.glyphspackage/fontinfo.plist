@@ -3228,6 +3228,10 @@ data = Latn;
 tag = slng;
 }
 );
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2024-07-10 13:57:35 +0000";
@@ -3250,6 +3254,7 @@ languagesystem latn TRK;
 
 include(features/cyr-classes-PlaypenSans.fea);
 include(features/grk-classes-PlaypenSans.fea);
+include(features/heb-classes-PlaypenSans.fea);
 include(features/latx-classes-PlaypenSans.fea);
 include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
