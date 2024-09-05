@@ -3187,5 +3187,6 @@ sheqel,
 zerowidthnonjoiner,
 zerowidthjoiner,
 lefttorightmark,
-righttoleftmark
+righttoleftmark,
+"dagesh-hb.001"
 )
