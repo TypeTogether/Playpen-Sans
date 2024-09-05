@@ -4,53 +4,14 @@ glyphname = zerowidthnonjoiner;
 layers = (
 {
 layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-43,720,l),
-(-5,655,l),
-(-5,-15,l),
-(5,-15,l),
-(5,655,l),
-(43,720,l)
-);
-}
-);
-width = 0;
-},
-{
-layerId = m003;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-43,720,l),
-(-5,655,l),
-(-5,-15,l),
-(5,-15,l),
-(5,655,l),
-(43,720,l)
-);
-}
-);
 width = 0;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
-shapes = (
+width = 0;
+},
 {
-closed = 1;
-nodes = (
-(-43,720,l),
-(-5,655,l),
-(-5,-15,l),
-(5,-15,l),
-(5,655,l),
-(43,720,l)
-);
-}
-);
+layerId = m003;
 width = 0;
 }
 );
