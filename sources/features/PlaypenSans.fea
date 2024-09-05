@@ -409,7 +409,7 @@ feature locl {
 
     lookup decomp_CYRL {
     # lookupflag 0;
-    sub Gje-cy by Ge-cy acutecomb.case;
+    sub Gje-cy by Ge-cy acutecomb;
     sub Iishort-cy by Ii-cy breve-cy.case;
     sub Iigrave-cy by Ii-cy gravecomb.case;
     sub Kje-cy by Ka-cy acutecomb.case;
@@ -546,6 +546,42 @@ feature locl {
     sub macroncomb_gravecomb by macroncomb gravecomb;
     sub macroncomb_acutecomb by macroncomb acutecomb;
   } decomp_LATX;
+
+  lookup decomp_HEB {
+    lookupflag RightToLeft;
+    sub alefdagesh-hb by alef-hb dagesh-hb;  
+    sub alefpatah-hb by alef-hb patah-hb;
+    sub alefqamats-hb by alef-hb qamats-hb;
+    sub betdagesh-hb by bet-hb dagesh-hb;
+    sub betrafe-hb by bet-hb rafe-hb;
+    sub daletdagesh-hb by dalet-hb dagesh-hb;
+    sub gimeldagesh-hb by gimel-hb dagesh-hb;
+    sub hedagesh-hb by he-hb dagesh-hb;
+    sub kafdagesh-hb by kaf-hb dagesh-hb;
+    sub kafrafe-hb by kaf-hb rafe-hb;
+    sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
+    sub lameddagesh-hb by lamed-hb dagesh-hb;
+    sub lamedholam-hb by lamed-hb holam-hb;
+    sub memdagesh-hb by mem-hb dagesh-hb;
+    sub nundagesh-hb by nun-hb dagesh-hb;
+    sub pedagesh-hb by pe-hb dagesh-hb;
+    sub pedageshFinal-hb by peFinal-hb dagesh-hb;
+    sub perafe-hb by pe-hb rafe-hb;
+    sub qofdagesh-hb by qof-hb dagesh-hb;
+    sub reshdagesh-hb by resh-hb dagesh-hb;
+    sub samekhdagesh-hb by samekh-hb dagesh-hb;
+    sub shindagesh-hb by shin-hb dagesh-hb;
+    sub shindageshshindot-hb by shin-hb dagesh-hb shindot-hb;
+    sub shinshindot-hb by shin-hb shindot-hb;
+    sub shinsindot-hb by shin-hb sindot-hb;
+    sub tavdagesh-hb by tav-hb dagesh-hb;
+    sub tetdagesh-hb by tet-hb dagesh-hb;
+    sub tsadidagesh-hb by tsadi-hb dagesh-hb;
+    sub vavholam-hb by vav-hb holam-hb;
+    sub yodhiriq-hb by yod-hb hiriq-hb;
+    #sub yodyodpatah-hb by yodyod-hb patah-hb; # breaks locl yodyodpatah formation
+    sub zayindagesh-hb by zayin-hb dagesh-hb;
+  } decomp_HEB;
 
   # End decomposition
 

@@ -23,7 +23,8 @@ echo
 
 fontmake -g ./PlaypenSans.glyphspackage -o variable --output-path \
 			$varFontsPath/PlaypenSans[wght]-dev.ttf \
-			--filter DecomposeTransformedComponentsFilter
+			--filter DecomposeTransformedComponentsFilter \
+			--no-production-names
 			# --flatten-components
 
 echo "
