@@ -1,0 +1,41 @@
+# DEFAULT CLASSES:
+@dflt_hebr_1 = [alef-hb pe-hb nunFinal-hb memFinal-hb mem-hb dalet-hb resh-hb tet-hb space];
+@dflt_hebr_2 = [yod-hb qof-hb gimel-hb zayin-hb vavdagesh-hb kafFinal-hb lamed-hb shin-hb];
+@dflt_hebr_3 = [yoddagesh-hb vav-hb het-hb nun-hb tav-hb he-hb peFinal-hb];
+@dflt_hebr_4 = [samekh-hb bet-hb kaf-hb ayin-hb tsadiFinal-hb nundagesh-hb tsadi-hb];
+
+
+# ALTERNATE CLASSES:
+@alt1_hebr_1 = [alef-hb.alt1 pe-hb.alt1 nunFinal-hb.alt1 memFinal-hb.alt1 mem-hb.alt1 dalet-hb.alt1 resh-hb.alt1 tet-hb.alt1 space.alt1];
+@alt2_hebr_1 = [alef-hb.alt2 pe-hb.alt2 nunFinal-hb.alt2 memFinal-hb.alt2 mem-hb.alt2 dalet-hb.alt2 resh-hb.alt2 tet-hb.alt2 space.alt2];
+@alt3_hebr_1 = [alef-hb.alt3 pe-hb.alt3 nunFinal-hb.alt3 memFinal-hb.alt3 mem-hb.alt3 dalet-hb.alt3 resh-hb.alt3 tet-hb.alt3 space.alt3];
+@alt4_hebr_1 = [alef-hb.alt4 pe-hb.alt4 nunFinal-hb.alt4 memFinal-hb.alt4 mem-hb.alt4 dalet-hb.alt4 resh-hb.alt4 tet-hb.alt4 space.alt4];
+#
+@alt1_hebr_2 = [yod-hb.alt1 qof-hb.alt1 gimel-hb.alt1 zayin-hb.alt1 vavdagesh-hb.alt1 kafFinal-hb.alt1 lamed-hb.alt1 shin-hb.alt1];
+@alt2_hebr_2 = [yod-hb.alt2 qof-hb.alt2 gimel-hb.alt2 zayin-hb.alt2 vavdagesh-hb.alt2 kafFinal-hb.alt2 lamed-hb.alt2 shin-hb.alt2];
+@alt3_hebr_2 = [yod-hb.alt3 qof-hb.alt3 gimel-hb.alt3 zayin-hb.alt3 vavdagesh-hb.alt3 kafFinal-hb.alt3 lamed-hb.alt3 shin-hb.alt3];
+@alt4_hebr_2 = [yod-hb.alt4 qof-hb.alt4 gimel-hb.alt4 zayin-hb.alt4 vavdagesh-hb.alt4 kafFinal-hb.alt4 lamed-hb.alt4 shin-hb.alt4];
+#
+@alt1_hebr_3 = [yoddagesh-hb.alt1 vav-hb.alt1 het-hb.alt1 nun-hb.alt1 tav-hb.alt1 he-hb.alt1 peFinal-hb.alt1];
+@alt2_hebr_3 = [yoddagesh-hb.alt2 vav-hb.alt2 het-hb.alt2 nun-hb.alt2 tav-hb.alt2 he-hb.alt2 peFinal-hb.alt2];
+@alt3_hebr_3 = [yoddagesh-hb.alt3 vav-hb.alt3 het-hb.alt3 nun-hb.alt3 tav-hb.alt3 he-hb.alt3 peFinal-hb.alt3];
+@alt4_hebr_3 = [yoddagesh-hb.alt4 vav-hb.alt4 het-hb.alt4 nun-hb.alt4 tav-hb.alt4 he-hb.alt4 peFinal-hb.alt4];
+#
+@alt1_hebr_4 = [samekh-hb.alt1 bet-hb.alt1 kaf-hb.alt1 ayin-hb.alt1 tsadiFinal-hb.alt1 nundagesh-hb.alt1 tsadi-hb.alt1];
+@alt2_hebr_4 = [samekh-hb.alt2 bet-hb.alt2 kaf-hb.alt2 ayin-hb.alt2 tsadiFinal-hb.alt2 nundagesh-hb.alt2 tsadi-hb.alt2];
+@alt3_hebr_4 = [samekh-hb.alt3 bet-hb.alt3 kaf-hb.alt3 ayin-hb.alt3 tsadiFinal-hb.alt3 nundagesh-hb.alt3 tsadi-hb.alt3];
+@alt4_hebr_4 = [samekh-hb.alt4 bet-hb.alt4 kaf-hb.alt4 ayin-hb.alt4 tsadiFinal-hb.alt4 nundagesh-hb.alt4 tsadi-hb.alt4];
+# #ALL
+# @dflt_hebr_ALL = [@dflt_hebr_1 @dflt_hebr_2 @dflt_hebr_3 @dflt_hebr_4];
+# @alt1_hebr_ALL = [@alt1_hebr_1 @alt1_hebr_2 @alt1_hebr_3 @alt1_hebr_4];
+# @alt2_hebr_ALL = [@alt2_hebr_1 @alt2_hebr_2 @alt2_hebr_3 @alt2_hebr_4];
+# @alt3_hebr_ALL = [@alt3_hebr_1 @alt3_hebr_2 @alt3_hebr_3 @alt3_hebr_4];
+# @alt4_hebr_ALL = [@alt4_hebr_1 @alt4_hebr_2 @alt4_hebr_3 @alt4_hebr_4];
+#
+# NO ALTERNATES
+@NO_hebr_ALTS = [alefpatah-hb alefqamats-hb alefdagesh-hb betdagesh-hb betrafe-hb gimeldagesh-hb daletdagesh-hb hedagesh-hb vavholam-hb zayindagesh-hb tetdagesh-hb yodhiriq-hb yodhiriq-hb.JII kafdagesh-hb kafrafe-hb kafdageshFinal-hb lameddagesh-hb lamedholam-hb lameddageshholam-hb memdagesh-hb samekhdagesh-hb pedagesh-hb perafe-hb pedageshFinal-hb tsadidagesh-hb qofdagesh-hb reshdagesh-hb shindagesh-hb shinshindot-hb shinsindot-hb shindageshshindot-hb shindageshsindot-hb tavdagesh-hb vavvav-hb vavyod-hb yodyod-hb yodyodpatah-hb sheqel sheva-hb hatafsegol-hb hatafpatah-hb hatafqamats-hb hiriq-hb tsere-hb segol-hb patah-hb qamats-hb holam-hb holamhaser-hb qubuts-hb dagesh-hb rafe-hb shindot-hb sindot-hb qamatsqatan-hb maqaf-hb geresh-hb gershayim-hb alternativeplus-hb zerowidthnonjoiner zerowidthjoiner lefttorightmark righttoleftmark];
+#
+# @ALL_hebr_ALL = [@dflt_hebr_ALL @alt1_hebr_ALL @alt2_hebr_ALL @alt3_hebr_ALL @NO_hebr_ALTS];
+
+
+# @comb_marks_hebr = [sheva-hb hatafsegol-hb hatafpatah-hb hatafqamats-hb hiriq-hb tsere-hb segol-hb patah-hb qamats-hb holam-hb holamhaser-hb qubuts-hb dagesh-hb rafe-hb shindot-hb sindot-hb qamatsqatan-hb ]
