@@ -1,0 +1,52 @@
+{
+glyphname = "hiriq-hb";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-764);
+ref = "holam-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (0,-809);
+ref = "holam-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (0,-783);
+ref = "holam-hb";
+}
+);
+width = 0;
+}
+);
+unicode = 1460;
+}

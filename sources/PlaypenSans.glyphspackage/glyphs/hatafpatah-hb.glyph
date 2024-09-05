@@ -1,0 +1,65 @@
+{
+glyphname = "hatafpatah-hb";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (-52,0);
+ref = "patah-hb";
+},
+{
+pos = (136,2);
+ref = "sheva-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-65,2);
+ref = "patah-hb";
+},
+{
+pos = (155,-4);
+ref = "sheva-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (-57,1);
+ref = "patah-hb";
+},
+{
+alignment = -1;
+pos = (143,0);
+ref = "sheva-hb";
+}
+);
+width = 0;
+}
+);
+unicode = 1458;
+}
