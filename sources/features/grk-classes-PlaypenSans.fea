@@ -35,16 +35,16 @@
 @alt5_grk_4 = [Omega.alt5 sigmafinal.alt5 lambda.ss01.alt5 chi.alt5 Pi.alt5 theta.ss01.alt5 theta.alt5 alpha.alt5 eta.alt5 delta.ss01.alt5 sigma.alt5 Chi.alt5 Upsilon.alt5 Kappa.alt5];
 @alt6_grk_4 = [Omega.alt6 sigmafinal.alt6 lambda.ss01.alt6 chi.alt6 Pi.alt6 theta.ss01.alt6 theta.alt6 alpha.alt6 eta.alt6 delta.ss01.alt6 sigma.alt6 Chi.alt6 Upsilon.alt6 Kappa.alt6];
 
-# #ALL
-# @dflt_grk_ALL = [@dflt_grk_1 @dflt_grk_2 @dflt_grk_3 @dflt_grk_4];
-# @alt1_grk_ALL = [@alt1_grk_1 @alt1_grk_2 @alt1_grk_3 @alt1_grk_4];
-# @alt2_grk_ALL = [@alt2_grk_1 @alt2_grk_2 @alt2_grk_3 @alt2_grk_4];
-# @alt3_grk_ALL = [@alt3_grk_1 @alt3_grk_2 @alt3_grk_3 @alt3_grk_4];
-# @alt4_grk_ALL = [@alt4_grk_1 @alt4_grk_2 @alt4_grk_3 @alt4_grk_4];
-# @alt5_grk_ALL = [@alt5_grk_1 @alt5_grk_2 @alt5_grk_3 @alt5_grk_4];
-# @alt6_grk_ALL = [@alt6_grk_1 @alt6_grk_2 @alt6_grk_3 @alt6_grk_4];
-# #
+#ALL
+@dflt_grk_ALL = [@dflt_grk_1 @dflt_grk_2 @dflt_grk_3 @dflt_grk_4];
+@alt1_grk_ALL = [@alt1_grk_1 @alt1_grk_2 @alt1_grk_3 @alt1_grk_4];
+@alt2_grk_ALL = [@alt2_grk_1 @alt2_grk_2 @alt2_grk_3 @alt2_grk_4];
+@alt3_grk_ALL = [@alt3_grk_1 @alt3_grk_2 @alt3_grk_3 @alt3_grk_4];
+@alt4_grk_ALL = [@alt4_grk_1 @alt4_grk_2 @alt4_grk_3 @alt4_grk_4];
+@alt5_grk_ALL = [@alt5_grk_1 @alt5_grk_2 @alt5_grk_3 @alt5_grk_4];
+@alt6_grk_ALL = [@alt6_grk_1 @alt6_grk_2 @alt6_grk_3 @alt6_grk_4];
+#
 # # NO ALTERNATES
-# @NO_grk_ALTS = [dottedCircle];
-# #
-# @ALL_grk_ALL = [@dflt_grk_ALL @alt1_grk_ALL @alt2_grk_ALL @alt3_grk_ALL @NO_grk_ALTS];
+@NO_grk_ALTS = [dottedCircle];
+#
+@ALL_grk_ALL = [@dflt_grk_ALL @alt1_grk_ALL @alt2_grk_ALL @alt3_grk_ALL @NO_grk_ALTS];

@@ -35,16 +35,16 @@
 @alt5_cyr_4 = [ge-cy.loclBGR.alt5 iishort-cy.ss01.alt5 be-cy.alt5 Yu-cy.alt5 Tse-cy.alt5 u-cy.ss01.alt5 I-cy.alt5 ereversed-cy.alt5 endescender-cy.alt5 Ie-cy.alt5 geupturn-cy.alt5 nje-cy.alt5 Lje-cy.alt5 es-cy.alt5 palochka-cy.alt5 Ustraight-cy.alt5 de-cy.loclBGR.alt5 Ereversed-cy.alt5 Zhe-cy.alt5 yi_yi-cy.alt5 schwa-cy.alt5 Tshe-cy.alt5 Endescender-cy.alt5 Palochka-cy.alt5 De-cy.alt5 Em-cy.alt5 en-cy.alt5 el-cy.alt5 je-cy.alt5 ze-cy.alt5 Kadescender-cy.alt5 space.alt5];
 @alt6_cyr_4 = [ge-cy.loclBGR.alt6 iishort-cy.ss01.alt6 be-cy.alt6 Yu-cy.alt6 Tse-cy.alt6 u-cy.ss01.alt6 I-cy.alt6 ereversed-cy.alt6 endescender-cy.alt6 Ie-cy.alt6 geupturn-cy.alt6 nje-cy.alt6 Lje-cy.alt6 es-cy.alt6 palochka-cy.alt6 Ustraight-cy.alt6 de-cy.loclBGR.alt6 Ereversed-cy.alt6 Zhe-cy.alt6 yi_yi-cy.alt6 schwa-cy.alt6 Tshe-cy.alt6 Endescender-cy.alt6 Palochka-cy.alt6 De-cy.alt6 Em-cy.alt6 en-cy.alt6 el-cy.alt6 je-cy.alt6 ze-cy.alt6 Kadescender-cy.alt6 space.alt6];
 
-# #ALL
-# @dflt_cyr_ALL = [@dflt_cyr_1 @dflt_cyr_2 @dflt_cyr_3 @dflt_cyr_4];
-# @alt1_cyr_ALL = [@alt1_cyr_1 @alt1_cyr_2 @alt1_cyr_3 @alt1_cyr_4];
-# @alt2_cyr_ALL = [@alt2_cyr_1 @alt2_cyr_2 @alt2_cyr_3 @alt2_cyr_4];
-# @alt3_cyr_ALL = [@alt3_cyr_1 @alt3_cyr_2 @alt3_cyr_3 @alt3_cyr_4];
-# @alt4_cyr_ALL = [@alt4_cyr_1 @alt4_cyr_2 @alt4_cyr_3 @alt4_cyr_4];
-# @alt5_cyr_ALL = [@alt5_cyr_1 @alt5_cyr_2 @alt5_cyr_3 @alt5_cyr_4];
-# @alt6_cyr_ALL = [@alt6_cyr_1 @alt6_cyr_2 @alt6_cyr_3 @alt6_cyr_4];
-# #
-# # NO ALTERNATES
-# @NO_cyr_ALTS = [dottedCircle];
-# #
-# @ALL_cyr_ALL = [@dflt_cyr_ALL @alt1_cyr_ALL @alt2_cyr_ALL @alt3_cyr_ALL @NO_cyr_ALTS];
+#ALL
+@dflt_cyr_ALL = [@dflt_cyr_1 @dflt_cyr_2 @dflt_cyr_3 @dflt_cyr_4];
+@alt1_cyr_ALL = [@alt1_cyr_1 @alt1_cyr_2 @alt1_cyr_3 @alt1_cyr_4];
+@alt2_cyr_ALL = [@alt2_cyr_1 @alt2_cyr_2 @alt2_cyr_3 @alt2_cyr_4];
+@alt3_cyr_ALL = [@alt3_cyr_1 @alt3_cyr_2 @alt3_cyr_3 @alt3_cyr_4];
+@alt4_cyr_ALL = [@alt4_cyr_1 @alt4_cyr_2 @alt4_cyr_3 @alt4_cyr_4];
+@alt5_cyr_ALL = [@alt5_cyr_1 @alt5_cyr_2 @alt5_cyr_3 @alt5_cyr_4];
+@alt6_cyr_ALL = [@alt6_cyr_1 @alt6_cyr_2 @alt6_cyr_3 @alt6_cyr_4];
+#
+# NO ALTERNATES
+@NO_cyr_ALTS = [dottedCircle];
+#
+@ALL_cyr_ALL = [@dflt_cyr_ALL @alt1_cyr_ALL @alt2_cyr_ALL @alt3_cyr_ALL @NO_cyr_ALTS];

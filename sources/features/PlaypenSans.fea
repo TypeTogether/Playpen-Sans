@@ -664,8 +664,7 @@ feature ordn {
 
 
 feature calt {
-  # the classes merged are LAT CYR GRK
-  lookup pseudoRandom {
+  lookup PseudoRandom {
     lookupflag IgnoreMarks;
     sub @dflt_1' @dflt_1 @dflt_1 @dflt_1 by @alt4_1;
     sub @dflt_1' @dflt_1 @dflt_1 @dflt_2 by @alt5_1;
@@ -923,7 +922,7 @@ feature calt {
     sub @dflt_4' @dflt_4 @dflt_4 @dflt_2 by @alt3_4;
     sub @dflt_4' @dflt_4 @dflt_4 @dflt_3 by @alt3_4;
     sub @dflt_4' @dflt_4 @dflt_4 @dflt_4 by @alt5_4;
-  } pseudoRandom;
+  } PseudoRandom;
 
   lookup BackwardsCheck {
     lookupflag IgnoreMarks;
@@ -1096,6 +1095,31 @@ feature calt {
     sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt4_4;
     sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt5_4;
   } BackwardsCheck;
+
+  # script cyrl;
+  lookup PseudoRandom_CYRL {
+    include(features/cyr-PseudoRandom.fea);
+  } PseudoRandom_CYRL;
+  lookup BackwardsCheck_CYRL {
+    include(features/cyr-BackwardsCheck.fea);
+  } BackwardsCheck_CYRL;
+
+  # script grek;
+  lookup PseudoRandom_GREK {
+    include(features/grk-PseudoRandom.fea);
+  } PseudoRandom_GREK;
+  lookup BackwardsCheck_GREK {
+    include(features/grk-BackwardsCheck.fea);
+  } BackwardsCheck_GREK;
+
+  script hebr;
+  lookup PseudoRandom_HEBR {
+    include(features/heb-PseudoRandom.fea);
+  } PseudoRandom_HEBR;
+  lookup BackwardsCheck_HEBR {
+    include(features/heb-BackwardsCheck.fea);
+  } BackwardsCheck_HEBR;
+  
 } calt;
 
 
