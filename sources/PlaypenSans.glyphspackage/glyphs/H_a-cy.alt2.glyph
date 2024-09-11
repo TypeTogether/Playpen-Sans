@@ -1,5 +1,7 @@
 {
 glyphname = "Ha-cy.alt2";
+kernLeft = "Ha-cy";
+kernRight = "Ha-cy";
 layers = (
 {
 layerId = m01;

@@ -1,5 +1,7 @@
 {
 glyphname = "e-cy.alt3";
+kernLeft = "o-cy";
+kernRight = "e-cy";
 layers = (
 {
 anchors = (

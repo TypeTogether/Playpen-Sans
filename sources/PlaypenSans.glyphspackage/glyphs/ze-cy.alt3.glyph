@@ -1,5 +1,7 @@
 {
 glyphname = "ze-cy.alt3";
+kernLeft = "ze-cy";
+kernRight = "ze-cy";
 layers = (
 {
 layerId = m003;

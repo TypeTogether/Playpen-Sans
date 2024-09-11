@@ -1,5 +1,6 @@
 {
 glyphname = "Nje-cy.alt4";
+kernLeft = "En-cy";
 kernRight = "Softsign-cy";
 layers = (
 {

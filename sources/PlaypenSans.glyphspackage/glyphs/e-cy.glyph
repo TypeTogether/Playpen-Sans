@@ -2,6 +2,7 @@
 color = 4;
 glyphname = "e-cy";
 kernLeft = "o-cy";
+kernRight = "e-cy";
 layers = (
 {
 anchors = (

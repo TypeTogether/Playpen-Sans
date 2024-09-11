@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = "a-cy.ss01";
-kernLeft = "a-cy.ss01a-cy.ss01";
+kernLeft = "a-cy.ss01";
 kernRight = "a-cy.ss01";
 layers = (
 {

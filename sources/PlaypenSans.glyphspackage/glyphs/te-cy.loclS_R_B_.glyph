@@ -2,6 +2,7 @@
 color = 4;
 glyphname = "te-cy.loclSRB";
 kernLeft = "sha-cy";
+kernRight = "en-cy";
 layers = (
 {
 layerId = m01;

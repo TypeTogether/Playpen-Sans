@@ -1,5 +1,6 @@
 {
 glyphname = "Softsign-cy.alt6";
+kernLeft = "En-cy";
 kernRight = "Softsign-cy";
 layers = (
 {

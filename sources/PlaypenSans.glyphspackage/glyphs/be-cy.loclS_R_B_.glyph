@@ -1,6 +1,8 @@
 {
 color = 4;
 glyphname = "be-cy.loclSRB";
+kernLeft = "be-cy.loclSRB";
+kernRight = "be-cy.loclSRB";
 layers = (
 {
 layerId = m01;

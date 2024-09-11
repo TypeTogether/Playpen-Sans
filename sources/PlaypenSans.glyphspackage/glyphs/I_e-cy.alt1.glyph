@@ -1,5 +1,7 @@
 {
 glyphname = "Ie-cy.alt1";
+kernLeft = "En-cy";
+kernRight = "Ie-cy";
 layers = (
 {
 layerId = m01;

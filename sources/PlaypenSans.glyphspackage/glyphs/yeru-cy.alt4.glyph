@@ -1,5 +1,6 @@
 {
 glyphname = "yeru-cy.alt4";
+kernLeft = "sha-cy";
 kernRight = "en-cy";
 layers = (
 {

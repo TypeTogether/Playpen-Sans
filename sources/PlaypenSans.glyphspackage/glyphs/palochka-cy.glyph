@@ -1,7 +1,8 @@
 {
 color = 4;
 glyphname = "palochka-cy";
-kernLeft = "yu-bgr";
+kernLeft = "yu-cy.loclBGR";
+kernRight = "palochka-cy";
 layers = (
 {
 layerId = m01;

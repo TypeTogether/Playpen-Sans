@@ -2,6 +2,7 @@
 color = 4;
 glyphname = "de-cy.loclSRB";
 kernLeft = "de-cy.loclBGR";
+kernRight = "de-cy.loclBGR";
 layers = (
 {
 layerId = m01;

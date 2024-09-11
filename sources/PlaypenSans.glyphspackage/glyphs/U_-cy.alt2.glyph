@@ -1,5 +1,6 @@
 {
 glyphname = "U-cy.alt2";
+kernLeft = "U-cy";
 kernRight = "U-cy";
 layers = (
 {

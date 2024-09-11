@@ -1,5 +1,7 @@
 {
 glyphname = "Ef-cy.loclBGR.alt3";
+kernLeft = "Ef-cy";
+kernRight = "Ef-cy";
 layers = (
 {
 layerId = m003;

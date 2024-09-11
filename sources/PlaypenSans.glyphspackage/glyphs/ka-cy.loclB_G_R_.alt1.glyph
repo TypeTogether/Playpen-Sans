@@ -1,5 +1,7 @@
 {
 glyphname = "ka-cy.loclBGR.alt1";
+kernLeft = "yu-bgr";
+kernRight = "ka-cy";
 layers = (
 {
 layerId = m01;

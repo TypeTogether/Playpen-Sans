@@ -1,5 +1,7 @@
 {
 glyphname = "Palochka-cy.alt2";
+kernLeft = "En-cy";
+kernRight = "palochka-cy";
 layers = (
 {
 layerId = m003;

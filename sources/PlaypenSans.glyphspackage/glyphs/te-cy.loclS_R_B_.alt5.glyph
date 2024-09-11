@@ -1,5 +1,7 @@
 {
 glyphname = "te-cy.loclSRB.alt5";
+kernLeft = "sha-cy";
+kernRight = "en-cy";
 layers = (
 {
 layerId = m003;

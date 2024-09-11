@@ -1,5 +1,7 @@
 {
 glyphname = "pe-cy.loclSRB.alt4";
+kernLeft = "sha-cy";
+kernRight = "en-cy";
 layers = (
 {
 layerId = m003;

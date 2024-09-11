@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = "iigrave-cy";
-kernLeft = "en-cy";
+kernLeft = "sha-cy";
 kernRight = "en-cy";
 layers = (
 {

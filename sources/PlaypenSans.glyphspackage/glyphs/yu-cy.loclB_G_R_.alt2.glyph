@@ -1,6 +1,7 @@
 {
 glyphname = "yu-cy.loclBGR.alt2";
 kernLeft = "yu-cy.loclBGR";
+kernRight = "o-cy";
 layers = (
 {
 anchors = (

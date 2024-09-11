@@ -1,5 +1,7 @@
 {
 glyphname = "O-cy.alt4";
+kernLeft = "O-cy";
+kernRight = "O-cy";
 layers = (
 {
 layerId = m003;

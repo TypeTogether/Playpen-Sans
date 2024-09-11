@@ -1,6 +1,7 @@
 {
 glyphname = "Ve-cy.alt4";
 kernLeft = "En-cy";
+kernRight = "Ve-cy";
 layers = (
 {
 layerId = m01;
