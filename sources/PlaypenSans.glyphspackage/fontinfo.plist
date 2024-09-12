@@ -3253,6 +3253,17 @@ languagesystem latn NLD;
 languagesystem latn ROM;
 languagesystem latn TAT;
 languagesystem latn TRK;
+#scandinavian
+languagesystem latn FIN;
+languagesystem latn ISM;
+languagesystem latn KSM;
+languagesystem latn LSM;
+languagesystem latn NOR;
+languagesystem latn NSM;
+languagesystem latn NYN;
+languagesystem latn SKS;
+languagesystem latn SSM;
+languagesystem latn SVE;
 
 languagesystem cyrl BGR;
 languagesystem cyrl MKD;
