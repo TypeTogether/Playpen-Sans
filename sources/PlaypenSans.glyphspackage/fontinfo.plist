@@ -3798,6 +3798,7 @@ languagesystem latn dflt;
 languagesystem grek dflt;
 languagesystem cyrl dflt;
 languagesystem hebr dflt;
+languagesystem arab dflt;
 
 languagesystem latn AZE;
 languagesystem latn CAT;
@@ -3828,6 +3829,7 @@ include(features/cyr-classes-PlaypenSans.fea);
 include(features/grk-classes-PlaypenSans.fea);
 include(features/heb-classes-PlaypenSans.fea);
 include(features/latx-classes-PlaypenSans.fea);
+include(features/ara-classes-PlaypenSans.fea);
 include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
 ";

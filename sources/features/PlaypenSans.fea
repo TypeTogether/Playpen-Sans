@@ -146,6 +146,14 @@ feature locl {
     lookup ENG_scandinavian;
   language SVE;
     lookup ENG_scandinavian;
+
+  script arab;
+  language URD;
+    lookup locl_arab_0 {
+      sub fourFarsi-ar by fourFarsi-ar.urdu;
+      sub sixFarsi-ar by six-ar;
+      sub sevenFarsi-ar by sevenFarsi-ar.urdu;
+    } locl_arab_0;
 } locl;
 
 
@@ -670,6 +678,38 @@ feature locl {
   lookup ccmp_latn_1;
   lookup ccmp_latn_2;
 
+  script arab;
+  lookup ccmp_arab_1 {
+    lookupflag 0;
+    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
+    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
+    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
+    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
+    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
+    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
+    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
+    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
+    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
+    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
+    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
+    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
+    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
+    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
+    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
+    sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
+    sub shadda-ar damma-ar by shaddaDamma-ar;
+    sub damma-ar shadda-ar by shaddaDamma-ar;
+    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+    sub dammatan-ar shadda-ar by shaddaDammatan-ar;
+    sub shadda-ar fatha-ar by shaddaFatha-ar;
+    sub fatha-ar shadda-ar by shaddaFatha-ar;
+    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+    sub fathatan-ar shadda-ar by shaddaFathatan-ar;
+    sub shadda-ar kasra-ar by shaddaKasra-ar;
+    sub kasra-ar shadda-ar by shaddaKasra-ar;
+    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+    sub kasratan-ar shadda-ar by shaddaKasratan-ar;
+  } ccmp_arab_1;
 } ccmp;
 
 
@@ -686,6 +726,9 @@ feature ordn {
   sub N o period by numero;
 } ordn;
 
+
+# ARA features before `calt`
+include(features/ara-PlaypenSans.fea);
 
 feature calt {
   lookup PseudoRandom {
@@ -1143,7 +1186,12 @@ feature calt {
   lookup BackwardsCheck_HEBR {
     include(features/heb-BackwardsCheck.fea);
   } BackwardsCheck_HEBR;
-  
+
+
+  script arab;
+  include(features/ara-pseudoRandom.fea);
+  include(features/ara-BackwardsCheck.fea);
+
 } calt;
 
 
@@ -1298,7 +1346,32 @@ feature ss01 {
   sub lambda.alt4 by lambda.ss01.alt4;
   sub lambda.alt5 by lambda.ss01.alt5;
   sub lambda.alt6 by lambda.ss01.alt6;
+
+  # ARA stylistic sets
+  lookup ss01_ara_0 {
+    sub [hah-ar hah-ar.alt1 hah-ar.alt2 hah-ar.alt3] by hah-ar.ss01;
+    sub [hah-ar.fina hah-ar.fina.alt1 hah-ar.fina.alt2 hah-ar.fina.alt3] by hah-ar.fina.ss01;
+    sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3] by hah-ar.medi.ss01;
+    sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
+  } ss01_ara_0;
+
 } ss01;
+
+
+# ARA features after `calt`
+include(features/ara-rclt.fea);
+include(features/ara-rlig.fea);
+
+
+feature ss02 {
+  featureNames {
+    name "Urdu numbers"; # Windows English
+    name 1 0 0 "Urdu numbers"; # Mac English
+  };
+  sub fourFarsi-ar by fourFarsi-ar.urdu;
+  sub sixFarsi-ar by six-ar;
+  sub sevenFarsi-ar by sevenFarsi-ar.urdu;
+} ss02;
 
 
 feature kern {
