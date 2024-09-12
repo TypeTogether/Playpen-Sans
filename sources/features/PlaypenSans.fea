@@ -122,6 +122,30 @@ feature locl {
     lookup ST_CEDILLA;
   language TRK exclude_dflt; # Turkish
     lookup I_TRK;
+
+  # Eng scandinavian
+  language FIN;
+    lookup SCANDINAVIAN_ENG {
+      sub Eng by Eng.alt;
+    } SCANDINAVIAN_ENG;
+  language ISM;
+    lookup ENG_scandinavian;
+  language KSM;
+    lookup ENG_scandinavian;
+  language LSM;
+    lookup ENG_scandinavian;
+  language NOR;
+    lookup ENG_scandinavian;
+  language NSM;
+    lookup ENG_scandinavian;
+  language NYN;
+    lookup ENG_scandinavian;
+  language SKS;
+    lookup ENG_scandinavian;
+  language SSM;
+    lookup ENG_scandinavian;
+  language SVE;
+    lookup ENG_scandinavian;
 } locl;
 
 
