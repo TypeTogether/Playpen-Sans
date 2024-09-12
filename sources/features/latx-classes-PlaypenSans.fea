@@ -2,7 +2,7 @@
 @dflt_latx_1 = [Yhook Vturned Bhook whook yhook dtail Ghook space Hhook eturned rtail clicklateral Alpha-latin Chook Iota-latin Ezh vturned beta-latin space];
 @dflt_latx_2 = [hturned Ismall Oopen Hturned Rtail Esh Upsilon-latin ezh phook Mhook Aturned bhook Dhook Eturned dhook ghook yturned Whook alpha-latin];
 @dflt_latx_3 = [esh Fhook nhookleft hhook Thook glottalstopreversed Khook mhook khook Vhook glottalstop Glottalstopsmall eopen clickalveolar Mturned Tretroflexhook aturned gamma-latin glottalstopsmall];
-@dflt_latx_4 = [Nhookleft Saltillo rfishhook Phook Schwa Omega-latin Gamma-latin uniA7AE oopen chook clickdental schwa saltillo Eopen Eng.ss01 omega-latin iota-latin];
+@dflt_latx_4 = [Nhookleft Saltillo rfishhook Phook Schwa Omega-latin Gamma-latin uniA7AE oopen chook clickdental schwa saltillo Eopen Eng omega-latin iota-latin];
 
 
 # ALTERNATE CLASSES:
@@ -19,9 +19,9 @@
 @alt2_latx_3 = [esh.alt2 Fhook.alt2 nhookleft.alt2 hhook.alt2 Thook.alt2 glottalstopreversed.alt2 Khook.alt2 mhook.alt2 khook.alt2 Vhook.alt2 glottalstop.alt2 Glottalstopsmall.alt2 eopen.alt2 clickalveolar.alt2 Mturned.alt2 Tretroflexhook.alt2 aturned.alt2 gamma-latin.alt2 glottalstopsmall.alt2];
 @alt3_latx_3 = [esh.alt3 Fhook.alt3 nhookleft.alt3 hhook.alt3 Thook.alt3 glottalstopreversed.alt3 Khook.alt3 mhook.alt3 khook.alt3 Vhook.alt3 glottalstop.alt3 Glottalstopsmall.alt3 eopen.alt3 clickalveolar.alt3 Mturned.alt3 Tretroflexhook.alt3 aturned.alt3 gamma-latin.alt3 glottalstopsmall.alt3];
 #
-@alt1_latx_4 = [Nhookleft.alt1 Saltillo.alt1 rfishhook.alt1 Phook.alt1 Schwa.alt1 Omega-latin.alt1 Gamma-latin.alt1 uniA7AE.alt1 oopen.alt1 chook.alt1 clickdental.alt1 schwa.alt1 saltillo.alt1 Eopen.alt1 Eng.ss01.alt1 omega-latin.alt1 iota-latin.alt1];
-@alt2_latx_4 = [Nhookleft.alt2 Saltillo.alt2 rfishhook.alt2 Phook.alt2 Schwa.alt2 Omega-latin.alt2 Gamma-latin.alt2 uniA7AE.alt2 oopen.alt2 chook.alt2 clickdental.alt2 schwa.alt2 saltillo.alt2 Eopen.alt2 Eng.ss01.alt2 omega-latin.alt2 iota-latin.alt2];
-@alt3_latx_4 = [Nhookleft.alt3 Saltillo.alt3 rfishhook.alt3 Phook.alt3 Schwa.alt3 Omega-latin.alt3 Gamma-latin.alt3 uniA7AE.alt3 oopen.alt3 chook.alt3 clickdental.alt3 schwa.alt3 saltillo.alt3 Eopen.alt3 Eng.ss01.alt3 omega-latin.alt3 iota-latin.alt3];
+@alt1_latx_4 = [Nhookleft.alt1 Saltillo.alt1 rfishhook.alt1 Phook.alt1 Schwa.alt1 Omega-latin.alt1 Gamma-latin.alt1 uniA7AE.alt1 oopen.alt1 chook.alt1 clickdental.alt1 schwa.alt1 saltillo.alt1 Eopen.alt1 Eng.alt1 omega-latin.alt1 iota-latin.alt1];
+@alt2_latx_4 = [Nhookleft.alt2 Saltillo.alt2 rfishhook.alt2 Phook.alt2 Schwa.alt2 Omega-latin.alt2 Gamma-latin.alt2 uniA7AE.alt2 oopen.alt2 chook.alt2 clickdental.alt2 schwa.alt2 saltillo.alt2 Eopen.alt2 Eng.alt2 omega-latin.alt2 iota-latin.alt2];
+@alt3_latx_4 = [Nhookleft.alt3 Saltillo.alt3 rfishhook.alt3 Phook.alt3 Schwa.alt3 Omega-latin.alt3 Gamma-latin.alt3 uniA7AE.alt3 oopen.alt3 chook.alt3 clickdental.alt3 schwa.alt3 saltillo.alt3 Eopen.alt3 Eng.alt3 omega-latin.alt3 iota-latin.alt3];
 
 # #ALL
 # @dflt_latx_ALL = [@dflt_latx_1 @dflt_latx_2 @dflt_latx_3 @dflt_latx_4];
