@@ -1,7 +1,7 @@
 {
 glyphname = "dje-cy.alt2";
 kernLeft = "tshe-cy";
-kernRight = "tshe-cy";
+kernRight = "shha-cy";
 layers = (
 {
 layerId = m01;

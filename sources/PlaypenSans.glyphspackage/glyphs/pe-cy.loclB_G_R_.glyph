@@ -2,6 +2,7 @@
 color = 4;
 glyphname = "pe-cy.loclBGR";
 kernLeft = "en-cy";
+kernRight = "en-cy";
 layers = (
 {
 layerId = m003;

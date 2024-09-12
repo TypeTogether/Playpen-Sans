@@ -1,6 +1,7 @@
 {
 glyphname = "schwa-cy.alt4";
 kernLeft = "ereversed-cy";
+kernRight = "o-cy";
 layers = (
 {
 layerId = m003;

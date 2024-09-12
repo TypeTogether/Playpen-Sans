@@ -1,6 +1,7 @@
 {
 glyphname = "zhedescender-cy.alt6";
 kernLeft = "zhe-cy";
+kernRight = "ka-cy";
 layers = (
 {
 layerId = m003;

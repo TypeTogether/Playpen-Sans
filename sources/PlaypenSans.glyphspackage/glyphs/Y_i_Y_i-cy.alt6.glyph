@@ -1,5 +1,7 @@
 {
 glyphname = "Yi_Yi-cy.alt6";
+kernLeft = "Yi-cy";
+kernRight = "Yi-cy";
 layers = (
 {
 layerId = m003;

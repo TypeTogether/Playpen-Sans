@@ -2,6 +2,7 @@
 color = 4;
 glyphname = "zhedescender-cy";
 kernLeft = "zhe-cy";
+kernRight = "ka-cy";
 layers = (
 {
 layerId = m01;

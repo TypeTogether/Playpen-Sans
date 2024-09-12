@@ -1,6 +1,7 @@
 {
 glyphname = "shha-cy.alt2";
 kernLeft = "yu-bgr";
+kernRight = "shha-cy";
 layers = (
 {
 layerId = m01;
