@@ -9,6 +9,10 @@ anchors = (
 {
 name = bottom;
 pos = (218,0);
+},
+{
+name = top;
+pos = (159,764);
 }
 );
 layerId = m01;
@@ -62,6 +66,10 @@ anchors = (
 {
 name = bottom;
 pos = (209,0);
+},
+{
+name = top;
+pos = (160,784);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -115,6 +123,10 @@ anchors = (
 {
 name = bottom;
 pos = (234,0);
+},
+{
+name = top;
+pos = (184,773);
 }
 );
 layerId = m003;

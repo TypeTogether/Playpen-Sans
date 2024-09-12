@@ -4,24 +4,6 @@ kernLeft = Bhook;
 kernRight = H;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (492,0);
-},
-{
-name = center;
-pos = (507,595);
-},
-{
-name = top;
-pos = (508,766);
-},
-{
-name = topleft;
-pos = (149,764);
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -90,24 +72,6 @@ nodes = (
 width = 876;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (511,5);
-},
-{
-name = center;
-pos = (531,607);
-},
-{
-name = top;
-pos = (529,755);
-},
-{
-name = topleft;
-pos = (170,764);
-}
-);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -176,24 +140,6 @@ nodes = (
 width = 906;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (566,0);
-},
-{
-name = center;
-pos = (583,626);
-},
-{
-name = top;
-pos = (582,764);
-},
-{
-name = topleft;
-pos = (223,764);
-}
-);
 layerId = m003;
 shapes = (
 {

@@ -12,6 +12,10 @@ pos = (114,10);
 {
 name = center;
 pos = (147,310);
+},
+{
+name = top;
+pos = (144,770);
 }
 );
 layerId = m01;
@@ -84,6 +88,10 @@ pos = (137,10);
 {
 name = center;
 pos = (149,297);
+},
+{
+name = top;
+pos = (168,790);
 }
 );
 layerId = m003;
@@ -156,6 +164,10 @@ pos = (126,10);
 {
 name = center;
 pos = (139,299);
+},
+{
+name = top;
+pos = (154,790);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

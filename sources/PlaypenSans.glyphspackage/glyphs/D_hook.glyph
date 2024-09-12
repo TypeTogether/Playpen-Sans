@@ -11,6 +11,10 @@ name = bottom;
 pos = (451,10);
 },
 {
+name = center;
+pos = (303,392);
+},
+{
 name = top;
 pos = (497,744);
 }
@@ -91,6 +95,10 @@ name = bottom;
 pos = (479,-17);
 },
 {
+name = center;
+pos = (305,381);
+},
+{
 name = top;
 pos = (476,755);
 }
@@ -168,11 +176,15 @@ width = 916;
 anchors = (
 {
 name = bottom;
-pos = (539,9);
+pos = (497,0);
+},
+{
+name = center;
+pos = (363,372);
 },
 {
 name = top;
-pos = (562,764);
+pos = (498,764);
 }
 );
 layerId = m003;

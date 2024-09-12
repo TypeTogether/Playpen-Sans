@@ -10,16 +10,8 @@ name = bottom;
 pos = (267,10);
 },
 {
-name = center;
-pos = (455,667);
-},
-{
 name = top;
 pos = (237,515);
-},
-{
-name = topright;
-pos = (490,759);
 }
 );
 layerId = m01;
@@ -116,16 +108,8 @@ name = bottom;
 pos = (275,10);
 },
 {
-name = center;
-pos = (450,667);
-},
-{
 name = top;
 pos = (250,516);
-},
-{
-name = topright;
-pos = (514,751);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -222,16 +206,8 @@ name = bottom;
 pos = (284,10);
 },
 {
-name = center;
-pos = (468,667);
-},
-{
 name = top;
 pos = (250,529);
-},
-{
-name = topright;
-pos = (606,764);
 }
 );
 layerId = m003;
