@@ -1,7 +1,7 @@
 {
 glyphname = colonmod;
-kernLeft = colon;
-kernRight = colon;
+kernLeft = colonmod;
+kernRight = colonmod;
 layers = (
 {
 layerId = m01;

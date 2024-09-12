@@ -1,8 +1,8 @@
 {
 color = 2;
 glyphname = doubleapostrophemod;
-kernLeft = quotedblright;
-kernRight = quotedblright;
+kernLeft = doubleapostrophemod;
+kernRight = doubleapostrophemod;
 layers = (
 {
 layerId = m01;
