@@ -25,6 +25,7 @@
 @alt2_heb_4 = [samekh-hb.alt2 bet-hb.alt2 kaf-hb.alt2 ayin-hb.alt2 tsadiFinal-hb.alt2 nundagesh-hb.alt2 tsadi-hb.alt2];
 @alt3_heb_4 = [samekh-hb.alt3 bet-hb.alt3 kaf-hb.alt3 ayin-hb.alt3 tsadiFinal-hb.alt3 nundagesh-hb.alt3 tsadi-hb.alt3];
 @alt4_heb_4 = [samekh-hb.alt4 bet-hb.alt4 kaf-hb.alt4 ayin-hb.alt4 tsadiFinal-hb.alt4 nundagesh-hb.alt4 tsadi-hb.alt4];
+
 # #ALL
 @dflt_heb_ALL = [@dflt_heb_1 @dflt_heb_2 @dflt_heb_3 @dflt_heb_4];
 @alt1_heb_ALL = [@alt1_heb_1 @alt1_heb_2 @alt1_heb_3 @alt1_heb_4];

@@ -1,4 +1,4 @@
-lookupflag RightToLeft;
+# lookupflag RightToLeft;
 lookupflag IgnoreMarks;
 sub @dflt_heb_1 @dflt_heb_1' by @alt1_heb_1;
 sub @alt1_heb_1 @alt1_heb_1' by @alt2_heb_1;
