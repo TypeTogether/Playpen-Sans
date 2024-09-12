@@ -1,6 +1,6 @@
 lookup pseudoRandom_ARA {
-	# ARA calt
-  lookupflag IgnoreMarks;
+	lookupflag RightToLeft;
+	lookupflag IgnoreMarks;
 	sub @dflt_ara_1' @dflt_ara_1 @dflt_ara_1 @dflt_ara_1 by @alt3_ara_1 ;
 	sub @dflt_ara_1' @dflt_ara_1 @dflt_ara_1 @dflt_ara_2 by @alt1_ara_1 ;
 	sub @dflt_ara_1' @dflt_ara_1 @dflt_ara_1 @dflt_ara_3 by @alt1_ara_1 ;

@@ -1,4 +1,5 @@
 lookup BackwardsCheck_ARA {
+  lookupflag RightToLeft;
   lookupflag IgnoreMarks;
   sub @dflt_ara_1 @dflt_ara_1' by @alt1_ara_1;
   sub @alt1_ara_1 @alt1_ara_1' by @alt2_ara_1;
