@@ -126,7 +126,7 @@ feature locl {
   # Eng scandinavian
   language FIN;
     lookup SCANDINAVIAN_ENG {
-      sub Eng by Eng.alt;
+      sub Eng by Eng.ss01;
     } SCANDINAVIAN_ENG;
   language ISM;
     lookup ENG_scandinavian;
