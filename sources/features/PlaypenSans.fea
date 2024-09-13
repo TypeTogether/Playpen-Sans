@@ -428,7 +428,7 @@ feature locl {
     sub zcaron by z caroncomb;
     sub zdotaccent by z dotaccentcomb;
 
-    sub Eth by E strokeshortcomb.case;
+    sub Eth by D strokeshortcomb.case;
     sub Hbar by H strokelongcomb;
     sub Lslash by L strokeshortcomb.case;
     sub Oslash by O slashlongcomb.case;
