@@ -11,7 +11,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (298,-10);
+pos = (286,0);
 ref = dieresiscomb.case;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (290,7);
+pos = (294,-10);
 ref = dieresiscomb.case;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = Upsilon;
 },
 {
-pos = (288,10);
+pos = (291,0);
 ref = dieresiscomb.case;
 }
 );
