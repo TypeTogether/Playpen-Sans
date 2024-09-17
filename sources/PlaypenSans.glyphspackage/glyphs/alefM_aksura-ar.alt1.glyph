@@ -10,10 +10,6 @@ pos = (353,-194);
 {
 name = top;
 pos = (190,315);
-},
-{
-name = top;
-pos = (190,315);
 }
 );
 background = {
@@ -162,10 +158,6 @@ pos = (351,-190);
 {
 name = top;
 pos = (159,347);
-},
-{
-name = top;
-pos = (159,347);
 }
 );
 background = {
@@ -310,10 +302,6 @@ anchors = (
 {
 name = bottom;
 pos = (352,-192);
-},
-{
-name = top;
-pos = (179,328);
 },
 {
 name = top;

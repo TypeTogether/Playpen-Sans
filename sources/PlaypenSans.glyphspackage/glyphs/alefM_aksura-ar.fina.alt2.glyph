@@ -14,10 +14,6 @@ pos = (696,35);
 {
 name = top;
 pos = (206,156);
-},
-{
-name = top;
-pos = (206,156);
 }
 );
 background = {
@@ -159,10 +155,6 @@ pos = (684,194);
 {
 name = top;
 pos = (200,241);
-},
-{
-name = top;
-pos = (200,241);
 }
 );
 background = {
@@ -300,10 +292,6 @@ pos = (335,-344);
 {
 name = entry;
 pos = (692,101);
-},
-{
-name = top;
-pos = (204,191);
 },
 {
 name = top;

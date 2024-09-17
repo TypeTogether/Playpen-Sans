@@ -10,10 +10,6 @@ pos = (360,-194);
 {
 name = top;
 pos = (153,310);
-},
-{
-name = top;
-pos = (153,310);
 }
 );
 background = {
@@ -162,10 +158,6 @@ pos = (361,-190);
 {
 name = top;
 pos = (159,347);
-},
-{
-name = top;
-pos = (159,347);
 }
 );
 layerId = m003;
@@ -253,10 +245,6 @@ anchors = (
 {
 name = bottom;
 pos = (360,-192);
-},
-{
-name = top;
-pos = (155,325);
 },
 {
 name = top;
