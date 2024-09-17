@@ -17,7 +17,7 @@ ref = "alefMaksura-ar.fina";
 {
 alignment = 1;
 anchor = top_mark;
-pos = (-187,-344);
+pos = (-176,-343);
 ref = "hamzaabove-ar";
 }
 );
@@ -54,7 +54,7 @@ ref = "alefMaksura-ar.fina";
 {
 alignment = 1;
 anchor = top_mark;
-pos = (-133,-269);
+pos = (-122,-269);
 ref = "hamzaabove-ar";
 }
 );
@@ -91,7 +91,7 @@ ref = "alefMaksura-ar.fina";
 {
 alignment = 1;
 anchor = top_mark;
-pos = (-167,-313);
+pos = (-156,-312);
 ref = "hamzaabove-ar";
 }
 );

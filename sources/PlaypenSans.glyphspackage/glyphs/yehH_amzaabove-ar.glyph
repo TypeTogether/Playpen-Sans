@@ -16,7 +16,7 @@ ref = "alefMaksura-ar";
 },
 {
 anchor = top_mark;
-pos = (-170,-190);
+pos = (-159,-189);
 ref = "hamzaabove-ar";
 }
 );
@@ -52,7 +52,7 @@ ref = "alefMaksura-ar";
 },
 {
 anchor = top_mark;
-pos = (-164,-143);
+pos = (-153,-143);
 ref = "hamzaabove-ar";
 }
 );
@@ -88,7 +88,7 @@ ref = "alefMaksura-ar";
 },
 {
 anchor = top_mark;
-pos = (-168,-171);
+pos = (-157,-170);
 ref = "hamzaabove-ar";
 }
 );

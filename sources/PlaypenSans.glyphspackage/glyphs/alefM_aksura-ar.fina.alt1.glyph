@@ -13,10 +13,10 @@ pos = (662,35);
 },
 {
 name = top;
-pos = (328,160);
+pos = (146,156);
 },
 {
-name = top_mark;
+name = top;
 pos = (146,156);
 }
 );
@@ -158,10 +158,10 @@ pos = (684,194);
 },
 {
 name = top;
-pos = (323,273);
+pos = (190,241);
 },
 {
-name = top_mark;
+name = top;
 pos = (190,241);
 }
 );
@@ -303,10 +303,10 @@ pos = (670,101);
 },
 {
 name = top;
-pos = (326,207);
+pos = (162,191);
 },
 {
-name = top_mark;
+name = top;
 pos = (162,191);
 }
 );
