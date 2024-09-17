@@ -8,10 +8,6 @@ name = _top;
 pos = (312,499);
 },
 {
-name = _top_mark;
-pos = (323,500);
-},
-{
 name = top;
 pos = (307,711);
 }
@@ -89,10 +85,6 @@ anchors = (
 {
 name = _top;
 pos = (312,500);
-},
-{
-name = _top_mark;
-pos = (323,500);
 },
 {
 name = top;
@@ -220,10 +212,6 @@ anchors = (
 {
 name = _top;
 pos = (312,499);
-},
-{
-name = _top_mark;
-pos = (323,500);
 },
 {
 name = top;
