@@ -1,5 +1,5 @@
 {
-.appVersion = "3316";
+.appVersion = "3317";
 .formatVersion = 3;
 axes = (
 {
@@ -1347,6 +1347,7 @@ Otildedieresis,
 "Omega-latin.alt1",
 "Omega-latin.alt2",
 "Omega-latin.alt3",
+Ramshorn,
 Pacute,
 Phook,
 Phook.alt1,
