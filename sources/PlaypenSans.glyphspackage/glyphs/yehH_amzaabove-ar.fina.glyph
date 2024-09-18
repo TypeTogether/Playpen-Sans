@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = top_mark;
+name = top;
 pos = (130,367);
 }
 );
@@ -42,7 +42,7 @@ width = 696;
 {
 anchors = (
 {
-name = top_mark;
+name = top;
 pos = (188,521);
 }
 );
@@ -79,8 +79,8 @@ width = 694;
 {
 anchors = (
 {
-name = top_mark;
-pos = (151,431);
+name = top;
+pos = (156,421);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

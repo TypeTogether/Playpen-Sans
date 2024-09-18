@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = top_mark;
+name = top;
 pos = (147,521);
 }
 );
@@ -41,7 +41,7 @@ width = 768;
 {
 anchors = (
 {
-name = top_mark;
+name = top;
 pos = (157,647);
 }
 );
@@ -77,7 +77,7 @@ width = 740;
 {
 anchors = (
 {
-name = top_mark;
+name = top;
 pos = (151,573);
 }
 );
