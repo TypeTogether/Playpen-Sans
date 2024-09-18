@@ -1,5 +1,7 @@
 {
 glyphname = Ramshorn;
+kernLeft = Ramshorn;
+kernRight = Ramshorn;
 layers = (
 {
 layerId = m01;
