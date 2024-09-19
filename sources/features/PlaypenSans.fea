@@ -147,6 +147,29 @@ feature locl {
   language SVE;
     lookup ENG_scandinavian;
 
+  # locl Cyrillic
+  script cyrl;
+  language SRB;
+    sub be-cy by be-cy.loclSRB;
+    sub ge-cy by ge-cy.loclSRB;
+    sub de-cy by de-cy.loclSRB;
+    sub pe-cy by pe-cy.loclSRB;
+    sub te-cy by te-cy.loclSRB;
+
+  language BGR;
+    sub Ef-cy by Ef-cy.loclBGR;
+    sub de-cy by de-cy.loclBGR;
+    sub zhe-cy by zhe-cy.loclBGR;
+    sub ka-cy by ka-cy.loclBGR;
+    sub yu-cy by yu-cy.loclBGR;
+    sub pe-cy by pe-cy.loclBGR;
+    sub te-cy by te-cy.loclBGR;
+    sub ge-cy by ge-cy.loclBGR;
+
+  language MKD;
+    sub gje-cy by gje-cy.loclMKD;
+
+# locl Arabic
   script arab;
   language URD;
     lookup locl_arab_0 {
