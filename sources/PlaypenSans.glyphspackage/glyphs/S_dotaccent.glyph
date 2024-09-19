@@ -1,0 +1,48 @@
+{
+color = 1;
+glyphname = Sdotaccent;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = S;
+},
+{
+pos = (309,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 633;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = S;
+},
+{
+pos = (308,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 623;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = S;
+},
+{
+pos = (302,0);
+ref = dotaccentcomb.case;
+}
+);
+width = 625;
+}
+);
+unicode = 7776;
+}

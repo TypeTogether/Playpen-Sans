@@ -1,0 +1,48 @@
+{
+color = 1;
+glyphname = Ymacron;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (312,0);
+ref = macroncomb.case;
+}
+);
+width = 632;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (318,0);
+ref = macroncomb.case;
+}
+);
+width = 642;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (318,0);
+ref = macroncomb.case;
+}
+);
+width = 646;
+}
+);
+unicode = 562;
+}

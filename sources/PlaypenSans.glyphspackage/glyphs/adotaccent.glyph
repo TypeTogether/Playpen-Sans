@@ -1,0 +1,48 @@
+{
+color = 1;
+glyphname = adotaccent;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (295,0);
+ref = dotaccentcomb;
+}
+);
+width = 596;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (305,0);
+ref = dotaccentcomb;
+}
+);
+width = 622;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = a;
+},
+{
+pos = (329,0);
+ref = dotaccentcomb;
+}
+);
+width = 692;
+}
+);
+unicode = 551;
+}
