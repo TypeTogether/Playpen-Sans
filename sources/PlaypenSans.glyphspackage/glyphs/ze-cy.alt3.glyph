@@ -4,6 +4,16 @@ kernLeft = "ze-cy";
 kernRight = "ze-cy";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (214,-226);
+},
+{
+name = top;
+pos = (264,546);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -81,6 +91,16 @@ nodes = (
 width = 527;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (192,-230);
+},
+{
+name = top;
+pos = (261,536);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -158,6 +178,16 @@ nodes = (
 width = 502;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (202,-228);
+},
+{
+name = top;
+pos = (264,543);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
