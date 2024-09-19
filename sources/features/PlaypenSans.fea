@@ -600,6 +600,39 @@ feature locl {
     sub acutecomb_macroncomb by acutecomb macroncomb;
     sub macroncomb_gravecomb by macroncomb gravecomb;
     sub macroncomb_acutecomb by macroncomb acutecomb;
+    #
+    sub Adotaccent by A dotaccentcomb.case;
+    sub Bmacronbelow by B macronbelowcomb;
+    sub Ddotaccent by D dotaccentcomb.case;
+    sub Emacrongrave by E macroncomb.case gravecomb.case;
+    sub Hdotaccent by H dotaccentcomb.case;
+    sub Kdotbelow by K dotbelowcomb;
+    sub Kmacronbelow by K macronbelowcomb;
+    sub Mdotbelow by M dotbelowcomb;
+    sub Ndotbelow by N dotbelowcomb;
+    sub Rdotbelow by R dotbelowcomb;
+    sub Rinvertedbreve by R breveinvertedcomb.case;
+    sub Sdotaccent by S dotaccentcomb.case;
+    sub Tdotaccent by T dotaccentcomb.case;
+    sub Vdotbelow by V dotbelowcomb;
+    sub Vtilde by V tildecomb.case;
+    sub Ymacron by Y macroncomb.case;
+    sub adotaccent by a dotaccentcomb;
+    sub bmacronbelow by b macronbelowcomb;
+    sub ddotaccent by d dotaccentcomb.case;
+    sub emacrongrave by e macroncomb_gravecomb;
+    sub hdotaccent by h dotaccentcomb.case;
+    sub kdotbelow by k dotbelowcomb;
+    sub kmacronbelow by k macronbelowcomb;
+    sub mdotbelow by m dotbelowcomb;
+    sub ndotbelow by n dotbelowcomb;
+    sub rdotbelow by r dotbelowcomb;
+    sub rinvertedbreve by r breveinvertedcomb;
+    sub sdotaccent by s dotaccentcomb;
+    sub tdotaccent by t dotaccentcomb;
+    sub vdotbelow by v dotbelowcomb;
+    sub vtilde by v tildecomb;
+    sub ymacron by y macroncomb;
   } decomp_LATX;
 
   lookup decomp_HEB {
