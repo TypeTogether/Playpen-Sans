@@ -1,6 +1,7 @@
 {
 glyphname = e.alt1;
 kernLeft = o;
+kernRight = e;
 layers = (
 {
 anchors = (

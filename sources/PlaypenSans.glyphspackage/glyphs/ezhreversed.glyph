@@ -1,6 +1,7 @@
 {
-color = 1;
 glyphname = ezhreversed;
+kernLeft = ezhreversed;
+kernRight = ezhreversed;
 layers = (
 {
 anchors = (
