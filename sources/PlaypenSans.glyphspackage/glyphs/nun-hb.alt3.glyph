@@ -19,7 +19,7 @@ pos = (142,570);
 },
 {
 name = topleft;
-pos = (36,570);
+pos = (38,557);
 }
 );
 background = {
@@ -120,7 +120,7 @@ pos = (152,596);
 },
 {
 name = topleft;
-pos = (14,584);
+pos = (20,554);
 }
 );
 background = {
@@ -221,7 +221,7 @@ pos = (146,581);
 },
 {
 name = topleft;
-pos = (28,581);
+pos = (30,561);
 }
 );
 background = {
