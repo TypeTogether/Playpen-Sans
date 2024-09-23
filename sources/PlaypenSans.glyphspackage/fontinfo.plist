@@ -3872,6 +3872,8 @@ languagesystem cyrl BGR;
 languagesystem cyrl MKD;
 languagesystem cyrl SRB;
 
+languagesystem hebr JII;
+
 include(features/cyr-classes-PlaypenSans.fea);
 include(features/grk-classes-PlaypenSans.fea);
 include(features/heb-classes-PlaypenSans.fea);
