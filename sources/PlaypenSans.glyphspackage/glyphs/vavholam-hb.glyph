@@ -13,6 +13,10 @@ pos = (120,0);
 {
 name = center;
 pos = (13,289);
+},
+{
+name = top;
+pos = (140,570);
 }
 );
 layerId = m01;
@@ -36,6 +40,10 @@ pos = (128,0);
 {
 name = center;
 pos = (-29,295);
+},
+{
+name = top;
+pos = (143,596);
 }
 );
 layerId = m003;
@@ -44,7 +52,7 @@ shapes = (
 ref = "vav-hb";
 },
 {
-pos = (136,0);
+pos = (136,16);
 ref = "holam-hb";
 }
 );
@@ -59,6 +67,10 @@ pos = (123,0);
 {
 name = center;
 pos = (-3,291);
+},
+{
+name = top;
+pos = (141,581);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

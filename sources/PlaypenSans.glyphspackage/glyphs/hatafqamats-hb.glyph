@@ -10,11 +10,11 @@ name = _bottom;
 layerId = m01;
 shapes = (
 {
-pos = (-43,0);
+pos = (-52,0);
 ref = "qamats-hb";
 },
 {
-pos = (138,-1);
+pos = (117,-1);
 ref = "sheva-hb";
 }
 );
@@ -29,11 +29,11 @@ name = _bottom;
 layerId = m003;
 shapes = (
 {
-pos = (-63,-8);
+pos = (-68,-8);
 ref = "qamats-hb";
 },
 {
-pos = (156,-7);
+pos = (148,-7);
 ref = "sheva-hb";
 }
 );
@@ -49,12 +49,12 @@ layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
 alignment = -1;
-pos = (-50,-3);
+pos = (-59,-3);
 ref = "qamats-hb";
 },
 {
 alignment = -1;
-pos = (145,-3);
+pos = (132,-3);
 ref = "sheva-hb";
 }
 );

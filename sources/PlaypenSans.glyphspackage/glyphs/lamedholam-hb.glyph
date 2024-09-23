@@ -16,7 +16,7 @@ pos = (65,307);
 },
 {
 name = top;
-pos = (249,755);
+pos = (248,795);
 }
 );
 layerId = m01;
@@ -25,7 +25,7 @@ shapes = (
 ref = "lamed-hb";
 },
 {
-pos = (88,0);
+pos = (89,-6);
 ref = "holam-hb";
 }
 );
@@ -43,7 +43,7 @@ pos = (125,386);
 },
 {
 name = top;
-pos = (345,751);
+pos = (364,791);
 }
 );
 layerId = m003;
@@ -52,7 +52,7 @@ shapes = (
 ref = "lamed-hb";
 },
 {
-pos = (134,0);
+pos = (135,-9);
 ref = "holam-hb";
 }
 );
@@ -70,7 +70,7 @@ pos = (87,340);
 },
 {
 name = top;
-pos = (285,753);
+pos = (291,793);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -79,7 +79,7 @@ shapes = (
 ref = "lamed-hb";
 },
 {
-pos = (105,0);
+pos = (107,-9);
 ref = "holam-hb";
 }
 );

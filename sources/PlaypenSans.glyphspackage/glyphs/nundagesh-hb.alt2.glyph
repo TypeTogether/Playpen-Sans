@@ -4,6 +4,20 @@ kernLeft = "nundagesh-hb";
 kernRight = "vav-hb";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (66,-192);
+},
+{
+name = top;
+pos = (163,570);
+},
+{
+name = topleft;
+pos = (57,570);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -12,13 +26,27 @@ pos = (17,0);
 ref = "nun-hb.alt2";
 },
 {
-pos = (29,29);
+pos = (24,29);
 ref = "dagesh-hb";
 }
 );
 width = 291;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (110,-255);
+},
+{
+name = top;
+pos = (196,596);
+},
+{
+name = topleft;
+pos = (57,576);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -34,6 +62,20 @@ ref = "dagesh-hb";
 width = 368;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (83,-218);
+},
+{
+name = top;
+pos = (176,581);
+},
+{
+name = topleft;
+pos = (75,579);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
