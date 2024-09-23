@@ -1,0 +1,49 @@
+{
+  "fonts": [
+    {
+      "path": "../fonts/variable/PlaypenSans[wght]-dev.ttf"
+    }
+  ],
+  "textSettings": {
+    "text": "וואֹוובֹווגֹוודֹווהֹוווֹוווֺווזֹווחֹווטֹוויֹווכֹוולֹוומֹוונֹווסֹוועֹוופֹווצֹווקֹוורֹוושֹוותֹוו",
+    "textFilePath": "HEBR-ggls.txt",
+    "textFileIndex": 31,
+    "shouldApplyBiDi": true,
+    "direction": null,
+    "script": "hebr",
+    "language": null,
+    "alignment": null,
+    "features": {
+      "ss03": true,
+      "calt": false,
+      "mark": true
+    },
+    "varLocation": {
+      "wght": 800.0
+    },
+    "relativeFontSize": 0.9961161804199219,
+    "relativeHBaseline": 0.05851635932922363,
+    "relativeVBaseline": 0.5,
+    "relativeMargin": 0.10032719612121582,
+    "enableColor": true
+  },
+  "uiSettings": {
+    "windowPosition": [
+      81.0,
+      140.0,
+      1767.0,
+      890.0
+    ],
+    "fontListItemSize": 94,
+    "fontListShowFontFileName": true,
+    "characterListVisible": false,
+    "characterListSize": 98.0,
+    "glyphListVisible": false,
+    "glyphListSize": 255.0,
+    "compileOutputVisible": true,
+    "compileOutputSize": 80.0,
+    "formattingOptionsVisible": true,
+    "feaVarTabSelection": "variations",
+    "showHiddenAxes": false
+  }
+}

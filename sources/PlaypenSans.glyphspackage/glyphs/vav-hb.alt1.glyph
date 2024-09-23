@@ -15,7 +15,7 @@ pos = (15,289);
 },
 {
 name = holamhaser;
-pos = (21,570);
+pos = (51,570);
 },
 {
 name = top;
@@ -72,7 +72,7 @@ pos = (-25,295);
 },
 {
 name = holamhaser;
-pos = (-8,596);
+pos = (44,577);
 },
 {
 name = top;
@@ -129,7 +129,7 @@ pos = (0,291);
 },
 {
 name = holamhaser;
-pos = (10,581);
+pos = (50,581);
 },
 {
 name = top;
