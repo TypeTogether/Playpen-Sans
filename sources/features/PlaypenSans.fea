@@ -177,6 +177,34 @@ feature locl {
       sub sixFarsi-ar by six-ar;
       sub sevenFarsi-ar by sevenFarsi-ar.urdu;
     } locl_arab_0;
+    
+  script hebr;
+  language JII; # Yiddish  
+  
+  lookup ccmp_hebr_jii_02 {
+    lookupflag RightToLeft;
+    sub yodhiriq-hb by yodhiriq-hb.JII;
+    sub hyphen by maqaf-hb; 
+  } ccmp_hebr_jii_02;
+
+  lookup ccmp_hebr_jii_03 {
+  	# needs to appear before yod yod -> yodyod; otherwise yod yod hiriq will always turn into
+  	# yodyod hiriq (instead of yod yodhiriq)
+    lookupflag RightToLeft;
+    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] hiriq-hb by yodhiriq-hb.JII;
+  } ccmp_hebr_jii_03;
+
+  lookup ccmp_hebr_jii_04 {
+    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] patah-hb by yodyodpatah-hb;
+    sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] by vavvav-hb;
+    sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by vavyod-hb;
+    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by yodyod-hb;
+  } ccmp_hebr_jii_04;
+  
+  lookup ccmp_hebr_jii_05 {
+    lookupflag RightToLeft;
+    sub yodyod-hb patah-hb by yodyodpatah-hb;
+  } ccmp_hebr_jii_05;
 } locl;
 
 
@@ -635,7 +663,35 @@ feature locl {
     sub ymacron by y macroncomb;
   } decomp_LATX;
 
-  lookup decomp_HEB {
+
+  lookup decomp_HEB_01 { 
+  lookupflag RightToLeft UseMarkFilteringSet [dagesh-hb];
+  # these composite characters MAY have different left sidebearings because of dagesh;
+  # ignoring dagesh as a mark is necessary in order to activate the precomposed forms
+  # otherwise only mark ordering 'base-dagesh-other mark' sequence will be
+  # correctly spaced on the left; orderings like 'base-below mark-dagesh' won't
+ 
+  # composites decomposed for shuffler
+  sub vavdagesh-hb by vav-hb dagesh-hb;
+  sub yoddagesh-hb by yod-hb dagesh-hb;
+  sub nundagesh-hb by nun-hb dagesh-hb;
+  } decomp_HEB_01;
+
+
+  lookup decomp_HEB_02 {
+  lookupflag RightToLeft UseMarkFilteringSet [holam-hb];
+  # these composite characters MAY have different left sidebearings because of holam;
+  # ignoring holam as a mark is necessary in order to activate the precomposed forms
+  # otherwise only mark ordering 'base-holam-other mark' sequence will be
+  # correctly spaced on the left; orderings like 'base-below mark-holam' won't
+
+  # composites decomposed for shuffler
+  sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
+  sub lamedholam-hb by lamed-hb holam-hb;
+  } decomp_HEB_02;
+  
+  
+  lookup decomp_HEB_03 {
     lookupflag RightToLeft;
     sub alefdagesh-hb by alef-hb dagesh-hb;  
     sub alefpatah-hb by alef-hb patah-hb;
@@ -647,11 +703,11 @@ feature locl {
     sub hedagesh-hb by he-hb dagesh-hb;
     sub kafdagesh-hb by kaf-hb dagesh-hb;
     sub kafrafe-hb by kaf-hb rafe-hb;
-    sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
-    sub lameddagesh-hb by lamed-hb dagesh-hb;
-    sub lamedholam-hb by lamed-hb holam-hb;
+    #sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
+    #sub lameddagesh-hb by lamed-hb dagesh-hb;
+    #sub lamedholam-hb by lamed-hb holam-hb;
     sub memdagesh-hb by mem-hb dagesh-hb;
-    sub nundagesh-hb by nun-hb dagesh-hb;
+    #sub nundagesh-hb by nun-hb dagesh-hb;
     sub pedagesh-hb by pe-hb dagesh-hb;
     sub pedageshFinal-hb by peFinal-hb dagesh-hb;
     sub perafe-hb by pe-hb rafe-hb;
@@ -669,7 +725,7 @@ feature locl {
     sub yodhiriq-hb by yod-hb hiriq-hb;
     #sub yodyodpatah-hb by yodyod-hb patah-hb; # breaks locl yodyodpatah formation
     sub zayindagesh-hb by zayin-hb dagesh-hb;
-  } decomp_HEB;
+  } decomp_HEB_03;
 
   # End decomposition
 
@@ -1235,13 +1291,32 @@ feature calt {
     include(features/grk-BackwardsCheck.fea);
   } BackwardsCheck_GREK;
 
-  script hebr;
+  #script hebr;
   lookup PseudoRandom_HEBR {
     include(features/heb-PseudoRandom.fea);
   } PseudoRandom_HEBR;
   lookup BackwardsCheck_HEBR {
     include(features/heb-BackwardsCheck.fea);
   } BackwardsCheck_HEBR;
+  
+  lookup calt_hebr_02 {
+    lookupflag RightToLeft;
+    sub vav-hb dagesh-hb by vavdagesh-hb;
+    sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
+    sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
+    sub vav-hb.alt3 dagesh-hb by vavdagesh-hb.alt3;
+    sub vav-hb.alt4 dagesh-hb by vavdagesh-hb.alt4;
+    sub yod-hb dagesh-hb by yoddagesh-hb;
+    sub yod-hb.alt1 dagesh-hb by yoddagesh-hb.alt1;
+    sub yod-hb.alt2 dagesh-hb by yoddagesh-hb.alt2;
+    sub yod-hb.alt3 dagesh-hb by yoddagesh-hb.alt3;
+    sub yod-hb.alt4 dagesh-hb by yoddagesh-hb.alt4;
+    sub nun-hb dagesh-hb by nundagesh-hb;
+    sub nun-hb.alt1 dagesh-hb by nundagesh-hb.alt1;
+    sub nun-hb.alt2 dagesh-hb by nundagesh-hb.alt2;
+    sub nun-hb.alt3 dagesh-hb by nundagesh-hb.alt3;
+    sub nun-hb.alt4 dagesh-hb by nundagesh-hb.alt4;
+  } calt_hebr_02;
 
 
   script arab;
@@ -1428,6 +1503,19 @@ feature ss02 {
   sub sixFarsi-ar by six-ar;
   sub sevenFarsi-ar by sevenFarsi-ar.urdu;
 } ss02;
+
+
+feature ss03 {
+  featureNames {
+    name "Alternates: Yiddish"; # Windows English
+    name 1 0 0 "Alternates: Yiddish"; # Mac English
+  };
+  lookupflag RightToLeft;
+  lookup ccmp_hebr_jii_02;
+  lookup ccmp_hebr_jii_03;
+  lookup ccmp_hebr_jii_04;
+  lookup ccmp_hebr_jii_05;
+} ss03;
 
 
 feature kern {
