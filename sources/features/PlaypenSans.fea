@@ -841,6 +841,8 @@ feature ordn {
 
 # ARA features before `calt`
 include(features/ara-PlaypenSans.fea);
+# DEVA features before `calt`
+include(features/deva-PlaypenSans.fea);
 
 feature calt {
   lookup PseudoRandom {
@@ -1290,6 +1292,14 @@ feature calt {
   lookup BackwardsCheck_GREK {
     include(features/grk-BackwardsCheck.fea);
   } BackwardsCheck_GREK;
+
+  # script deva;
+  lookup PseudoRandom_DEVA {
+    include(features/deva-PseudoRandom.fea);
+  } PseudoRandom_DEVA;
+  lookup BackwardsCheck_DEVA {
+    include(features/deva-BackwardsCheck.fea);
+  } BackwardsCheck_DEVA;
 
   #script hebr;
   lookup PseudoRandom_HEBR {
