@@ -133,35 +133,6 @@ nodes = (
 width = 589;
 },
 {
-associatedMasterId = m01;
-layerId = "7A420F48-5810-4A17-94CF-97DC20DBA054";
-name = skeleton;
-shapes = (
-{
-closed = 0;
-nodes = (
-(546,7,l),
-(419,565,o),
-(398,807,o),
-(226,807,cs),
-(157,807,o),
-(109,780,o),
-(70,732,cs)
-);
-},
-{
-closed = 0;
-nodes = (
-(438,487,l),
-(302,336,o),
-(195,186,o),
-(79,15,c)
-);
-}
-);
-width = 600;
-},
-{
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

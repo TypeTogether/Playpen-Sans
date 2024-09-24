@@ -63,38 +63,6 @@ com.hugojourdan.ColorFlow = {
 width = 780;
 },
 {
-associatedMasterId = m01;
-layerId = "CAEAD647-A533-4D72-9ACE-F5DE50C4DBD4";
-name = "Text Light";
-shapes = (
-{
-ref = "fehdotless_alefMaksura-ar";
-},
-{
-anchor = top_1;
-pos = (224,245);
-ref = "dotabove-ar";
-}
-);
-width = 772;
-},
-{
-associatedMasterId = m01;
-layerId = "474EAD97-6F36-4C8E-8A0A-83C4F7DF9055";
-name = "Text Bold";
-shapes = (
-{
-ref = "fehdotless_alefMaksura-ar";
-},
-{
-anchor = top_1;
-pos = (224,245);
-ref = "dotabove-ar";
-}
-);
-width = 772;
-},
-{
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

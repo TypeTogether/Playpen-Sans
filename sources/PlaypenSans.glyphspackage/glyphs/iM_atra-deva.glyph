@@ -201,32 +201,6 @@ nodes = (
 width = 340;
 },
 {
-associatedMasterId = m01;
-layerId = "47723E64-E722-4097-A841-5605F003385A";
-name = "16 Apr 24 at 22:28";
-shapes = (
-{
-ref = "aaMatra-deva";
-},
-{
-closed = 0;
-nodes = (
-(171,749,l),
-(158,788,o),
-(152,830,o),
-(152,874,cs),
-(152,1006,o),
-(245,1092,o),
-(395,1092,cs),
-(575,1092,o),
-(787,957,o),
-(902,858,cs)
-);
-}
-);
-width = 340;
-},
-{
 anchors = (
 {
 name = bottom;
