@@ -3,14 +3,6 @@ glyphname = "iMatra_anusvara-deva.w4";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (106,0);
-ref = "iMatra_anusvara-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -43,14 +35,6 @@ nodes = (
 width = 340;
 },
 {
-background = {
-shapes = (
-{
-pos = (100,0);
-ref = "iMatra_anusvara-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

@@ -229,14 +229,6 @@ ref = "tta-deva";
 width = 1214;
 },
 {
-background = {
-shapes = (
-{
-pos = (51,0);
-ref = "s-deva";
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

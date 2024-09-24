@@ -5,27 +5,6 @@ kernLeft = "zero-ar";
 kernRight = "zero-ar";
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(171,175,o),
-(186,194,o),
-(186,214,cs),
-(186,232,o),
-(178,247,o),
-(155,247,cs),
-(136,247,o),
-(124,225,o),
-(124,209,cs),
-(124,186,o),
-(138,175,o),
-(153,175,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {

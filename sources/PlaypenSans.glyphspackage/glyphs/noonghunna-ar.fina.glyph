@@ -9,18 +9,6 @@ name = entry;
 pos = (674,35);
 }
 );
-background = {
-shapes = (
-{
-pos = (356,0);
-ref = "behDotless-ar.medi";
-},
-{
-pos = (280,0);
-ref = "dotbelow-ar";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

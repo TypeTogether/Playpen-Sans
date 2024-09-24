@@ -17,20 +17,6 @@ ref = "nukta-deva";
 width = 1321;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (404,0);
-ref = "ja-deva";
-},
-{
-alignment = -1;
-pos = (554,93);
-ref = "nukta-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

@@ -81,14 +81,6 @@ nodes = (
 width = 475;
 },
 {
-background = {
-shapes = (
-{
-pos = (110,0);
-ref = "t_va-deva.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

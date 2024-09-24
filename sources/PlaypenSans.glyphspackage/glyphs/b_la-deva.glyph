@@ -14,14 +14,6 @@ name = top;
 pos = (1140,764);
 }
 );
-background = {
-shapes = (
-{
-pos = (50,0);
-ref = "ba-deva.alt3";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -456,14 +448,6 @@ name = top;
 pos = (1140,764);
 }
 );
-background = {
-shapes = (
-{
-pos = (12,-20);
-ref = "b-deva.alt1";
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

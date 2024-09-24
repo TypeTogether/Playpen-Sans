@@ -2,23 +2,6 @@
 glyphname = "one-ar.alt2";
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(156,-20,o),
-(185,-20,o),
-(183,0,cs),
-(127,675,ls),
-(125,697,o),
-(92,686,o),
-(94,666,cs),
-(154,0,ls)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -60,23 +43,6 @@ com.hugojourdan.ColorFlow = {
 width = 339;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(87,-44,o),
-(259,-27,o),
-(261,20,c),
-(236,655,ls),
-(231,793,o),
-(17,761,o),
-(30,631,cs),
-(91,40,l)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

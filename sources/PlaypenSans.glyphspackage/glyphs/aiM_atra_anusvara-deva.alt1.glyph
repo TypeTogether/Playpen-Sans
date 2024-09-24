@@ -2,13 +2,6 @@
 glyphname = "aiMatra_anusvara-deva.alt1";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "aiMatra_anusvara-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -22,13 +15,6 @@ ref = "anusvara-deva.alt1";
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-ref = "aiMatra_anusvara-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

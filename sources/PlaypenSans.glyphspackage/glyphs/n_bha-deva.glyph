@@ -81,14 +81,6 @@ ref = "bha-deva";
 width = 1057;
 },
 {
-background = {
-shapes = (
-{
-pos = (10,0);
-ref = "na-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

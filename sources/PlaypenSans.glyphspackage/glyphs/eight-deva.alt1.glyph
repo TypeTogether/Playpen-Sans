@@ -51,32 +51,6 @@ nodes = (
 width = 621;
 },
 {
-background = {
-shapes = (
-{
-pos = (-21,0);
-ref = "eight-deva";
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(448,704,l),
-(354,622,o),
-(136,441,o),
-(136,253,cs),
-(136,153,o),
-(198,67,o),
-(324,67,cs),
-(420,67,o),
-(520,147,o),
-(526,246,c)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

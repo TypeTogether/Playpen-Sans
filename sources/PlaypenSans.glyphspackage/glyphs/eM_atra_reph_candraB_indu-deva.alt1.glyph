@@ -2,16 +2,6 @@
 glyphname = "eMatra_reph_candraBindu-deva.alt1";
 layers = (
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (105,13);
-ref = "candraBindu-deva.alt1";
-scale = (0.95,0.95);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -56,15 +46,6 @@ scale = (0.9,0.9);
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-pos = (281,224);
-ref = "candraBindu-deva.alt1";
-scale = (0.6926,0.6926);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

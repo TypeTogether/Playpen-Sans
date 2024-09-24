@@ -8,35 +8,6 @@ name = entry;
 pos = (583,35);
 }
 );
-background = {
-anchors = (
-{
-name = entry;
-pos = (583,35);
-}
-);
-shapes = (
-{
-pos = (-40,0);
-ref = "hah-ar.alt3";
-},
-{
-closed = 1;
-nodes = (
-(601,10,l),
-(601,20,l),
-(583,35,l),
-(478,35,o),
-(410,118,o),
-(394,317,c),
-(367,303,l),
-(392,84,o),
-(466,0,o),
-(583,0,c)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {

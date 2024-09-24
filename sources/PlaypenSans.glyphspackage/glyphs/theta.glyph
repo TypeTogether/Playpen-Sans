@@ -136,27 +136,6 @@ width = 622;
 },
 {
 associatedMasterId = m01;
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(422,12,o),
-(497,225,o),
-(497,423,cs),
-(497,666,o),
-(423,790,o),
-(280,790,cs),
-(114,790,o),
-(54,574,o),
-(54,363,cs),
-(54,98,o),
-(162,12,o),
-(267,12,cs)
-);
-}
-);
-};
 layerId = "A477E729-E1C3-4E6F-A926-7D690B8504D9";
 name = skeleton;
 shapes = (

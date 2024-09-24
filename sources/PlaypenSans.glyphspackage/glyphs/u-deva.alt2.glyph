@@ -10,13 +10,6 @@ name = top;
 pos = (359,764);
 }
 );
-background = {
-shapes = (
-{
-ref = "u-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -107,13 +100,6 @@ name = top;
 pos = (359,764);
 }
 );
-background = {
-shapes = (
-{
-ref = "u-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

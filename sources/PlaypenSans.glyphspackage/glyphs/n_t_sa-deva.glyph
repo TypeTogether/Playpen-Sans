@@ -69,18 +69,6 @@ ref = "t_sa-deva";
 width = 1675;
 },
 {
-background = {
-shapes = (
-{
-ref = "n-deva";
-},
-{
-alignment = -1;
-pos = (342,0);
-ref = "ta-deva.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

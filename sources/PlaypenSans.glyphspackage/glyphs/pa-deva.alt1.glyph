@@ -110,54 +110,6 @@ name = top;
 pos = (521,764);
 }
 );
-background = {
-shapes = (
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(140,675,l),
-(121,605,o),
-(107,451,o),
-(107,373,cs),
-(107,313,o),
-(131,224,o),
-(206,224,cs),
-(285,224,o),
-(376,306,o),
-(508,448,c)
-);
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(437,696,l),
-(414,460,o),
-(408,236,o),
-(408,0,c)
-);
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(635,696,l),
-(-72,687,l)
-);
-},
-{
-pos = (3,0);
-ref = "pa-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

@@ -3,13 +3,6 @@ glyphname = "g-deva.alt3";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "ga-deva.alt3";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -67,13 +60,6 @@ nodes = (
 width = 392;
 },
 {
-background = {
-shapes = (
-{
-ref = "g-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

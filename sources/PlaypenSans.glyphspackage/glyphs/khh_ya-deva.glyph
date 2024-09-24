@@ -4,18 +4,6 @@ kernLeft = "deva-beg";
 kernRight = "deva-end";
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (16,0);
-ref = "kha-deva.alt1";
-},
-{
-pos = (199,159);
-ref = "nukta-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -43,13 +31,6 @@ nodes = (
 width = 1449;
 },
 {
-background = {
-shapes = (
-{
-ref = "khha-deva.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

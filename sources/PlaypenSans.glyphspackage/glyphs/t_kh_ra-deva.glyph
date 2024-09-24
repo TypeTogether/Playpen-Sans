@@ -76,18 +76,6 @@ ref = "kh_ra-deva";
 width = 1444;
 },
 {
-background = {
-shapes = (
-{
-ref = "t-deva";
-},
-{
-alignment = -1;
-pos = (411,0);
-ref = "kha-deva.alt3";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

@@ -3,31 +3,6 @@ glyphname = "p-deva";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "pa-deva";
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(154,749,l),
-(136,633,o),
-(127,507,o),
-(127,391,cs),
-(127,302,o),
-(160,210,o),
-(249,210,cs),
-(353,210,o),
-(486,358,o),
-(539,454,c)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {

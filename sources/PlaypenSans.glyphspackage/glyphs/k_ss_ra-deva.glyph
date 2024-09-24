@@ -171,18 +171,6 @@ name = top;
 pos = (903,760);
 }
 );
-background = {
-anchors = (
-{
-name = bottom;
-pos = (743,-87);
-},
-{
-name = top;
-pos = (758,764);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

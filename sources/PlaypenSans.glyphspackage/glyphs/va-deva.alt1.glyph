@@ -14,13 +14,6 @@ name = top;
 pos = (548,764);
 }
 );
-background = {
-shapes = (
-{
-ref = "va-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -130,58 +123,6 @@ name = top;
 pos = (486,764);
 }
 );
-background = {
-shapes = (
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(490,706,l),
-(490,471,o),
-(483,235,o),
-(476,0,c)
-);
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(-82,706,l),
-(114,706,o),
-(536,700,o),
-(738,700,c)
-);
-},
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(490,418,l),
-(437,459,o),
-(381,490,o),
-(291,490,cs),
-(172,490,o),
-(91,402,o),
-(91,317,cs),
-(91,207,o),
-(173,149,o),
-(285,149,cs),
-(355,149,o),
-(435,175,o),
-(482,207,c)
-);
-},
-{
-ref = "va-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

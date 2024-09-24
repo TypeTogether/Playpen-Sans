@@ -18,18 +18,6 @@ ref = "eMatra_anusvara-deva";
 width = 702;
 },
 {
-background = {
-shapes = (
-{
-ref = "e-deva";
-},
-{
-alignment = -1;
-pos = (539,-7);
-ref = "eMatra-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

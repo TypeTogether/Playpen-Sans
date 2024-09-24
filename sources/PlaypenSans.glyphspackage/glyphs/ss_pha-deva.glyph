@@ -96,13 +96,6 @@ nodes = (
 width = 1297;
 },
 {
-background = {
-shapes = (
-{
-ref = "ss_pa-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

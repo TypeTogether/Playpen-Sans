@@ -2,25 +2,6 @@
 glyphname = popdirectionalformatting;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(20,-200,l),
-(20,581,l),
-(140,456,l),
-(140,513,l),
-(10,650,l),
-(-10,650,l),
-(-140,513,l),
-(-140,456,l),
-(-20,581,l),
-(-20,-200,l)
-);
-}
-);
-};
 layerId = m01;
 name = Display;
 shapes = (
@@ -43,25 +24,6 @@ nodes = (
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(20,-200,l),
-(20,581,l),
-(140,456,l),
-(140,513,l),
-(10,650,l),
-(-10,650,l),
-(-140,513,l),
-(-140,456,l),
-(-20,581,l),
-(-20,-200,l)
-);
-}
-);
-};
 layerId = m003;
 name = Display;
 shapes = (

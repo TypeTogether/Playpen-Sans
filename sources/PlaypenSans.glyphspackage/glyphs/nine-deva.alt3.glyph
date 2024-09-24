@@ -65,14 +65,6 @@ nodes = (
 width = 620;
 },
 {
-background = {
-shapes = (
-{
-pos = (-27,0);
-ref = "nine-deva.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

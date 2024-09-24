@@ -17,13 +17,6 @@ ref = "anusvara-deva.alt1";
 width = 1312;
 },
 {
-background = {
-shapes = (
-{
-ref = "au-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

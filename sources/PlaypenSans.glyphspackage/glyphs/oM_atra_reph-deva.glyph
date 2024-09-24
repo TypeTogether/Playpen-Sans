@@ -3,13 +3,6 @@ glyphname = "oMatra_reph-deva";
 kernRight = "deva-end";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "oMatra-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -23,13 +16,6 @@ ref = "eMatra_reph-deva";
 width = 340;
 },
 {
-background = {
-shapes = (
-{
-ref = "oMatra-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

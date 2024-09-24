@@ -3,29 +3,6 @@ glyphname = "oMatra-deva";
 kernRight = "deva-end";
 layers = (
 {
-background = {
-shapes = (
-{
-attr = {
-strokeWidth = 1;
-};
-closed = 0;
-nodes = (
-(168,751,l),
-(108,827,o),
-(-88,1078,o),
-(-173,1078,cs),
-(-215,1078,o),
-(-259,1046,o),
-(-296,1027,c)
-);
-},
-{
-pos = (20,0);
-ref = "aaMatra-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

@@ -3,16 +3,6 @@ glyphname = "iMatra_reph_anusvara-deva";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-angle = 105;
-pos = (2081,1145);
-ref = "anusvara-deva.alt1";
-scale = (1.0486,1.0486);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

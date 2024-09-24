@@ -17,18 +17,6 @@ ref = "nukta-deva";
 width = 1467;
 },
 {
-background = {
-shapes = (
-{
-pos = (636,0);
-ref = "ja-deva";
-},
-{
-pos = (786,93);
-ref = "nukta-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

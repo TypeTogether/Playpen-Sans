@@ -18,15 +18,6 @@ ref = "eMatra_candraBindu-deva.alt2";
 width = 712;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (559,14);
-ref = "eMatra-deva.alt2";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

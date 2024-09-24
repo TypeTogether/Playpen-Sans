@@ -18,15 +18,6 @@ ref = "ttha-deva";
 width = 1274;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (655,0);
-ref = "tta-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

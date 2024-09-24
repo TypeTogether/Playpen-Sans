@@ -16,13 +16,6 @@ ref = "iiMatra-deva.w1";
 width = 340;
 },
 {
-background = {
-shapes = (
-{
-ref = "iiMatra_anusvara-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

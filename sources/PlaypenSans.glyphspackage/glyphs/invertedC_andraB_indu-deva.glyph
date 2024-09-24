@@ -13,15 +13,6 @@ scale = (1,-1);
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-pos = (0,2081);
-ref = "candraBindu-deva";
-scale = (1,-1);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

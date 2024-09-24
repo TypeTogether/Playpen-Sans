@@ -16,13 +16,6 @@ name = top;
 pos = (340,412);
 }
 );
-background = {
-shapes = (
-{
-ref = "meem-ar.init";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

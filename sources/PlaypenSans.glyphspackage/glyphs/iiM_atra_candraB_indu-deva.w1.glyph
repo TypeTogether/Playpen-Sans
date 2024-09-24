@@ -58,19 +58,6 @@ ref = "iiMatra-deva.w1";
 width = 340;
 },
 {
-background = {
-shapes = (
-{
-ref = "iiMatra-deva";
-},
-{
-alignment = -1;
-pos = (420,306);
-ref = "candraBindu-deva.alt1";
-scale = (0.8145,0.8145);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

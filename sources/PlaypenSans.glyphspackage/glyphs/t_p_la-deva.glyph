@@ -18,13 +18,6 @@ ref = "p_la-deva.alt1";
 width = 1602;
 },
 {
-background = {
-shapes = (
-{
-ref = "t_pa-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

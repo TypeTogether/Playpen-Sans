@@ -4,14 +4,6 @@ kernLeft = "deva-beg";
 kernRight = "deva-end";
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (480,0);
-ref = "dh_va-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -31,13 +23,6 @@ ref = "va-deva";
 width = 1682;
 },
 {
-background = {
-shapes = (
-{
-ref = "g_dh_ya-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

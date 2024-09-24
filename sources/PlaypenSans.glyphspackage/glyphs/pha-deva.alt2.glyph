@@ -161,13 +161,6 @@ name = top;
 pos = (515,764);
 }
 );
-background = {
-shapes = (
-{
-ref = "pha-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

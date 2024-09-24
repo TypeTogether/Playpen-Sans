@@ -12,20 +12,6 @@ name = top;
 pos = (300,683);
 }
 );
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-60,0);
-ref = "dotabove-ar";
-},
-{
-alignment = -1;
-pos = (60,0);
-ref = "dotabove-ar";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -78,32 +64,6 @@ name = top;
 pos = (300,723);
 }
 );
-background = {
-anchors = (
-{
-name = _top;
-pos = (300,516);
-},
-{
-name = top;
-pos = (300,760);
-}
-);
-shapes = (
-{
-alignment = -1;
-pos = (-87,26);
-ref = "dotabove-ar";
-scale = (0.9602,0.9602);
-},
-{
-alignment = -1;
-pos = (81,26);
-ref = "dotabove-ar";
-scale = (0.9602,0.9602);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

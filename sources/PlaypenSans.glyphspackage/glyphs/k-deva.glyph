@@ -3,23 +3,6 @@ glyphname = "k-deva";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-anchors = (
-{
-name = bottom;
-pos = (470,0);
-},
-{
-name = top;
-pos = (485,764);
-}
-);
-shapes = (
-{
-ref = "ka-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

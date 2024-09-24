@@ -98,13 +98,6 @@ ref = "ch_va-deva";
 width = 1392;
 },
 {
-background = {
-shapes = (
-{
-ref = "c_cha-deva.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

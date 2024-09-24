@@ -63,15 +63,6 @@ ref = "la-deva.loclMAR.alt1";
 width = 1342;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (376,0);
-ref = "la-deva.alt3";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

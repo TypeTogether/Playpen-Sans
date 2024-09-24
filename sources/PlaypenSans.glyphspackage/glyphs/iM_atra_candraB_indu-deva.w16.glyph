@@ -3,18 +3,6 @@ glyphname = "iMatra_candraBindu-deva.w16";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "iMatra-deva";
-},
-{
-alignment = -1;
-pos = (924,119);
-ref = "candraBindu-deva.alt1";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

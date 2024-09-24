@@ -16,13 +16,6 @@ ref = "iiMatra-deva.w1.alt1";
 width = 340;
 },
 {
-background = {
-shapes = (
-{
-ref = "iiMatra-deva.w1.alt1";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

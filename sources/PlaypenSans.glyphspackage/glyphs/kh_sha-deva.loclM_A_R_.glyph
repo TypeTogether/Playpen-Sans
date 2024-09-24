@@ -17,13 +17,6 @@ ref = "sha-deva.loclMAR.alt2";
 width = 1715;
 },
 {
-background = {
-shapes = (
-{
-ref = "kh_sha-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

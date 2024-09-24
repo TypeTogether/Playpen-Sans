@@ -5,15 +5,6 @@ kernLeft = jstroke;
 kernRight = istroke;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (143,-82);
-ref = strokeshortcomb;
-scale = (0.84,1);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -27,15 +18,6 @@ ref = strokeshortcomb.narrow;
 width = 267;
 },
 {
-background = {
-shapes = (
-{
-pos = (143,-93);
-ref = strokeshortcomb;
-scale = (0.9,1);
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -49,15 +31,6 @@ ref = strokeshortcomb.narrow;
 width = 283;
 },
 {
-background = {
-shapes = (
-{
-pos = (191,-95);
-ref = strokeshortcomb;
-scale = (0.9,1);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

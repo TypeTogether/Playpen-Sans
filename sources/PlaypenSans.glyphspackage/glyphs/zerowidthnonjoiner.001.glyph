@@ -4,19 +4,6 @@ export = 0;
 glyphname = zerowidthnonjoiner.001;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(20,-200,l),
-(20,600,l),
-(-20,600,l),
-(-20,-200,l)
-);
-}
-);
-};
 layerId = m01;
 name = Display;
 shapes = (
@@ -33,19 +20,6 @@ nodes = (
 width = 0;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(20,-200,l),
-(20,600,l),
-(-20,600,l),
-(-20,-200,l)
-);
-}
-);
-};
 layerId = m003;
 name = Display;
 shapes = (

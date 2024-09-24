@@ -109,13 +109,6 @@ nodes = (
 width = 793;
 },
 {
-background = {
-shapes = (
-{
-ref = "kh-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

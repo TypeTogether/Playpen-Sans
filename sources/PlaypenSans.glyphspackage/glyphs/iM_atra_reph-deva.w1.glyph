@@ -3,13 +3,6 @@ glyphname = "iMatra_reph-deva.w1";
 kernLeft = "deva-beg";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "iMatra_reph-deva";
-}
-);
-};
 layerId = m01;
 shapes = (
 {

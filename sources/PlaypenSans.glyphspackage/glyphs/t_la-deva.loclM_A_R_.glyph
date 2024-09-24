@@ -18,15 +18,6 @@ ref = "la-deva.loclMAR";
 width = 1335;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (361,0);
-ref = "la-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

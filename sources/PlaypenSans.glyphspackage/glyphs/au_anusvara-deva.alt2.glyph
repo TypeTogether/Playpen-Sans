@@ -17,17 +17,6 @@ ref = "aiMatra_anusvara-deva.alt2";
 width = 1302;
 },
 {
-background = {
-shapes = (
-{
-ref = "aa-deva.alt2";
-},
-{
-pos = (1163,0);
-ref = "aiMatra-deva.alt2";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

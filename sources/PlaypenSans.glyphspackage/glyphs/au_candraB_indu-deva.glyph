@@ -17,18 +17,6 @@ ref = "au-deva";
 width = 1312;
 },
 {
-background = {
-shapes = (
-{
-pos = (1150,0);
-ref = "aiMatra-deva";
-},
-{
-pos = (1443,12);
-ref = "candraBindu-deva";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

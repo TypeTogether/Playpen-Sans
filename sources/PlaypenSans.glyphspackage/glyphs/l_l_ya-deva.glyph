@@ -4,15 +4,6 @@ kernLeft = "deva-beg";
 kernRight = "deva-end";
 layers = (
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (610,0);
-ref = "la-deva.alt2";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -27,15 +18,6 @@ ref = "l_ya-deva";
 width = 1970;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (606,0);
-ref = "la-deva.alt2";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

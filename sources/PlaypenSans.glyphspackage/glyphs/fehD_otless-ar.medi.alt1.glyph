@@ -20,13 +20,6 @@ name = top;
 pos = (199,432);
 }
 );
-background = {
-shapes = (
-{
-ref = "fehDotless-ar.medi";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -102,13 +95,6 @@ name = top;
 pos = (252,610);
 }
 );
-background = {
-shapes = (
-{
-ref = "fehDotless-ar.medi";
-}
-);
-};
 layerId = m003;
 shapes = (
 {

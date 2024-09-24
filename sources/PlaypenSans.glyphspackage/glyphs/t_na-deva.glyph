@@ -71,13 +71,6 @@ ref = "na-deva.alt2";
 width = 1070;
 },
 {
-background = {
-shapes = (
-{
-ref = "t-deva.alt3";
-}
-);
-};
 layerId = m003;
 shapes = (
 {
