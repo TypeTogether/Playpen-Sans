@@ -1,0 +1,52 @@
+{
+glyphname = "ny_cha-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ny-deva";
+},
+{
+alignment = -1;
+pos = (568,0);
+ref = "cha-deva.alt1";
+}
+);
+width = 1517;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ny-deva";
+},
+{
+alignment = -1;
+pos = (545,0);
+ref = "cha-deva.alt1";
+}
+);
+width = 1516;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "ny-deva";
+},
+{
+alignment = -1;
+pos = (559,0);
+ref = "cha-deva.alt1";
+}
+);
+width = 1517;
+}
+);
+metricLeft = "ny-deva";
+metricRight = "cha-deva.alt1";
+}

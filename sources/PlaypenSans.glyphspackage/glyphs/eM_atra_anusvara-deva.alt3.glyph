@@ -1,0 +1,60 @@
+{
+glyphname = "eMatra_anusvara-deva.alt3";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "eMatra_anusvara-deva";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "eMatra-deva.alt3";
+},
+{
+pos = (13,43);
+ref = "anusvara-deva.alt1";
+}
+);
+width = 0;
+},
+{
+background = {
+shapes = (
+{
+ref = "eMatra_anusvara-deva";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+ref = "eMatra-deva.alt3";
+},
+{
+pos = (102,77);
+ref = "anusvara-deva.alt1";
+}
+);
+width = 0;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-deva.alt3";
+},
+{
+alignment = -1;
+pos = (48,58);
+ref = "anusvara-deva.alt1";
+}
+);
+width = 0;
+}
+);
+}

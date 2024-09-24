@@ -1,0 +1,67 @@
+{
+glyphname = "iMatra_candraBindu-deva.w1";
+kernLeft = "deva-beg";
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (-206,0);
+ref = "iMatra_candraBindu-deva";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "iMatra-deva.w1";
+},
+{
+alignment = -1;
+pos = (718,119);
+ref = "candraBindu-deva.alt1";
+}
+);
+width = 340;
+},
+{
+background = {
+shapes = (
+{
+pos = (-226,0);
+ref = "iMatra_candraBindu-deva";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+ref = "iMatra-deva.w1";
+},
+{
+alignment = -1;
+pos = (739,331);
+ref = "candraBindu-deva.alt1";
+scale = (0.8145,0.8145);
+}
+);
+width = 360;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "iMatra-deva.w1";
+},
+{
+alignment = -1;
+pos = (726,211);
+ref = "candraBindu-deva.alt1";
+scale = (0.9261,0.9192);
+}
+);
+width = 348;
+}
+);
+}

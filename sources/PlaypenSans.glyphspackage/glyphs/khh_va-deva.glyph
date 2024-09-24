@@ -1,0 +1,65 @@
+{
+glyphname = "khh_va-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "kha-deva";
+},
+{
+pos = (118,173);
+ref = "nukta-deva";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "kh_va-deva";
+},
+{
+pos = (88,133);
+ref = "nukta-deva";
+}
+);
+width = 1396;
+},
+{
+background = {
+shapes = (
+{
+ref = "khha-deva";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+ref = "kh_va-deva";
+},
+{
+pos = (88,133);
+ref = "nukta-deva";
+}
+);
+width = 1397;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "kh_va-deva";
+},
+{
+pos = (88,133);
+ref = "nukta-deva";
+}
+);
+width = 1396;
+}
+);
+metricRight = "va-deva";
+}

@@ -1,0 +1,47 @@
+{
+glyphname = "ss_va-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ss-deva.alt2";
+},
+{
+pos = (438,0);
+ref = "va-deva.alt2";
+}
+);
+width = 1144;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ss-deva.alt2";
+},
+{
+pos = (431,0);
+ref = "va-deva.alt2";
+}
+);
+width = 1124;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ss-deva.alt2";
+},
+{
+pos = (435,0);
+ref = "va-deva.alt2";
+}
+);
+width = 1136;
+}
+);
+metricRight = "va-deva";
+}

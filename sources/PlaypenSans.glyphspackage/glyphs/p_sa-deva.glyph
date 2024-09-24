@@ -1,0 +1,51 @@
+{
+glyphname = "p_sa-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "p-deva";
+},
+{
+pos = (391,0);
+ref = "sa-deva";
+}
+);
+width = 1276;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "p-deva";
+},
+{
+alignment = -1;
+pos = (375,0);
+ref = "sa-deva";
+}
+);
+width = 1265;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "p-deva";
+},
+{
+alignment = -1;
+pos = (385,0);
+ref = "sa-deva";
+}
+);
+width = 1272;
+}
+);
+metricLeft = "p-deva";
+metricRight = "sa-deva";
+}

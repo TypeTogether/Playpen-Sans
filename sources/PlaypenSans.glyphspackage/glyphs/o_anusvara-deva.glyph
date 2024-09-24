@@ -1,0 +1,48 @@
+{
+glyphname = "o_anusvara-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "o-deva";
+},
+{
+pos = (1155,52);
+ref = "anusvara-deva";
+}
+);
+width = 1312;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "o-deva";
+},
+{
+pos = (1218,52);
+ref = "anusvara-deva";
+}
+);
+width = 1272;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "o-deva";
+},
+{
+alignment = -1;
+pos = (1180,52);
+ref = "anusvara-deva";
+}
+);
+width = 1296;
+}
+);
+}

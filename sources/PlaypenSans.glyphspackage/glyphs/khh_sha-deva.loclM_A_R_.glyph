@@ -1,0 +1,64 @@
+{
+glyphname = "khh_sha-deva.loclMAR";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "khh_sha-deva";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+pos = (114,145);
+ref = "nukta-deva";
+},
+{
+ref = "kh_sha-deva.loclMAR";
+}
+);
+width = 1715;
+},
+{
+background = {
+shapes = (
+{
+ref = "khh_sha-deva";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+pos = (114,145);
+ref = "nukta-deva";
+},
+{
+ref = "kh_sha-deva.loclMAR";
+}
+);
+width = 1802;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (114,145);
+ref = "nukta-deva";
+},
+{
+alignment = -1;
+ref = "kh_sha-deva.loclMAR";
+}
+);
+width = 1750;
+}
+);
+metricLeft = "kh-deva.alt2";
+metricRight = "sha-deva.loclMAR.alt2";
+}

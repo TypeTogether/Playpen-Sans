@@ -1,0 +1,50 @@
+{
+glyphname = "iMatra_anusvara-deva.w16";
+kernLeft = "deva-beg";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "iMatra-deva.w16";
+},
+{
+pos = (2595,113);
+ref = "anusvara-deva.alt1";
+scale = (0.95,0.95);
+}
+);
+width = 340;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "iMatra-deva.w16";
+},
+{
+pos = (2841,182);
+ref = "anusvara-deva.alt1";
+scale = (0.95,0.95);
+}
+);
+width = 360;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "iMatra-deva.w16";
+},
+{
+alignment = -1;
+pos = (2693,143);
+ref = "anusvara-deva.alt1";
+scale = (0.95,0.95);
+}
+);
+width = 348;
+}
+);
+}

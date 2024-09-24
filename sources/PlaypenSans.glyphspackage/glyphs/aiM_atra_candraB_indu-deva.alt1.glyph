@@ -1,0 +1,60 @@
+{
+glyphname = "aiMatra_candraBindu-deva.alt1";
+layers = (
+{
+background = {
+shapes = (
+{
+ref = "aiMatra_candraBindu-deva";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = "aiMatra-deva.alt1";
+},
+{
+pos = (130,71);
+ref = "candraBindu-deva.alt1";
+}
+);
+width = 0;
+},
+{
+background = {
+shapes = (
+{
+ref = "aiMatra_candraBindu-deva";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+ref = "aiMatra-deva.alt1";
+},
+{
+pos = (294,0);
+ref = "candraBindu-deva.alt1";
+}
+);
+width = 0;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "aiMatra-deva.alt1";
+},
+{
+alignment = -1;
+pos = (195,40);
+ref = "candraBindu-deva.alt1";
+}
+);
+width = 0;
+}
+);
+}
