@@ -509,13 +509,13 @@ feature locl {
 
   lookup decomp_GREK {
     # lookupflag 0;
-    sub Alphatonos by Alpha tonos.case;
-    sub Epsilontonos by Epsilon tonos.case;
-    sub Etatonos by Eta tonos.case;
-    sub Iotatonos by Iota tonos.case;
-    sub Omicrontonos by Omicron tonos.case;
-    sub Upsilontonos by Upsilon tonos.case;
-    sub Omegatonos by Omega tonos.case;
+    # sub Alphatonos by Alpha tonos.case;
+    # sub Epsilontonos by Epsilon tonos.case;
+    # sub Etatonos by Eta tonos.case;
+    # sub Iotatonos by Iota tonos.case;
+    # sub Omicrontonos by Omicron tonos.case;
+    # sub Upsilontonos by Upsilon tonos.case;
+    # sub Omegatonos by Omega tonos.case;
     sub Iotadieresis by Iota dieresiscomb;
     sub Upsilondieresis by Upsilon dieresiscomb;
     sub alphatonos by alpha tonos;
