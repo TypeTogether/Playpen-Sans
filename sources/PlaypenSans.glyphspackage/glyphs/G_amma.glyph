@@ -2,7 +2,7 @@
 color = 4;
 glyphname = Gamma;
 kernLeft = Eta;
-kernRight = Tau;
+kernRight = Gamma;
 layers = (
 {
 color = 4;

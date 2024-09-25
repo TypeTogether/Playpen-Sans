@@ -1,7 +1,7 @@
 {
 glyphname = Gamma.alt1;
 kernLeft = Eta;
-kernRight = Tau;
+kernRight = Gamma;
 layers = (
 {
 layerId = m01;

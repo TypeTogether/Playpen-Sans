@@ -12,7 +12,7 @@ ref = Alpha;
 },
 {
 anchor = topleft;
-pos = (159,-23);
+pos = (219,-23);
 ref = tonos.case;
 }
 );
@@ -26,7 +26,7 @@ ref = Alpha;
 },
 {
 anchor = topleft;
-pos = (93,-65);
+pos = (135,-65);
 ref = tonos.case;
 }
 );
@@ -40,7 +40,7 @@ ref = Alpha;
 },
 {
 anchor = topleft;
-pos = (127,-40);
+pos = (167,-40);
 ref = tonos.case;
 }
 );

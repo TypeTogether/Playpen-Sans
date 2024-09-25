@@ -12,7 +12,7 @@ ref = Epsilon;
 },
 {
 anchor = topleft;
-pos = (39,-23);
+pos = (39,-27);
 ref = tonos.case;
 }
 );
@@ -40,7 +40,7 @@ ref = Epsilon;
 },
 {
 anchor = topleft;
-pos = (23,-40);
+pos = (-7,-40);
 ref = tonos.case;
 }
 );
