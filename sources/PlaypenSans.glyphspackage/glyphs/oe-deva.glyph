@@ -23,7 +23,7 @@ shapes = (
 ref = "a-deva";
 },
 {
-pos = (809,0);
+pos = (810,0);
 ref = "oeMatra-deva";
 }
 );
