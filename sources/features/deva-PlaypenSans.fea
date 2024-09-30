@@ -41,7 +41,7 @@
 @iMatra-deva.w16 = [k_s_p_la-deva k_s_p_la-deva.loclMAR];
 
 
-@iiMatra-deva.w1 = [nga-deva cha-deva ra-deva rra-deva la-deva.loclMAR ng_ka-deva ng_k_ra-deva ng_k_ta-deva ng_ga-deva ng_g_ra-deva ng_kha-deva ng_gha-deva ng_gh_ra-deva ng_ma-deva ng_ra-deva c_cha-deva ny_cha-deva k_la-deva.loclMAR k_s_p_la-deva.loclMAR g_la-deva.loclMAR t_p_la-deva.loclMAR t_la-deva.loclMAR p_la-deva.loclMAR ph_la-deva.loclMAR b_la-deva.loclMAR m_la-deva.loclMAR l_la-deva.loclMAR v_la-deva.loclMAR sh_la-deva.loclMAR s_la-deva.loclMAR sh_cha-deva sh_cha-deva.loclMAR];
+@iiMatra-deva.w1 = [nga-deva cha-deva ra-deva rra-deva la-deva.loclMAR lla-deva llla-deva ng_ka-deva ng_k_ra-deva ng_k_ta-deva ng_ga-deva ng_g_ra-deva ng_kha-deva ng_gha-deva ng_gh_ra-deva ng_ma-deva ng_ra-deva c_cha-deva ny_cha-deva k_la-deva.loclMAR k_s_p_la-deva.loclMAR g_la-deva.loclMAR t_p_la-deva.loclMAR t_la-deva.loclMAR p_la-deva.loclMAR ph_la-deva.loclMAR b_la-deva.loclMAR m_la-deva.loclMAR l_la-deva.loclMAR v_la-deva.loclMAR sh_la-deva.loclMAR s_la-deva.loclMAR sh_cha-deva sh_cha-deva.loclMAR];
 
 @iiMatra-deva.w2 = [ka-deva jha-deva.loclNEP pha-deva qa-deva fa-deva k_ka-deva j_ka-deva t_ka-deva n_ka-deva l_ka-deva sh_ka-deva sh_ka-deva.loclMAR ss_ka-deva s_ka-deva j_jha-deva.loclNEP jh_jha-deva.loclNEP k_pha-deva t_pha-deva n_pha-deva p_pha-deva m_pha-deva l_pha-deva ss_pha-deva s_pha-deva q_pha-deva sh_qa-deva q_qa-deva l_fa-deva q_fa-deva f_fa-deva];
 
