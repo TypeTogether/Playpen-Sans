@@ -109,7 +109,7 @@ nodes = (
 );
 }
 );
-width = 1412;
+width = 1399;
 },
 {
 layerId = m003;
@@ -325,7 +325,7 @@ nodes = (
 );
 }
 );
-width = 1395;
+width = 1387;
 }
 );
 metricLeft = "s-deva";

@@ -15,7 +15,7 @@ pos = (468,0);
 ref = "ma-deva.alt2";
 }
 );
-width = 1364;
+width = 1351;
 },
 {
 layerId = m003;
@@ -43,7 +43,7 @@ pos = (502,0);
 ref = "ma-deva.alt2";
 }
 );
-width = 1344;
+width = 1336;
 }
 );
 metricRight = "ma-deva";

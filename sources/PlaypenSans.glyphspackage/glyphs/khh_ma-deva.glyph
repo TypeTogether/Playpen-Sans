@@ -16,7 +16,7 @@ pos = (135,180);
 ref = "nukta-deva";
 }
 );
-width = 1569;
+width = 1556;
 },
 {
 layerId = m003;
@@ -44,7 +44,7 @@ pos = (121,165);
 ref = "nukta-deva";
 }
 );
-width = 1552;
+width = 1544;
 }
 );
 metricRight = "ma-deva";
