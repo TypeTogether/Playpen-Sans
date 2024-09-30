@@ -4,6 +4,12 @@ kernLeft = "deva-beg";
 kernRight = "deva-end";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (371,-229);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17,6 +23,12 @@ ref = "nukta-deva";
 width = 737;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (371,-247);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -30,6 +42,12 @@ ref = "nukta-deva";
 width = 717;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (371,-243);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

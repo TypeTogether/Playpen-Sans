@@ -116,6 +116,13 @@ name = top;
 pos = (488,764);
 }
 );
+background = {
+shapes = (
+{
+ref = "ha-deva";
+}
+);
+};
 layerId = m003;
 shapes = (
 {
@@ -205,7 +212,7 @@ nodes = (
 );
 }
 );
-width = 600;
+width = 644;
 },
 {
 anchors = (
