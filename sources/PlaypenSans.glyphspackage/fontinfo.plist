@@ -1,5 +1,5 @@
 {
-.appVersion = "3319";
+.appVersion = "3316";
 .formatVersion = 3;
 axes = (
 {
@@ -3621,6 +3621,8 @@ sheqel,
 "alefMaksura-ar.fina.alt1",
 "alefMaksura-ar.fina.alt2",
 "alefMaksura-ar.fina.alt3",
+"alefMaksura-ar.medi",
+"alefMaksura-ar.init",
 "yeh-ar",
 "yeh-ar.fina",
 "yeh-ar.medi",
