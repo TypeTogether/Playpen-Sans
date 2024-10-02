@@ -403,4 +403,5 @@ nodes = (
 width = 771;
 }
 );
+subCategory = Conjunct;
 }
