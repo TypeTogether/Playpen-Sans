@@ -45,4 +45,5 @@ ref = "la-deva.loclMAR.alt1";
 width = 1577;
 }
 );
+subCategory = Conjunct;
 }

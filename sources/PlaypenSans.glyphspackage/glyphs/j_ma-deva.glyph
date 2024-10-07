@@ -283,4 +283,5 @@ width = 1362;
 );
 metricLeft = "j-deva.alt3";
 metricRight = "ma-deva.alt2";
+subCategory = Conjunct;
 }

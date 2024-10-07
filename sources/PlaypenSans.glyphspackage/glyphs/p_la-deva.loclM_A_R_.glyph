@@ -183,4 +183,5 @@ width = 1325;
 }
 );
 metricRight = "la-deva.loclMAR.alt2";
+subCategory = Conjunct;
 }

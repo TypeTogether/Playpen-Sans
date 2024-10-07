@@ -218,4 +218,5 @@ width = 526;
 }
 );
 metricLeft = "k_ssa-deva.alt1";
+subCategory = Conjunct;
 }

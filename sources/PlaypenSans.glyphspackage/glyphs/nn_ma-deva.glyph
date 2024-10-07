@@ -47,4 +47,5 @@ width = 1356;
 }
 );
 metricRight = "ma-deva";
+subCategory = Conjunct;
 }

@@ -45,4 +45,5 @@ ref = "nukta-deva";
 width = 1278;
 }
 );
+subCategory = Conjunct;
 }

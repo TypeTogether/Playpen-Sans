@@ -45,4 +45,5 @@ ref = "ka-deva.alt1";
 width = 1508;
 }
 );
+subCategory = Conjunct;
 }

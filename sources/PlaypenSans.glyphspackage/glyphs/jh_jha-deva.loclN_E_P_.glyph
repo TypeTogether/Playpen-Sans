@@ -435,4 +435,5 @@ ref = "jha-deva.loclNEP.alt1";
 width = 2027;
 }
 );
+subCategory = Conjunct;
 }

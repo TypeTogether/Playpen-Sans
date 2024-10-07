@@ -46,4 +46,5 @@ ref = "kha-deva";
 width = 1764;
 }
 );
+subCategory = Conjunct;
 }

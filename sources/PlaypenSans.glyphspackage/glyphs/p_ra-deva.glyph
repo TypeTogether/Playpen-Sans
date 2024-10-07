@@ -97,4 +97,5 @@ width = 702;
 );
 metricLeft = "pa-deva";
 metricRight = "ra-deva";
+subCategory = Conjunct;
 }

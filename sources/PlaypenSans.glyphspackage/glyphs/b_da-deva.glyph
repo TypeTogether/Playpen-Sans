@@ -322,4 +322,5 @@ width = 1077;
 }
 );
 metricRight = "da-deva.alt1";
+subCategory = Conjunct;
 }
