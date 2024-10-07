@@ -10,7 +10,7 @@ shapes = (
 ref = xi.alt1;
 }
 );
-width = 500;
+width = 494;
 },
 {
 layerId = m003;
@@ -28,7 +28,7 @@ shapes = (
 ref = xi.alt1;
 }
 );
-width = 520;
+width = 526;
 }
 );
 }
