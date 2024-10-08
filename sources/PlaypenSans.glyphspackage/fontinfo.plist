@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3323";
 .formatVersion = 3;
 axes = (
 {
@@ -5266,6 +5266,12 @@ languagesystem cyrl MKD;
 languagesystem cyrl SRB;
 
 languagesystem hebr JII;
+
+languagesystem deva MAR;
+languagesystem deva NEP;
+languagesystem dev2 MAR;
+languagesystem dev2 NEP;
+
 
 include(features/cyr-classes-PlaypenSans.fea);
 include(features/deva-classes-PlaypenSans.fea);
