@@ -4,6 +4,12 @@ kernLeft = "deva-beg";
 kernRight = "deva-end";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (436,-41);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -34,6 +40,12 @@ ref = "da-deva.alt1";
 width = 696;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (479,-162);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -64,6 +76,12 @@ ref = "da-deva.alt1";
 width = 681;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (446,-88);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {

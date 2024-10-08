@@ -26,7 +26,7 @@ width = 795;
 anchors = (
 {
 name = bottom;
-pos = (611,-247);
+pos = (631,-247);
 }
 );
 layerId = m003;

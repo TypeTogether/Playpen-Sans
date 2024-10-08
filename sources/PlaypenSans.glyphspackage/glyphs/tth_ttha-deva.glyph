@@ -143,6 +143,13 @@ name = top;
 pos = (525,764);
 }
 );
+background = {
+shapes = (
+{
+ref = "ttha-deva.alt1";
+}
+);
+};
 layerId = m003;
 shapes = (
 {
@@ -259,7 +266,7 @@ nodes = (
 );
 }
 );
-width = 815;
+width = 715;
 },
 {
 anchors = (
@@ -388,10 +395,9 @@ nodes = (
 );
 }
 );
-width = 743;
+width = 703;
 }
 );
 metricLeft = "ttha-deva";
-metricRight = "ttha-deva";
 subCategory = Conjunct;
 }
