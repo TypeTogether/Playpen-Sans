@@ -181,30 +181,47 @@ feature locl {
   script hebr;
   language JII; # Yiddish  
   
-  lookup ccmp_hebr_jii_02 {
+  lookup locl_hebr_jii_02 {
     lookupflag RightToLeft;
     sub yodhiriq-hb by yodhiriq-hb.JII;
     sub hyphen by maqaf-hb; 
-  } ccmp_hebr_jii_02;
+  } locl_hebr_jii_02;
 
-  lookup ccmp_hebr_jii_03 {
+  lookup locl_hebr_jii_03 {
   	# needs to appear before yod yod -> yodyod; otherwise yod yod hiriq will always turn into
   	# yodyod hiriq (instead of yod yodhiriq)
     lookupflag RightToLeft;
     sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] hiriq-hb by yodhiriq-hb.JII;
-  } ccmp_hebr_jii_03;
+  } locl_hebr_jii_03;
 
-  lookup ccmp_hebr_jii_04 {
+  lookup locl_hebr_jii_04 {
     sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] patah-hb by yodyodpatah-hb;
     sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] by vavvav-hb;
     sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by vavyod-hb;
     sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by yodyod-hb;
-  } ccmp_hebr_jii_04;
+  } locl_hebr_jii_04;
   
-  lookup ccmp_hebr_jii_05 {
+  lookup locl_hebr_jii_05 {
     lookupflag RightToLeft;
     sub yodyod-hb patah-hb by yodyodpatah-hb;
-  } ccmp_hebr_jii_05;
+  } locl_hebr_jii_05;
+
+  script deva;
+  language MAR;
+  sub la-deva by la-deva.loclMAR;
+  sub sha-deva by sha-deva.loclMAR;
+
+  language NEP;
+  sub jha-deva by jha-deva.loclNEP;
+
+  script dev2;
+  language MAR;
+  sub la-deva by la-deva.loclMAR;
+  sub sha-deva by sha-deva.loclMAR;
+
+  language NEP;
+  sub jha-deva by jha-deva.loclNEP;
+
 } locl;
 
 
@@ -1521,10 +1538,10 @@ feature ss03 {
     name 1 0 0 "Alternates: Yiddish"; # Mac English
   };
   lookupflag RightToLeft;
-  lookup ccmp_hebr_jii_02;
-  lookup ccmp_hebr_jii_03;
-  lookup ccmp_hebr_jii_04;
-  lookup ccmp_hebr_jii_05;
+  lookup locl_hebr_jii_02;
+  lookup locl_hebr_jii_03;
+  lookup locl_hebr_jii_04;
+  lookup locl_hebr_jii_05;
 } ss03;
 
 

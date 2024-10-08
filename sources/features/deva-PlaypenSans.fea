@@ -761,16 +761,16 @@ lookup removeReph {
 #---------------------
 # Localised Forms
 
-feature locl {
+# feature locl {
 	
-	language MAR;
-	sub la-deva by la-deva.loclMAR;
-	sub sha-deva by sha-deva.loclMAR;
+# 	language MAR;
+# 	sub la-deva by la-deva.loclMAR;
+# 	sub sha-deva by sha-deva.loclMAR;
 
-	language NEP;
-	sub jha-deva by jha-deva.loclNEP;
+# 	language NEP;
+# 	sub jha-deva by jha-deva.loclNEP;
 
-} locl;
+# } locl;
 
 
 #---------------------
