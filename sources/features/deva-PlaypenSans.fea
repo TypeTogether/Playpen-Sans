@@ -1039,7 +1039,7 @@ feature pres {
 		sub j-deva j_nya-deva by j_j_nya-deva;
 
 		sub t-deva k-deva ya-deva by t_k_ya-deva;
-		sub t-deva k-deva ra-deva by t_k_ra-deva;
+		sub t-deva k_ra-deva by t_k_ra-deva;
 		sub t-deva k-deva va-deva by t_k_va-deva;
 		sub t-deva k_ssa-deva by t_k_ssa-deva;
 		sub t-deva kh-deva na-deva by t_kh_na-deva;
@@ -1072,7 +1072,7 @@ feature pres {
 		sub n-deva p_ra-deva by n_p_ra-deva;
 		sub n-deva m-deva ya-deva by n_m_ya-deva;
 		sub n-deva s-deva tta-deva by n_s_tta-deva;
-		sub n-deva h-deva ya-deva by n_h_ya-deva;
+		sub n-deva h_ya-deva by n_h_ya-deva;
 		
 		sub p-deva t-deva ya-deva by p_t_ya-deva;
 
@@ -1091,7 +1091,7 @@ feature pres {
 		sub l-deva d_ra-deva by l_d_ra-deva;
 		sub l-deva l-deva ya-deva by l_l_ya-deva;
 		sub l-deva v-deva dda-deva by l_v_dda-deva;
-		sub l-deva h-deva ya-deva by l_h_ya-deva;
+		sub l-deva h_ya-deva by l_h_ya-deva;
 
 		sub ll-deva ya-deva by ll_ya-deva;
 
