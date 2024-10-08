@@ -1,6 +1,6 @@
 {
 glyphname = "dh-deva.alt1";
-kernLeft = "deva-beg";
+kernLeft = "dha-deva";
 layers = (
 {
 layerId = m01;

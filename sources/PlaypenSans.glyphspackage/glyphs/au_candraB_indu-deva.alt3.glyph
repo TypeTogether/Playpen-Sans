@@ -1,6 +1,6 @@
 {
 glyphname = "au_candraBindu-deva.alt3";
-kernLeft = "deva-beg";
+kernLeft = "a-deva";
 kernRight = "deva-end";
 layers = (
 {

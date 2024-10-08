@@ -1,6 +1,6 @@
 {
 glyphname = "au-deva.alt1";
-kernLeft = "deva-beg";
+kernLeft = "a-deva";
 kernRight = "deva-end";
 layers = (
 {

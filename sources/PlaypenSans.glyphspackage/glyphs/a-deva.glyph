@@ -1,6 +1,6 @@
 {
 glyphname = "a-deva";
-kernLeft = "deva-beg";
+kernLeft = "a-deva";
 kernRight = "deva-end";
 layers = (
 {
