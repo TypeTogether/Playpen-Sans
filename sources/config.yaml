@@ -1,0 +1,46 @@
+sources: 
+  - PlaypenSans.glyphspackage
+axisOrder:
+  - wght
+familyName: PlaypenSans
+buildVariable: true
+buildOTF: false
+buildTTF: false
+buildWebfont: false
+flattenComponents: false
+outputDir: "../fonts-builder"
+# stat:
+#   PlaypenSans[wght].ttf:
+#   - name: Weight
+#     tag: wght
+#     values:
+#     - name: Thin
+#       value: 100
+#     - name: ExtraLight
+#       value: 200
+#     - name: Light
+#       value: 300
+#     - name: Regular
+#       value: 400
+#       linkedValue: 700
+#       flags: 2
+#     - name: Medium
+#       value: 500
+#     - name: SemiBold
+#       value: 600
+#     - name: Bold
+#       value: 700
+#     - name: ExtraBold
+#       value: 800
+# sources:
+# - PlaypenSans.glyphspackage
+# doGuidelines: false
+# buildStatic: true
+buildColorVariable: false
+recipeProvider: fontprimer
+variants:
+  - name: GC
+    steps:
+      - operation: exec
+        exe: pyftsubset
+        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --unicodes=0400-045F,0490-0493,0496-0497,049A-049B,04A2-04A3,04AE-04B3,04B6-04B7,04BA-04BB,04C0-04C0,04CF-04CF,04D8-04D9,04E8-04E9,0370-03FF'
