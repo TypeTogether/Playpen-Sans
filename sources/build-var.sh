@@ -42,7 +42,7 @@ do
 	rm $varFontsPath/*gasp*
 
 	# add STAT
-	gftools gen-stat --src config.yml --inplace $ttf
+	gftools gen-stat --src stat.yaml --inplace $ttf
 	echo "Done building STAT table"
 	# echo "Compressing to .woff2:"
 	# fonttools ttLib.woff2 compress $ttf
