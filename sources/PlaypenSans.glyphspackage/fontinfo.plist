@@ -1,5 +1,5 @@
 {
-.appVersion = "3323";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -5606,7 +5606,7 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Thin;
-weightClass = 250;
+weightClass = 100;
 },
 {
 axesValues = (
@@ -5628,7 +5628,7 @@ instanceInterpolations = {
 m01 = 0.67647;
 };
 name = ExtraLight;
-weightClass = 275;
+weightClass = 200;
 },
 {
 axesValues = (
