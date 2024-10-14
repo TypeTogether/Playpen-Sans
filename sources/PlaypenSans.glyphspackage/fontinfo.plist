@@ -2455,6 +2455,13 @@ doublemacronbelowcomb.case,
 "Obarred-cy.alt4",
 "Obarred-cy.alt5",
 "Obarred-cy.alt6",
+"Zedescender-cy",
+"Kaverticalstroke-cy",
+"Kabashkir-cy",
+"EnGe-cy",
+"Esdescender-cy",
+"Cheverticalstroke-cy",
+"Aie-cy",
 "gestroke-cy",
 "gestroke-cy.alt1",
 "gestroke-cy.alt2",
@@ -2532,6 +2539,13 @@ doublemacronbelowcomb.case,
 "obarred-cy.alt4",
 "obarred-cy.alt5",
 "obarred-cy.alt6",
+"zedescender-cy",
+"kaverticalstroke-cy",
+"kabashkir-cy",
+"enge-cy",
+"esdescender-cy",
+"cheverticalstroke-cy",
+"aie-cy",
 "iigrave-cy.loclBGR",
 "pe-cy.loclBGR",
 "pe-cy.loclBGR.alt1",
@@ -5667,11 +5681,6 @@ Axis = Weight;
 Location = 400;
 }
 );
-},
-{
-name = "Rename Glyphs";
-value = (
-);
 }
 );
 instanceInterpolations = {
@@ -5691,12 +5700,6 @@ value = (
 Axis = Weight;
 Location = 500;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
@@ -5720,12 +5723,6 @@ Axis = Weight;
 Location = 600;
 }
 );
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb.jump=slashlongcomb"
-);
 }
 );
 instanceInterpolations = {
@@ -5747,12 +5744,6 @@ value = (
 Axis = Weight;
 Location = 700;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
@@ -5777,12 +5768,6 @@ value = (
 Axis = Weight;
 Location = 800;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
