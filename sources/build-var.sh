@@ -21,6 +21,8 @@ echo "
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
+python bump-version-minor.py
+
 fontmake -g ./PlaypenSans.glyphspackage -o variable --output-path \
 			$varFontsPath/PlaypenSans[wght]-dev.ttf \
 			--filter DecomposeTransformedComponentsFilter \
