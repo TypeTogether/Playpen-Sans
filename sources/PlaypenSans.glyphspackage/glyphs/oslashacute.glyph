@@ -8,11 +8,15 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = oslash;
+ref = o;
 },
 {
 pos = (262,0);
 ref = acutecomb;
+},
+{
+pos = (271,-21);
+ref = slashlongcomb;
 }
 );
 width = 535;
@@ -21,11 +25,15 @@ width = 535;
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
-ref = oslash;
+ref = o;
 },
 {
 pos = (275,0);
 ref = acutecomb;
+},
+{
+pos = (280,-21);
+ref = slashlongcomb;
 }
 );
 width = 555;
@@ -34,11 +42,15 @@ width = 555;
 layerId = m003;
 shapes = (
 {
-ref = oslash;
+ref = o;
 },
 {
 pos = (296,0);
 ref = acutecomb;
+},
+{
+pos = (299,-21);
+ref = slashlongcomb;
 }
 );
 width = 598;

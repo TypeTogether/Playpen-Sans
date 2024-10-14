@@ -1,5 +1,5 @@
 {
-.appVersion = "3323";
+.appVersion = "3322";
 .formatVersion = 3;
 axes = (
 {
@@ -5671,8 +5671,6 @@ Location = 400;
 {
 name = "Rename Glyphs";
 value = (
-"estroke.jump=estroke",
-"Estroke.jump=Estroke"
 );
 }
 );
@@ -5698,8 +5696,7 @@ Location = 500;
 {
 name = "Rename Glyphs";
 value = (
-"estroke.jump=estroke",
-"Estroke.jump=Estroke"
+"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
@@ -5727,14 +5724,7 @@ Location = 600;
 {
 name = "Rename Glyphs";
 value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
+"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
@@ -5762,14 +5752,7 @@ Location = 700;
 {
 name = "Rename Glyphs";
 value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
+"slashlongcomb.jump=slashlongcomb"
 );
 }
 );
@@ -5799,14 +5782,7 @@ Location = 800;
 {
 name = "Rename Glyphs";
 value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
+"slashlongcomb.jump=slashlongcomb"
 );
 }
 );

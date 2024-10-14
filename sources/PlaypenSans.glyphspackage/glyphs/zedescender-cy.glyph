@@ -1,0 +1,48 @@
+{
+color = 6;
+glyphname = "zedescender-cy";
+kernLeft = "ze-cy";
+kernRight = "ze-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+pos = (206,-243);
+ref = cedillacomb;
+}
+);
+width = 497;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+pos = (203,-236);
+ref = cedillacomb;
+}
+);
+width = 509;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ze-cy";
+},
+{
+pos = (221,-236);
+ref = cedillacomb;
+}
+);
+width = 527;
+}
+);
+unicode = 1177;
+}
