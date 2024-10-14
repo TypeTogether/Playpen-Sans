@@ -1317,7 +1317,9 @@ feature calt {
   lookup BackwardsCheck_DEVA {
     include(features/deva-BackwardsCheck.fea);
   } BackwardsCheck_DEVA;
+  lookup extrasub_deva {
   sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 nya-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;
+  } extrasub_deva;
 
   #script hebr;
   lookup PseudoRandom_HEBR {

@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3323";
 .formatVersion = 3;
 axes = (
 {
@@ -36205,7 +36205,7 @@ value = TT;
 },
 {
 key = versionString;
-value = "Version 1.003";
+value = "Version 1.006";
 }
 );
 stems = (
@@ -39772,5 +39772,5 @@ width = 78;
 };
 };
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 6;
 }
