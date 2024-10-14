@@ -7,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (826,-70);
+pos = (828,0);
 },
 {
 name = top;
@@ -172,13 +172,21 @@ width = 1040;
 anchors = (
 {
 name = bottom;
-pos = (773,-170);
+pos = (793,0);
 },
 {
 name = top;
 pos = (812,764);
 }
 );
+background = {
+anchors = (
+{
+name = top;
+pos = (803,764);
+}
+);
+};
 layerId = m003;
 shapes = (
 {
@@ -337,7 +345,7 @@ width = 988;
 anchors = (
 {
 name = bottom;
-pos = (805,-100);
+pos = (812,0);
 },
 {
 name = top;
