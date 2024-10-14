@@ -914,6 +914,7 @@ feature half {
 		sub rra-deva halant-deva by rr-deva;
 		sub va-deva halant-deva by v-deva;
 		sub sha-deva halant-deva by sh-deva;
+		sub sha-deva.loclMAR halant-deva by sh-deva.loclMAR;
 		sub ssa-deva halant-deva by ss-deva;
 		sub sa-deva halant-deva by s-deva;
 
