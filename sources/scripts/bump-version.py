@@ -1,25 +1,31 @@
-import sys
-from fontTools.ttLib import TTFont
+# bumps the version in 'name' id5 while development
 
-# Bumps version to the built font
-# ugly but apparently working
+import sys
+import os
+from fontTools.ttLib import TTFont
 
 fpath = sys.argv[1]
 
-# font['head'].fontRevision = new_version
+version_file = "version-current.txt"
+
+
+def versionUp(font, vpath):
+	if os.path.isfile(vpath) is False:
+		vpath = f"./scripts/{vpath}"
+	with open(vpath, "r") as vf:
+		current = vf.read()
+		print(current)
+		up = round(float(current) + 0.001, 3)
+		print(f"Current: {current} | Up: {up}")
+	with open(vpath, "w") as vf:
+		vf.write(str(up))
+		vf.close()
+	font['head'].fontRevision = up
+	font['name'].setName(f"{up};TT;Development-version", 3, 3, 1, 1033)
+	font['name'].setName(f"Version {up}", 5, 3, 1, 1033)
+	print(f"Version {up}")
 
 ttfont = TTFont(fpath)
-
-current_version = round(ttfont['head'].fontRevision, 3)
-new_version = round(current_version, 3) + .001
-new_version = round(new_version, 3)
-
-ttfont['head'].fontRevision = new_version
-ttfont['name'].setName(f"{new_version};TT;Development", 3, 3, 1, 1033)
-ttfont['name'].setName(f"Version {new_version}", 5, 3, 1, 1033)
-
-print(f"Updated version: {current_version:.3f} → {new_version:.3f}")
-
+versionUp(ttfont, version_file)
 ttfont.save(fpath)
 ttfont.close()
-
