@@ -582,6 +582,7 @@ feature locl {
     sub Otildeacute by O tildecomb.case acutecomb.case;
     sub Otildedieresis by O tildecomb.case dieresiscomb.case;
     sub Pacute by P acutecomb.case;
+    sub Rmacronbelow by R macronbelowcomb;
     sub Sdotbelow by S dotbelowcomb;
     sub Tcircumflexbelow by T circumflexbelowcomb;
     sub Tdotbelow by T dotbelowcomb;
