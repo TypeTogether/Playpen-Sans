@@ -48,3 +48,16 @@ variants:
       - operation: exec
         exe: gftools-fontsetter
         args: '$in LGC.yaml -o $out'
+  - name: ARAB
+    steps:
+      - operation: exec
+        exe: pyftsubset
+        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-ARAB.nam'
+      - operation: exec
+        exe: gftools-fontsetter
+        args: '$in ARAB.yaml -o $out'
+
+
+
+
+
