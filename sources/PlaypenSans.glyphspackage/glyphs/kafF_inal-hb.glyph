@@ -82,7 +82,7 @@ width = 526;
 anchors = (
 {
 name = bottom;
-pos = (470,0);
+pos = (-15,0);
 },
 {
 name = center;

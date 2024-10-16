@@ -35438,7 +35438,7 @@ sheqel = {
 "@MMK_L_lamed-hb" = -20;
 "@MMK_L_nunFinal-hb" = 15;
 "@MMK_L_parenleft" = 15;
-"@MMK_L_yod-hb" = -20;
+"@MMK_L_yod-hb" = -10;
 };
 "@MMK_R_nunFinal-hb" = {
 "@MMK_L_hyphen" = -33;
@@ -35831,7 +35831,6 @@ m003 = {
 "@MMK_L_lamed-hb" = -20;
 "@MMK_L_nunFinal-hb" = 20;
 "@MMK_L_parenleft" = 40;
-"@MMK_L_yod-hb" = -20;
 };
 "@MMK_R_nunFinal-hb" = {
 "@MMK_L_hyphen" = -20;

@@ -56,7 +56,7 @@ pos = (36,0);
 ref = "nun-hb";
 },
 {
-pos = (33,22);
+pos = (48,22);
 ref = "dagesh-hb";
 }
 );
