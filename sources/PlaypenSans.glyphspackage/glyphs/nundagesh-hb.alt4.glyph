@@ -55,7 +55,7 @@ pos = (32,0);
 ref = "nun-hb.alt4";
 },
 {
-pos = (29,22);
+pos = (31,22);
 ref = "dagesh-hb";
 }
 );
