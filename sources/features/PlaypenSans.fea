@@ -536,6 +536,7 @@ feature locl {
     sub Iotadieresis by Iota dieresiscomb;
     sub Upsilondieresis by Upsilon dieresiscomb;
     sub alphatonos by alpha tonos;
+    sub alphatonos.ss01 by alpha.ss01 tonos;
     sub epsilontonos by epsilon tonos;
     sub etatonos by eta tonos;
     sub iotatonos by iota tonos;
@@ -1529,6 +1530,7 @@ feature ss01 {
   sub lambda.alt4 by lambda.ss01.alt4;
   sub lambda.alt5 by lambda.ss01.alt5;
   sub lambda.alt6 by lambda.ss01.alt6;
+  sub alphatonos by alphatonos.ss01;
 
   # ARA stylistic sets
   lookup ss01_ara_0 {
@@ -1569,6 +1571,13 @@ feature ss03 {
   lookup locl_hebr_jii_05;
 } ss03;
 
+feature ss19 {
+  featureNames {
+    name "Currency florin"; # Windows English
+    name 1 0 0 "Currency florin"; # Mac English
+  };
+  sub fhook by florin.ss19;;
+} ss19;
 
 feature kern {
   # Automatic Code
