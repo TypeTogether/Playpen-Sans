@@ -8,6 +8,7 @@ buildOTF: false
 buildTTF: false
 buildWebfont: false
 flattenComponents: false
+version: 1.004
 outputDir: "../fonts-builder"
 # stat:
 #   PlaypenSans[wght].ttf:
@@ -39,8 +40,11 @@ outputDir: "../fonts-builder"
 buildColorVariable: false
 recipeProvider: fontprimer
 variants:
-  - name: GC
+  - name: LGC
     steps:
       - operation: exec
         exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --unicodes=0400-045F,0490-0493,0496-0497,049A-049B,04A2-04A3,04AE-04B3,04B6-04B7,04BA-04BB,04C0-04C0,04CF-04CF,04D8-04D9,04E8-04E9,0370-03FF'
+        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-LGC.nam'
+      - operation: exec
+        exe: gftools-fontsetter
+        args: '$in LGC.yaml -o $out'
