@@ -15,7 +15,7 @@ pos = (405,246);
 },
 {
 name = sindot;
-pos = (108,570);
+pos = (108,610);
 },
 {
 name = top;
@@ -27,7 +27,7 @@ pos = (43,570);
 },
 {
 name = topright;
-pos = (402,570);
+pos = (402,610);
 }
 );
 layerId = m01;
@@ -99,7 +99,7 @@ pos = (486,337);
 },
 {
 name = sindot;
-pos = (131,596);
+pos = (131,626);
 },
 {
 name = top;
@@ -111,7 +111,7 @@ pos = (35,572);
 },
 {
 name = topright;
-pos = (450,596);
+pos = (450,626);
 }
 );
 layerId = m003;
@@ -183,7 +183,7 @@ pos = (435,284);
 },
 {
 name = sindot;
-pos = (117,581);
+pos = (117,611);
 },
 {
 name = top;
@@ -195,7 +195,7 @@ pos = (34,569);
 },
 {
 name = topright;
-pos = (420,581);
+pos = (420,611);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
