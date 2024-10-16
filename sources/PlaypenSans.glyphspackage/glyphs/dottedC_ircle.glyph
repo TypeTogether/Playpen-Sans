@@ -8,8 +8,32 @@ name = bottom;
 pos = (347,0);
 },
 {
+name = center;
+pos = (352,322);
+},
+{
+name = holamhaser;
+pos = (31,526);
+},
+{
+name = ogonek;
+pos = (491,0);
+},
+{
+name = sindot;
+pos = (59,526);
+},
+{
 name = top;
 pos = (349,526);
+},
+{
+name = topleft;
+pos = (18,526);
+},
+{
+name = topright;
+pos = (649,526);
 }
 );
 layerId = m01;
@@ -256,6 +280,10 @@ name = ogonek;
 pos = (491,0);
 },
 {
+name = sindot;
+pos = (59,537);
+},
+{
 name = top;
 pos = (349,537);
 },
@@ -500,8 +528,32 @@ name = bottom;
 pos = (347,0);
 },
 {
+name = center;
+pos = (352,322);
+},
+{
+name = holamhaser;
+pos = (31,546);
+},
+{
+name = ogonek;
+pos = (491,0);
+},
+{
+name = sindot;
+pos = (59,546);
+},
+{
 name = top;
 pos = (355,546);
+},
+{
+name = topleft;
+pos = (18,546);
+},
+{
+name = topright;
+pos = (649,546);
 }
 );
 layerId = m003;
