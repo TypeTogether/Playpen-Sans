@@ -1576,7 +1576,7 @@ feature ss19 {
     name "Currency florin"; # Windows English
     name 1 0 0 "Currency florin"; # Mac English
   };
-  sub fhook by florin.ss19;;
+  sub florin by florin.ss19;;
 } ss19;
 
 feature kern {
