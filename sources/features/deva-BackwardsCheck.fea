@@ -1,4 +1,4 @@
-# lookupflag IgnoreMarks;
+lookupflag IgnoreMarks;
 sub @dflt_deva_1 @dflt_deva_1' by @alt1_deva_1;
 sub @alt1_deva_1 @alt1_deva_1' by @alt2_deva_1;
 sub @alt2_deva_1 @alt2_deva_1' by @alt3_deva_1;

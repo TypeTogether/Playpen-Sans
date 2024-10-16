@@ -1,0 +1,47 @@
+{
+glyphname = "esdescender-cy";
+kernLeft = "o-cy";
+kernRight = "es-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (242,5);
+ref = cedillacomb;
+}
+);
+width = 496;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (271,10);
+ref = cedillacomb;
+}
+);
+width = 522;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = c;
+},
+{
+pos = (279,6);
+ref = cedillacomb;
+}
+);
+width = 560;
+}
+);
+unicode = 1195;
+}

@@ -1366,6 +1366,7 @@ Phook.alt1,
 Phook.alt2,
 Phook.alt3,
 Pstroke,
+Rmacronbelow,
 Rdotbelow,
 Rinvertedbreve,
 Rstroke,
@@ -2454,6 +2455,13 @@ doublemacronbelowcomb.case,
 "Obarred-cy.alt4",
 "Obarred-cy.alt5",
 "Obarred-cy.alt6",
+"Zedescender-cy",
+"Kaverticalstroke-cy",
+"Kabashkir-cy",
+"EnGe-cy",
+"Esdescender-cy",
+"Cheverticalstroke-cy",
+"Aie-cy",
 "gestroke-cy",
 "gestroke-cy.alt1",
 "gestroke-cy.alt2",
@@ -2531,6 +2539,13 @@ doublemacronbelowcomb.case,
 "obarred-cy.alt4",
 "obarred-cy.alt5",
 "obarred-cy.alt6",
+"zedescender-cy",
+"kaverticalstroke-cy",
+"kabashkir-cy",
+"enge-cy",
+"esdescender-cy",
+"cheverticalstroke-cy",
+"aie-cy",
 "iigrave-cy.loclBGR",
 "pe-cy.loclBGR",
 "pe-cy.loclBGR.alt1",
@@ -4123,6 +4138,7 @@ righttoleftoverride,
 "iiMatra-deva.alt2",
 "iiMatra-deva.alt3",
 "uMatra-deva",
+"uMatra-deva.alt",
 "uMatra-deva.alt1",
 "uMatra-deva.alt2",
 "uMatra-deva.alt3",
@@ -5665,13 +5681,6 @@ Axis = Weight;
 Location = 400;
 }
 );
-},
-{
-name = "Rename Glyphs";
-value = (
-"estroke.jump=estroke",
-"Estroke.jump=Estroke"
-);
 }
 );
 instanceInterpolations = {
@@ -5691,13 +5700,6 @@ value = (
 Axis = Weight;
 Location = 500;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"estroke.jump=estroke",
-"Estroke.jump=Estroke"
 );
 }
 );
@@ -5721,19 +5723,6 @@ Axis = Weight;
 Location = 600;
 }
 );
-},
-{
-name = "Rename Glyphs";
-value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
-);
 }
 );
 instanceInterpolations = {
@@ -5755,19 +5744,6 @@ value = (
 Axis = Weight;
 Location = 700;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
 );
 }
 );
@@ -5792,19 +5768,6 @@ value = (
 Axis = Weight;
 Location = 800;
 }
-);
-},
-{
-name = "Rename Glyphs";
-value = (
-"astroke.jump=astroke",
-"cstroke.jump=cstroke",
-"estroke.jump=estroke",
-"tdiagonalstroke=tdiagonalstroke.jump",
-"Astroke.jump=Astroke",
-"Cstroke.jump=Cstroke",
-"Estroke.jump=Estroke",
-"Tdiagonalstroke.jump=Tdiagonalstroke"
 );
 }
 );
@@ -36154,7 +36117,7 @@ key = descriptions;
 values = (
 {
 language = dflt;
-value = "First Release";
+value = "Multiscript development.";
 }
 );
 },
@@ -36176,13 +36139,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org/";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org/";
 },
 {
 key = manufacturers;
@@ -36203,7 +36166,7 @@ value = TT;
 },
 {
 key = versionString;
-value = "Version 1.003";
+value = "Version 1.006";
 }
 );
 stems = (
@@ -39770,5 +39733,5 @@ width = 78;
 };
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 6;
 }

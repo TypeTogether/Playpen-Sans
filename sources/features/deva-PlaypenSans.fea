@@ -43,7 +43,7 @@
 
 @iiMatra-deva.w1 = [nga-deva cha-deva ra-deva rra-deva la-deva.loclMAR lla-deva llla-deva ng_ka-deva ng_k_ra-deva ng_k_ta-deva ng_ga-deva ng_g_ra-deva ng_kha-deva ng_gha-deva ng_gh_ra-deva ng_ma-deva ng_ra-deva c_cha-deva ch_na-deva ch_ra-deva ny_cha-deva ll_ra-deva k_la-deva.loclMAR k_s_p_la-deva.loclMAR g_la-deva.loclMAR t_p_la-deva.loclMAR t_la-deva.loclMAR p_la-deva.loclMAR ph_la-deva.loclMAR b_la-deva.loclMAR m_la-deva.loclMAR l_la-deva.loclMAR v_la-deva.loclMAR sh_la-deva.loclMAR s_la-deva.loclMAR sh_cha-deva sh_cha-deva.loclMAR];
 
-@iiMatra-deva.w2 = [ka-deva jha-deva.loclNEP pha-deva qa-deva fa-deva k_ka-deva k_ra-deva k_ra-deva.alt1 j_ka-deva t_ka-deva n_ka-deva l_ka-deva sh_ka-deva sh_ka-deva.loclMAR ss_ka-deva ss_k_ra-deva s_k_ra-deva s_ka-deva q_ra-deva j_jha-deva.loclNEP jh_jha-deva.loclNEP k_pha-deva t_pha-deva n_pha-deva p_pha-deva ph_pha-deva m_pha-deva l_pha-deva ss_pha-deva s_pha-deva q_pha-deva sh_qa-deva q_qa-deva l_fa-deva q_fa-deva f_fa-deva];
+@iiMatra-deva.w2 = [ka-deva jha-deva.loclNEP pha-deva qa-deva fa-deva k_ka-deva k_ra-deva k_ra-deva.alt1 j_ka-deva t_ka-deva t_k_ra-deva n_ka-deva l_ka-deva sh_ka-deva sh_ka-deva.loclMAR ss_ka-deva ss_k_ra-deva s_k_ra-deva s_ka-deva q_ra-deva j_jha-deva.loclNEP jh_jha-deva.loclNEP k_pha-deva t_pha-deva n_pha-deva p_pha-deva ph_pha-deva m_pha-deva l_pha-deva ss_pha-deva s_pha-deva q_pha-deva sh_qa-deva q_qa-deva l_fa-deva q_fa-deva f_fa-deva];
 
 
 
@@ -67,6 +67,7 @@ lookup removeReph {
 	sub cha-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by cha-deva;
 	sub ja-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by ja-deva;
 	sub jha-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by jha-deva;
+	sub jha-deva.loclNEP [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by jha-deva.loclNEP;
 	sub nya-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by nya-deva;
 
 	sub tta-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by tta-deva;
@@ -92,11 +93,13 @@ lookup removeReph {
 	sub ra-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by ra-deva;
 	sub rra-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by rra-deva;
 	sub la-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by la-deva;
+	sub la-deva.loclMAR [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by la-deva.loclMAR;
 	sub lla-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by lla-deva;
 	sub llla-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by llla-deva;
 	sub va-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by va-deva;
 
 	sub sha-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by sha-deva;
+	sub sha-deva.loclMAR [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by sha-deva.loclMAR;
 	sub ssa-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by ssa-deva;
 	sub sa-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by sa-deva;
 	sub ha-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by ha-deva;
@@ -194,6 +197,7 @@ lookup removeReph {
 	# Gha-conjuncts
 
 	sub gh_na-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by gh_na-deva;
+	sub gh_ma-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by gh_ma-deva;
 	sub gh_ya-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by gh_ya-deva;
 	sub gh_ra-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by gh_ra-deva;
 
@@ -914,6 +918,7 @@ feature half {
 		sub rra-deva halant-deva by rr-deva;
 		sub va-deva halant-deva by v-deva;
 		sub sha-deva halant-deva by sh-deva;
+		sub sha-deva.loclMAR halant-deva by sh-deva.loclMAR;
 		sub ssa-deva halant-deva by ss-deva;
 		sub sa-deva halant-deva by s-deva;
 
@@ -1137,6 +1142,7 @@ feature pres {
 		sub k-deva la-deva.loclMAR by k_la-deva.loclMAR;
 		sub k-deva va-deva by k_va-deva;
 		sub k-deva sha-deva by k_sha-deva;
+		sub k-deva sha-deva.loclMAR by k_sha-deva.loclMAR;
 		sub k-deva sa-deva by k_sa-deva;
 
 		sub kh-deva kha-deva by kh_kha-deva;
@@ -1378,7 +1384,7 @@ feature pres {
 		sub sh-deva ya-deva by sh_ya-deva;
 		sub sh-deva.loclMAR ya-deva by sh_ya-deva.loclMAR;
 		sub sh-deva la-deva by sh_la-deva;
-		sub sh-deva.loclMAR la-deva by sh_la-deva.loclMAR;
+		sub sh-deva.loclMAR la-deva.loclMAR by sh_la-deva.loclMAR;
 		sub sh-deva va-deva by sh_va-deva;
 		sub sh-deva.loclMAR va-deva by sh_va-deva.loclMAR;
 		sub sh-deva sha-deva by sh_sha-deva;

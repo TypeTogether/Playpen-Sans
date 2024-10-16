@@ -582,6 +582,7 @@ feature locl {
     sub Otildeacute by O tildecomb.case acutecomb.case;
     sub Otildedieresis by O tildecomb.case dieresiscomb.case;
     sub Pacute by P acutecomb.case;
+    sub Rmacronbelow by R macronbelowcomb;
     sub Sdotbelow by S dotbelowcomb;
     sub Tcircumflexbelow by T circumflexbelowcomb;
     sub Tdotbelow by T dotbelowcomb;
@@ -1310,13 +1311,6 @@ feature calt {
     include(features/grk-BackwardsCheck.fea);
   } BackwardsCheck_GREK;
 
-  # script deva;
-  lookup PseudoRandom_DEVA {
-    include(features/deva-PseudoRandom.fea);
-  } PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA {
-    include(features/deva-BackwardsCheck.fea);
-  } BackwardsCheck_DEVA;
 
   #script hebr;
   lookup PseudoRandom_HEBR {
@@ -1346,6 +1340,37 @@ feature calt {
   } calt_hebr_02;
 
 
+  # DEVA
+  script deva;
+  language dflt;
+  lookup uMatra_alt {
+    sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
+  } uMatra_alt;
+
+  lookup PseudoRandom_DEVA {
+    include(features/deva-PseudoRandom.fea);
+  } PseudoRandom_DEVA;
+  lookup BackwardsCheck_DEVA {
+    include(features/deva-BackwardsCheck.fea);
+  } BackwardsCheck_DEVA;
+
+  language MAR;
+  lookup uMatra_alt;
+  lookup PseudoRandom_DEVA;
+  lookup BackwardsCheck_DEVA;
+
+  script dev2;
+  language dflt;
+  lookup uMatra_alt;
+  lookup PseudoRandom_DEVA;
+  lookup BackwardsCheck_DEVA;
+
+  language MAR;
+  lookup uMatra_alt;
+  lookup PseudoRandom_DEVA;
+  lookup BackwardsCheck_DEVA;
+
+  # ARAB
   script arab;
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
