@@ -15,7 +15,7 @@ pos = (412,-40);
 ref = "dagesh-hb";
 },
 {
-pos = (402,0);
+pos = (402,40);
 ref = "shindot-hb";
 }
 );
@@ -32,7 +32,7 @@ pos = (488,38);
 ref = "dagesh-hb";
 },
 {
-pos = (455,0);
+pos = (455,30);
 ref = "shindot-hb";
 }
 );

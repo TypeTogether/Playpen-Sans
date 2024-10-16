@@ -52,7 +52,7 @@ shapes = (
 ref = "vav-hb";
 },
 {
-pos = (136,16);
+pos = (136,36);
 ref = "holam-hb";
 }
 );
@@ -79,7 +79,7 @@ shapes = (
 ref = "vav-hb";
 },
 {
-pos = (137,0);
+pos = (137,12);
 ref = "holam-hb";
 }
 );
