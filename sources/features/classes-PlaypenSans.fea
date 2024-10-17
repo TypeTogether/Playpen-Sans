@@ -3,7 +3,7 @@
 # DEFAULT CLASSES:
 @dflt_1 = [@dflt_latx_1 ij lcaron.ss01 R J F v r Y V l.ss01 d five ae dcaron nine germandbls ohorn p H i O a i.ss01 I exclam];
 @dflt_2 = [@dflt_latx_2 S t L Ohorn T uhorn AE j one Uhorn Z m A P M M.ss01 seven f.ss01 E s c three four D question];
-@dflt_3 = [@dflt_latx_3 zero l Q q space N U Germandbls b ldot oe X u e W y.ss01 IJacute G.ss01 n a.ss01 ldot.ss01 G IJ exclamdown];
+@dflt_3 = [@dflt_latx_3 zero l Q q space N U Germandbls b ldot oe X u e W y.ss01 IJacute G.ss01 n a.ss01 ldot.ss01 G IJ exclamdown period];
 @dflt_4 = [@dflt_latx_4 six jdotless I.ss01 K OE w idotless z x o lcaron C tcaron eth B eight two g k y h ijacute f questiondown];
 
 # ALTERNATE CLASSES:
@@ -22,12 +22,12 @@
 @alt5_2 = [@alt2_latx_2 S.alt5 t.alt5 L.alt5 Ohorn.alt5 T.alt5 uhorn.alt5 AE.alt5 j.alt5 one.alt5 Uhorn.alt5 Z.alt5 m.alt5 A.alt5 P.alt5 M.alt5 M.ss01.alt5 seven.alt5 f.ss01.alt5 E.alt5 s.alt5 c.alt5 three.alt5 four.alt5 D.alt5 question.alt5];
 @alt6_2 = [@alt3_latx_2 S.alt6 t.alt6 L.alt6 Ohorn.alt6 T.alt6 uhorn.alt6 AE.alt6 j.alt6 one.alt6 Uhorn.alt6 Z.alt6 m.alt6 A.alt6 P.alt6 M.alt6 M.ss01.alt6 seven.alt6 f.ss01.alt6 E.alt6 s.alt6 c.alt6 three.alt6 four.alt6 D.alt6 question.alt6];
 #
-@alt1_3 = [@alt1_latx_3 zero.alt1 l.alt1 Q.alt1 q.alt1 space.alt1 N.alt1 U.alt1 Germandbls.alt1 b.alt1 ldot.alt1 oe.alt1 X.alt1 u.alt1 e.alt1 W.alt1 y.ss01.alt1 IJacute.alt1 G.ss01.alt1 n.alt1 a.ss01.alt1 ldot.ss01.alt1 G.alt1 IJ.alt1 exclamdown.alt1];
-@alt2_3 = [@alt2_latx_3 zero.alt2 l.alt2 Q.alt2 q.alt2 space.alt2 N.alt2 U.alt2 Germandbls.alt2 b.alt2 ldot.alt2 oe.alt2 X.alt2 u.alt2 e.alt2 W.alt2 y.ss01.alt2 IJacute.alt2 G.ss01.alt2 n.alt2 a.ss01.alt2 ldot.ss01.alt2 G.alt2 IJ.alt2 exclamdown.alt2];
-@alt3_3 = [@alt3_latx_3 zero.alt3 l.alt3 Q.alt3 q.alt3 space.alt3 N.alt3 U.alt3 Germandbls.alt3 b.alt3 ldot.alt3 oe.alt3 X.alt3 u.alt3 e.alt3 W.alt3 y.ss01.alt3 IJacute.alt3 G.ss01.alt3 n.alt3 a.ss01.alt3 ldot.ss01.alt3 G.alt3 IJ.alt3 exclamdown.alt3];
-@alt4_3 = [@alt1_latx_3 zero.alt4 l.alt4 Q.alt4 q.alt4 space.alt4 N.alt4 U.alt4 Germandbls.alt4 b.alt4 ldot.alt4 oe.alt4 X.alt4 u.alt4 e.alt4 W.alt4 y.ss01.alt4 IJacute.alt4 G.ss01.alt4 n.alt4 a.ss01.alt4 ldot.ss01.alt4 G.alt4 IJ.alt4 exclamdown.alt4];
-@alt5_3 = [@alt2_latx_3 zero.alt5 l.alt5 Q.alt5 q.alt5 space.alt5 N.alt5 U.alt5 Germandbls.alt5 b.alt5 ldot.alt5 oe.alt5 X.alt5 u.alt5 e.alt5 W.alt5 y.ss01.alt5 IJacute.alt5 G.ss01.alt5 n.alt5 a.ss01.alt5 ldot.ss01.alt5 G.alt5 IJ.alt5 exclamdown.alt5];
-@alt6_3 = [@alt3_latx_3 zero.alt6 l.alt6 Q.alt6 q.alt6 space.alt6 N.alt6 U.alt6 Germandbls.alt6 b.alt6 ldot.alt6 oe.alt6 X.alt6 u.alt6 e.alt6 W.alt6 y.ss01.alt6 IJacute.alt6 G.ss01.alt6 n.alt6 a.ss01.alt6 ldot.ss01.alt6 G.alt6 IJ.alt6 exclamdown.alt6];
+@alt1_3 = [@alt1_latx_3 zero.alt1 l.alt1 Q.alt1 q.alt1 space.alt1 N.alt1 U.alt1 Germandbls.alt1 b.alt1 ldot.alt1 oe.alt1 X.alt1 u.alt1 e.alt1 W.alt1 y.ss01.alt1 IJacute.alt1 G.ss01.alt1 n.alt1 a.ss01.alt1 ldot.ss01.alt1 G.alt1 IJ.alt1 exclamdown.alt1 period.alt1];
+@alt2_3 = [@alt2_latx_3 zero.alt2 l.alt2 Q.alt2 q.alt2 space.alt2 N.alt2 U.alt2 Germandbls.alt2 b.alt2 ldot.alt2 oe.alt2 X.alt2 u.alt2 e.alt2 W.alt2 y.ss01.alt2 IJacute.alt2 G.ss01.alt2 n.alt2 a.ss01.alt2 ldot.ss01.alt2 G.alt2 IJ.alt2 exclamdown.alt2 period.alt2];
+@alt3_3 = [@alt3_latx_3 zero.alt3 l.alt3 Q.alt3 q.alt3 space.alt3 N.alt3 U.alt3 Germandbls.alt3 b.alt3 ldot.alt3 oe.alt3 X.alt3 u.alt3 e.alt3 W.alt3 y.ss01.alt3 IJacute.alt3 G.ss01.alt3 n.alt3 a.ss01.alt3 ldot.ss01.alt3 G.alt3 IJ.alt3 exclamdown.alt3 period.alt3];
+@alt4_3 = [@alt1_latx_3 zero.alt4 l.alt4 Q.alt4 q.alt4 space.alt4 N.alt4 U.alt4 Germandbls.alt4 b.alt4 ldot.alt4 oe.alt4 X.alt4 u.alt4 e.alt4 W.alt4 y.ss01.alt4 IJacute.alt4 G.ss01.alt4 n.alt4 a.ss01.alt4 ldot.ss01.alt4 G.alt4 IJ.alt4 exclamdown.alt4 period.alt4];
+@alt5_3 = [@alt2_latx_3 zero.alt5 l.alt5 Q.alt5 q.alt5 space.alt5 N.alt5 U.alt5 Germandbls.alt5 b.alt5 ldot.alt5 oe.alt5 X.alt5 u.alt5 e.alt5 W.alt5 y.ss01.alt5 IJacute.alt5 G.ss01.alt5 n.alt5 a.ss01.alt5 ldot.ss01.alt5 G.alt5 IJ.alt5 exclamdown.alt5 period.alt5];
+@alt6_3 = [@alt3_latx_3 zero.alt6 l.alt6 Q.alt6 q.alt6 space.alt6 N.alt6 U.alt6 Germandbls.alt6 b.alt6 ldot.alt6 oe.alt6 X.alt6 u.alt6 e.alt6 W.alt6 y.ss01.alt6 IJacute.alt6 G.ss01.alt6 n.alt6 a.ss01.alt6 ldot.ss01.alt6 G.alt6 IJ.alt6 exclamdown.alt6 period.alt6];
 #
 @alt1_4 = [@alt1_latx_4 six.alt1 jdotless.alt1 I.ss01.alt1 K.alt1 OE.alt1 w.alt1 idotless.alt1 z.alt1 x.alt1 o.alt1 lcaron.alt1 C.alt1 tcaron.alt1 eth.alt1 B.alt1 eight.alt1 two.alt1 g.alt1 k.alt1 y.alt1 h.alt1 ijacute.alt1 f.alt1 questiondown.alt1];
 @alt2_4 = [@alt2_latx_4 six.alt2 jdotless.alt2 I.ss01.alt2 K.alt2 OE.alt2 w.alt2 idotless.alt2 z.alt2 x.alt2 o.alt2 lcaron.alt2 C.alt2 tcaron.alt2 eth.alt2 B.alt2 eight.alt2 two.alt2 g.alt2 k.alt2 y.alt2 h.alt2 ijacute.alt2 f.alt2 questiondown.alt2];
