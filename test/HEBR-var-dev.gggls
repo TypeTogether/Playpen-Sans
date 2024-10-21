@@ -5,9 +5,9 @@
     }
   ],
   "textSettings": {
-    "text": "וואֹוובֹווגֹוודֹווהֹוווֹוווֺווזֹווחֹווטֹוויֹווכֹוולֹוומֹוונֹווסֹוועֹוופֹווצֹווקֹוורֹוושֹוותֹוו",
+    "text": "חלּלּלּחלֹלֹלֹחלֹּלֹּלֹּחלֹּלֹּלֹּח",
     "textFilePath": "HEBR-ggls.txt",
-    "textFileIndex": 31,
+    "textFileIndex": 33,
     "shouldApplyBiDi": true,
     "direction": null,
     "script": "hebr",
@@ -15,7 +15,6 @@
     "alignment": null,
     "features": {
       "ss03": true,
-      "calt": false,
       "mark": true
     },
     "varLocation": {
@@ -29,8 +28,8 @@
   },
   "uiSettings": {
     "windowPosition": [
-      81.0,
-      140.0,
+      79.0,
+      141.0,
       1767.0,
       890.0
     ],
@@ -38,12 +37,12 @@
     "fontListShowFontFileName": true,
     "characterListVisible": false,
     "characterListSize": 98.0,
-    "glyphListVisible": false,
-    "glyphListSize": 255.0,
+    "glyphListVisible": true,
+    "glyphListSize": 467.0,
     "compileOutputVisible": true,
     "compileOutputSize": 80.0,
     "formattingOptionsVisible": true,
-    "feaVarTabSelection": "variations",
+    "feaVarTabSelection": "features",
     "showHiddenAxes": false
   }
 }

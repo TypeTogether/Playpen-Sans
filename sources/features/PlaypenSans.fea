@@ -1323,6 +1323,10 @@ feature calt {
   
   lookup calt_hebr_02 {
     lookupflag RightToLeft;
+    sub [lamed-hb lamed-hb.alt3] dagesh-hb holam-hb by lameddageshholam-hb;
+    sub [lamed-hb.alt2 lamed-hb.alt4] holam-hb dagesh-hb by lameddageshholam-hb;
+    sub lameddagesh-hb holam-hb by lameddageshholam-hb;
+    sub [lamed-hb lamed-hb.alt3] dagesh-hb by lameddagesh-hb;
     sub vav-hb dagesh-hb by vavdagesh-hb;
     sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
     sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
