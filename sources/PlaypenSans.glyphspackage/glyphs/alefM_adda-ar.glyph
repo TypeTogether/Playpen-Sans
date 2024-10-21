@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = "alefMadda-ar";
-kernLeft = "alefHamzaabove-ar";
+kernLeft = "alefMadda-ar";
 kernRight = "alefHamzaabove-ar";
 layers = (
 {

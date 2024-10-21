@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = "lam-ar.init";
+kernRight = "lam-ar.init";
 layers = (
 {
 anchors = (

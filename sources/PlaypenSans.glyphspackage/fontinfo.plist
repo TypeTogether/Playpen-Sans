@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -3683,6 +3683,8 @@ sheqel,
 "lam_alefMadda-ar.fina",
 "lam_alefWasla-ar",
 "lam_alefWasla-ar.fina",
+"lamVabove_alef-ar",
+"lamVabove_alef-ar.fina",
 "fehdotless_alefMaksura-ar",
 "feh_alefMaksura-ar",
 "feh_yeh-ar",
@@ -34918,6 +34920,9 @@ m01 = {
 "@MMK_R_alefHamzaabove-ar" = {
 "@MMK_L_teh-ar.init" = 20;
 };
+"@MMK_R_alefMadda-ar" = {
+"@MMK_L_kaf-ar.init" = 30;
+};
 "@MMK_R_ayin-hb" = {
 "@MMK_L_comma" = -30;
 "@MMK_L_gimel-hb" = -30;
@@ -35334,6 +35339,9 @@ sheqel = {
 };
 "@MMK_R_alefHamzabelow-ar" = {
 "@MMK_L_yeh-ar.init" = 15;
+};
+"@MMK_R_alefMadda-ar" = {
+"@MMK_L_kaf-ar.init" = 50;
 };
 "@MMK_R_ayin-hb" = {
 "@MMK_L_comma" = -30;
@@ -35788,11 +35796,15 @@ sheqel = {
 };
 m003 = {
 "@MMK_R_alefHamzaabove-ar" = {
-"@MMK_L_teh-ar.init" = 60;
+"@MMK_L_teh-ar.init" = 80;
 "yehVabove-ar.init" = 50;
 };
 "@MMK_R_alefHamzabelow-ar" = {
 "@MMK_L_yeh-ar.init" = 30;
+};
+"@MMK_R_alefMadda-ar" = {
+"@MMK_L_kaf-ar.init" = 60;
+"@MMK_L_lam-ar.init" = 40;
 };
 "@MMK_R_ayin-hb" = {
 "@MMK_L_comma" = -30;

@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = "lamVabove-ar.init";
+kernRight = "lam-ar.init";
 layers = (
 {
 layerId = m01;

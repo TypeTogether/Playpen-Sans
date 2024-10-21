@@ -11,7 +11,7 @@ shapes = (
 ref = "alef-ar";
 },
 {
-pos = (-168,1);
+pos = (-168,0);
 ref = "hamzabelow-ar";
 }
 );
@@ -40,7 +40,7 @@ shapes = (
 ref = "alef-ar";
 },
 {
-pos = (-178,2);
+pos = (-178,0);
 ref = "hamzabelow-ar";
 }
 );
@@ -69,7 +69,7 @@ shapes = (
 ref = "alef-ar";
 },
 {
-pos = (-172,1);
+pos = (-172,0);
 ref = "hamzabelow-ar";
 }
 );

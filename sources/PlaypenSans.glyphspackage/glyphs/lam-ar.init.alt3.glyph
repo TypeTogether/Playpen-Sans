@@ -1,5 +1,6 @@
 {
 glyphname = "lam-ar.init.alt3";
+kernRight = "lam-ar.init";
 layers = (
 {
 anchors = (
