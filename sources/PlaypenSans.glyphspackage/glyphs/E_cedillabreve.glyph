@@ -15,7 +15,7 @@ pos = (325,10);
 ref = cedillacomb;
 },
 {
-pos = (383,1);
+pos = (373,1);
 ref = brevecomb.case;
 }
 );

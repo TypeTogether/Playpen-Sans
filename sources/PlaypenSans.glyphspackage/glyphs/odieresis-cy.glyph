@@ -1,0 +1,45 @@
+{
+glyphname = "odieresis-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "o-cy";
+},
+{
+pos = (262,0);
+ref = dieresiscomb;
+}
+);
+width = 535;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "o-cy";
+},
+{
+pos = (275,0);
+ref = dieresiscomb;
+}
+);
+width = 555;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "o-cy";
+},
+{
+pos = (296,0);
+ref = dieresiscomb;
+}
+);
+width = 598;
+}
+);
+unicode = 1255;
+}

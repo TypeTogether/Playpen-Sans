@@ -1,7 +1,5 @@
 {
-glyphname = "Zedescender-cy";
-kernLeft = "Ze-cy";
-kernRight = "Ve-cy";
+glyphname = "Zedieresis-cy";
 layers = (
 {
 layerId = m01;
@@ -10,8 +8,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (283,0);
-ref = cedillacomb;
+pos = (288,-5);
+ref = dieresiscomb.case;
 }
 );
 width = 619;
@@ -23,8 +21,8 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (294,0);
-ref = cedillacomb;
+pos = (312,7);
+ref = dieresiscomb.case;
 }
 );
 width = 636;
@@ -36,12 +34,12 @@ shapes = (
 ref = "Ze-cy";
 },
 {
-pos = (294,-10);
-ref = cedillacomb;
+pos = (336,10);
+ref = dieresiscomb.case;
 }
 );
 width = 664;
 }
 );
-unicode = 1176;
+unicode = 1246;
 }

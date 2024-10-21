@@ -1,0 +1,45 @@
+{
+glyphname = "Chedieresis-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+pos = (313,0);
+ref = dieresiscomb.case;
+}
+);
+width = 691;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+pos = (345,0);
+ref = dieresiscomb.case;
+}
+);
+width = 709;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+pos = (361,0);
+ref = dieresiscomb.case;
+}
+);
+width = 739;
+}
+);
+unicode = 1268;
+}
