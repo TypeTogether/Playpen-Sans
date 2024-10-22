@@ -507,21 +507,41 @@ feature locl {
     sub tbar by t strokeshortcomb.t;
   } decomp_LAT;
 
-    lookup decomp_CYRL {
-    # lookupflag 0;
+  lookup decomp_CYRL {
+    sub Abreve-cy by A-cy breve-cy.case;
+    sub Chedieresis-cy by Che-cy dieresiscomb.case;
     sub Gje-cy by Ge-cy acutecomb;
-    sub Iishort-cy by Ii-cy breve-cy.case;
+    sub Idieresis-cy by Ii-cy dieresiscomb.case;
+    sub Iebreve-cy by Ie-cy breve-cy.case;
     sub Iigrave-cy by Ii-cy gravecomb.case;
+    sub Iishort-cy by Ii-cy breve-cy.case;
+    sub Imacron-cy by Ii.cy dieresiscomb.case;
     sub Kje-cy by Ka-cy acutecomb.case;
+    sub Odieresis-cy by O-cy dieresiscomb.case;
+    sub Udieresis-cy by U-cy dieresiscomb.case;
+    sub Uhungarumlaut-cy by U-cy hungarhumlautcomb.case;
+    sub Umacron-cy by U-cy macroncomb.case;
     sub Ushort-cy by U-cy breve-cy.case;
+    sub Zedieresis-cy by Ze-cy dieresiscomb.case;
+    sub Zhedieresis-cy by Zhe-cy dieresiscomb.case;
+    sub abreve-cy a-cy by breve-cy;
+    sub chedieresis-cy by che-cy dieresiscomb;
     sub gje-cy by ge-cy acutecomb;
+    sub idieresis-cy by ii-cy dieresiscomb;
+    sub iebreve-cy by ie-cy breve-cy;
     sub iegrave-cy by e gravecomb;
-    sub io-cy by e dieresiscomb;
-    # sub iishort-cy by u.alt1 breve-cy;
     sub iigrave-cy by ii-cy gravecomb;
+    sub imacron-cy by ii.cy dieresiscomb;
+    sub io-cy by e dieresiscomb;
     sub kje-cy by ka-cy acutecomb;
+    sub odieresis-cy by o-cy dieresiscomb;
+    sub udieresis-cy by u-cy dieresiscomb;
+    sub uhungarumlaut-cy by u-cy hungarhumlautcomb;
+    sub umacron-cy by u-cy macroncomb;
     sub ushort-cy by y breve-cy;
     sub ushort-cy.ss01 by y.ss01 breve-cy;
+    sub zedieresis-cy by ze-cy dieresiscomb;
+    sub zhedieresis-cy by zhe-cy dieresiscomb;
   } decomp_CYRL;
 
   lookup decomp_GREK {
