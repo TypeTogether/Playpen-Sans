@@ -5,13 +5,6 @@ kernLeft = "alefMadda-ar";
 kernRight = "alefMadda-ar";
 layers = (
 {
-background = {
-shapes = (
-{
-ref = "alef-ar.short";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
