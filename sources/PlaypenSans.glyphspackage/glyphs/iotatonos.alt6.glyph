@@ -1,8 +1,8 @@
 {
 color = 10;
-glyphname = iotadieresistonos;
+glyphname = iotatonos.alt6;
 kernLeft = iotatonos;
-kernRight = iotadieresistonos;
+kernRight = iotatonos;
 layers = (
 {
 layerId = m01;
@@ -11,8 +11,8 @@ shapes = (
 ref = iota.alt1;
 },
 {
-pos = (10,3);
-ref = dieresistonos;
+pos = (5,6);
+ref = tonos;
 }
 );
 width = 355;
@@ -24,8 +24,8 @@ shapes = (
 ref = iota.alt1;
 },
 {
-pos = (-103,12);
-ref = dieresistonos;
+pos = (60,4);
+ref = tonos;
 }
 );
 width = 429;
@@ -37,12 +37,13 @@ shapes = (
 ref = iota.alt1;
 },
 {
-pos = (-30,8);
-ref = dieresistonos;
+pos = (26,7);
+ref = tonos;
 }
 );
 width = 386;
 }
 );
-unicode = 912;
+metricLeft = "=iota";
+metricRight = "=iota";
 }
