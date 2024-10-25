@@ -4,6 +4,20 @@ kernLeft = eturned;
 kernRight = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (209,5);
+},
+{
+name = ogonek;
+pos = (281,35);
+},
+{
+name = top;
+pos = (233,533);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -13,6 +27,20 @@ ref = eturned.alt3;
 width = 484;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (193,7);
+},
+{
+name = ogonek;
+pos = (271,33);
+},
+{
+name = top;
+pos = (242,536);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -22,6 +50,20 @@ ref = eturned.alt3;
 width = 500;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (239,9);
+},
+{
+name = ogonek;
+pos = (342,38);
+},
+{
+name = top;
+pos = (251,536);
+}
+);
 layerId = m003;
 shapes = (
 {
