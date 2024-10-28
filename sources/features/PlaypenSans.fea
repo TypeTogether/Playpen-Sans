@@ -1548,6 +1548,11 @@ feature ss01 {
   sub lambda.alt5 by lambda.ss01.alt5;
   sub lambda.alt6 by lambda.ss01.alt6;
   sub alphatonos by alphatonos.ss01;
+  #
+  sub Nhookleft by Nhookleft.ss01;
+  sub Nhookleft.alt1 by Nhookleft.ss01.alt1;
+  sub Nhookleft.alt2 by Nhookleft.ss01.alt2;
+  sub Nhookleft.alt3 by Nhookleft.ss01.alt3;
 
   # ARA stylistic sets
   lookup ss01_ara_0 {
