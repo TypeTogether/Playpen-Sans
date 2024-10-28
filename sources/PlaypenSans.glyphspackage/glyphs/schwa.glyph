@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (241,5);
+pos = (221,5);
 },
 {
 name = ogonek;
@@ -73,7 +73,7 @@ width = 501;
 anchors = (
 {
 name = bottom;
-pos = (249,7);
+pos = (226,7);
 },
 {
 name = ogonek;
@@ -138,7 +138,7 @@ width = 528;
 anchors = (
 {
 name = bottom;
-pos = (246,0);
+pos = (226,0);
 },
 {
 name = ogonek;
