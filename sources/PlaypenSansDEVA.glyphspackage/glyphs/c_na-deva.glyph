@@ -1,0 +1,50 @@
+{
+glyphname = "c_na-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "c-deva";
+},
+{
+alignment = -1;
+pos = (503,0);
+ref = "na-deva";
+}
+);
+width = 1152;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "c-deva";
+},
+{
+pos = (525,0);
+ref = "na-deva";
+}
+);
+width = 1187;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "c-deva";
+},
+{
+alignment = -1;
+pos = (512,0);
+ref = "na-deva";
+}
+);
+width = 1166;
+}
+);
+subCategory = Conjunct;
+}

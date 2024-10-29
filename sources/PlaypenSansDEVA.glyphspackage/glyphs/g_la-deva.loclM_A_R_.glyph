@@ -1,0 +1,53 @@
+{
+glyphname = "g_la-deva.loclMAR";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (358,0);
+ref = "la-deva.loclMAR.alt1";
+}
+);
+width = 1322;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (450,0);
+ref = "la-deva.loclMAR.alt1";
+}
+);
+width = 1396;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (395,0);
+ref = "la-deva.loclMAR.alt1";
+}
+);
+width = 1352;
+}
+);
+metricLeft = "g-deva";
+metricRight = "la-deva.loclMAR.alt1";
+subCategory = Conjunct;
+}

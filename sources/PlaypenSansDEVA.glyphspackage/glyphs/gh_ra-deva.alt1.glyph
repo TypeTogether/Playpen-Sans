@@ -1,0 +1,98 @@
+{
+glyphname = "gh_ra-deva.alt1";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "gha-deva.alt3";
+},
+{
+closed = 1;
+nodes = (
+(433,198,l),
+(421,216,l),
+(415,213,o),
+(410,212,o),
+(405,210,c),
+(81,17,ls),
+(77,15,o),
+(74,10,o),
+(74,5,cs),
+(74,-2,o),
+(80,-8,o),
+(86,-8,cs),
+(89,-8,o),
+(91,-7,o),
+(93,-6,cs)
+);
+}
+);
+width = 676;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "gha-deva.alt3";
+},
+{
+closed = 1;
+nodes = (
+(502,147,l),
+(388,253,l),
+(375,253,o),
+(363,250,o),
+(353,244,c),
+(106,130,ls),
+(80,117,o),
+(68,111,o),
+(68,80,cs),
+(68,36,o),
+(94,-21,o),
+(138,-21,cs),
+(151,-21,o),
+(165,-17,o),
+(176,-12,cs)
+);
+}
+);
+width = 785;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "gha-deva.alt3";
+},
+{
+closed = 1;
+nodes = (
+(461,176,l),
+(408,232,l),
+(399,230,o),
+(391,229,o),
+(384,225,c),
+(91,66,ls),
+(78,59,o),
+(72,54,o),
+(72,38,cs),
+(72,15,o),
+(86,-14,o),
+(107,-14,cs),
+(114,-14,o),
+(120,-11,o),
+(126,-9,cs)
+);
+}
+);
+width = 719;
+}
+);
+metricLeft = "gha-deva.alt3";
+metricRight = "gha-deva.alt3";
+subCategory = Conjunct;
+}

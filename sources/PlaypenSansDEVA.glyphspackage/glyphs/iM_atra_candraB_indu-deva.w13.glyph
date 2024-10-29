@@ -1,0 +1,49 @@
+{
+glyphname = "iMatra_candraBindu-deva.w13";
+kernLeft = "deva-beg";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "iMatra-deva.w13";
+},
+{
+pos = (1896,138);
+ref = "candraBindu-deva";
+}
+);
+width = 340;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "iMatra-deva.w13";
+},
+{
+pos = (1858,357);
+ref = "candraBindu-deva";
+scale = (0.81,0.81);
+}
+);
+width = 360;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "iMatra-deva.w13";
+},
+{
+alignment = -1;
+pos = (1881,233);
+ref = "candraBindu-deva";
+scale = (0.9243,0.9172);
+}
+);
+width = 348;
+}
+);
+}

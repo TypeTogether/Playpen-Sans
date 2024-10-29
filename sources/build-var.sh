@@ -17,7 +17,8 @@ fontmake -g ./PlaypenSans.glyphspackage -o variable --output-path \
 			$varFontsPath/PlaypenSans[wght]-dev.ttf \
 			--filter DecomposeTransformedComponentsFilter \
 			--flatten-components \
-			--no-production-names
+			--no-production-names \
+			--debug-feature-file debug-multi-fea.fea
 			# --flatten-components
 
 python $scripts/bump-version.py $varFontsPath/PlaypenSans[wght]-dev.ttf

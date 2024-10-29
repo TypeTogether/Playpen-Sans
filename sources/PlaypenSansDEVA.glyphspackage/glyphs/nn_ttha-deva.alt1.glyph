@@ -1,0 +1,53 @@
+{
+glyphname = "nn_ttha-deva.alt1";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "nn-deva.alt1";
+},
+{
+alignment = -1;
+pos = (564,0);
+ref = "ttha-deva.alt3";
+}
+);
+width = 1266;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "nn-deva.alt1";
+},
+{
+alignment = -1;
+pos = (594,0);
+ref = "ttha-deva.alt3";
+}
+);
+width = 1318;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "nn-deva.alt1";
+},
+{
+alignment = -1;
+pos = (576,0);
+ref = "ttha-deva.alt3";
+}
+);
+width = 1287;
+}
+);
+metricLeft = "nn-deva.alt1";
+metricRight = "ttha-deva.alt3";
+subCategory = Conjunct;
+}
