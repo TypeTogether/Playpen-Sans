@@ -10,11 +10,12 @@ shapes = (
 ref = "b-deva";
 },
 {
-pos = (436,0);
+alignment = -1;
+pos = (441,0);
 ref = "ba-deva.alt1";
 }
 );
-width = 1131;
+width = 1136;
 },
 {
 layerId = m003;
