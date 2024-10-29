@@ -21,7 +21,7 @@ variants:
       - operation: exec
         exe: gftools-fontsetter
         args: '$in LGC.yaml -o $out'
-  - name: ARAB
+  - name: Arabic
     steps:
       - operation: exec
         exe: pyftsubset
@@ -29,7 +29,7 @@ variants:
       - operation: exec
         exe: gftools-fontsetter
         args: '$in ARAB.yaml -o $out'
-  - name: HEB
+  - name: Hebrew
     steps:
       - operation: exec
         exe: pyftsubset
