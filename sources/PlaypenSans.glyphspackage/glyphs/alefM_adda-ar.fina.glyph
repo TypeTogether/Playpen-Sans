@@ -1,7 +1,8 @@
 {
 color = 10;
 glyphname = "alefMadda-ar.fina";
-kernLeft = "alefHamzaabove-ar";
+kernLeft = "alefMadda-ar";
+kernRight = "alefMadda-ar";
 layers = (
 {
 layerId = m01;
@@ -39,7 +40,7 @@ shapes = (
 ref = "alef-ar.fina.short";
 },
 {
-pos = (-179,190);
+pos = (-179,180);
 ref = "madda-ar";
 }
 );

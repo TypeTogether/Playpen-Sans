@@ -507,45 +507,58 @@ feature locl {
     sub tbar by t strokeshortcomb.t;
   } decomp_LAT;
 
-    lookup decomp_CYRL {
-    # lookupflag 0;
+  lookup decomp_CYRL {
+    sub Abreve-cy by A-cy breve-cy.case;
+    sub Chedieresis-cy by Che-cy dieresiscomb.case;
     sub Gje-cy by Ge-cy acutecomb;
-    sub Iishort-cy by Ii-cy breve-cy.case;
+    sub Idieresis-cy by Ii-cy dieresiscomb.case;
+    sub Iebreve-cy by Ie-cy breve-cy.case;
     sub Iigrave-cy by Ii-cy gravecomb.case;
+    sub Iishort-cy by Ii-cy breve-cy.case;
+    sub Imacron-cy by Ii-cy dieresiscomb.case;
     sub Kje-cy by Ka-cy acutecomb.case;
+    sub Odieresis-cy by O-cy dieresiscomb.case;
+    sub Udieresis-cy by U-cy dieresiscomb.case;
+    sub Uhungarumlaut-cy by U-cy hungarumlautcomb.case;
+    sub Umacron-cy by U-cy macroncomb.case;
     sub Ushort-cy by U-cy breve-cy.case;
+    sub Zedieresis-cy by Ze-cy dieresiscomb.case;
+    sub Zhedieresis-cy by Zhe-cy dieresiscomb.case;
+    sub abreve-cy by a-cy breve-cy;
+    sub chedieresis-cy by che-cy dieresiscomb;
     sub gje-cy by ge-cy acutecomb;
+    sub idieresis-cy by ii-cy dieresiscomb;
+    sub iebreve-cy by ie-cy breve-cy;
     sub iegrave-cy by e gravecomb;
-    sub io-cy by e dieresiscomb;
-    # sub iishort-cy by u.alt1 breve-cy;
     sub iigrave-cy by ii-cy gravecomb;
+    sub imacron-cy by ii-cy dieresiscomb;
+    sub io-cy by e dieresiscomb;
     sub kje-cy by ka-cy acutecomb;
+    sub odieresis-cy by o-cy dieresiscomb;
+    sub udieresis-cy by u-cy dieresiscomb;
+    sub uhungarumlaut-cy by u-cy hungarumlautcomb;
+    sub umacron-cy by u-cy macroncomb;
     sub ushort-cy by y breve-cy;
     sub ushort-cy.ss01 by y.ss01 breve-cy;
+    sub zedieresis-cy by ze-cy dieresiscomb;
+    sub zhedieresis-cy by zhe-cy dieresiscomb;
   } decomp_CYRL;
 
   lookup decomp_GREK {
     # lookupflag 0;
-    # sub Alphatonos by Alpha tonos.case;
-    # sub Epsilontonos by Epsilon tonos.case;
-    # sub Etatonos by Eta tonos.case;
-    # sub Iotatonos by Iota tonos.case;
-    # sub Omicrontonos by Omicron tonos.case;
-    # sub Upsilontonos by Upsilon tonos.case;
-    # sub Omegatonos by Omega tonos.case;
     sub Iotadieresis by Iota dieresiscomb;
     sub Upsilondieresis by Upsilon dieresiscomb;
     sub alphatonos by alpha tonos;
     sub alphatonos.ss01 by alpha.ss01 tonos;
     sub epsilontonos by epsilon tonos;
     sub etatonos by eta tonos;
-    sub iotatonos by iota tonos;
+    # sub iotatonos by iota tonos;
     sub omicrontonos by omicron tonos;
     sub upsilontonos by upsilon tonos;
     sub omegatonos by omega tonos;
     sub iotadieresis by iota dieresiscomb;
     sub upsilondieresis by upsilon dieresiscomb;
-    sub iotadieresistonos by iota dieresistonoscomb;
+    # sub iotadieresistonos by iota dieresistonoscomb;
     sub upsilondieresistonos by upsilon dieresistonoscomb;
   } decomp_GREK;
 
@@ -1323,6 +1336,10 @@ feature calt {
   
   lookup calt_hebr_02 {
     lookupflag RightToLeft;
+    sub [lamed-hb lamed-hb.alt3] dagesh-hb holam-hb by lameddageshholam-hb;
+    sub [lamed-hb.alt2 lamed-hb.alt4] holam-hb dagesh-hb by lameddageshholam-hb;
+    sub lameddagesh-hb holam-hb by lameddageshholam-hb;
+    sub [lamed-hb lamed-hb.alt3] dagesh-hb by lameddagesh-hb;
     sub vav-hb dagesh-hb by vavdagesh-hb;
     sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
     sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
@@ -1531,6 +1548,11 @@ feature ss01 {
   sub lambda.alt5 by lambda.ss01.alt5;
   sub lambda.alt6 by lambda.ss01.alt6;
   sub alphatonos by alphatonos.ss01;
+  #
+  sub Nhookleft by Nhookleft.ss01;
+  sub Nhookleft.alt1 by Nhookleft.ss01.alt1;
+  sub Nhookleft.alt2 by Nhookleft.ss01.alt2;
+  sub Nhookleft.alt3 by Nhookleft.ss01.alt3;
 
   # ARA stylistic sets
   lookup ss01_ara_0 {

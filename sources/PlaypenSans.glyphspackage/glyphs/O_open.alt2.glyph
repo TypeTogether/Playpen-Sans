@@ -145,7 +145,7 @@ pos = (330,10);
 },
 {
 name = ogonek;
-pos = (447,21);
+pos = (447,23);
 },
 {
 name = top;

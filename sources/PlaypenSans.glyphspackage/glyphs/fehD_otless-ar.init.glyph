@@ -75,13 +75,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 383;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (88,-124);
+pos = (234,-124);
 },
 {
 name = exit;
@@ -150,7 +150,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 413;
+width = 468;
 },
 {
 anchors = (
@@ -225,8 +225,9 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 389;
+width = 415;
 }
 );
 metricLeft = "behDotless-ar.medi";
+metricRight = "fehDotless-ar";
 }

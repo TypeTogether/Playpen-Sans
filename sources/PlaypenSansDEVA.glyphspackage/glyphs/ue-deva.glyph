@@ -1,0 +1,49 @@
+{
+glyphname = "ue-deva";
+kernLeft = "a-deva";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "a-deva";
+},
+{
+pos = (467,0);
+ref = "ueMatra-deva";
+}
+);
+width = 962;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "a-deva";
+},
+{
+pos = (501,0);
+ref = "ueMatra-deva";
+}
+);
+width = 986;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "a-deva";
+},
+{
+alignment = -1;
+pos = (481,0);
+ref = "ueMatra-deva";
+}
+);
+width = 972;
+}
+);
+unicode = 2422;
+}

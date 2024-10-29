@@ -1,0 +1,48 @@
+{
+glyphname = "rra-deva.alt3";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ra-deva.alt3";
+},
+{
+pos = (208,157);
+ref = "nukta-deva";
+}
+);
+width = 580;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ra-deva.alt3";
+},
+{
+pos = (101,151);
+ref = "nukta-deva";
+}
+);
+width = 539;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "ra-deva.alt3";
+},
+{
+alignment = -1;
+pos = (165,154);
+ref = "nukta-deva";
+}
+);
+width = 564;
+}
+);
+}

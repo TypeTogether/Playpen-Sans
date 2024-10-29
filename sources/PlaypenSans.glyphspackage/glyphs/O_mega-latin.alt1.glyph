@@ -4,6 +4,12 @@ kernLeft = "Omega-latin";
 kernRight = "Omega-latin";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (504,774);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -78,6 +84,12 @@ nodes = (
 width = 1011;
 },
 {
+anchors = (
+{
+name = top;
+pos = (530,755);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -152,6 +164,12 @@ nodes = (
 width = 1056;
 },
 {
+anchors = (
+{
+name = top;
+pos = (569,766);
+}
+);
 layerId = m003;
 shapes = (
 {

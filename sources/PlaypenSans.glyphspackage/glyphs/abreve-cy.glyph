@@ -1,0 +1,45 @@
+{
+glyphname = "abreve-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "a-cy";
+},
+{
+pos = (41,-10);
+ref = "brevecomb-cy";
+}
+);
+width = 596;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "a-cy";
+},
+{
+pos = (128,-5);
+ref = "brevecomb-cy";
+}
+);
+width = 622;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "a-cy";
+},
+{
+pos = (278,0);
+ref = "brevecomb-cy";
+}
+);
+width = 692;
+}
+);
+unicode = 1233;
+}

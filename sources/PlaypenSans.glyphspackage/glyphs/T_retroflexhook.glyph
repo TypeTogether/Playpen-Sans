@@ -11,6 +11,10 @@ name = bottom;
 pos = (380,-252);
 },
 {
+name = center;
+pos = (330,298);
+},
+{
 name = top;
 pos = (343,759);
 }
@@ -83,6 +87,10 @@ name = bottom;
 pos = (394,-250);
 },
 {
+name = center;
+pos = (327,298);
+},
+{
 name = top;
 pos = (359,759);
 }
@@ -153,6 +161,10 @@ anchors = (
 {
 name = bottom;
 pos = (421,-250);
+},
+{
+name = center;
+pos = (331,298);
 },
 {
 name = top;

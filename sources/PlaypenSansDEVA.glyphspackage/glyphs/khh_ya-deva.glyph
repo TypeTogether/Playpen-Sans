@@ -1,0 +1,90 @@
+{
+glyphname = "khh_ya-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (4,0);
+ref = "kh_ya-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(219,-26,o),
+(234,-8,o),
+(234,12,cs),
+(234,36,o),
+(216,50,o),
+(196,50,cs),
+(172,50,o),
+(162,30,o),
+(158,10,cs),
+(154,-8,o),
+(169,-26,o),
+(194,-26,cs)
+);
+}
+);
+width = 1449;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "kh_ya-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(226,-156,o),
+(261,-108,o),
+(261,-69,cs),
+(261,-32,o),
+(240,18,o),
+(177,18,cs),
+(115,18,o),
+(98,-18,o),
+(88,-70,cs),
+(77,-127,o),
+(117,-156,o),
+(169,-156,cs)
+);
+}
+);
+width = 1558;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+pos = (2,0);
+ref = "kh_ya-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(225,-82,o),
+(248,-51,o),
+(248,-23,cs),
+(248,7,o),
+(229,36,o),
+(192,36,cs),
+(153,36,o),
+(140,9,o),
+(134,-25,cs),
+(127,-60,o),
+(152,-82,o),
+(188,-82,cs)
+);
+}
+);
+width = 1492;
+}
+);
+metricLeft = "kh_ya-deva";
+metricRight = "kh_ya-deva";
+subCategory = Conjunct;
+}

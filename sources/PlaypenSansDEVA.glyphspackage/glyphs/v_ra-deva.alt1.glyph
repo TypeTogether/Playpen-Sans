@@ -1,0 +1,89 @@
+{
+glyphname = "v_ra-deva.alt1";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "va-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(194,-40,o),
+(198,-37,o),
+(201,-33,cs),
+(326,152,l),
+(304,165,l),
+(179,-20,ls),
+(178,-22,o),
+(177,-24,o),
+(177,-27,cs),
+(177,-34,o),
+(183,-40,o),
+(190,-40,cs)
+);
+}
+);
+width = 733;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "va-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(205,-71,o),
+(211,-47,o),
+(223,-19,cs),
+(294,140,l),
+(149,201,l),
+(78,41,ls),
+(68,18,o),
+(65,11,o),
+(65,0,cs),
+(65,-48,o),
+(130,-71,o),
+(164,-71,cs)
+);
+}
+);
+width = 665;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "va-deva.alt1";
+},
+{
+closed = 1;
+nodes = (
+(198,-51,o),
+(202,-40,o),
+(210,-27,cs),
+(313,147,l),
+(242,181,l),
+(139,7,ls),
+(135,-1,o),
+(132,-7,o),
+(132,-15,cs),
+(132,-33,o),
+(156,-51,o),
+(180,-51,cs)
+);
+}
+);
+width = 706;
+}
+);
+metricLeft = "va-deva.alt1";
+metricRight = "va-deva.alt1";
+subCategory = Conjunct;
+}

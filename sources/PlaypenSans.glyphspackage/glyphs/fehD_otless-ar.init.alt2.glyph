@@ -74,7 +74,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (154,-41);
+pos = (234,-124);
 },
 {
 name = exit;

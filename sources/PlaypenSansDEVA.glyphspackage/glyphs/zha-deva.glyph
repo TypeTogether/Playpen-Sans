@@ -1,0 +1,87 @@
+{
+glyphname = "zha-deva";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ja-deva.alt1";
+},
+{
+angle = -30;
+pos = (486,26);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+angle = 20;
+pos = (246,-99);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+pos = (184,60);
+ref = "nukta-deva";
+}
+);
+width = 921;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ja-deva.alt1";
+},
+{
+angle = -29.1;
+pos = (476,-4);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+angle = 20;
+pos = (216,-149);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+pos = (144,30);
+ref = "nukta-deva";
+}
+);
+width = 897;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "ja-deva.alt1";
+},
+{
+alignment = -1;
+angle = -29.64129;
+pos = (482,13);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+alignment = -1;
+angle = 20;
+pos = (234,-121);
+ref = "nukta-deva";
+scale = (0.95,0.95);
+},
+{
+alignment = -1;
+pos = (168,47);
+ref = "nukta-deva";
+}
+);
+width = 911;
+}
+);
+unicode = 2425;
+}

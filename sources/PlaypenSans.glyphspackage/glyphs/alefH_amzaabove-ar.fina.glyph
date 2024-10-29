@@ -39,7 +39,7 @@ shapes = (
 ref = "alef-ar.fina.short";
 },
 {
-pos = (-191,190);
+pos = (-191,180);
 ref = "hamzaabove-ar";
 }
 );

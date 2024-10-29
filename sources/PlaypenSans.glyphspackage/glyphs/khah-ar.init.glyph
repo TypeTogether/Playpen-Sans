@@ -10,7 +10,7 @@ shapes = (
 ref = "hah-ar.init";
 },
 {
-pos = (58,40);
+pos = (16,-62);
 ref = "dotabove-ar";
 }
 );

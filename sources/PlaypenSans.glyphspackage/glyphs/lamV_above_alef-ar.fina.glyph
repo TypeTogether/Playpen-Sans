@@ -1,0 +1,50 @@
+{
+color = 0;
+glyphname = "lamVabove_alef-ar.fina";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_1;
+pos = (186,292);
+ref = "threedotsdownabove-ar";
+}
+);
+width = 628;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_1;
+pos = (179,299);
+ref = "threedotsdownabove-ar";
+}
+);
+width = 618;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "lam_alef-ar.fina";
+},
+{
+anchor = top_1;
+pos = (177,310);
+ref = "threedotsdownabove-ar";
+}
+);
+width = 600;
+}
+);
+metricLeft = "alef-ar.fina";
+metricRight = "lamVabove-ar.medi";
+}

@@ -4,6 +4,16 @@ kernLeft = Esh;
 kernRight = Esh;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (318,10);
+},
+{
+name = top;
+pos = (313,765);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -63,6 +73,16 @@ nodes = (
 width = 602;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (304,9);
+},
+{
+name = top;
+pos = (311,764);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -122,6 +142,16 @@ nodes = (
 width = 612;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (308,0);
+},
+{
+name = top;
+pos = (299,764);
+}
+);
 layerId = m003;
 shapes = (
 {

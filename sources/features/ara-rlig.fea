@@ -41,6 +41,9 @@ feature rlig {
     sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar;
     sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefWasla-ar.fina by lam_alefWasla-ar.fina;
     sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar.fina;
+
+    sub lamVabove-ar.init [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar;
+    sub lamVabove-ar.medi [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar.fina;
   } rlig_arab_0;
 
 

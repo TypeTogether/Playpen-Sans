@@ -4,6 +4,16 @@ kernLeft = n;
 kernRight = mhook;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (431,0);
+},
+{
+name = top;
+pos = (469,536);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -97,6 +107,16 @@ nodes = (
 width = 888;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (438,0);
+},
+{
+name = top;
+pos = (484,536);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -190,6 +210,16 @@ nodes = (
 width = 910;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (461,0);
+},
+{
+name = top;
+pos = (496,536);
+}
+);
 layerId = m003;
 shapes = (
 {

@@ -21,8 +21,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(165,0,o),
-(321,38,o),
+(115,0,o),
+(321,68,o),
 (321,241,cs),
 (321,366,o),
 (256,444,o),
@@ -57,8 +57,8 @@ nodes = (
 (247,410,o),
 (293,342,o),
 (293,237,cs),
-(293,60,o),
-(145,35,o),
+(293,90,o),
+(95,35,o),
 (0,35,c),
 (-18,24,l),
 (-18,10,l),
@@ -82,13 +82,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 448;
+width = 438;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (134,-88);
+pos = (234,-40);
 },
 {
 name = exit;
@@ -165,7 +165,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 472;
+width = 486;
 },
 {
 anchors = (
@@ -252,5 +252,4 @@ width = 457;
 }
 );
 metricLeft = "behDotless-ar.medi";
-metricRight = "fehDotless-ar.init";
 }
