@@ -2,7 +2,6 @@
 color = 10;
 glyphname = Dcaron;
 kernLeft = H;
-kernRight = D;
 layers = (
 {
 layerId = m01;

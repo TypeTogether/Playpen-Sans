@@ -44,7 +44,7 @@ pos = (45,0);
 ref = l;
 },
 {
-pos = (207,46);
+pos = (206,46);
 ref = slashshortcomb;
 }
 );

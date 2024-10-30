@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = yhookabove;
-kernLeft = u;
+kernLeft = y;
 kernRight = y;
 layers = (
 {

@@ -15,7 +15,7 @@ pos = (455,667);
 },
 {
 name = top;
-pos = (466,780);
+pos = (237,515);
 },
 {
 name = topright;
@@ -116,7 +116,7 @@ pos = (468,667);
 },
 {
 name = top;
-pos = (502,780);
+pos = (250,529);
 },
 {
 name = topright;
@@ -217,7 +217,7 @@ pos = (450,667);
 },
 {
 name = top;
-pos = (467,779);
+pos = (250,516);
 },
 {
 name = topright;

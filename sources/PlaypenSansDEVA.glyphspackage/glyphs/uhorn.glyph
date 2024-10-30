@@ -45,6 +45,25 @@ com.hugojourdan.ColorFlow = {
 width = 614;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,725,o),
+(529,682,o),
+(569,626,cs),
+(606,573,o),
+(588,512,o),
+(486,508,c),
+(483,437,l),
+(672,447,o),
+(701,592,o),
+(642,674,cs)
+);
+}
+);
+};
 layerId = m003;
 shapes = (
 {

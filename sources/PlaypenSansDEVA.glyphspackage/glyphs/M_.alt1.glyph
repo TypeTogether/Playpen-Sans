@@ -108,6 +108,19 @@ name = top;
 pos = (476,754);
 }
 );
+background = {
+shapes = (
+{
+closed = 0;
+nodes = (
+(679,432,l),
+(679,299,o),
+(678,158,o),
+(675,54,cs)
+);
+}
+);
+};
 layerId = m003;
 shapes = (
 {

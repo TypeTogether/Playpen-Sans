@@ -1,7 +1,5 @@
 {
 glyphname = second;
-kernLeft = minute;
-kernRight = minute;
 layers = (
 {
 layerId = m01;
