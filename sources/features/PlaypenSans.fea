@@ -416,7 +416,17 @@ feature locl {
     sub gcommaaccent by g commaturnedabovecomb;
     sub gdotaccent by g dotaccentcomb;
     sub hcircumflex by h circumflexcomb.case;
-    sub idotbelow by i dotbelowcomb;
+    sub iacute by idotless acutecomb;
+    sub ibreve by idotless brevecomb;
+    sub icaron by idotless caroncomb;
+    sub icircumflex by idotless circumflexcomb;
+    sub idieresis by idotless dieresiscomb;
+    sub idotaccent by idotless dotaccentcomb;
+    sub igrave by idotless gravecomb;
+    sub imacron by idotless macroncomb;
+    sub itilde by idotless tildecomb;
+    sub idotbelow by idotless dotbelowcomb;
+    sub ihookabove by idotless hookabovecomb;
     sub kcommaaccent by k commaaccentcomb;
     sub lacute by l acutecomb.case;
     sub lcommaaccent by l commaaccentcomb;
@@ -1401,14 +1411,14 @@ feature case {
 } case;
 
 
-# feature liga {
-#   sub f f i by f_f_i;
-#   sub f f l by f_f_l;
-#   sub f f by f_f;
-#   sub f i by fi;
-#   sub f l by fl;
-#   sub t t by t_t;
-# } liga;
+feature liga {
+  @idotless_all = [idotless idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
+  @i_all = [i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
+  sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
+  sub @idotless_all tildecomb @idotless_all tildecomb by itilde_itilde;
+  sub @i_all tildebelowcomb @i_all tildebelowcomb by itildebelow_itildebelow;
+} liga;
+
 
 feature ss01 {
   featureNames {
