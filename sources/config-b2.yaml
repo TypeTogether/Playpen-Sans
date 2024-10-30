@@ -13,22 +13,22 @@ outputDir: "../fonts-builder"
 buildColorVariable: false
 recipeProvider: fontprimer
 variants:
-  - name: LGC
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-LGC.nam'
-      - operation: exec
-        exe: gftools-fontsetter
-        args: '$in LGC.yaml -o $out'
-  - name: Arabic
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-ARAB.nam'
-      - operation: exec
-        exe: gftools-fontsetter
-        args: '$in ARAB.yaml -o $out'
+  # - name: LGC
+  #   steps:
+  #     - operation: exec
+  #       exe: pyftsubset
+  #       args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-LGC.nam'
+  #     - operation: exec
+  #       exe: gftools-fontsetter
+  #       args: '$in LGC.yaml -o $out'
+  # - name: Arabic
+  #   steps:
+  #     - operation: exec
+  #       exe: pyftsubset
+  #       args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-ARAB.nam'
+  #     - operation: exec
+  #       exe: gftools-fontsetter
+  #       args: '$in ARAB.yaml -o $out'
   - name: Hebrew
     steps:
       - operation: exec
@@ -37,6 +37,14 @@ variants:
   #     # - operation: exec
   #     #   exe: gftools-fontsetter
   #     #   args: '$in ARAB.yaml -o $out'
+  # - name: Devanagari
+  #   steps:
+  #     - operation: exec
+  #       exe: pyftsubset
+  #       args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=PPS-DEVA.nam'
+  # #     # - operation: exec
+  # #     #   exe: gftools-fontsetter
+  # #     #   args: '$in ARAB.yaml -o $out'
 
 
 
