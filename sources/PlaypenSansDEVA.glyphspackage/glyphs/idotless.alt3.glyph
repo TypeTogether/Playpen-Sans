@@ -10,10 +10,6 @@ name = bottom;
 pos = (121,0);
 },
 {
-name = center;
-pos = (149,305);
-},
-{
 name = ogonek;
 pos = (133,9);
 },
@@ -73,10 +69,6 @@ name = bottom;
 pos = (137,0);
 },
 {
-name = center;
-pos = (139,292);
-},
-{
 name = ogonek;
 pos = (164,14);
 },
@@ -134,10 +126,6 @@ anchors = (
 {
 name = bottom;
 pos = (146,-10);
-},
-{
-name = center;
-pos = (152,294);
 },
 {
 name = ogonek;

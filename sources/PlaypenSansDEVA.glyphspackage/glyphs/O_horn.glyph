@@ -5,6 +5,25 @@ kernLeft = O;
 kernRight = Ohorn;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(722,902,o),
+(697,886,o),
+(713,865,cs),
+(764,799,o),
+(751,681,o),
+(606,691,c),
+(622,670,l),
+(786,660,o),
+(794,818,o),
+(737,885,cs)
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -45,6 +64,25 @@ com.hugojourdan.ColorFlow = {
 width = 792;
 },
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(713,951,o),
+(637,908,o),
+(677,852,cs),
+(714,799,o),
+(703,720,o),
+(564,706,c),
+(592,649,l),
+(791,662,o),
+(809,818,o),
+(750,900,cs)
+);
+}
+);
+};
 layerId = m003;
 shapes = (
 {

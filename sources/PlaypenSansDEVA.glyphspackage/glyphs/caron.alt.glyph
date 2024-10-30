@@ -1,5 +1,4 @@
 {
-category = Mark;
 glyphname = caron.alt;
 layers = (
 {
@@ -9,6 +8,39 @@ name = _topright;
 pos = (26,764);
 }
 );
+background = {
+anchors = (
+{
+name = _topright;
+pos = (0,700);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(82,530,o),
+(87,534,o),
+(90,543,cs),
+(105,581,o),
+(121,652,o),
+(124,699,cs),
+(125,708,o),
+(119,716,o),
+(107,716,cs),
+(95,716,o),
+(92,708,o),
+(92,699,cs),
+(90,655,o),
+(77,590,o),
+(66,552,cs),
+(63,542,o),
+(63,536,o),
+(72,533,cs)
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -156,5 +188,4 @@ com.hugojourdan.ColorFlow = {
 width = 255.4;
 }
 );
-subCategory = Nonspacing;
 }

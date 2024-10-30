@@ -10,7 +10,7 @@ shapes = (
 ref = i.alt5;
 },
 {
-pos = (279,0);
+pos = (278,0);
 ref = j.alt5;
 }
 );
@@ -30,7 +30,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 595;
+width = 594;
 },
 {
 layerId = m003;

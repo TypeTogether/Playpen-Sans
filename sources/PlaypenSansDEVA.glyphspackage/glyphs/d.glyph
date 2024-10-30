@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (292,0);
+pos = (302,0);
 },
 {
 name = center;
@@ -16,7 +16,7 @@ pos = (453,687);
 },
 {
 name = top;
-pos = (477,800);
+pos = (266,536);
 },
 {
 name = topright;
@@ -107,7 +107,7 @@ width = 564;
 anchors = (
 {
 name = bottom;
-pos = (310,0);
+pos = (300,0);
 },
 {
 name = center;
@@ -115,7 +115,7 @@ pos = (480,675);
 },
 {
 name = top;
-pos = (505,800);
+pos = (272,536);
 },
 {
 name = topright;
@@ -206,7 +206,7 @@ width = 628;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (302,0);
 },
 {
 name = center;
@@ -214,7 +214,7 @@ pos = (472,675);
 },
 {
 name = top;
-pos = (481,800);
+pos = (267,536);
 },
 {
 name = topright;

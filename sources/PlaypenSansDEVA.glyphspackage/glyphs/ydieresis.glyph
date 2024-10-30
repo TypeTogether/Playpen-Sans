@@ -1,7 +1,7 @@
 {
 color = 10;
 glyphname = ydieresis;
-kernLeft = u;
+kernLeft = y;
 kernRight = y;
 layers = (
 {
