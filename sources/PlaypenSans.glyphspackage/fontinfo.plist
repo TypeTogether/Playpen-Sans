@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3324";
 .formatVersion = 3;
 axes = (
 {
@@ -1667,6 +1667,7 @@ Nhookleft.ss01,
 Nhookleft.ss01.alt1,
 Nhookleft.ss01.alt2,
 Nhookleft.ss01.alt3,
+idieresis_idieresis,
 florin.ss19,
 amod,
 emod,
@@ -3023,7 +3024,19 @@ omega.alt5,
 omega.alt6,
 iotatonos,
 iotadieresis,
+iotatonos.alt1,
+iotatonos.alt2,
+iotatonos.alt3,
+iotatonos.alt4,
+iotatonos.alt5,
+iotatonos.alt6,
 iotadieresistonos,
+iotadieresistonos.alt1,
+iotadieresistonos.alt2,
+iotadieresistonos.alt3,
+iotadieresistonos.alt4,
+iotadieresistonos.alt5,
+iotadieresistonos.alt6,
 upsilontonos,
 upsilondieresis,
 upsilondieresistonos,
