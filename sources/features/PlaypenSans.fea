@@ -517,6 +517,12 @@ feature locl {
     sub tbar by t strokeshortcomb.t;
   } decomp_LAT;
 
+  lookup comp_CYRL {
+    # compose
+    sub yi-cy yi-cy by yi_yi-cy;
+    sub Yi-cy Yi-cy by Yi_Yi-cy;
+  } comp_CYRL;
+
   lookup decomp_CYRL {
     sub Abreve-cy by A-cy breve-cy.case;
     sub Chedieresis-cy by Che-cy dieresiscomb.case;

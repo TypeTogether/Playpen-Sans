@@ -478,8 +478,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.xi = [xi xi.alt1 xi.alt2 xi.alt3 xi.alt4 xi.alt5 xi.alt6];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.y = [y y.alt1 y.alt2 y.alt3 y.alt4 y.alt5 y.alt6 yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yhook = [yhook yhook.alt1 yhook.alt2 yhook.alt3];
-@kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy];
-@kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy_1 = [yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
+@kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yturned = [yturned yturned.alt1 yturned.alt2 yturned.alt3];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.z = [z z.alt1 z.alt2 z.alt3 z.alt4 z.alt5 z.alt6 zacute zcaron zcircumflex zdotaccent zdotbelow zmacronbelow];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.zecy = [ze-cy ze-cy.alt1 ze-cy.alt2 ze-cy.alt3 ze-cy.alt4 ze-cy.alt5 ze-cy.alt6 zedescender-cy];
@@ -795,7 +794,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.x = [x x.alt1 x.alt2 x.alt3 x.alt4 x.alt5 x.alt6 xdotaccent];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.xi = [xi xi.alt1 xi.alt2 xi.alt3 xi.alt4 xi.alt5 xi.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yacy = [ya-cy ya-cy.alt1 ya-cy.alt2 ya-cy.alt3 ya-cy.alt4 ya-cy.alt5 ya-cy.alt6];
-@kern2.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy];
+@kern2.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yturned = [yturned yturned.alt1 yturned.alt2 yturned.alt3];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yubgr = [ka-cy.loclBGR ka-cy.loclBGR.alt1 ka-cy.loclBGR.alt2 ka-cy.loclBGR.alt3 ka-cy.loclBGR.alt4 ka-cy.loclBGR.alt5 ka-cy.loclBGR.alt6 shha-cy shha-cy.alt1 shha-cy.alt2 shha-cy.alt3 shha-cy.alt4 shha-cy.alt5 shha-cy.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yucy.loclBGR = [palochka-cy palochka-cy.alt1 palochka-cy.alt2 palochka-cy.alt3 palochka-cy.alt4 palochka-cy.alt5 palochka-cy.alt6 yu-cy.loclBGR yu-cy.loclBGR.alt1 yu-cy.loclBGR.alt2 yu-cy.loclBGR.alt3 yu-cy.loclBGR.alt4 yu-cy.loclBGR.alt5 yu-cy.loclBGR.alt6];
@@ -866,7 +865,6 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern2.Default.two = [two two.alt1 two.alt2 two.alt3 two.alt4 two.alt5 two.alt6];
 @kern2.Default.underscore = [underscore];
 @kern2.Default.yen = [yen];
-@kern2.Default.yicy = [yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
 @kern2.Default.zero = [zero zero.alt1 zero.alt2 zero.alt3 zero.alt4 zero.alt5 zero.alt6];
 @kern2.Hebr.alefhb = [alef-hb alef-hb.alt1 alef-hb.alt2 alef-hb.alt3 alef-hb.alt4 alefdagesh-hb alefpatah-hb alefqamats-hb];
 @kern2.Hebr.ayinhb = [ayin-hb ayin-hb.alt1 ayin-hb.alt2 ayin-hb.alt3 ayin-hb.alt4];
@@ -1724,6 +1722,12 @@ feature ccmp {
         sub oslash by o slashlongcomb;
         sub tbar by t strokeshortcomb.t;
     } decomp_LAT;
+
+    lookup comp_CYRL {
+        # compose
+        sub yi-cy yi-cy by yi_yi-cy;
+        sub Yi-cy Yi-cy by Yi_Yi-cy;
+    } comp_CYRL;
 
     lookup decomp_CYRL {
         sub Abreve-cy by A-cy breve-cy.case;
@@ -7505,7 +7509,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Efcy -40;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Hardsigncy (wght=100:-90 wght=400:-83 wght=800:-70);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Tecy (wght=100:-90 wght=400:-83 wght=800:-70);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ucy (wght=100:-40 wght=400:-33 wght=800:-20);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ucy (wght=100:-40 wght=400:-33 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ustraightcy (wght=100:-70 wght=400:-74 wght=800:-80);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Yacy (wght=100:-30 wght=400:-19 wght=800:0);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Decy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Zecy (wght=100:-20 wght=400:-13 wght=800:0);
@@ -8710,6 +8714,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Glottalstopsmall @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yturned (wght=100:-10 wght=400:-20 wght=800:-30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Acy (wght=100:-70 wght=400:-42 wght=800:5);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ency (wght=100:-10 wght=400:0 wght=800:10);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Decy (wght=100:20 wght=400:40 wght=800:70);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Dzecy (wght=100:-30 wght=400:-15 wght=800:10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ocy (wght=100:-40 wght=400:-29 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Hacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Efcy (wght=100:-20 wght=400:-13 wght=800:0);
@@ -10469,7 +10474,6 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Default.underscore -30;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.vecy (wght=100:-80 wght=400:-66 wght=800:-41);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yacy (wght=100:-110 wght=400:-106 wght=800:-100);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Default.yicy (wght=100:0 wght=400:18 wght=800:50);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.zecy (wght=100:-120 wght=400:-109 wght=800:-90);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Default.zero (wght=100:-30 wght=400:-23 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Tecy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.zhecy (wght=100:-100 wght=400:-96 wght=800:-90);
@@ -10589,6 +10593,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Acy (wght=100:-70 wght=400:-74 wght=800:-80);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Decy (wght=100:-80 wght=400:-91 wght=800:-110);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ocy (wght=100:0 wght=400:-7 wght=800:-20);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Jecy (wght=100:-50 wght=400:-70 wght=800:-90);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Ucy (wght=100:-20 wght=400:-27 wght=800:-40);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Yacy (wght=100:-20 wght=400:-31 wght=800:-50);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.Ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Zecy -10;
@@ -11461,8 +11466,9 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.decy (wght=100:0 wght=400:-7 wght=800:-20);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Default.doubleapostrophemod (wght=100:0 wght=400:-27 wght=800:0);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.shacy (wght=100:0 wght=400:-11 wght=800:-30);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ljecy (wght=100:20 wght=400:30 wght=800:15);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ency (wght=100:0 wght=400:-7 wght=800:-20);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ercy (wght=100:-5 wght=400:-7 wght=800:-10);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ercy (wght=100:-5 wght=400:-7 wght=800:-1);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Default.five (wght=100:-10 wght=400:-8 wght=800:-5);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.gecy.loclBGR (wght=100:0 wght=400:-11 wght=800:-30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.acy @kern2.Default.guillemetleft -20;
@@ -13165,6 +13171,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Default.period @kern2.Cyrl_Deva_Grek_Latn_Zzzz.zeta (wght=100:-20 wght=400:-20 wght=800:-21);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.apostrophemod (wght=100:-70 wght=400:-66 wght=800:-60);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Default.hyphen (wght=100:-30 wght=400:-40 wght=800:-20);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.checy -10;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Default.doubleapostrophemod (wght=100:0 wght=400:-56 wght=800:0);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.shacy (wght=100:0 wght=400:0 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.emcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.hardsigncy (wght=100:0 wght=400:-7 wght=800:-20);
@@ -14070,7 +14077,6 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.jecy (wght=100:0 wght=400:-8 wght=800:-20);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Default.quotedblleft (wght=100:0 wght=400:10 wght=800:30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Default.quotedblright (wght=100:0 wght=400:5 wght=800:15);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Default.yicy (wght=100:5 wght=400:12 wght=800:25);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Glottalstopsmall 20;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Cyrl_Deva_Grek_Latn_Zzzz.superior (wght=100:10 wght=400:14 wght=800:50);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Default.superior (wght=100:10 wght=400:14 wght=800:50);
@@ -14437,6 +14443,9 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Default.hyphen -30;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.checy (wght=100:0 wght=400:0 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Default.doubleapostrophemod (wght=100:0 wght=400:-20 wght=800:0);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ljecy 30;
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ercy (wght=100:5 wght=400:5 wght=800:25);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.hardsigncy (wght=100:-5 wght=400:-5 wght=800:-20);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Default.quotedblright (wght=100:-40 wght=400:-60 wght=800:-70);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.ucy.ss01 (wght=100:-20 wght=400:-27 wght=800:-40);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.kacy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.vecy -20;
@@ -16007,7 +16016,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.twodeva @kern2.Cyrl_Deva_Grek_Latn_Zzzz.threedeva (wght=100:10 wght=400:-2 wght=800:-20);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.twodeva @kern2.Cyrl_Deva_Grek_Latn_Zzzz.twodeva (wght=100:0 wght=400:-4 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Default.backslash (wght=100:-40 wght=400:-36 wght=800:-30);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.jecy (wght=100:0 wght=400:10 wght=800:30);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.jecy (wght=100:15 wght=400:25 wght=800:40);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Default.question -30;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Default.quotedblleft (wght=100:-20 wght=400:-16 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ucy @kern2.Default.quotedblright (wght=100:-50 wght=400:-30 wght=800:-20);
@@ -16167,6 +16176,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ustraightcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.shacy (wght=100:0 wght=400:0 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ustraightcy @kern2.Default.shacy (wght=100:0 wght=400:0 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ustraightcy @kern2.Default.quotedblright -10;
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.ustraightcy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.zecy (wght=100:40 wght=400:60 wght=800:50);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.v @kern2.Cyrl_Deva_Grek_Latn_Zzzz.A (wght=100:-20 wght=400:-5 wght=800:-5);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.v @kern2.Cyrl_Deva_Grek_Latn_Zzzz.V (wght=100:-25 wght=400:-20 wght=800:-30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.v @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Y (wght=100:-40 wght=400:-30 wght=800:-20);
@@ -16523,7 +16533,6 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yhook @kern2.Cyrl_Deva_Grek_Latn_Zzzz.upsilonlatin (wght=100:0 wght=400:-40 wght=800:-10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yhook @kern2.Cyrl_Deva_Grek_Latn_Zzzz.vturned (wght=100:-60 wght=400:-90 wght=800:-75);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yhook @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yturned (wght=100:-15 wght=400:-55 wght=800:-80);
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy_1 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.icy (wght=100:5 wght=400:7 wght=800:10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yturned @kern2.Cyrl_Deva_Grek_Latn_Zzzz.A (wght=100:-20 wght=400:-20 wght=800:-30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yturned @kern2.Default.O -20;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yturned @kern2.Cyrl_Deva_Grek_Latn_Zzzz.O -20;
@@ -17089,7 +17098,6 @@ lookup kern_Default {
     pos @kern1.Default.ampersand @kern2.Default.S (wght=100:-35 wght=400:-9 wght=800:0);
     pos @kern1.Default.ampersand @kern2.Default.a (wght=100:-30 wght=400:-28 wght=800:-5);
     pos @kern1.Default.apostrophemod @kern2.Default.shacy (wght=100:-90 wght=400:-94 wght=800:-100);
-    pos @kern1.Default.apostrophemod @kern2.Default.yicy (wght=100:0 wght=400:26 wght=800:70);
     pos @kern1.Default.superior @kern2.Default.O (wght=100:-30 wght=400:-19 wght=800:-10);
     pos @kern1.Default.superior @kern2.Default.o (wght=100:-35 wght=400:-44 wght=800:-40);
     pos @kern1.Default.superior @kern2.Default.a (wght=100:-40 wght=400:-49 wght=800:-40);
