@@ -7,44 +7,79 @@ buildVariable: true
 buildOTF: false
 buildTTF: false
 buildWebfont: false
-flattenComponents: false
 outputDir: "../fonts-builder"
 
-buildColorVariable: false
-recipeProvider: fontprimer
-variants:
-  - name: LGC
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-LGC.nam'
-      - operation: exec
-        exe: gftools-fontsetter
-        args: '$in ./helpers/LGC.yaml -o $out'
-  - name: Arabic
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-ARAB.nam'
-      - operation: exec
-        exe: gftools-fontsetter
-        args: '$in ./helpers/ARAB.yaml -o $out'
-  - name: Hebrew
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-HEB.nam'
-  #     # - operation: exec
-  #     #   exe: gftools-fontsetter
-  #     #   args: '$in ARAB.yaml -o $out'
-  - name: Deva
-    steps:
-      - operation: exec
-        exe: pyftsubset
-        args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-DEVA.nam'
-      - operation: exec
-        exe: gftools-fontsetter
-        args: '$in ./helpers/DEVA.yaml -o $out'
+recipeProvider: googlefonts
+recipe:
+  ../fonts-builder/variable/PlaypenSansMS[wght].ttf:
+  - source: PlaypenSans.glyphspackage
+  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --keep-overlaps
+    operation: buildVariable
+  - fixargs: ''
+    operation: fix
+  - operation: rename
+    name: Playpen Sans MS
+
+# LGC
+  ../fonts-builder/variable/PlaypenSans[wght].ttf:
+  - source: PlaypenSans.glyphspackage
+  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --keep-overlaps
+    operation: buildVariable
+  - fixargs: ''
+    operation: fix
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-LGC.nam'
+  - operation: exec
+    exe: gftools-fontsetter
+    args: '$in ./helpers/LGC.yaml -o $out'
+
+# ARABIC
+
+  ../fonts-builder/variable/PlaypenSansArabic[wght].ttf:
+  - source: PlaypenSans.glyphspackage
+  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --keep-overlaps
+    operation: buildVariable
+  - fixargs: ''
+    operation: fix
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-ARAB.nam'
+  - operation: exec
+    exe: gftools-fontsetter
+    args: '$in ./helpers/ARAB.yaml -o $out'
+
+# HEBREW
+
+  ../fonts-builder/variable/PlaypenSansHebrew[wght].ttf:
+  - source: PlaypenSans.glyphspackage
+  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --keep-overlaps
+    operation: buildVariable
+  - fixargs: ''
+    operation: fix
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-HEB.nam'
+
+# DEVANAGARI
+
+  ../fonts-builder/variable/PlaypenSansDeva[wght].ttf:
+  - source: PlaypenSans.glyphspackage
+  - fontmake_args: --filter  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --keep-overlaps
+    operation: buildVariable
+  - fixargs: ''
+    operation: fix
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-DEVA.nam'
+  - operation: exec
+    exe: gftools-fontsetter
+    args: '$in ./helpers/DEVA.yaml -o $out'
 
 
 
