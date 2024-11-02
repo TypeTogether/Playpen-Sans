@@ -1,4 +1,4 @@
-hhea->advanceWidthMax: 1264 # Set a value in the hhea table
+hhea->advanceWidthMax: 1495 # Set a value in the hhea table
 hhea->descender: -450 # to match the new sTypeDescender
 OS/2->usWinDescent: 539 # Set a value in the OS/2 table
 OS/2->sTypoDescender: -450 # Lowest descender is Yeh-ar.fina -510
