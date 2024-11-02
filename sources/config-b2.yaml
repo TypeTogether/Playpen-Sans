@@ -19,7 +19,10 @@ recipe:
   - fixargs: ''
     operation: fix
   - operation: rename
+    args: --just-family
     name: Playpen Sans MS
+  - operation: buildStat
+    args: --src stat.yaml
 
 # LGC
   ../fonts-builder/variable/PlaypenSans[wght].ttf:
@@ -35,6 +38,8 @@ recipe:
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/LGC.yaml -o $out'
+  - operation: buildStat
+    args: --src stat.yaml
 
 # ARABIC
 
@@ -45,12 +50,17 @@ recipe:
     operation: buildVariable
   - fixargs: ''
     operation: fix
+  - operation: rename
+    args: --just-family
+    name: Playpen Sans Arabic
   - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-ARAB.nam'
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/ARAB.yaml -o $out'
+  - operation: buildStat
+    args: --src stat.yaml
 
 # HEBREW
 
@@ -61,9 +71,14 @@ recipe:
     operation: buildVariable
   - fixargs: ''
     operation: fix
+  - operation: rename
+    args: --just-family
+    name: Playpen Sans Hebrew
   - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-HEB.nam'
+  - operation: buildStat
+    args: --src stat.yaml
 
 # DEVANAGARI
 
@@ -74,12 +89,17 @@ recipe:
     operation: buildVariable
   - fixargs: ''
     operation: fix
+  - operation: rename
+    args: --just-family
+    name: Playpen Sans Deva
   - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-DEVA.nam'
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/DEVA.yaml -o $out'
+  - operation: buildStat
+    args: --src stat.yaml
 
 
 
