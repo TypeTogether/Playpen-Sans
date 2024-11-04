@@ -1423,6 +1423,13 @@ feature liga {
   sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
   sub @idotless_all tildecomb @idotless_all tildecomb by itilde_itilde;
   sub @i_all tildebelowcomb @i_all tildebelowcomb by itildebelow_itildebelow;
+  # cyr
+  @i_cy_all = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6];
+  # @yi_cy_all = [yi-cy yi-cy.alt1 yi-cy.alt2 yi-cy.alt3 yi-cy.alt4 yi-cy.alt5 yi-cy.alt6];;
+  @I_cy_all = [I-cy I-cy.alt1 I-cy.alt2 I-cy.alt3 I-cy.alt4 I-cy.alt5 I-cy.alt6];
+  sub @i_cy_all yi-cy by i_yi-cy;
+  sub yi-cy @i_cy_all by yi_i-cy;
+  sub @I_cy_all yi-cy by I_yi-cy;
 } liga;
 
 
