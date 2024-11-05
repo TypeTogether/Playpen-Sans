@@ -388,7 +388,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.glottalstopsmall = [glottalstopsmall glottalstopsmall.alt1 glottalstopsmall.alt2 glottalstopsmall.alt3];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.hacy = [ha-cy ha-cy.alt1 ha-cy.alt2 ha-cy.alt3 ha-cy.alt4 ha-cy.alt5 ha-cy.alt6 hadescender-cy hadescender-cy.alt1 hadescender-cy.alt2 hadescender-cy.alt3 hadescender-cy.alt4 hadescender-cy.alt5 hadescender-cy.alt6];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.i = [fi i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6 iacute icaron idblgrave idotaccent idotbelow idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6 igrave ihookabove iogonek itildebelow];
-@kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6];
+@kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6 yi_i-cy];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iecy = [aie-cy ie-cy ie-cy.alt1 ie-cy.alt2 ie-cy.alt3 ie-cy.alt4 ie-cy.alt5 ie-cy.alt6 iegrave-cy io-cy];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.infinity = [infinity];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.integral = [integral];
@@ -478,7 +478,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.xi = [xi xi.alt1 xi.alt2 xi.alt3 xi.alt4 xi.alt5 xi.alt6];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.y = [y y.alt1 y.alt2 y.alt3 y.alt4 y.alt5 y.alt6 yacute ycircumflex ydieresis ydotbelow ygrave yhookabove ymacron ytilde];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yhook = [yhook yhook.alt1 yhook.alt2 yhook.alt3];
-@kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
+@kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [i_yi-cy idieresis_idieresis yi-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yturned = [yturned yturned.alt1 yturned.alt2 yturned.alt3];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.z = [z z.alt1 z.alt2 z.alt3 z.alt4 z.alt5 z.alt6 zacute zcaron zcircumflex zdotaccent zdotbelow zmacronbelow];
 @kern1.Cyrl_Deva_Grek_Latn_Zzzz.zecy = [ze-cy ze-cy.alt1 ze-cy.alt2 ze-cy.alt3 ze-cy.alt4 ze-cy.alt5 ze-cy.alt6 zedescender-cy];
@@ -794,7 +794,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.x = [x x.alt1 x.alt2 x.alt3 x.alt4 x.alt5 x.alt6 xdotaccent];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.xi = [xi xi.alt1 xi.alt2 xi.alt3 xi.alt4 xi.alt5 xi.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yacy = [ya-cy ya-cy.alt1 ya-cy.alt2 ya-cy.alt3 ya-cy.alt4 ya-cy.alt5 ya-cy.alt6];
-@kern2.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [idieresis_idieresis yi-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
+@kern2.Cyrl_Deva_Grek_Latn_Zzzz.yicy = [i_yi-cy idieresis_idieresis yi-cy yi_i-cy yi_yi-cy yi_yi-cy.alt1 yi_yi-cy.alt2 yi_yi-cy.alt3 yi_yi-cy.alt4 yi_yi-cy.alt5 yi_yi-cy.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yturned = [yturned yturned.alt1 yturned.alt2 yturned.alt3];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yubgr = [ka-cy.loclBGR ka-cy.loclBGR.alt1 ka-cy.loclBGR.alt2 ka-cy.loclBGR.alt3 ka-cy.loclBGR.alt4 ka-cy.loclBGR.alt5 ka-cy.loclBGR.alt6 shha-cy shha-cy.alt1 shha-cy.alt2 shha-cy.alt3 shha-cy.alt4 shha-cy.alt5 shha-cy.alt6];
 @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yucy.loclBGR = [palochka-cy palochka-cy.alt1 palochka-cy.alt2 palochka-cy.alt3 palochka-cy.alt4 palochka-cy.alt5 palochka-cy.alt6 yu-cy.loclBGR yu-cy.loclBGR.alt1 yu-cy.loclBGR.alt2 yu-cy.loclBGR.alt3 yu-cy.loclBGR.alt4 yu-cy.loclBGR.alt5 yu-cy.loclBGR.alt6];
@@ -6157,6 +6157,13 @@ feature liga {
     sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
     sub @idotless_all tildecomb @idotless_all tildecomb by itilde_itilde;
     sub @i_all tildebelowcomb @i_all tildebelowcomb by itildebelow_itildebelow;
+    # cyr
+    @i_cy_all = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6];
+    # @yi_cy_all = [yi-cy yi-cy.alt1 yi-cy.alt2 yi-cy.alt3 yi-cy.alt4 yi-cy.alt5 yi-cy.alt6];;
+    @I_cy_all = [I-cy I-cy.alt1 I-cy.alt2 I-cy.alt3 I-cy.alt4 I-cy.alt5 I-cy.alt6];
+    sub @i_cy_all yi-cy by i_yi-cy;
+    sub yi-cy @i_cy_all by yi_i-cy;
+    sub @I_cy_all yi-cy by I_yi-cy;
 } liga;
 
 feature ss01 {
@@ -14077,6 +14084,7 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.jecy (wght=100:0 wght=400:-8 wght=800:-20);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Default.quotedblleft (wght=100:0 wght=400:10 wght=800:30);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.icy @kern2.Default.quotedblright (wght=100:0 wght=400:5 wght=800:15);
+    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.icy (wght=100:5 wght=400:7 wght=800:10);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Glottalstopsmall 20;
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Cyrl_Deva_Grek_Latn_Zzzz.superior (wght=100:10 wght=400:14 wght=800:50);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Default.superior (wght=100:10 wght=400:14 wght=800:50);
@@ -14093,7 +14101,6 @@ lookup kern_Cyrl_Deva_Grek_Latn_Zzzz {
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Default.quotedblleft (wght=100:0 wght=400:16 wght=800:70);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Default.quotedblright (wght=100:10 wght=400:13 wght=800:40);
     pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.iwide @kern2.Cyrl_Deva_Grek_Latn_Zzzz.saltillo 40;
-    pos @kern1.Cyrl_Deva_Grek_Latn_Zzzz.yicy @kern2.Cyrl_Deva_Grek_Latn_Zzzz.icy (wght=100:5 wght=400:7 wght=800:10);
     pos @kern1.Default.ency @kern2.Cyrl_Deva_Grek_Latn_Zzzz.Tecy (wght=100:-90 wght=400:-72 wght=800:-40);
     pos @kern1.Default.ency @kern2.Cyrl_Deva_Grek_Latn_Zzzz.acy.ss01 (wght=100:0 wght=400:0 wght=800:-10);
     pos @kern1.Default.ency @kern2.Cyrl_Deva_Grek_Latn_Zzzz.yucy.loclBGR (wght=100:-10 wght=400:-8 wght=800:-5);
