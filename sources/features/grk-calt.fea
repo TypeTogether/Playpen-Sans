@@ -2,15 +2,21 @@
 lookup grek_anoteleia;
 
 lookup grek_tonosCap {
-	ignore sub @grekCapsTonos' @nonLetter @grekCaps @grekLc; #Prevents the supression of the tonos in an uppercase if it is followed by an Uppercase followed by a lowercase (Ώ Άριστη)
+	# Prevents the supression of the tonos in an uppercase if it is followed by an Uppercase followed by a lowercase (Ώ Άριστη)
+	# suppresses the tonos for all Uppercase with Tonos if they are followed by at least two nonletters (so the tonos will remain in the case of ‘Ο,τι but will drop for Ώ!) in the middle of a sentence or paragraph.
+	ignore sub @grekCapsTonos' @nonLetter @grekCaps @grekLc;
 	ignore sub @nonLetter Etatonos' @nonLetter @nonLetter;
-	sub @nonLetter @grekCapsTonos' @nonLetter @nonLetter by @grekCapsTonosless; #suppresses the tonos for all Uppercase with Tonos if they are followed by at least two nonletters (so the tonos will remain in the case of ‘Ο,τι but will drop for Ώ!) in the middle of a sentence or paragraph. 
-	sub @grekCapsTonos' @grekCaps by @grekCapsTonosless; #suppresses all tonos within a word
-		sub @grekCaps @grekCapsTonos' by @grekCapsTonosless; #suppresses all tonos within a word
-		ignore sub Etatonos' @nonLetter @grekCaps;
-	sub @grekCapsTonos' @nonLetter @grekCaps by @grekCapsTonosless; #suppresses the tonos for all isolated Uppercase with Tonos if they are in the beginning of a paragraph. 
-		ignore sub Etatonos' @nonLetter @nonLetter;
-		sub @grekCapsTonos' @nonLetter @nonLetter by @grekCapsTonosless; #suppresses the tonos for all Uppercase with Tonos if they are followed by at least two nonletters (so the tonos will remain in the case of ‘Ο,τι but will drop for Ώ!) in the beginning of a paragraph.
+	sub @nonLetter @grekCapsTonos' @nonLetter @nonLetter by @grekCapsTonosless; 
+	# suppresses all tonos within a word
+	sub @grekCapsTonos' @grekCaps by @grekCapsTonosless;
+	#suppresses all tonos within a word
+	sub @grekCaps @grekCapsTonos' by @grekCapsTonosless;
+	ignore sub Etatonos' @nonLetter @grekCaps;
+	# suppresses the tonos for all isolated Uppercase with Tonos if they are in the beginning of a paragraph.
+	sub @grekCapsTonos' @nonLetter @grekCaps by @grekCapsTonosless;
+	ignore sub Etatonos' @nonLetter @nonLetter;
+	# suppresses the tonos for all Uppercase with Tonos if they are followed by at least two nonletters (so the tonos will remain in the case of ‘Ο,τι but will drop for Ώ!) in the beginning of a paragraph.
+	sub @grekCapsTonos' @nonLetter @nonLetter by @grekCapsTonosless;
 } grek_tonosCap;
 
 lookup grek_dieresisCapInsertion {
@@ -19,6 +25,19 @@ lookup grek_dieresisCapInsertion {
 } grek_dieresisCapInsertion;
 
 lookup grek_dieresistonosCapInsertion {
-sub @Iota_all' [dieresiscomb dieresiscomb.case]' [acutecomb acutecomb.case]' by Iotadieresis.calt;
-sub @Upsilon_all' [dieresiscomb dieresiscomb.case]' [acutecomb acutecomb.case]' by Upsilondieresis.calt;
+	lookupflag 0;
+	sub @Iota_all [dieresiscomb dieresiscomb.case] [acutecomb acutecomb.case] by Iotadieresis.calt;
+	sub @Upsilon_all [dieresiscomb dieresiscomb.case] [acutecomb acutecomb.case] by Upsilondieresis.calt;
 } grek_dieresistonosCapInsertion;
+
+# lookup grek_dieresistonosCapInsertion {
+# 	lookupflag 0;
+# 	sub @Iota_all dieresiscomb.case acutecomb.case by Iotadieresis.calt;
+# 	sub @Iota_all dieresiscomb acutecomb by Iotadieresis.calt;
+# 	sub @Iota_all dieresiscomb acutecomb.case by Iotadieresis.calt;
+# 	sub @Iota_all dieresiscomb.case acutecomb by Iotadieresis.calt;
+# 	sub @Upsilon_all dieresiscomb acutecomb by Upsilondieresis.calt;
+# 	sub @Upsilon_all dieresiscomb acutecomb.case by Upsilondieresis.calt;
+# 	sub @Upsilon_all dieresiscomb.case acutecomb by Upsilondieresis.calt;
+# 	sub @Upsilon_all dieresiscomb.case acutecomb.case by Upsilondieresis.calt;
+# } grek_dieresistonosCapInsertion;

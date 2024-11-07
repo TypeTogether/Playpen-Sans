@@ -1396,6 +1396,7 @@ feature case {
 
 
 feature liga {
+  # lat
   @idotless_all = [idotless idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
   @i_all = [i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
   sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
