@@ -1,0 +1,46 @@
+{
+glyphname = Iotadieresis.calt;
+kernLeft = Eta;
+kernRight = Eta;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Iota;
+},
+{
+pos = (151,0);
+ref = dieresiscomb.case;
+}
+);
+width = 317;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Iota;
+},
+{
+pos = (156,0);
+ref = dieresiscomb.case;
+}
+);
+width = 308;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Iota;
+},
+{
+pos = (178,0);
+ref = dieresiscomb.case;
+}
+);
+width = 325;
+}
+);
+}

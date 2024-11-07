@@ -1,0 +1,34 @@
+{
+glyphname = Alphatonos.calt;
+kernLeft = Alpha;
+kernRight = Alpha;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Alpha;
+}
+);
+width = 764;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Alpha;
+}
+);
+width = 762;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Alpha;
+}
+);
+width = 829;
+}
+);
+}
