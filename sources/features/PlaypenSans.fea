@@ -147,6 +147,7 @@ feature locl {
   language SVE;
     lookup ENG_scandinavian;
 
+
   # locl Cyrillic
   script cyrl;
   language SRB;
@@ -168,6 +169,16 @@ feature locl {
 
   language MKD;
     sub gje-cy by gje-cy.loclMKD;
+
+
+  # locl grek
+  script grek;
+  lookup grek_anoteleia {
+    script grek;
+    ignore sub @grkall periodcentered' @grkall;
+    sub @grkall periodcentered' by anoteleia;
+  } grek_anoteleia;
+
 
 # locl Arabic
   script arab;
@@ -1325,90 +1336,57 @@ feature calt {
     sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt5_4;
   } BackwardsCheck;
 
+
   # script cyrl;
-  lookup PseudoRandom_CYRL {
-    include(features/cyr-PseudoRandom.fea);
-  } PseudoRandom_CYRL;
-  lookup BackwardsCheck_CYRL {
-    include(features/cyr-BackwardsCheck.fea);
-  } BackwardsCheck_CYRL;
+  include(features/cyr-PseudoRandom.fea);
+  include(features/cyr-BackwardsCheck.fea);
+
 
   # script grek;
-  lookup PseudoRandom_GREK {
-    include(features/grk-PseudoRandom.fea);
-  } PseudoRandom_GREK;
-  lookup BackwardsCheck_GREK {
-    include(features/grk-BackwardsCheck.fea);
-  } BackwardsCheck_GREK;
+  include(features/grk-PseudoRandom.fea);
+  include(features/grk-BackwardsCheck.fea);
+  # extra calt
+  include(features/grk-calt.fea);
 
 
   #script hebr;
-  lookup PseudoRandom_HEBR {
-    include(features/heb-PseudoRandom.fea);
-  } PseudoRandom_HEBR;
-  lookup BackwardsCheck_HEBR {
-    include(features/heb-BackwardsCheck.fea);
-  } BackwardsCheck_HEBR;
-  
-  lookup calt_hebr_02 {
-    lookupflag RightToLeft;
-    sub [lamed-hb lamed-hb.alt3] dagesh-hb holam-hb by lameddageshholam-hb;
-    sub [lamed-hb.alt2 lamed-hb.alt4] holam-hb dagesh-hb by lameddageshholam-hb;
-    sub lameddagesh-hb holam-hb by lameddageshholam-hb;
-    sub [lamed-hb lamed-hb.alt3] dagesh-hb by lameddagesh-hb;
-    sub vav-hb dagesh-hb by vavdagesh-hb;
-    sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
-    sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
-    sub vav-hb.alt3 dagesh-hb by vavdagesh-hb.alt3;
-    sub vav-hb.alt4 dagesh-hb by vavdagesh-hb.alt4;
-    sub yod-hb dagesh-hb by yoddagesh-hb;
-    sub yod-hb.alt1 dagesh-hb by yoddagesh-hb.alt1;
-    sub yod-hb.alt2 dagesh-hb by yoddagesh-hb.alt2;
-    sub yod-hb.alt3 dagesh-hb by yoddagesh-hb.alt3;
-    sub yod-hb.alt4 dagesh-hb by yoddagesh-hb.alt4;
-    sub nun-hb dagesh-hb by nundagesh-hb;
-    sub nun-hb.alt1 dagesh-hb by nundagesh-hb.alt1;
-    sub nun-hb.alt2 dagesh-hb by nundagesh-hb.alt2;
-    sub nun-hb.alt3 dagesh-hb by nundagesh-hb.alt3;
-    sub nun-hb.alt4 dagesh-hb by nundagesh-hb.alt4;
-  } calt_hebr_02;
+  include(features/heb-PseudoRandom.fea);
+  include(features/heb-BackwardsCheck.fea);
+  # extra calt
+  include(features/heb-calt.fea);
 
 
   # DEVA
   script deva;
   language dflt;
-  lookup uMatra_alt {
+  lookup deva_uMatra_alt {
     sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
-  } uMatra_alt;
+  } deva_uMatra_alt;
 
-  lookup PseudoRandom_DEVA {
-    include(features/deva-PseudoRandom.fea);
-  } PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA {
-    include(features/deva-BackwardsCheck.fea);
-  } BackwardsCheck_DEVA;
+  include(features/deva-PseudoRandom.fea);
+  include(features/deva-BackwardsCheck.fea);
 
   language MAR;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
 
   script dev2;
   language dflt;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
 
   language MAR;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
+
 
   # ARAB
   script arab;
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
-
 } calt;
 
 

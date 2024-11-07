@@ -1,0 +1,22 @@
+lookup hebr_calt {
+	lookupflag RightToLeft;
+	sub [lamed-hb lamed-hb.alt3] dagesh-hb holam-hb by lameddageshholam-hb;
+	sub [lamed-hb.alt2 lamed-hb.alt4] holam-hb dagesh-hb by lameddageshholam-hb;
+	sub lameddagesh-hb holam-hb by lameddageshholam-hb;
+	sub [lamed-hb lamed-hb.alt3] dagesh-hb by lameddagesh-hb;
+	sub vav-hb dagesh-hb by vavdagesh-hb;
+	sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
+	sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
+	sub vav-hb.alt3 dagesh-hb by vavdagesh-hb.alt3;
+	sub vav-hb.alt4 dagesh-hb by vavdagesh-hb.alt4;
+	sub yod-hb dagesh-hb by yoddagesh-hb;
+	sub yod-hb.alt1 dagesh-hb by yoddagesh-hb.alt1;
+	sub yod-hb.alt2 dagesh-hb by yoddagesh-hb.alt2;
+	sub yod-hb.alt3 dagesh-hb by yoddagesh-hb.alt3;
+	sub yod-hb.alt4 dagesh-hb by yoddagesh-hb.alt4;
+	sub nun-hb dagesh-hb by nundagesh-hb;
+	sub nun-hb.alt1 dagesh-hb by nundagesh-hb.alt1;
+	sub nun-hb.alt2 dagesh-hb by nundagesh-hb.alt2;
+	sub nun-hb.alt3 dagesh-hb by nundagesh-hb.alt3;
+	sub nun-hb.alt4 dagesh-hb by nundagesh-hb.alt4;
+} hebr_calt;
