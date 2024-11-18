@@ -63,6 +63,9 @@ feature rlig {
 	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
 	sub qaf-ar.init yehFarsi-ar.fina by qaf_alefMaksura-ar;
 	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
+
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.fina meem-ar.fina.alt1 meem-ar.fina.alt2 meem-ar.fina.alt3] by lam_meem-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by lam_meem-ar.init;
   } rlig_arab_1;
 
 } rlig;
