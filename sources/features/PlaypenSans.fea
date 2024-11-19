@@ -880,6 +880,12 @@ feature locl {
     sub kasra-ar shadda-ar by shaddaKasra-ar;
     sub shadda-ar kasratan-ar by shaddaKasratan-ar;
     sub kasratan-ar shadda-ar by shaddaKasratan-ar;
+    sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
+    sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+    sub hehgoalHamzaabove-ar.fina by hehgoal-ar.fina hamzaabove-ar;
   } ccmp_arab_1;
 } ccmp;
 
@@ -1563,6 +1569,15 @@ feature ss01 {
     sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3] by hah-ar.medi.ss01;
     sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
   } ss01_ara_0;
+
+  # add to ss01 (name: Arabic Ruq'ah style)
+  lookup ss01_ara_1 {
+    sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+    sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+    sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+    sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+    sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+  } ss01_ara_1;
 
 } ss01;
 
