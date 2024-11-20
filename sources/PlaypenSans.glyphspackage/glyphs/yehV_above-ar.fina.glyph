@@ -9,7 +9,7 @@ shapes = (
 ref = "alefMaksura-ar.fina";
 },
 {
-anchor = top_mark;
+anchor = top_hamza;
 pos = (-168,-352);
 ref = "threedotsdownabove-ar";
 }
@@ -39,7 +39,7 @@ shapes = (
 ref = "alefMaksura-ar.fina";
 },
 {
-anchor = top_mark;
+anchor = top_hamza;
 pos = (-114,-277);
 ref = "threedotsdownabove-ar";
 }
@@ -69,7 +69,7 @@ shapes = (
 ref = "alefMaksura-ar.fina";
 },
 {
-anchor = top_mark;
+anchor = top_hamza;
 pos = (-148,-321);
 ref = "threedotsdownabove-ar";
 }
