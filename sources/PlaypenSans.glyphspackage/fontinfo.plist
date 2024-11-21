@@ -1,5 +1,5 @@
 {
-.appVersion = "3246";
+.appVersion = "3326";
 .formatVersion = 3;
 axes = (
 {
@@ -5308,6 +5308,8 @@ languagesystem deva MAR;
 languagesystem deva NEP;
 languagesystem dev2 MAR;
 languagesystem dev2 NEP;
+
+languagesystem arab URD;
 
 
 include(features/cyr-classes-PlaypenSans.fea);
