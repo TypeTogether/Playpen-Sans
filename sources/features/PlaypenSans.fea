@@ -851,42 +851,50 @@ feature locl {
 
   script arab;
   lookup ccmp_arab_1 {
+    # composition
     lookupflag 0;
-    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
-    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
-    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
-    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
-    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
-    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
-    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
-    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
-    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
-    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
-    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
-    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
-    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
-    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
-    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
     sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
-    sub shadda-ar damma-ar by shaddaDamma-ar;
+    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
     sub damma-ar shadda-ar by shaddaDamma-ar;
-    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
     sub dammatan-ar shadda-ar by shaddaDammatan-ar;
-    sub shadda-ar fatha-ar by shaddaFatha-ar;
+    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
     sub fatha-ar shadda-ar by shaddaFatha-ar;
-    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
     sub fathatan-ar shadda-ar by shaddaFathatan-ar;
-    sub shadda-ar kasra-ar by shaddaKasra-ar;
+    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
+    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
+    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
+    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
+    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
+    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
+    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
+    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
     sub kasra-ar shadda-ar by shaddaKasra-ar;
-    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
     sub kasratan-ar shadda-ar by shaddaKasratan-ar;
-    sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
+    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
+    sub shadda-ar damma-ar by shaddaDamma-ar;
+    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+    sub shadda-ar fatha-ar by shaddaFatha-ar;
+    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+    sub shadda-ar kasra-ar by shaddaKasra-ar;
+    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
+  } ccmp_arab_1;
+
+  lookup ccmp_arab_2 {
+    # decomposition
+    lookupflag 0;
     sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
     sub hehgoalHamzaabove-ar.fina by hehgoal-ar.fina hamzaabove-ar;
-  } ccmp_arab_1;
+    sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
+    sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
+    sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
+  } ccmp_arab_2;
 } ccmp;
 
 
@@ -1393,6 +1401,8 @@ feature calt {
   script arab;
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
+  # extra arab calt
+  sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
 } calt;
 
 
