@@ -1620,6 +1620,20 @@ feature ss03 {
   lookup locl_hebr_jii_05;
 } ss03;
 
+
+feature ss04 {
+  featureNames {
+    name "Arabic Ruq'ah style"; # Windows English
+    name 1 0 0 "Arabic Ruq'ah style"; # Mac English
+  };
+  # lookupflag RightToLeft;
+  sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+  sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+  sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+  sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+  sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+} ss04;
+
 feature ss19 {
   featureNames {
     name "Currency florin"; # Windows English
