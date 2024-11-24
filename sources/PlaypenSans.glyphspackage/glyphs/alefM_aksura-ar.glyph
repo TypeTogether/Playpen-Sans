@@ -200,7 +200,7 @@ pos = (360,-192);
 },
 {
 name = top;
-pos = (359,502);
+pos = (329,479);
 },
 {
 name = top_hamza;

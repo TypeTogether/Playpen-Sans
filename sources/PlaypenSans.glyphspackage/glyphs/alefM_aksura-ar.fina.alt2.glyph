@@ -13,6 +13,10 @@ pos = (696,35);
 },
 {
 name = top;
+pos = (342,232);
+},
+{
+name = top_hamza;
 pos = (206,156);
 }
 );
@@ -99,6 +103,10 @@ pos = (684,194);
 },
 {
 name = top;
+pos = (316,278);
+},
+{
+name = top_hamza;
 pos = (200,241);
 }
 );
@@ -185,7 +193,11 @@ pos = (692,101);
 },
 {
 name = top;
-pos = (204,191);
+pos = (328,243);
+},
+{
+name = top_hamza;
+pos = (182,191);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

@@ -1,5 +1,5 @@
 {
-.appVersion = "3326";
+.appVersion = "3246";
 .formatVersion = 3;
 axes = (
 {
@@ -35035,7 +35035,7 @@ zmacronbelow = {
 kerningRTL = {
 m01 = {
 "@MMK_R_alefHamzaabove-ar" = {
-"@MMK_L_teh-ar.init" = 20;
+"@MMK_L_teh-ar.init" = 30;
 };
 "@MMK_R_alefMadda-ar" = {
 "@MMK_L_kaf-ar.init" = 30;
@@ -35245,6 +35245,7 @@ m01 = {
 };
 "@MMK_R_reh-ar" = {
 "@MMK_L_ain-ar" = 70;
+"@MMK_L_alefHamzabelow-ar" = 90;
 "@MMK_L_hah-ar" = 70;
 "@MMK_L_hah-ar.init" = -80;
 "@MMK_L_kaf-ar.init" = -120;
@@ -35451,7 +35452,7 @@ sheqel = {
 };
 "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11" = {
 "@MMK_R_alefHamzaabove-ar" = {
-"@MMK_L_teh-ar.init" = 39;
+"@MMK_L_teh-ar.init" = 40;
 "yehVabove-ar.init" = 24;
 };
 "@MMK_R_alefHamzabelow-ar" = {
@@ -35677,6 +35678,7 @@ sheqel = {
 };
 "@MMK_R_reh-ar" = {
 "@MMK_L_ain-ar" = 138;
+"@MMK_L_alefHamzabelow-ar" = 90;
 "@MMK_L_beh-ar.init" = 24;
 "@MMK_L_hah-ar" = 99;
 "@MMK_L_hah-ar.init" = -61;
@@ -36132,6 +36134,7 @@ m003 = {
 };
 "@MMK_R_reh-ar" = {
 "@MMK_L_ain-ar" = 210;
+"@MMK_L_alefHamzabelow-ar" = 90;
 "@MMK_L_beh-ar.init" = 50;
 "@MMK_L_hah-ar" = 130;
 "@MMK_L_hah-ar.init" = -40;
