@@ -892,6 +892,8 @@ feature locl {
     sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
     sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
     sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
+    sub noon-ar by noonghunna-ar dotabove-ar;
+    sub noon-ar.fina by noonghunna-ar.fina dotabove-ar;
     sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
     sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
   } ccmp_arab_2;
