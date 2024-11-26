@@ -1402,7 +1402,11 @@ feature calt {
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
   # extra arab calt
+  lookup arab_extra {
+  lookupflag IgnoreMarks;
+  lookupflag RightToLeft;
   sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
+  } arab_extra;
 } calt;
 
 

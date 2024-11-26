@@ -579,6 +579,7 @@ markClass shindot-hb <anchor 0 (wght=100:570 wght=400:581 wght=800:596)> @MC_top
 @kern1.Hebr.yodhb = [vavyod-hb yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4 yoddagesh-hb yodhiriq-hb yodhiriq-hb.JII yodyod-hb yodyodpatah-hb];
 @kern1.Hebr.zayinhb = [zayin-hb zayin-hb.alt1 zayin-hb.alt2 zayin-hb.alt3 zayin-hb.alt4 zayindagesh-hb];
 @kern2.Arab.ainar = [ain-ar ain-ar.alt1 ain-ar.alt2 ain-ar.alt3 ghain-ar];
+@kern2.Arab.alefHamzabelowar = [alefHamzabelow-ar];
 @kern2.Arab.behar.init = [beh-ar.init hehgoal-ar.init];
 @kern2.Arab.eightar = [eight-ar];
 @kern2.Arab.fivear = [five-ar five-ar.alt1 five-ar.alt2 five-ar.alt3 fiveFarsi-ar fiveFarsi-ar.alt1 fiveFarsi-ar.alt2 fiveFarsi-ar.alt3];
@@ -924,6 +925,7 @@ languagesystem deva MAR;
 languagesystem deva NEP;
 languagesystem dev2 MAR;
 languagesystem dev2 NEP;
+languagesystem arab URD;
 # DEFAULT CLASSES:
 @dflt_cyr_1 = [ka-cy pe-cy.loclBGR Ya-cy lje-cy Be-cy hadescender-cy Er-cy ya-cy En-cy ef-cy Schwa-cy Yeru-cy Softsign-cy softsign-cy Ka-cy U-cy yu-cy ge-cy tshe-cy Dje-cy Je-cy Yi_Yi-cy O-cy E-cy Ef-cy.loclBGR de-cy.loclSRB ka-cy.loclBGR Pe-cy te-cy.loclBGR Chedescender-cy ustraight-cy Ze-cy];
 @dflt_cyr_2 = [dze-cy chedescender-cy de-cy Shha-cy i-cy er-cy A-cy ie-cy Ef-cy iishort-cy yu-cy.loclBGR dzhe-cy Gestroke-cy Obarred-cy yeru-cy zhe-cy.loclBGR kadescender-cy Dze-cy Hardsign-cy a-cy.ss01 ve-cy Ge-cy u-cy ustraightstroke-cy dje-cy Che-cy Hadescender-cy Ve-cy shcha-cy Sha-cy o-cy gestroke-cy];
@@ -6221,7 +6223,12 @@ feature calt {
     } BackwardsCheck_ARA;
 
     # extra arab calt
-    sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
+    lookup arab_extra {
+        lookupflag IgnoreMarks;
+        lookupflag RightToLeft;
+        sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
+    } arab_extra;
+
 } calt;
 
 feature case {
@@ -6575,7 +6582,7 @@ lookup kern_Arab {
     enum pos waw-ar.alt3 @kern2.Arab.kafar.init <(wght=100:-120 wght=400:-86 wght=800:-50) 0 (wght=100:-120 wght=400:-86 wght=800:-50) 0>;
     enum pos waw-ar.alt3 @kern2.Arab.kafar.init_1 <(wght=100:-120 wght=400:-86 wght=800:-50) 0 (wght=100:-120 wght=400:-86 wght=800:-50) 0>;
     enum pos @kern1.Arab.alefHamzaabovear yehVabove-ar.init <(wght=100:0 wght=400:24 wght=800:50) 0 (wght=100:0 wght=400:24 wght=800:50) 0>;
-    pos @kern1.Arab.alefHamzaabovear @kern2.Arab.tehar.init <(wght=100:20 wght=400:39 wght=800:80) 0 (wght=100:20 wght=400:39 wght=800:80) 0>;
+    pos @kern1.Arab.alefHamzaabovear @kern2.Arab.tehar.init <(wght=100:30 wght=400:40 wght=800:80) 0 (wght=100:30 wght=400:40 wght=800:80) 0>;
     pos @kern1.Arab.alefHamzabelowar @kern2.Arab.yehar.init <(wght=100:0 wght=400:15 wght=800:30) 0 (wght=100:0 wght=400:15 wght=800:30) 0>;
     pos @kern1.Arab.alefMaddaar @kern2.Arab.kafar.init <(wght=100:30 wght=400:50 wght=800:60) 0 (wght=100:30 wght=400:50 wght=800:60) 0>;
     pos @kern1.Arab.alefMaddaar @kern2.Arab.kafar.init_1 <(wght=100:30 wght=400:50 wght=800:60) 0 (wght=100:30 wght=400:50 wght=800:60) 0>;
@@ -6589,6 +6596,7 @@ lookup kern_Arab {
     pos @kern1.Arab.fivear @kern2.Arab.sevenar (wght=100:-40 wght=400:-50 wght=800:-60);
     pos @kern1.Arab.fivear @kern2.Arab.twoar (wght=100:-60 wght=400:-65 wght=800:-70);
     pos @kern1.Arab.rehar @kern2.Arab.ainar <(wght=100:70 wght=400:138 wght=800:210) 0 (wght=100:70 wght=400:138 wght=800:210) 0>;
+    pos @kern1.Arab.rehar @kern2.Arab.alefHamzabelowar <90 0 90 0>;
     pos @kern1.Arab.rehar @kern2.Arab.behar.init <(wght=100:0 wght=400:24 wght=800:50) 0 (wght=100:0 wght=400:24 wght=800:50) 0>;
     pos @kern1.Arab.rehar @kern2.Arab.hahar <(wght=100:70 wght=400:99 wght=800:130) 0 (wght=100:70 wght=400:99 wght=800:130) 0>;
     pos @kern1.Arab.rehar @kern2.Arab.kafar.init <(wght=100:-120 wght=400:-135 wght=800:-150) 0 (wght=100:-120 wght=400:-135 wght=800:-150) 0>;
@@ -17745,6 +17753,7 @@ feature kern {
     language dflt;
     lookup kern_Default;
     lookup kern_Arab;
+    language URD;
     
     script cyrl;
     language dflt;
@@ -25820,7 +25829,7 @@ feature mark {
         pos base meem-ar.medi.alt1
             <anchor (wght=100:344 wght=400:340 wght=800:317) (wght=100:-98 wght=400:-82 wght=800:-60)> mark @MC_bottom;
         pos base meem-ar.medi.alt2
-            <anchor (wght=100:328 wght=400:328 wght=800:327) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
+            <anchor (wght=100:318 wght=400:328 wght=800:327) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
         pos base meem-ar.medi.alt3
             <anchor (wght=100:334 wght=400:320 wght=800:297) (wght=100:-98 wght=400:-82 wght=800:-60)> mark @MC_bottom;
         pos base meem-ar.medi.ss01
@@ -25830,7 +25839,7 @@ feature mark {
         pos base meem-ar.init.alt1
             <anchor (wght=100:338 wght=400:323 wght=800:297) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
         pos base meem-ar.init.alt2
-            <anchor (wght=100:328 wght=400:328 wght=800:327) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
+            <anchor (wght=100:318 wght=400:328 wght=800:327) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
         pos base meem-ar.init.alt3
             <anchor (wght=100:308 wght=400:315 wght=800:327) (wght=100:-75 wght=400:-69 wght=800:-60)> mark @MC_bottom;
         pos base noon-ar
@@ -34011,17 +34020,17 @@ feature mark {
         pos base meem-ar.medi.alt1
             <anchor (wght=100:350 wght=400:334 wght=800:308) (wght=100:422 wght=400:453 wght=800:498)> mark @MC_top;
         pos base meem-ar.medi.alt2
-            <anchor (wght=100:340 wght=400:338 wght=800:334) (wght=100:448 wght=400:477 wght=800:518)> mark @MC_top;
+            <anchor (wght=100:330 wght=400:338 wght=800:334) (wght=100:428 wght=400:477 wght=800:518)> mark @MC_top;
         pos base meem-ar.medi.alt3
             <anchor (wght=100:340 wght=400:324 wght=800:298) (wght=100:442 wght=400:473 wght=800:518)> mark @MC_top;
         pos base meem-ar.medi.ss01
             <anchor (wght=100:192 wght=400:196 wght=800:203) (wght=100:133 wght=400:172 wght=800:227)> mark @MC_top;
         pos base meem-ar.init
-            <anchor (wght=100:350 wght=400:331 wght=800:298) (wght=100:442 wght=400:473 wght=800:518)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:335 wght=800:298) (wght=100:442 wght=400:463 wght=800:518)> mark @MC_top;
         pos base meem-ar.init.alt1
-            <anchor (wght=100:340 wght=400:324 wght=800:298) (wght=100:412 wght=400:448 wght=800:498)> mark @MC_top;
+            <anchor (wght=100:340 wght=400:324 wght=800:298) (wght=100:422 wght=400:448 wght=800:498)> mark @MC_top;
         pos base meem-ar.init.alt2
-            <anchor (wght=100:340 wght=400:338 wght=800:334) (wght=100:448 wght=400:477 wght=800:518)> mark @MC_top;
+            <anchor (wght=100:330 wght=400:338 wght=800:334) (wght=100:428 wght=400:477 wght=800:518)> mark @MC_top;
         pos base meem-ar.init.alt3
             <anchor (wght=100:350 wght=400:339 wght=800:320) (wght=100:422 wght=400:462 wght=800:518)> mark @MC_top;
         pos base noon-ar
@@ -34163,27 +34172,27 @@ feature mark {
         pos base oe-ar.fina
             <anchor (wght=100:182 wght=400:205 wght=800:244) (wght=100:614 wght=400:685 wght=800:785)> mark @MC_top;
         pos base alefMaksura-ar
-            <anchor (wght=100:350 wght=400:359 wght=800:342) (wght=100:472 wght=400:502 wght=800:542)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base alefMaksura-ar.alt1
-            <anchor (wght=100:190 wght=400:179 wght=800:159) (wght=100:315 wght=400:328 wght=800:347)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base alefMaksura-ar.alt2
-            <anchor (wght=100:153 wght=400:155 wght=800:159) (wght=100:310 wght=400:325 wght=800:347)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base alefMaksura-ar.alt3
-            <anchor (wght=100:177 wght=400:170 wght=800:159) (wght=100:340 wght=400:355 wght=800:377)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base alefMaksura-ar.fina
             <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base alefMaksura-ar.fina.alt1
-            <anchor (wght=100:146 wght=400:162 wght=800:190) (wght=100:156 wght=400:191 wght=800:241)> mark @MC_top;
+            <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base alefMaksura-ar.fina.alt2
-            <anchor (wght=100:206 wght=400:204 wght=800:200) (wght=100:156 wght=400:191 wght=800:241)> mark @MC_top;
+            <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base alefMaksura-ar.fina.alt3
-            <anchor (wght=100:175 wght=400:177 wght=800:180) (wght=100:186 wght=400:221 wght=800:271)> mark @MC_top;
+            <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base alefMaksura-ar.medi
             <anchor (wght=100:178 wght=400:171 wght=800:160) (wght=100:374 wght=400:398 wght=800:433)> mark @MC_top;
         pos base alefMaksura-ar.init
             <anchor (wght=100:183 wght=400:176 wght=800:163) (wght=100:428 wght=400:455 wght=800:494)> mark @MC_top;
         pos base yeh-ar
-            <anchor (wght=100:350 wght=400:359 wght=800:342) (wght=100:472 wght=400:502 wght=800:542)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base yeh-ar.fina
             <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base yeh-ar.medi
@@ -34199,7 +34208,7 @@ feature mark {
         pos base yehHamzaabove-ar.init
             <anchor (wght=100:178 wght=400:172 wght=800:161) (wght=100:640 wght=400:700 wght=800:784)> mark @MC_top;
         pos base yehVabove-ar
-            <anchor (wght=100:350 wght=400:359 wght=800:342) (wght=100:472 wght=400:502 wght=800:542)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base yehVabove-ar.fina
             <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base yehVabove-ar.medi
@@ -34207,7 +34216,7 @@ feature mark {
         pos base yehVabove-ar.init
             <anchor (wght=100:183 wght=400:176 wght=800:163) (wght=100:662 wght=400:697 wght=800:748)> mark @MC_top;
         pos base yehFarsi-ar
-            <anchor (wght=100:350 wght=400:359 wght=800:342) (wght=100:472 wght=400:502 wght=800:542)> mark @MC_top;
+            <anchor (wght=100:350 wght=400:329 wght=800:342) (wght=100:472 wght=400:479 wght=800:542)> mark @MC_top;
         pos base yehFarsi-ar.fina
             <anchor (wght=100:342 wght=400:328 wght=800:316) (wght=100:232 wght=400:243 wght=800:278)> mark @MC_top;
         pos base yehFarsi-ar.medi
@@ -34411,8 +34420,20 @@ feature mark {
     lookup mark2base_6 {
         pos base alefMaksura-ar
             <anchor (wght=100:153 wght=400:155 wght=800:159) (wght=100:310 wght=400:329 wght=800:357)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.alt1
+            <anchor (wght=100:155 wght=400:155 wght=800:159) (wght=100:325 wght=400:325 wght=800:347)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.alt2
+            <anchor (wght=100:153 wght=400:155 wght=800:159) (wght=100:310 wght=400:325 wght=800:347)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.alt3
+            <anchor (wght=100:177 wght=400:170 wght=800:159) (wght=100:340 wght=400:355 wght=800:377)> mark @MC_top_hamza;
         pos base alefMaksura-ar.fina
             <anchor (wght=100:136 wght=400:156 wght=800:190) (wght=100:156 wght=400:187 wght=800:231)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.fina.alt1
+            <anchor (wght=100:146 wght=400:162 wght=800:190) (wght=100:156 wght=400:191 wght=800:241)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.fina.alt2
+            <anchor (wght=100:206 wght=400:182 wght=800:200) (wght=100:156 wght=400:191 wght=800:241)> mark @MC_top_hamza;
+        pos base alefMaksura-ar.fina.alt3
+            <anchor (wght=100:175 wght=400:177 wght=800:180) (wght=100:186 wght=400:221 wght=800:271)> mark @MC_top_hamza;
         pos base yeh-ar
             <anchor (wght=100:153 wght=400:155 wght=800:159) (wght=100:310 wght=400:329 wght=800:357)> mark @MC_top_hamza;
         pos base yeh-ar.fina
