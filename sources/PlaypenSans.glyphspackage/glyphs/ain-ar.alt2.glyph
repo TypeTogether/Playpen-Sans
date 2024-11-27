@@ -1,5 +1,6 @@
 {
 glyphname = "ain-ar.alt2";
+kernRight = "ain-ar";
 layers = (
 {
 anchors = (

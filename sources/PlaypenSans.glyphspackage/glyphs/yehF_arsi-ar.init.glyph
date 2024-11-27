@@ -1,6 +1,7 @@
 {
 color = 10;
 glyphname = "yehFarsi-ar.init";
+kernRight = "yeh-ar.init";
 layers = (
 {
 layerId = m01;

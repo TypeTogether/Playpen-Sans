@@ -1,0 +1,34 @@
+{
+glyphname = Omicrontonos.calt;
+kernLeft = Omicron;
+kernRight = Omicron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Omicron;
+}
+);
+width = 806;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Omicron;
+}
+);
+width = 824;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Omicron;
+}
+);
+width = 811;
+}
+);
+}

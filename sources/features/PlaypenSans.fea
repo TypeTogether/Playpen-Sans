@@ -147,6 +147,7 @@ feature locl {
   language SVE;
     lookup ENG_scandinavian;
 
+
   # locl Cyrillic
   script cyrl;
   language SRB;
@@ -168,6 +169,16 @@ feature locl {
 
   language MKD;
     sub gje-cy by gje-cy.loclMKD;
+
+
+  # locl grek
+  script grek;
+  lookup grek_anoteleia {
+    script grek;
+    ignore sub @grkall periodcentered' @grkall;
+    sub @grkall periodcentered' by anoteleia;
+  } grek_anoteleia;
+
 
 # locl Arabic
   script arab;
@@ -840,36 +851,52 @@ feature locl {
 
   script arab;
   lookup ccmp_arab_1 {
+    # composition
     lookupflag 0;
-    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
-    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
-    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
-    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
-    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
-    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
-    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
-    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
-    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
-    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
-    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
-    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
-    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
-    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
-    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
     sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
-    sub shadda-ar damma-ar by shaddaDamma-ar;
+    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
     sub damma-ar shadda-ar by shaddaDamma-ar;
-    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
     sub dammatan-ar shadda-ar by shaddaDammatan-ar;
-    sub shadda-ar fatha-ar by shaddaFatha-ar;
+    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
     sub fatha-ar shadda-ar by shaddaFatha-ar;
-    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
     sub fathatan-ar shadda-ar by shaddaFathatan-ar;
-    sub shadda-ar kasra-ar by shaddaKasra-ar;
+    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
+    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
+    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
+    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
+    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
+    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
+    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
+    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
     sub kasra-ar shadda-ar by shaddaKasra-ar;
-    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
     sub kasratan-ar shadda-ar by shaddaKasratan-ar;
+    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
+    sub shadda-ar damma-ar by shaddaDamma-ar;
+    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+    sub shadda-ar fatha-ar by shaddaFatha-ar;
+    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+    sub shadda-ar kasra-ar by shaddaKasra-ar;
+    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
   } ccmp_arab_1;
+
+  lookup ccmp_arab_2 {
+    # decomposition
+    lookupflag 0;
+    sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+    sub hehgoalHamzaabove-ar.fina by hehgoal-ar.fina hamzaabove-ar;
+    sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
+    sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
+    sub noon-ar by noonghunna-ar dotabove-ar;
+    sub noon-ar.fina by noonghunna-ar.fina dotabove-ar;
+    sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
+    sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
+  } ccmp_arab_2;
 } ccmp;
 
 
@@ -1325,90 +1352,63 @@ feature calt {
     sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt5_4;
   } BackwardsCheck;
 
+
   # script cyrl;
-  lookup PseudoRandom_CYRL {
-    include(features/cyr-PseudoRandom.fea);
-  } PseudoRandom_CYRL;
-  lookup BackwardsCheck_CYRL {
-    include(features/cyr-BackwardsCheck.fea);
-  } BackwardsCheck_CYRL;
+  include(features/cyr-PseudoRandom.fea);
+  include(features/cyr-BackwardsCheck.fea);
+
 
   # script grek;
-  lookup PseudoRandom_GREK {
-    include(features/grk-PseudoRandom.fea);
-  } PseudoRandom_GREK;
-  lookup BackwardsCheck_GREK {
-    include(features/grk-BackwardsCheck.fea);
-  } BackwardsCheck_GREK;
+  include(features/grk-PseudoRandom.fea);
+  include(features/grk-BackwardsCheck.fea);
+  # extra calt
+  include(features/grk-calt.fea);
 
 
   #script hebr;
-  lookup PseudoRandom_HEBR {
-    include(features/heb-PseudoRandom.fea);
-  } PseudoRandom_HEBR;
-  lookup BackwardsCheck_HEBR {
-    include(features/heb-BackwardsCheck.fea);
-  } BackwardsCheck_HEBR;
-  
-  lookup calt_hebr_02 {
-    lookupflag RightToLeft;
-    sub [lamed-hb lamed-hb.alt3] dagesh-hb holam-hb by lameddageshholam-hb;
-    sub [lamed-hb.alt2 lamed-hb.alt4] holam-hb dagesh-hb by lameddageshholam-hb;
-    sub lameddagesh-hb holam-hb by lameddageshholam-hb;
-    sub [lamed-hb lamed-hb.alt3] dagesh-hb by lameddagesh-hb;
-    sub vav-hb dagesh-hb by vavdagesh-hb;
-    sub vav-hb.alt1 dagesh-hb by vavdagesh-hb.alt1;
-    sub vav-hb.alt2 dagesh-hb by vavdagesh-hb.alt2;
-    sub vav-hb.alt3 dagesh-hb by vavdagesh-hb.alt3;
-    sub vav-hb.alt4 dagesh-hb by vavdagesh-hb.alt4;
-    sub yod-hb dagesh-hb by yoddagesh-hb;
-    sub yod-hb.alt1 dagesh-hb by yoddagesh-hb.alt1;
-    sub yod-hb.alt2 dagesh-hb by yoddagesh-hb.alt2;
-    sub yod-hb.alt3 dagesh-hb by yoddagesh-hb.alt3;
-    sub yod-hb.alt4 dagesh-hb by yoddagesh-hb.alt4;
-    sub nun-hb dagesh-hb by nundagesh-hb;
-    sub nun-hb.alt1 dagesh-hb by nundagesh-hb.alt1;
-    sub nun-hb.alt2 dagesh-hb by nundagesh-hb.alt2;
-    sub nun-hb.alt3 dagesh-hb by nundagesh-hb.alt3;
-    sub nun-hb.alt4 dagesh-hb by nundagesh-hb.alt4;
-  } calt_hebr_02;
+  include(features/heb-PseudoRandom.fea);
+  include(features/heb-BackwardsCheck.fea);
+  # extra calt
+  include(features/heb-calt.fea);
 
 
   # DEVA
   script deva;
   language dflt;
-  lookup uMatra_alt {
+  lookup deva_uMatra_alt {
     sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
-  } uMatra_alt;
+  } deva_uMatra_alt;
 
-  lookup PseudoRandom_DEVA {
-    include(features/deva-PseudoRandom.fea);
-  } PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA {
-    include(features/deva-BackwardsCheck.fea);
-  } BackwardsCheck_DEVA;
+  include(features/deva-PseudoRandom.fea);
+  include(features/deva-BackwardsCheck.fea);
 
   language MAR;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
 
   script dev2;
   language dflt;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
 
   language MAR;
-  lookup uMatra_alt;
+  lookup deva_uMatra_alt;
   lookup PseudoRandom_DEVA;
   lookup BackwardsCheck_DEVA;
+
 
   # ARAB
   script arab;
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
-
+  # extra arab calt
+  lookup arab_extra {
+  lookupflag IgnoreMarks;
+  lookupflag RightToLeft;
+  sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
+  } arab_extra;
 } calt;
 
 
@@ -1418,6 +1418,7 @@ feature case {
 
 
 feature liga {
+  # lat
   @idotless_all = [idotless idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
   @i_all = [i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
   sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
@@ -1585,6 +1586,15 @@ feature ss01 {
     sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
   } ss01_ara_0;
 
+  # add to ss01 (name: Arabic Ruq'ah style)
+  lookup ss01_ara_1 {
+    sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+    sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+    sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+    sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+    sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+  } ss01_ara_1;
+
 } ss01;
 
 
@@ -1615,6 +1625,20 @@ feature ss03 {
   lookup locl_hebr_jii_04;
   lookup locl_hebr_jii_05;
 } ss03;
+
+
+feature ss04 {
+  featureNames {
+    name "Arabic Ruq'ah style"; # Windows English
+    name 1 0 0 "Arabic Ruq'ah style"; # Mac English
+  };
+  # lookupflag RightToLeft;
+  sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+  sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+  sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+  sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+  sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+} ss04;
 
 feature ss19 {
   featureNames {

@@ -74,7 +74,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 598;
+width = 593;
 },
 {
 anchors = (
@@ -149,7 +149,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 560;
+width = 581;
 },
 {
 anchors = (
@@ -224,8 +224,9 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 584;
+width = 589;
 }
 );
 metricLeft = "behDotless-ar.medi";
+metricRight = "meem-ar.init";
 }
