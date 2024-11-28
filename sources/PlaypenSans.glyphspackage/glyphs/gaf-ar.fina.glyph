@@ -38,7 +38,7 @@ shapes = (
 ref = "keheh-ar.fina";
 },
 {
-pos = (314,260);
+pos = (350,259);
 ref = "gafsarkashabove-ar";
 }
 );

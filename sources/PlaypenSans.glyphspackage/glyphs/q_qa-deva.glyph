@@ -44,11 +44,11 @@ shapes = (
 ref = "k_ka-deva.alt1";
 },
 {
-pos = (149,148);
+pos = (148,148);
 ref = "nukta-deva";
 },
 {
-pos = (786,172);
+pos = (785,172);
 ref = "nukta-deva";
 }
 );

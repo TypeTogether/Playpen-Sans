@@ -38,7 +38,7 @@ shapes = (
 ref = "keheh-ar.fina";
 },
 {
-pos = (298,260);
+pos = (334,259);
 ref = "threedotsupabove-ar";
 }
 );

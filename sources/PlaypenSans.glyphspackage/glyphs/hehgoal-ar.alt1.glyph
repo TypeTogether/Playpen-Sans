@@ -9,7 +9,7 @@ shapes = (
 ref = "heh-ar.alt1";
 }
 );
-width = 490;
+width = 510;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -18,7 +18,7 @@ shapes = (
 ref = "heh-ar.alt1";
 }
 );
-width = 501;
+width = 515;
 },
 {
 layerId = m003;
@@ -27,7 +27,7 @@ shapes = (
 ref = "heh-ar.alt1";
 }
 );
-width = 520;
+width = 532;
 }
 );
 }

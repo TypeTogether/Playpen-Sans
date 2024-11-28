@@ -38,7 +38,7 @@ shapes = (
 ref = "heh-ar";
 },
 {
-pos = (-47,93);
+pos = (-41,93);
 ref = "hamzaabove-ar";
 }
 );
@@ -58,7 +58,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 530;
+width = 542;
 },
 {
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
