@@ -734,7 +734,7 @@ lookup removeReph {
 
 	# Rra-conjuncts
 
-	sub rr_ya-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by rr_ya-deva;	
+	sub rr_ya-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by rr_ya-deva;
 	sub rr_ha-deva [reph-deva reph_anusvara-deva reph_candraBindu-deva candraBindu-deva anusvara-deva] by rr_ha-deva;
 
 
@@ -766,7 +766,7 @@ lookup removeReph {
 # Localised Forms
 
 # feature locl {
-	
+
 # 	language MAR;
 # 	sub la-deva by la-deva.loclMAR;
 # 	sub sha-deva by sha-deva.loclMAR;
@@ -800,7 +800,7 @@ feature nukt {
 # Akhand
 
 feature akhn {
-	
+
 	sub ka-deva halant-deva ssa-deva halant-deva by k_ss-deva;
 	sub ka-deva halant-deva ssa-deva by k_ssa-deva;
 	sub ja-deva halant-deva nya-deva halant-deva by j_ny-deva;
@@ -891,7 +891,7 @@ feature half {
 		sub ga-deva halant-deva by g-deva;
 		sub gha-deva halant-deva by gh-deva;
 		sub nga-deva halant-deva by ng-deva;
-		
+
 		sub ca-deva halant-deva by c-deva;
 		sub ja-deva halant-deva by j-deva;
 		sub jha-deva halant-deva by jh-deva;
@@ -1008,7 +1008,7 @@ feature pres {
 		sub k-deva s-deva p-deva la-deva.loclMAR by k_s_p_la-deva.loclMAR;
 
 
-	} pres_cjct_quadri;	
+	} pres_cjct_quadri;
 
 
 	#Triconsonantal Conjuncts
@@ -1079,7 +1079,7 @@ feature pres {
 		sub n-deva m-deva ya-deva by n_m_ya-deva;
 		sub n-deva s-deva tta-deva by n_s_tta-deva;
 		sub n-deva h_ya-deva by n_h_ya-deva;
-		
+
 		sub p-deva t-deva ya-deva by p_t_ya-deva;
 
 		sub b-deva j-deva ya-deva by b_j_ya-deva;
@@ -1117,14 +1117,14 @@ feature pres {
 		sub s-deva t_ra-deva by s_t_ra-deva;
 		sub s-deva th-deva ya-deva by s_th_ya-deva;
 		sub s-deva p_ra-deva by s_p_ra-deva;
-		sub s-deva m-deva ya-deva by s_m_ya-deva;		
+		sub s-deva m-deva ya-deva by s_m_ya-deva;
 
 
 	} pres_cjct_tri;
 
 	#Biconsonantal Conjuncts
-	lookup pres_cjct_bi {	
-		
+	lookup pres_cjct_bi {
+
 		sub k-deva ka-deva by k_ka-deva;
 		sub k-deva kha-deva by k_kha-deva;
 		sub k-deva ca-deva by k_ca-deva;
@@ -1211,7 +1211,7 @@ feature pres {
 		sub jh-deva ya-deva by jh_ya-deva;
 		sub jh-deva.loclNEP ya-deva by jh_ya-deva.loclNEP;
 
-		sub ny-deva ca-deva by ny_ca-deva;	
+		sub ny-deva ca-deva by ny_ca-deva;
 		sub ny-deva cha-deva by ny_cha-deva;
 		sub ny-deva ja-deva by ny_ja-deva;
 		sub ny-deva sha-deva by ny_sha-deva;
@@ -1444,7 +1444,7 @@ feature pres {
 		sub f-deva sa-deva by f_sa-deva;
 		sub f-deva za-deva by f_za-deva;
 		sub f-deva fa-deva by f_fa-deva;
-	
+
 
 	} pres_cjct_bi;
 
@@ -1474,7 +1474,7 @@ feature pres {
 	lookup ii_match {
 
 		sub @iiMatra-deva.w1 iiMatra-deva' by iiMatra-deva.w1;
-		sub @iiMatra-deva.w2 iiMatra-deva' by iiMatra-deva.w2;		
+		sub @iiMatra-deva.w2 iiMatra-deva' by iiMatra-deva.w2;
 
 	} ii_match;
 
@@ -1485,7 +1485,7 @@ feature pres {
 #---------------------
 # Below Base Substitutions
 feature blws {
-	
+
 	sub da-deva rVocalicMatra-deva by da_rVocalicMatra-deva;
 	sub ra-deva uMatra-deva by ra_uMatra-deva;
 	sub ra-deva uuMatra-deva by ra_uuMatra-deva;
@@ -1508,13 +1508,13 @@ feature abvs {
 	sub o-deva candraBindu-deva by o_candraBindu-deva;
 	sub au-deva candraBindu-deva by au_candraBindu-deva;
 
-	
+
 	#Reph
-	
+
 	sub reph-deva anusvara-deva by reph_anusvara-deva;
 	sub reph-deva candraBindu-deva by reph_candraBindu-deva;
 
-	
+
 	#EMatra
 
 	sub eMatra-deva reph-deva candraBindu-deva by eMatra_reph_candraBindu-deva;
@@ -1549,7 +1549,7 @@ feature abvs {
 
 
 	#iiMatra
-	
+
 	sub iiMatra-deva reph-deva candraBindu-deva by iiMatra_reph_candraBindu-deva;
 	sub iiMatra-deva reph-deva anusvara-deva by iiMatra_reph_anusvara-deva;
 	sub iiMatra-deva candraBindu-deva by iiMatra_candraBindu-deva;
@@ -1570,9 +1570,9 @@ feature abvs {
 
 
 	#-------
-	
+
 	lookupflag UseMarkFilteringSet @rephDeva;
-	
+
 
 	#iMatra-Reph
 
@@ -1740,7 +1740,7 @@ feature abvs {
 	sub iMatra-deva.w16' [@iMatra-deva.w16] [candraBindu-deva] by iMatra_candraBindu-deva.w16;
 	sub iMatra_candraBindu-deva.w16 [@iMatra-deva.w16]' lookup removeReph [candraBindu-deva];
 
-	
+
 	#iMatra-Reph-Anusvara
 
 	sub iMatra-deva' [dd_dda-deva] [reph_anusvara-deva] by iMatra_reph_anusvara-deva;

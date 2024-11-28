@@ -1,66 +1,63 @@
-feature rlig {
-  script arab;
-  language dflt;
+script arab;
+language dflt;
 
-  lookup rlig_arab_0 {
-    lookupflag IgnoreMarks;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.alt1;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.alt2;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.alt3;
-    
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar.fina;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.fina.alt1;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.fina.alt2;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.fina.alt3;
-    
+lookup rlig_arab_0 {
+  lookupflag IgnoreMarks;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.alt1;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.alt2;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.alt3;
+  
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar.fina;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.fina.alt1;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.fina.alt2;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.fina.alt3;
+  
 
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzaabove-ar by lam_alefHamzaabove-ar;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzaabove-ar by lam_alefHamzaabove-ar.fina;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar.fina;
-    
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefMadda-ar.fina by lam_alefMadda-ar;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] madda-ar by lam_alefMadda-ar;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefMadda-ar.fina by lam_alefMadda-ar.fina;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] madda-ar by lam_alefMadda-ar.fina;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefWasla-ar.fina by lam_alefWasla-ar;
-    sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefWasla-ar.fina by lam_alefWasla-ar.fina;
-    sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar.fina;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzaabove-ar by lam_alefHamzaabove-ar;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefHamzaabove-ar.fina by lam_alefHamzaabove-ar.fina;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzaabove-ar by lam_alefHamzaabove-ar.fina;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefHamzabelow-ar.fina by lam_alefHamzabelow-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar.fina;
+  
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefMadda-ar.fina by lam_alefMadda-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] madda-ar by lam_alefMadda-ar;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefMadda-ar.fina by lam_alefMadda-ar.fina;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] madda-ar by lam_alefMadda-ar.fina;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefWasla-ar.fina by lam_alefWasla-ar;
+  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefWasla-ar.fina by lam_alefWasla-ar.fina;
+  sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] wasla-ar by lam_alefWasla-ar.fina;
 
-    sub lamVabove-ar.init [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar;
-    sub lamVabove-ar.medi [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar.fina;
-  } rlig_arab_0;
+  sub lamVabove-ar.init [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar;
+  sub lamVabove-ar.medi [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] by lamVabove_alef-ar.fina;
+} rlig_arab_0;
 
 
-  lookup rlig_arab_1 {
-    lookupflag IgnoreMarks;
-	sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by feh_alefMaksura-ar;
-	sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yeh-ar.fina by feh_yeh-ar;
-	sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yehFarsi-ar.fina by feh_alefMaksura-ar;
-	sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
-	
-	sub [feh-ar feh-ar.init] [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by feh_alefMaksura-ar;
-	sub [feh-ar feh-ar.init] yeh-ar.fina by feh_yeh-ar;
-	sub [feh-ar feh-ar.init] yehFarsi-ar.fina by feh_alefMaksura-ar;
-	sub [feh-ar feh-ar.init] yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
-	
-	sub qaf-ar.init [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by qaf_alefMaksura-ar;
-	sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
-	sub qaf-ar.init yehFarsi-ar.fina by qaf_alefMaksura-ar;
-	sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
+lookup rlig_arab_1 {
+  lookupflag IgnoreMarks;
+sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by feh_alefMaksura-ar;
+sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yeh-ar.fina by feh_yeh-ar;
+sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yehFarsi-ar.fina by feh_alefMaksura-ar;
+sub [fehDotless-ar fehDotless-ar.alt1 fehDotless-ar.alt2 fehDotless-ar.alt3 fehDotless-ar.init fehDotless-ar.init.alt1 fehDotless-ar.init.alt2 fehDotless-ar.init.alt3] yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
 
-  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.fina meem-ar.fina.alt1 meem-ar.fina.alt2 meem-ar.fina.alt3] by lam_meem-ar;
-  sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by lam_meem-ar.init;
-  } rlig_arab_1;
+sub [feh-ar feh-ar.init] [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by feh_alefMaksura-ar;
+sub [feh-ar feh-ar.init] yeh-ar.fina by feh_yeh-ar;
+sub [feh-ar feh-ar.init] yehFarsi-ar.fina by feh_alefMaksura-ar;
+sub [feh-ar feh-ar.init] yehHamzaabove-ar.fina by feh_yehHamzaabove-ar;
 
-  language URD;
-  lookup rlig_arab_0;
-  lookup rlig_arab_1;
+sub qaf-ar.init [alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] by qaf_alefMaksura-ar;
+sub qaf-ar.init yeh-ar.fina by qaf_yeh-ar;
+sub qaf-ar.init yehFarsi-ar.fina by qaf_alefMaksura-ar;
+sub qaf-ar.init yehHamzaabove-ar.fina by qaf_yehHamzaabove-ar;
 
-} rlig;
+sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.fina meem-ar.fina.alt1 meem-ar.fina.alt2 meem-ar.fina.alt3] by lam_meem-ar;
+sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by lam_meem-ar.init;
+} rlig_arab_1;
+
+language URD;
+lookup rlig_arab_0;
+lookup rlig_arab_1;
