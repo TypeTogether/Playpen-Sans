@@ -3,16 +3,6 @@ feature rlig {
 
   lookup rlig_arab_0 {
     lookupflag IgnoreMarks;
-    #sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.short alef-ar.fina] by lam_alef-ar;
-    #sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt1 alef-ar.short alef-ar.fina.alt1] by lam_alef-ar.alt1;
-    #sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt2 alef-ar.short alef-ar.fina.alt2] by lam_alef-ar.alt2;
-    #sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt3 alef-ar.short alef-ar.fina.alt3] by lam_alef-ar.alt3;
-
-    #sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.short alef-ar.fina] by lam_alef-ar.fina;
-    #sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt1 alef-ar.short alef-ar.fina.alt1] by lam_alef-ar.fina.alt1;
-    #sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt2 alef-ar.short alef-ar.fina.alt2] by lam_alef-ar.fina.alt2;
-    #sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt3 alef-ar.short alef-ar.fina.alt3] by lam_alef-ar.fina.alt3;
-    
     sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar;
     sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.alt1;
     sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.alt2;
@@ -68,5 +58,8 @@ feature rlig {
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by lam_meem-ar.init;
   } rlig_arab_1;
 
-} rlig;
+  language URD;
+  lookup rlig_arab_0;
+  lookup rlig_arab_1;
 
+} rlig;
