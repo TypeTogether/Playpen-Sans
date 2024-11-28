@@ -108,7 +108,7 @@ pos = (342,542);
 },
 {
 name = top_hamza;
-pos = (159,347);
+pos = (139,347);
 }
 );
 layerId = m003;
@@ -189,7 +189,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 703;
+width = 709;
 },
 {
 anchors = (
