@@ -1,0 +1,86 @@
+{
+color = 10;
+glyphname = "saraAm-thai";
+layers = (
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (14,0);
+ref = "nikhahit-thai";
+},
+{
+ref = "saraAa-thai";
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (14,0);
+ref = "nikhahit-thai";
+},
+{
+ref = "saraAa-thai";
+}
+);
+width = 408;
+},
+{
+background = {
+shapes = (
+{
+pos = (2,0);
+ref = "nikhahit-thai";
+},
+{
+ref = "saraAa-thai";
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+pos = (2,0);
+ref = "nikhahit-thai";
+},
+{
+ref = "saraAa-thai";
+}
+);
+width = 468;
+},
+{
+background = {
+shapes = (
+{
+alignment = -1;
+pos = (9,0);
+ref = "nikhahit-thai";
+},
+{
+alignment = -1;
+ref = "saraAa-thai";
+}
+);
+};
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (9,0);
+ref = "nikhahit-thai";
+},
+{
+alignment = -1;
+ref = "saraAa-thai";
+}
+);
+width = 432;
+}
+);
+metricRight = "saraAa-thai";
+unicode = 3635;
+}
