@@ -79,6 +79,7 @@ pillow==10.4.0
 pip-api==0.0.34
 pngquant-cli==2.17.0.post5
 protobuf==3.20.3
+psautohint==2.4.0
 pyahocorasick==2.1.0
 pybind11==2.13.4
 pycairo==1.27.0
