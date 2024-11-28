@@ -1,5 +1,6 @@
 feature rlig {
   script arab;
+  language dflt;
 
   lookup rlig_arab_0 {
     lookupflag IgnoreMarks;

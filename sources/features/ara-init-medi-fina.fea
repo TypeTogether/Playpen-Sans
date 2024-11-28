@@ -1,5 +1,6 @@
 feature init {
   script arab;
+  language dflt;
   lookup init_ARA {
     sub behDotless-ar by behDotless-ar.init;
     sub beh-ar by beh-ar.init;
@@ -46,6 +47,7 @@ feature init {
 
 feature medi {
   script arab;
+  language dflt;
   lookup medi_ARA {
     sub behDotless-ar by behDotless-ar.medi;
     sub beh-ar by beh-ar.medi;
@@ -92,6 +94,7 @@ feature medi {
 
 feature fina {
   script arab;
+  language dflt;
   lookup fina_ARA {
     sub alef-ar by alef-ar.fina;
     sub alefHamzaabove-ar by alefHamzaabove-ar.fina;

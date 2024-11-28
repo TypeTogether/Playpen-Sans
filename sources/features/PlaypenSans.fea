@@ -850,6 +850,7 @@ feature locl {
   lookup ccmp_latn_2;
 
   script arab;
+  language dflt;
   lookup ccmp_arab_1 {
     # composition
     lookupflag 0;
@@ -1410,6 +1411,7 @@ feature calt {
   lookupflag RightToLeft;
   sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
   } arab_extra;
+
   language URD;
   lookup pseudoRandom_ARA;
   lookup BackwardsCheck_ARA;

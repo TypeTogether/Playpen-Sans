@@ -1,5 +1,6 @@
 feature rclt {
 	script arab;
+	language dflt;
 	lookup rclt_arab_0 {
 		sub feh_alefMaksura-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
 		sub feh_yeh-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
