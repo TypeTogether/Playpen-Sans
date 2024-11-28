@@ -1,5 +1,5 @@
 {
-.appVersion = "3324";
+.appVersion = "3327";
 .formatVersion = 3;
 axes = (
 {
@@ -5668,6 +5668,7 @@ languagesystem hebr dflt;
 languagesystem arab dflt;
 languagesystem dev2 dflt;
 languagesystem deva dflt;
+languagesystem thai dflt;
 
 languagesystem latn AZE;
 languagesystem latn CAT;
@@ -5710,6 +5711,7 @@ include(features/grk-classes-PlaypenSans.fea);
 include(features/heb-classes-PlaypenSans.fea);
 include(features/latx-classes-PlaypenSans.fea);
 include(features/ara-classes-PlaypenSans.fea);
+include(features/tha-classes-PlaypenSans.fea);
 include(features/classes-PlaypenSans.fea);
 include(features/PlaypenSans.fea);
 ";

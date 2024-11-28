@@ -1,0 +1,40 @@
+# 241128_1714
+
+# DEFAULT CLASSES:
+@dflt_tha_1 = [thoThong-thai soSua-thai thoNangmontho-thai two-thai phoPhan-thai khomut-thai thoThung-thai saraO-thai lu-thai thoThan-thai khoKhon-thai saraE-thai thoThahan-thai angkhankhu-thai woWaen-thai saraAa-thai seven-thai three-thai space];
+@dflt_tha_2 = [doDek-thai six-thai choChing-thai foFan-thai soSo-thai hoNokhuk-thai saraAiMaimuan-thai loLing-thai foFa-thai doChada-thai yoYak-thai hoHip-thai khoKhai-thai four-thai choChan-thai moMa-thai roRua-thai khoRakhang-thai];
+@dflt_tha_3 = [noNu-thai phoSamphao-thai saraAe-thai koKai-thai soRusi-thai saraAm-thai zero-thai saraAiMaimalai-thai toPatak-thai nine-thai saraA-thai maiyamok-thai choChoe-thai loChula-thai ngoNgu-thai noNen-thai ru-thai];
+@dflt_tha_4 = [lakkhangyao-thai soSala-thai boBaimai-thai paiyannoi-thai phoPhung-thai five-thai khoKhuat-thai yoYing-thai toTao-thai thoPhuthao-thai poPla-thai fongman-thai khoKhwai-thai one-thai oAng-thai eight-thai choChang-thai];
+
+
+# ALTERNATE CLASSES:
+#
+@alt1_tha_1 = [thoThong-thai.alt1 soSua-thai.alt1 thoNangmontho-thai.alt1 two-thai.alt1 phoPhan-thai.alt1 khomut-thai.alt1 thoThung-thai.alt1 saraO-thai.alt1 lu-thai.alt1 thoThan-thai.alt1 khoKhon-thai.alt1 saraE-thai.alt1 thoThahan-thai.alt1 angkhankhu-thai.alt1 woWaen-thai.alt1 saraAa-thai.alt1 seven-thai.alt1 three-thai.alt1 space.alt1];
+@alt2_tha_1 = [thoThong-thai.alt2 soSua-thai.alt2 thoNangmontho-thai.alt2 two-thai.alt2 phoPhan-thai.alt2 khomut-thai.alt2 thoThung-thai.alt2 saraO-thai.alt2 lu-thai.alt2 thoThan-thai.alt2 khoKhon-thai.alt2 saraE-thai.alt2 thoThahan-thai.alt2 angkhankhu-thai.alt2 woWaen-thai.alt2 saraAa-thai.alt2 seven-thai.alt2 three-thai.alt2 space.alt2];
+@alt3_tha_1 = [thoThong-thai.alt3 soSua-thai.alt3 thoNangmontho-thai.alt3 two-thai.alt3 phoPhan-thai.alt3 khomut-thai.alt3 thoThung-thai.alt3 saraO-thai.alt3 lu-thai.alt3 thoThan-thai.alt3 khoKhon-thai.alt3 saraE-thai.alt3 thoThahan-thai.alt3 angkhankhu-thai.alt3 woWaen-thai.alt3 saraAa-thai.alt3 seven-thai.alt3 three-thai.alt3 space.alt3];
+#
+@alt1_tha_2 = [doDek-thai.alt1 six-thai.alt1 choChing-thai.alt1 foFan-thai.alt1 soSo-thai.alt1 hoNokhuk-thai.alt1 saraAiMaimuan-thai.alt1 loLing-thai.alt1 foFa-thai.alt1 doChada-thai.alt1 yoYak-thai.alt1 hoHip-thai.alt1 khoKhai-thai.alt1 four-thai.alt1 choChan-thai.alt1 moMa-thai.alt1 roRua-thai.alt1 khoRakhang-thai.alt1];
+@alt2_tha_2 = [doDek-thai.alt2 six-thai.alt2 choChing-thai.alt2 foFan-thai.alt2 soSo-thai.alt2 hoNokhuk-thai.alt2 saraAiMaimuan-thai.alt2 loLing-thai.alt2 foFa-thai.alt2 doChada-thai.alt2 yoYak-thai.alt2 hoHip-thai.alt2 khoKhai-thai.alt2 four-thai.alt2 choChan-thai.alt2 moMa-thai.alt2 roRua-thai.alt2 khoRakhang-thai.alt2];
+@alt3_tha_2 = [doDek-thai.alt3 six-thai.alt3 choChing-thai.alt3 foFan-thai.alt3 soSo-thai.alt3 hoNokhuk-thai.alt3 saraAiMaimuan-thai.alt3 loLing-thai.alt3 foFa-thai.alt3 doChada-thai.alt3 yoYak-thai.alt3 hoHip-thai.alt3 khoKhai-thai.alt3 four-thai.alt3 choChan-thai.alt3 moMa-thai.alt3 roRua-thai.alt3 khoRakhang-thai.alt3];
+#
+@alt1_tha_3 = [noNu-thai.alt1 phoSamphao-thai.alt1 saraAe-thai.alt1 koKai-thai.alt1 soRusi-thai.alt1 saraAm-thai.alt1 zero-thai.alt1 saraAiMaimalai-thai.alt1 toPatak-thai.alt1 nine-thai.alt1 saraA-thai.alt1 maiyamok-thai.alt1 choChoe-thai.alt1 loChula-thai.alt1 ngoNgu-thai.alt1 noNen-thai.alt1 ru-thai.alt1];
+@alt2_tha_3 = [noNu-thai.alt2 phoSamphao-thai.alt2 saraAe-thai.alt2 koKai-thai.alt2 soRusi-thai.alt2 saraAm-thai.alt2 zero-thai.alt2 saraAiMaimalai-thai.alt2 toPatak-thai.alt2 nine-thai.alt2 saraA-thai.alt2 maiyamok-thai.alt2 choChoe-thai.alt2 loChula-thai.alt2 ngoNgu-thai.alt2 noNen-thai.alt2 ru-thai.alt2];
+@alt3_tha_3 = [noNu-thai.alt3 phoSamphao-thai.alt3 saraAe-thai.alt3 koKai-thai.alt3 soRusi-thai.alt3 saraAm-thai.alt3 zero-thai.alt3 saraAiMaimalai-thai.alt3 toPatak-thai.alt3 nine-thai.alt3 saraA-thai.alt3 maiyamok-thai.alt3 choChoe-thai.alt3 loChula-thai.alt3 ngoNgu-thai.alt3 noNen-thai.alt3 ru-thai.alt3];
+#
+@alt1_tha_4 = [lakkhangyao-thai.alt1 soSala-thai.alt1 boBaimai-thai.alt1 paiyannoi-thai.alt1 phoPhung-thai.alt1 five-thai.alt1 khoKhuat-thai.alt1 yoYing-thai.alt1 toTao-thai.alt1 thoPhuthao-thai.alt1 poPla-thai.alt1 fongman-thai.alt1 khoKhwai-thai.alt1 one-thai.alt1 oAng-thai.alt1 eight-thai.alt1 choChang-thai.alt1];
+@alt2_tha_4 = [lakkhangyao-thai.alt2 soSala-thai.alt2 boBaimai-thai.alt2 paiyannoi-thai.alt2 phoPhung-thai.alt2 five-thai.alt2 khoKhuat-thai.alt2 yoYing-thai.alt2 toTao-thai.alt2 thoPhuthao-thai.alt2 poPla-thai.alt2 fongman-thai.alt2 khoKhwai-thai.alt2 one-thai.alt2 oAng-thai.alt2 eight-thai.alt2 choChang-thai.alt2];
+@alt3_tha_4 = [lakkhangyao-thai.alt3 soSala-thai.alt3 boBaimai-thai.alt3 paiyannoi-thai.alt3 phoPhung-thai.alt3 five-thai.alt3 khoKhuat-thai.alt3 yoYing-thai.alt3 toTao-thai.alt3 thoPhuthao-thai.alt3 poPla-thai.alt3 fongman-thai.alt3 khoKhwai-thai.alt3 one-thai.alt3 oAng-thai.alt3 eight-thai.alt3 choChang-thai.alt3];
+
+#ALL
+@dflt_tha_ALL = [@dflt_tha_1 @dflt_tha_2 @dflt_tha_3 @dflt_tha_4];
+@alt1_tha_ALL = [@alt1_tha_1 @alt1_tha_2 @alt1_tha_3 @alt1_tha_4];
+@alt2_tha_ALL = [@alt2_tha_1 @alt2_tha_2 @alt2_tha_3 @alt2_tha_4];
+@alt3_tha_ALL = [@alt3_tha_1 @alt3_tha_2 @alt3_tha_3 @alt3_tha_4];
+
+
+@no_tha_ALTS = [maiHanaKat-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai saraU-thai saraUu-thai phinthu-thai baht maitaikhu-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai nikhahit-thai yamakkan-thai yoYing-thai.less doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short thoThan-thai.less ru_lakkhangyao-thai lu_lakkhangyao-thai loChula-thai.short maiHanaKat-thai.narrow maiEk-thai.small maiEk-thai.narrow maiTho-thai.small maiTho-thai.narrow maiTri-thai.small maiTri-thai.narrow maiChattawa-thai.small thanthakhat-thai.small thanthakhat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai saraU-thai.small saraUu-thai.small phinthu-thai.small maiChattawa-thai.narrow yamakkan-thai.narrow nikhahit-thai.narrow nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow maitaikhu-thai.small yamakkan-thai.small zerowidthspace];
+
+# ####################################################################################
+
+
+@ALL_tha_ALL = [@dflt_tha_ALL @alt1_tha_ALL @alt2_tha_ALL @alt3_tha_ALL @no_tha_ALTS];

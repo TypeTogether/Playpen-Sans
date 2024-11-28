@@ -1,917 +1,941 @@
 # 230620_1528
 
 feature aalt {
-  sub space from [space.alt1 space.alt2 space.alt3 space.alt4 space.alt5 space.alt6];
-  sub A from [A.alt1 A.alt2 A.alt3 A.alt4 A.alt5 A.alt6];
-  sub B from [B.alt1 B.alt2 B.alt3 B.alt4 B.alt5 B.alt6];
-  sub C from [C.alt1 C.alt2 C.alt3 C.alt4 C.alt5 C.alt6];
-  sub D from [D.alt1 D.alt2 D.alt3 D.alt4 D.alt5 D.alt6];
-  sub E from [E.alt1 E.alt2 E.alt3 E.alt4 E.alt5 E.alt6];
-  sub F from [F.alt1 F.alt2 F.alt3 F.alt4 F.alt5 F.alt6];
-  sub G from [G.alt1 G.alt2 G.alt3 G.alt4 G.alt5 G.alt6];
-  sub H from [H.alt1 H.alt2 H.alt3 H.alt4 H.alt5 H.alt6];
-  sub I from [I.alt1 I.alt2 I.alt3 I.alt4 I.alt5 I.alt6];
-  sub J from [J.alt1 J.alt2 J.alt3 J.alt4 J.alt5 J.alt6];
-  sub K from [K.alt1 K.alt2 K.alt3 K.alt4 K.alt5 K.alt6];
-  sub L from [L.alt1 L.alt2 L.alt3 L.alt4 L.alt5 L.alt6];
-  sub M from [M.alt1 M.alt2 M.alt3 M.alt4 M.alt5 M.alt6];
-  sub N from [N.alt1 N.alt2 N.alt3 N.alt4 N.alt5 N.alt6];
-  sub O from [O.alt1 O.alt2 O.alt3 O.alt4 O.alt5 O.alt6];
-  sub P from [P.alt1 P.alt2 P.alt3 P.alt4 P.alt5 P.alt6];
-  sub Q from [Q.alt1 Q.alt2 Q.alt3 Q.alt4 Q.alt5 Q.alt6];
-  sub R from [R.alt1 R.alt2 R.alt3 R.alt4 R.alt5 R.alt6];
-  sub S from [S.alt1 S.alt2 S.alt3 S.alt4 S.alt5 S.alt6];
-  sub T from [T.alt1 T.alt2 T.alt3 T.alt4 T.alt5 T.alt6];
-  sub U from [U.alt1 U.alt2 U.alt3 U.alt4 U.alt5 U.alt6];
-  sub V from [V.alt1 V.alt2 V.alt3 V.alt4 V.alt5 V.alt6];
-  sub W from [W.alt1 W.alt2 W.alt3 W.alt4 W.alt5 W.alt6];
-  sub X from [X.alt1 X.alt2 X.alt3 X.alt4 X.alt5 X.alt6];
-  sub Y from [Y.alt1 Y.alt2 Y.alt3 Y.alt4 Y.alt5 Y.alt6];
-  sub Z from [Z.alt1 Z.alt2 Z.alt3 Z.alt4 Z.alt5 Z.alt6];
-  sub AE from [AE.alt1 AE.alt2 AE.alt3 AE.alt4 AE.alt5 AE.alt6];
-  sub IJ from [IJ.alt1 IJ.alt2 IJ.alt3 IJ.alt4 IJ.alt5 IJ.alt6];
-  sub OE from [OE.alt1 OE.alt2 OE.alt3 OE.alt4 OE.alt5 OE.alt6];
-  sub a from [a.alt1 a.alt2 a.alt3 a.alt4 a.alt5 a.alt6];
-  sub b from [b.alt1 b.alt2 b.alt3 b.alt4 b.alt5 b.alt6];
-  sub c from [c.alt1 c.alt2 c.alt3 c.alt4 c.alt5 c.alt6];
-  sub d from [d.alt1 d.alt2 d.alt3 d.alt4 d.alt5 d.alt6];
-  sub e from [e.alt1 e.alt2 e.alt3 e.alt4 e.alt5 e.alt6];
-  sub f from [f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6];
-  sub g from [g.alt1 g.alt2 g.alt3 g.alt4 g.alt5 g.alt6];
-  sub h from [h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6];
-  sub i from [i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
-  sub j from [j.alt1 j.alt2 j.alt3 j.alt4 j.alt5 j.alt6];
-  sub k from [k.alt1 k.alt2 k.alt3 k.alt4 k.alt5 k.alt6];
-  sub l from [l.alt1 l.alt2 l.alt3 l.alt4 l.alt5 l.alt6];
-  sub m from [m.alt1 m.alt2 m.alt3 m.alt4 m.alt5 m.alt6];
-  sub n from [n.alt1 n.alt2 n.alt3 n.alt4 n.alt5 n.alt6];
-  sub o from [o.alt1 o.alt2 o.alt3 o.alt4 o.alt5 o.alt6];
-  sub p from [p.alt1 p.alt2 p.alt3 p.alt4 p.alt5 p.alt6];
-  sub q from [q.alt1 q.alt2 q.alt3 q.alt4 q.alt5 q.alt6];
-  sub r from [r.alt1 r.alt2 r.alt3 r.alt4 r.alt5 r.alt6];
-  sub s from [s.alt1 s.alt2 s.alt3 s.alt4 s.alt5 s.alt6];
-  sub t from [t.alt1 t.alt2 t.alt3 t.alt4 t.alt5 t.alt6];
-  sub u from [u.alt1 u.alt2 u.alt3 u.alt4 u.alt5 u.alt6];
-  sub v from [v.alt1 v.alt2 v.alt3 v.alt4 v.alt5 v.alt6];
-  sub w from [w.alt1 w.alt2 w.alt3 w.alt4 w.alt5 w.alt6];
-  sub x from [x.alt1 x.alt2 x.alt3 x.alt4 x.alt5 x.alt6];
-  sub y from [y.alt1 y.alt2 y.alt3 y.alt4 y.alt5 y.alt6];
-  sub z from [z.alt1 z.alt2 z.alt3 z.alt4 z.alt5 z.alt6];
-  sub ae from [ae.alt1 ae.alt2 ae.alt3 ae.alt4 ae.alt5 ae.alt6];
-  sub ij from [ij.alt1 ij.alt2 ij.alt3 ij.alt4 ij.alt5 ij.alt6];
-  sub oe from [oe.alt1 oe.alt2 oe.alt3 oe.alt4 oe.alt5 oe.alt6];
-  sub idotless from [idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
-  sub jdotless from [jdotless.alt1 jdotless.alt2 jdotless.alt3 jdotless.alt4 jdotless.alt5 jdotless.alt6];
-  sub G.ss01 from [G.ss01.alt1 G.ss01.alt2 G.ss01.alt3 G.ss01.alt4 G.ss01.alt5 G.ss01.alt6];
-  sub I.ss01 from [I.ss01.alt1 I.ss01.alt2 I.ss01.alt3 I.ss01.alt4 I.ss01.alt5 I.ss01.alt6];
-  sub M.ss01 from [M.ss01.alt1 M.ss01.alt2 M.ss01.alt3 M.ss01.alt4 M.ss01.alt5 M.ss01.alt6];
-  sub a.ss01 from [a.ss01.alt1 a.ss01.alt2 a.ss01.alt3 a.ss01.alt4 a.ss01.alt5 a.ss01.alt6];
-  sub f.ss01 from [f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6];
-  sub i.ss01 from [i.ss01.alt1 i.ss01.alt2 i.ss01.alt3 i.ss01.alt4 i.ss01.alt5 i.ss01.alt6];
-  sub l.ss01 from [l.ss01.alt1 l.ss01.alt2 l.ss01.alt3 l.ss01.alt4 l.ss01.alt5 l.ss01.alt6];
-  sub y.ss01 from [y.ss01.alt1 y.ss01.alt2 y.ss01.alt3 y.ss01.alt4 y.ss01.alt5 y.ss01.alt6];
-  sub zero from [zero.alt1 zero.alt2 zero.alt3 zero.alt4 zero.alt5 zero.alt6];
-  sub one from [one.alt1 one.alt2 one.alt3 one.alt4 one.alt5 one.alt6];
-  sub two from [two.alt1 two.alt2 two.alt3 two.alt4 two.alt5 two.alt6];
-  sub three from [three.alt1 three.alt2 three.alt3 three.alt4 three.alt5 three.alt6];
-  sub four from [four.alt1 four.alt2 four.alt3 four.alt4 four.alt5 four.alt6];
-  sub five from [five.alt1 five.alt2 five.alt3 five.alt4 five.alt5 five.alt6];
-  sub six from [six.alt1 six.alt2 six.alt3 six.alt4 six.alt5 six.alt6];
-  sub seven from [seven.alt1 seven.alt2 seven.alt3 seven.alt4 seven.alt5 seven.alt6];
-  sub eight from [eight.alt1 eight.alt2 eight.alt3 eight.alt4 eight.alt5 eight.alt6];
-  sub nine from [nine.alt1 nine.alt2 nine.alt3 nine.alt4 nine.alt5 nine.alt6];
-  sub IJacute from [IJacute.alt1 IJacute.alt2 IJacute.alt3 IJacute.alt4 IJacute.alt5 IJacute.alt6];
-  sub Ohorn from [Ohorn.alt1 Ohorn.alt2 Ohorn.alt3 Ohorn.alt4 Ohorn.alt5 Ohorn.alt6];
-  sub Uhorn from [Uhorn.alt1 Uhorn.alt2 Uhorn.alt3 Uhorn.alt4 Uhorn.alt5 Uhorn.alt6];
-  sub dcaron from [dcaron.alt1 dcaron.alt2 dcaron.alt3 dcaron.alt4 dcaron.alt5 dcaron.alt6];
-  sub ijacute from [ijacute.alt1 ijacute.alt2 ijacute.alt3 ijacute.alt4 ijacute.alt5 ijacute.alt6];
-  sub lcaron from [lcaron.alt1 lcaron.alt2 lcaron.alt3 lcaron.alt4 lcaron.alt5 lcaron.alt6];
-  sub ldot from [ldot.alt1 ldot.alt2 ldot.alt3 ldot.alt4 ldot.alt5 ldot.alt6];
-  sub ohorn from [ohorn.alt1 ohorn.alt2 ohorn.alt3 ohorn.alt4 ohorn.alt5 ohorn.alt6];
-  # sub tcaron from [tcaron.alt1 tcaron.alt2 tcaron.alt3 tcaron.alt4 tcaron.alt5 tcaron.alt6];
-  sub uhorn from [uhorn.alt1 uhorn.alt2 uhorn.alt3 uhorn.alt4 uhorn.alt5 uhorn.alt6];
-  # sub lcaron.ss01 from [lcaron.ss01.alt1 lcaron.ss01.alt2 lcaron.ss01.alt3 lcaron.ss01.alt4 lcaron.ss01.alt5 lcaron.ss01.alt6];
-  sub ldot.ss01 from [ldot.ss01.alt1 ldot.ss01.alt2 ldot.ss01.alt3 ldot.ss01.alt4 ldot.ss01.alt5 ldot.ss01.alt6];
-  #
+	sub space from [space.alt1 space.alt2 space.alt3 space.alt4 space.alt5 space.alt6];
+	sub A from [A.alt1 A.alt2 A.alt3 A.alt4 A.alt5 A.alt6];
+	sub B from [B.alt1 B.alt2 B.alt3 B.alt4 B.alt5 B.alt6];
+	sub C from [C.alt1 C.alt2 C.alt3 C.alt4 C.alt5 C.alt6];
+	sub D from [D.alt1 D.alt2 D.alt3 D.alt4 D.alt5 D.alt6];
+	sub E from [E.alt1 E.alt2 E.alt3 E.alt4 E.alt5 E.alt6];
+	sub F from [F.alt1 F.alt2 F.alt3 F.alt4 F.alt5 F.alt6];
+	sub G from [G.alt1 G.alt2 G.alt3 G.alt4 G.alt5 G.alt6];
+	sub H from [H.alt1 H.alt2 H.alt3 H.alt4 H.alt5 H.alt6];
+	sub I from [I.alt1 I.alt2 I.alt3 I.alt4 I.alt5 I.alt6];
+	sub J from [J.alt1 J.alt2 J.alt3 J.alt4 J.alt5 J.alt6];
+	sub K from [K.alt1 K.alt2 K.alt3 K.alt4 K.alt5 K.alt6];
+	sub L from [L.alt1 L.alt2 L.alt3 L.alt4 L.alt5 L.alt6];
+	sub M from [M.alt1 M.alt2 M.alt3 M.alt4 M.alt5 M.alt6];
+	sub N from [N.alt1 N.alt2 N.alt3 N.alt4 N.alt5 N.alt6];
+	sub O from [O.alt1 O.alt2 O.alt3 O.alt4 O.alt5 O.alt6];
+	sub P from [P.alt1 P.alt2 P.alt3 P.alt4 P.alt5 P.alt6];
+	sub Q from [Q.alt1 Q.alt2 Q.alt3 Q.alt4 Q.alt5 Q.alt6];
+	sub R from [R.alt1 R.alt2 R.alt3 R.alt4 R.alt5 R.alt6];
+	sub S from [S.alt1 S.alt2 S.alt3 S.alt4 S.alt5 S.alt6];
+	sub T from [T.alt1 T.alt2 T.alt3 T.alt4 T.alt5 T.alt6];
+	sub U from [U.alt1 U.alt2 U.alt3 U.alt4 U.alt5 U.alt6];
+	sub V from [V.alt1 V.alt2 V.alt3 V.alt4 V.alt5 V.alt6];
+	sub W from [W.alt1 W.alt2 W.alt3 W.alt4 W.alt5 W.alt6];
+	sub X from [X.alt1 X.alt2 X.alt3 X.alt4 X.alt5 X.alt6];
+	sub Y from [Y.alt1 Y.alt2 Y.alt3 Y.alt4 Y.alt5 Y.alt6];
+	sub Z from [Z.alt1 Z.alt2 Z.alt3 Z.alt4 Z.alt5 Z.alt6];
+	sub AE from [AE.alt1 AE.alt2 AE.alt3 AE.alt4 AE.alt5 AE.alt6];
+	sub IJ from [IJ.alt1 IJ.alt2 IJ.alt3 IJ.alt4 IJ.alt5 IJ.alt6];
+	sub OE from [OE.alt1 OE.alt2 OE.alt3 OE.alt4 OE.alt5 OE.alt6];
+	sub a from [a.alt1 a.alt2 a.alt3 a.alt4 a.alt5 a.alt6];
+	sub b from [b.alt1 b.alt2 b.alt3 b.alt4 b.alt5 b.alt6];
+	sub c from [c.alt1 c.alt2 c.alt3 c.alt4 c.alt5 c.alt6];
+	sub d from [d.alt1 d.alt2 d.alt3 d.alt4 d.alt5 d.alt6];
+	sub e from [e.alt1 e.alt2 e.alt3 e.alt4 e.alt5 e.alt6];
+	sub f from [f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6];
+	sub g from [g.alt1 g.alt2 g.alt3 g.alt4 g.alt5 g.alt6];
+	sub h from [h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6];
+	sub i from [i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
+	sub j from [j.alt1 j.alt2 j.alt3 j.alt4 j.alt5 j.alt6];
+	sub k from [k.alt1 k.alt2 k.alt3 k.alt4 k.alt5 k.alt6];
+	sub l from [l.alt1 l.alt2 l.alt3 l.alt4 l.alt5 l.alt6];
+	sub m from [m.alt1 m.alt2 m.alt3 m.alt4 m.alt5 m.alt6];
+	sub n from [n.alt1 n.alt2 n.alt3 n.alt4 n.alt5 n.alt6];
+	sub o from [o.alt1 o.alt2 o.alt3 o.alt4 o.alt5 o.alt6];
+	sub p from [p.alt1 p.alt2 p.alt3 p.alt4 p.alt5 p.alt6];
+	sub q from [q.alt1 q.alt2 q.alt3 q.alt4 q.alt5 q.alt6];
+	sub r from [r.alt1 r.alt2 r.alt3 r.alt4 r.alt5 r.alt6];
+	sub s from [s.alt1 s.alt2 s.alt3 s.alt4 s.alt5 s.alt6];
+	sub t from [t.alt1 t.alt2 t.alt3 t.alt4 t.alt5 t.alt6];
+	sub u from [u.alt1 u.alt2 u.alt3 u.alt4 u.alt5 u.alt6];
+	sub v from [v.alt1 v.alt2 v.alt3 v.alt4 v.alt5 v.alt6];
+	sub w from [w.alt1 w.alt2 w.alt3 w.alt4 w.alt5 w.alt6];
+	sub x from [x.alt1 x.alt2 x.alt3 x.alt4 x.alt5 x.alt6];
+	sub y from [y.alt1 y.alt2 y.alt3 y.alt4 y.alt5 y.alt6];
+	sub z from [z.alt1 z.alt2 z.alt3 z.alt4 z.alt5 z.alt6];
+	sub ae from [ae.alt1 ae.alt2 ae.alt3 ae.alt4 ae.alt5 ae.alt6];
+	sub ij from [ij.alt1 ij.alt2 ij.alt3 ij.alt4 ij.alt5 ij.alt6];
+	sub oe from [oe.alt1 oe.alt2 oe.alt3 oe.alt4 oe.alt5 oe.alt6];
+	sub idotless from [idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
+	sub jdotless from [jdotless.alt1 jdotless.alt2 jdotless.alt3 jdotless.alt4 jdotless.alt5 jdotless.alt6];
+	sub G.ss01 from [G.ss01.alt1 G.ss01.alt2 G.ss01.alt3 G.ss01.alt4 G.ss01.alt5 G.ss01.alt6];
+	sub I.ss01 from [I.ss01.alt1 I.ss01.alt2 I.ss01.alt3 I.ss01.alt4 I.ss01.alt5 I.ss01.alt6];
+	sub M.ss01 from [M.ss01.alt1 M.ss01.alt2 M.ss01.alt3 M.ss01.alt4 M.ss01.alt5 M.ss01.alt6];
+	sub a.ss01 from [a.ss01.alt1 a.ss01.alt2 a.ss01.alt3 a.ss01.alt4 a.ss01.alt5 a.ss01.alt6];
+	sub f.ss01 from [f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6];
+	sub i.ss01 from [i.ss01.alt1 i.ss01.alt2 i.ss01.alt3 i.ss01.alt4 i.ss01.alt5 i.ss01.alt6];
+	sub l.ss01 from [l.ss01.alt1 l.ss01.alt2 l.ss01.alt3 l.ss01.alt4 l.ss01.alt5 l.ss01.alt6];
+	sub y.ss01 from [y.ss01.alt1 y.ss01.alt2 y.ss01.alt3 y.ss01.alt4 y.ss01.alt5 y.ss01.alt6];
+	sub zero from [zero.alt1 zero.alt2 zero.alt3 zero.alt4 zero.alt5 zero.alt6];
+	sub one from [one.alt1 one.alt2 one.alt3 one.alt4 one.alt5 one.alt6];
+	sub two from [two.alt1 two.alt2 two.alt3 two.alt4 two.alt5 two.alt6];
+	sub three from [three.alt1 three.alt2 three.alt3 three.alt4 three.alt5 three.alt6];
+	sub four from [four.alt1 four.alt2 four.alt3 four.alt4 four.alt5 four.alt6];
+	sub five from [five.alt1 five.alt2 five.alt3 five.alt4 five.alt5 five.alt6];
+	sub six from [six.alt1 six.alt2 six.alt3 six.alt4 six.alt5 six.alt6];
+	sub seven from [seven.alt1 seven.alt2 seven.alt3 seven.alt4 seven.alt5 seven.alt6];
+	sub eight from [eight.alt1 eight.alt2 eight.alt3 eight.alt4 eight.alt5 eight.alt6];
+	sub nine from [nine.alt1 nine.alt2 nine.alt3 nine.alt4 nine.alt5 nine.alt6];
+	sub IJacute from [IJacute.alt1 IJacute.alt2 IJacute.alt3 IJacute.alt4 IJacute.alt5 IJacute.alt6];
+	sub Ohorn from [Ohorn.alt1 Ohorn.alt2 Ohorn.alt3 Ohorn.alt4 Ohorn.alt5 Ohorn.alt6];
+	sub Uhorn from [Uhorn.alt1 Uhorn.alt2 Uhorn.alt3 Uhorn.alt4 Uhorn.alt5 Uhorn.alt6];
+	sub dcaron from [dcaron.alt1 dcaron.alt2 dcaron.alt3 dcaron.alt4 dcaron.alt5 dcaron.alt6];
+	sub ijacute from [ijacute.alt1 ijacute.alt2 ijacute.alt3 ijacute.alt4 ijacute.alt5 ijacute.alt6];
+	sub lcaron from [lcaron.alt1 lcaron.alt2 lcaron.alt3 lcaron.alt4 lcaron.alt5 lcaron.alt6];
+	sub ldot from [ldot.alt1 ldot.alt2 ldot.alt3 ldot.alt4 ldot.alt5 ldot.alt6];
+	sub ohorn from [ohorn.alt1 ohorn.alt2 ohorn.alt3 ohorn.alt4 ohorn.alt5 ohorn.alt6];
+	# sub tcaron from [tcaron.alt1 tcaron.alt2 tcaron.alt3 tcaron.alt4 tcaron.alt5 tcaron.alt6];
+	sub uhorn from [uhorn.alt1 uhorn.alt2 uhorn.alt3 uhorn.alt4 uhorn.alt5 uhorn.alt6];
+	# sub lcaron.ss01 from [lcaron.ss01.alt1 lcaron.ss01.alt2 lcaron.ss01.alt3 lcaron.ss01.alt4 lcaron.ss01.alt5 lcaron.ss01.alt6];
+	sub ldot.ss01 from [ldot.ss01.alt1 ldot.ss01.alt2 ldot.ss01.alt3 ldot.ss01.alt4 ldot.ss01.alt5 ldot.ss01.alt6];
 } aalt;
 
 
 feature locl {
-  script latn;
-  # Latin
-  language AZE exclude_dflt; # Azeri
-    lookup I_TRK {
-      sub i by idotaccent;
-    } I_TRK;
-  language CAT exclude_dflt; # Catalan
-    sub L' periodcentered' by Ldot;
-    sub l' periodcentered' by ldot;
-  language CRT  exclude_dflt; # Crimean Tatar
-    lookup I_TRK;
-  language MOL  exclude_dflt; # Moldavian
-    lookup ST_CEDILLA {
-          sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
-    sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent];
-    } ST_CEDILLA;
-  language NLD exclude_dflt; # Dutch
-    sub i j by ij;
-    sub I J by IJ;
-    sub iacute j by ijacute;
-    sub Iacute J by IJacute;
-  language ROM exclude_dflt; # Romanian
-    lookup ST_CEDILLA;
-  language TRK exclude_dflt; # Turkish
-    lookup I_TRK;
+	script latn;
+	# Latin
+	language AZE exclude_dflt; # Azeri
+		lookup I_TRK {
+			sub i by idotaccent;
+		} I_TRK;
+	language CAT exclude_dflt; # Catalan
+		sub L' periodcentered' by Ldot;
+		sub l' periodcentered' by ldot;
+	language CRT  exclude_dflt; # Crimean Tatar
+		lookup I_TRK;
+	language MOL  exclude_dflt; # Moldavian
+		lookup ST_CEDILLA {
+					sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
+		sub [Tcedilla tcedilla] by [Tcommaaccent tcommaaccent];
+		} ST_CEDILLA;
+	language NLD exclude_dflt; # Dutch
+		sub i j by ij;
+		sub I J by IJ;
+		sub iacute j by ijacute;
+		sub Iacute J by IJacute;
+	language ROM exclude_dflt; # Romanian
+		lookup ST_CEDILLA;
+	language TRK exclude_dflt; # Turkish
+		lookup I_TRK;
 
-  # Eng scandinavian
-  language FIN;
-    lookup ENG_scandinavian {
-      sub Eng by Eng.ss01;
-    } ENG_scandinavian;
-  language ISM;
-    lookup ENG_scandinavian;
-  language KSM;
-    lookup ENG_scandinavian;
-  language LSM;
-    lookup ENG_scandinavian;
-  language NOR;
-    lookup ENG_scandinavian;
-  language NSM;
-    lookup ENG_scandinavian;
-  language NYN;
-    lookup ENG_scandinavian;
-  language SKS;
-    lookup ENG_scandinavian;
-  language SSM;
-    lookup ENG_scandinavian;
-  language SVE;
-    lookup ENG_scandinavian;
-
-
-  # locl Cyrillic
-  script cyrl;
-  language SRB;
-    sub be-cy by be-cy.loclSRB;
-    sub ge-cy by ge-cy.loclSRB;
-    sub de-cy by de-cy.loclSRB;
-    sub pe-cy by pe-cy.loclSRB;
-    sub te-cy by te-cy.loclSRB;
-
-  language BGR;
-    sub Ef-cy by Ef-cy.loclBGR;
-    sub de-cy by de-cy.loclBGR;
-    sub zhe-cy by zhe-cy.loclBGR;
-    sub ka-cy by ka-cy.loclBGR;
-    sub yu-cy by yu-cy.loclBGR;
-    sub pe-cy by pe-cy.loclBGR;
-    sub te-cy by te-cy.loclBGR;
-    sub ge-cy by ge-cy.loclBGR;
-
-  language MKD;
-    sub gje-cy by gje-cy.loclMKD;
+	# Eng scandinavian
+	language FIN;
+		lookup ENG_scandinavian {
+			sub Eng by Eng.ss01;
+		} ENG_scandinavian;
+	language ISM;
+		lookup ENG_scandinavian;
+	language KSM;
+		lookup ENG_scandinavian;
+	language LSM;
+		lookup ENG_scandinavian;
+	language NOR;
+		lookup ENG_scandinavian;
+	language NSM;
+		lookup ENG_scandinavian;
+	language NYN;
+		lookup ENG_scandinavian;
+	language SKS;
+		lookup ENG_scandinavian;
+	language SSM;
+		lookup ENG_scandinavian;
+	language SVE;
+		lookup ENG_scandinavian;
 
 
-  # locl grek
-  script grek;
-  lookup grek_anoteleia {
-    script grek;
-    ignore sub @grkall periodcentered' @grkall;
-    sub @grkall periodcentered' by anoteleia;
-  } grek_anoteleia;
+	# locl Cyrillic
+	script cyrl;
+	language SRB;
+		sub be-cy by be-cy.loclSRB;
+		sub ge-cy by ge-cy.loclSRB;
+		sub de-cy by de-cy.loclSRB;
+		sub pe-cy by pe-cy.loclSRB;
+		sub te-cy by te-cy.loclSRB;
+
+	language BGR;
+		sub Ef-cy by Ef-cy.loclBGR;
+		sub de-cy by de-cy.loclBGR;
+		sub zhe-cy by zhe-cy.loclBGR;
+		sub ka-cy by ka-cy.loclBGR;
+		sub yu-cy by yu-cy.loclBGR;
+		sub pe-cy by pe-cy.loclBGR;
+		sub te-cy by te-cy.loclBGR;
+		sub ge-cy by ge-cy.loclBGR;
+
+	language MKD;
+		sub gje-cy by gje-cy.loclMKD;
+
+
+	# locl grek
+	script grek;
+	lookup grek_anoteleia {
+		script grek;
+		ignore sub @grkall periodcentered' @grkall;
+		sub @grkall periodcentered' by anoteleia;
+	} grek_anoteleia;
 
 
 # locl Arabic
-  script arab;
-  language URD;
-    lookup locl_arab_0 {
-      sub fourFarsi-ar by fourFarsi-ar.urdu;
-      sub sixFarsi-ar by six-ar;
-      sub sevenFarsi-ar by sevenFarsi-ar.urdu;
-    } locl_arab_0;
-    
-  script hebr;
-  language JII; # Yiddish  
-  
-  lookup locl_hebr_jii_02 {
-    lookupflag RightToLeft;
-    sub yodhiriq-hb by yodhiriq-hb.JII;
-    sub hyphen by maqaf-hb; 
-  } locl_hebr_jii_02;
+	script arab;
+	language URD;
+		lookup locl_arab_0 {
+			sub fourFarsi-ar by fourFarsi-ar.urdu;
+			sub sixFarsi-ar by six-ar;
+			sub sevenFarsi-ar by sevenFarsi-ar.urdu;
+		} locl_arab_0;
 
-  lookup locl_hebr_jii_03 {
-  	# needs to appear before yod yod -> yodyod; otherwise yod yod hiriq will always turn into
-  	# yodyod hiriq (instead of yod yodhiriq)
-    lookupflag RightToLeft;
-    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] hiriq-hb by yodhiriq-hb.JII;
-  } locl_hebr_jii_03;
+	script hebr;
+	language JII; # Yiddish  
 
-  lookup locl_hebr_jii_04 {
-    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] patah-hb by yodyodpatah-hb;
-    sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] by vavvav-hb;
-    sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by vavyod-hb;
-    sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by yodyod-hb;
-  } locl_hebr_jii_04;
-  
-  lookup locl_hebr_jii_05 {
-    lookupflag RightToLeft;
-    sub yodyod-hb patah-hb by yodyodpatah-hb;
-  } locl_hebr_jii_05;
+	lookup locl_hebr_jii_02 {
+		lookupflag RightToLeft;
+		sub yodhiriq-hb by yodhiriq-hb.JII;
+		sub hyphen by maqaf-hb; 
+	} locl_hebr_jii_02;
 
-  script deva;
-  language MAR;
-  sub la-deva by la-deva.loclMAR;
-  sub sha-deva by sha-deva.loclMAR;
+	lookup locl_hebr_jii_03 {
+		# needs to appear before yod yod -> yodyod; otherwise yod yod hiriq will always turn into
+		# yodyod hiriq (instead of yod yodhiriq)
+		lookupflag RightToLeft;
+		sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] hiriq-hb by yodhiriq-hb.JII;
+	} locl_hebr_jii_03;
 
-  language NEP;
-  sub jha-deva by jha-deva.loclNEP;
+	lookup locl_hebr_jii_04 {
+		sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] patah-hb by yodyodpatah-hb;
+		sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] by vavvav-hb;
+		sub [vav-hb vav-hb.alt1 vav-hb.alt2 vav-hb.alt3 vav-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by vavyod-hb;
+		sub [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] [yod-hb yod-hb.alt1 yod-hb.alt2 yod-hb.alt3 yod-hb.alt4] by yodyod-hb;
+	} locl_hebr_jii_04;
 
-  script dev2;
-  language MAR;
-  sub la-deva by la-deva.loclMAR;
-  sub sha-deva by sha-deva.loclMAR;
+	lookup locl_hebr_jii_05 {
+		lookupflag RightToLeft;
+		sub yodyod-hb patah-hb by yodyodpatah-hb;
+	} locl_hebr_jii_05;
 
-  language NEP;
-  sub jha-deva by jha-deva.loclNEP;
+	script deva;
+	language MAR;
+	sub la-deva by la-deva.loclMAR;
+	sub sha-deva by sha-deva.loclMAR;
+
+	language NEP;
+	sub jha-deva by jha-deva.loclNEP;
+
+	script dev2;
+	language MAR;
+	sub la-deva by la-deva.loclMAR;
+	sub sha-deva by sha-deva.loclMAR;
+
+	language NEP;
+	sub jha-deva by jha-deva.loclNEP;
 
 } locl;
 
 
  feature ccmp {
-  lookup decomp_LAT {
-    # lookupflag 0;
-    sub Aacute by A acutecomb.case;
-    sub Abreve by A brevecomb.case;
-    sub Acaron by A caroncomb.case;
-    sub Acircumflex by A circumflexcomb.case;
-    sub Adieresis by A dieresiscomb.case;
-    sub Agrave by A gravecomb.case;
-    sub Amacron by A macroncomb.case;
-    sub Aring by A ringcomb.case;
-    sub Atilde by A tildecomb.case;
-    sub Abreveacute by A brevecomb_acutecomb.case;
-    sub Abrevedotbelow by A dotbelowcomb brevecomb.case;
-    sub Abrevegrave by A brevecomb_gravecomb.case;
-    sub Abrevehookabove by A brevecomb_hookabovecomb.case;
-    sub Abrevetilde by A brevecomb_tildecomb.case;
-    sub Acircumflexacute by A circumflexcomb_acutecomb.case;
-    sub Acircumflexdotbelow by A dotbelowcomb circumflexcomb.case;
-    sub Acircumflexgrave by A circumflexcomb_gravecomb.case;
-    sub Acircumflexhookabove by A circumflexcomb_hookabovecomb.case;
-    sub Acircumflextilde by A circumflexcomb_tildecomb.case;
-    sub Adotbelow by A dotbelowcomb;
-    sub Ahookabove by A hookabovecomb.case;
-    sub Cacute by C acutecomb.case;
-    sub Ccaron by C caroncomb.case;
-    sub Ccedilla by C cedillacomb;
-    sub Ccircumflex by C circumflexcomb.case;
-    sub Cdotaccent by C dotaccentcomb.case;
-    sub Dcaron by D caroncomb.case;
-    sub Eacute by E acutecomb.case;
-    sub Ebreve by E brevecomb.case;
-    sub Ecaron by E caroncomb.case;
-    sub Ecircumflex by E circumflexcomb.case;
-    sub Edieresis by E dieresiscomb.case;
-    sub Edotaccent by E dotaccentcomb.case;
-    sub Egrave by E gravecomb.case;
-    sub Emacron by E macroncomb.case;
-    sub Ecircumflexacute by E circumflexcomb_acutecomb.case;
-    sub Ecircumflexdotbelow by E dotbelowcomb circumflexcomb.case;
-    sub Ecircumflexgrave by E circumflexcomb_gravecomb.case;
-    sub Ecircumflexhookabove by E circumflexcomb_hookabovecomb.case;
-    sub Ecircumflextilde by E circumflexcomb_tildecomb.case;
-    sub Edotbelow by E dotbelowcomb;
-    sub Ehookabove by E hookabovecomb.case;
-    sub Etilde by E tildecomb.case;
-    sub Gbreve by G brevecomb.case;
-    sub Gcircumflex by G circumflexcomb.case;
-    sub Gcommaaccent by G commaaccentcomb;
-    sub Gdotaccent by G dotaccentcomb.case;
-    sub Hcircumflex by H circumflexcomb.case;
-    sub Iacute by I acutecomb.case;
-    sub Ibreve by I brevecomb.case;
-    sub Icaron by I caroncomb.case;
-    sub Icircumflex by I circumflexcomb.case;
-    sub Idieresis by I dieresiscomb.case;
-    sub Idotaccent by I dotaccentcomb.case;
-    sub Igrave by I gravecomb.case;
-    sub Imacron by I macroncomb.case;
-    sub Itilde by I tildecomb.case;
-    sub Idotbelow by I dotbelowcomb;
-    sub Ihookabove by I hookabovecomb.case;
-    sub Jcircumflex by J circumflexcomb.case;
-    sub Kcommaaccent by K commaaccentcomb;
-    sub Lacute by L acutecomb.case;
-    sub Lcaron by L caron.alt;
-    sub Lcommaaccent by L commaaccentcomb;
-    # sub Ldot by L periodcentered;
-    sub Nacute by N acutecomb.case;
-    sub Ncaron by N caroncomb.case;
-    sub Ncommaaccent by N commaaccentcomb;
-    sub Ntilde by N tildecomb.case;
-    sub Oacute by O acutecomb.case;
-    sub Obreve by O brevecomb.case;
-    sub Ocaron by O caroncomb.case;
-    sub Ocircumflex by O circumflexcomb.case;
-    sub Odieresis by O dieresiscomb.case;
-    sub Ograve by O gravecomb.case;
-    sub Ohungarumlaut by O hungarumlautcomb.case;
-    sub Omacron by O macroncomb.case;
-    sub Otilde by O tildecomb.case;
-    sub Ocircumflexacute by O circumflexcomb_acutecomb.case;
-    sub Ocircumflexdotbelow by O dotbelowcomb circumflexcomb.case;
-    sub Ocircumflexgrave by O circumflexcomb_gravecomb.case;
-    sub Ocircumflexhookabove by O circumflexcomb_hookabovecomb.case;
-    sub Ocircumflextilde by O circumflexcomb_tildecomb;
-    sub Odotbelow by O dotbelowcomb;
-    sub Ohookabove by O hookabovecomb.case;
+	lookup decomp_LAT {
+		# lookupflag 0;
+		sub Aacute by A acutecomb.case;
+		sub Abreve by A brevecomb.case;
+		sub Acaron by A caroncomb.case;
+		sub Acircumflex by A circumflexcomb.case;
+		sub Adieresis by A dieresiscomb.case;
+		sub Agrave by A gravecomb.case;
+		sub Amacron by A macroncomb.case;
+		sub Aring by A ringcomb.case;
+		sub Atilde by A tildecomb.case;
+		sub Abreveacute by A brevecomb_acutecomb.case;
+		sub Abrevedotbelow by A dotbelowcomb brevecomb.case;
+		sub Abrevegrave by A brevecomb_gravecomb.case;
+		sub Abrevehookabove by A brevecomb_hookabovecomb.case;
+		sub Abrevetilde by A brevecomb_tildecomb.case;
+		sub Acircumflexacute by A circumflexcomb_acutecomb.case;
+		sub Acircumflexdotbelow by A dotbelowcomb circumflexcomb.case;
+		sub Acircumflexgrave by A circumflexcomb_gravecomb.case;
+		sub Acircumflexhookabove by A circumflexcomb_hookabovecomb.case;
+		sub Acircumflextilde by A circumflexcomb_tildecomb.case;
+		sub Adotbelow by A dotbelowcomb;
+		sub Ahookabove by A hookabovecomb.case;
+		sub Cacute by C acutecomb.case;
+		sub Ccaron by C caroncomb.case;
+		sub Ccedilla by C cedillacomb;
+		sub Ccircumflex by C circumflexcomb.case;
+		sub Cdotaccent by C dotaccentcomb.case;
+		sub Dcaron by D caroncomb.case;
+		sub Eacute by E acutecomb.case;
+		sub Ebreve by E brevecomb.case;
+		sub Ecaron by E caroncomb.case;
+		sub Ecircumflex by E circumflexcomb.case;
+		sub Edieresis by E dieresiscomb.case;
+		sub Edotaccent by E dotaccentcomb.case;
+		sub Egrave by E gravecomb.case;
+		sub Emacron by E macroncomb.case;
+		sub Ecircumflexacute by E circumflexcomb_acutecomb.case;
+		sub Ecircumflexdotbelow by E dotbelowcomb circumflexcomb.case;
+		sub Ecircumflexgrave by E circumflexcomb_gravecomb.case;
+		sub Ecircumflexhookabove by E circumflexcomb_hookabovecomb.case;
+		sub Ecircumflextilde by E circumflexcomb_tildecomb.case;
+		sub Edotbelow by E dotbelowcomb;
+		sub Ehookabove by E hookabovecomb.case;
+		sub Etilde by E tildecomb.case;
+		sub Gbreve by G brevecomb.case;
+		sub Gcircumflex by G circumflexcomb.case;
+		sub Gcommaaccent by G commaaccentcomb;
+		sub Gdotaccent by G dotaccentcomb.case;
+		sub Hcircumflex by H circumflexcomb.case;
+		sub Iacute by I acutecomb.case;
+		sub Ibreve by I brevecomb.case;
+		sub Icaron by I caroncomb.case;
+		sub Icircumflex by I circumflexcomb.case;
+		sub Idieresis by I dieresiscomb.case;
+		sub Idotaccent by I dotaccentcomb.case;
+		sub Igrave by I gravecomb.case;
+		sub Imacron by I macroncomb.case;
+		sub Itilde by I tildecomb.case;
+		sub Idotbelow by I dotbelowcomb;
+		sub Ihookabove by I hookabovecomb.case;
+		sub Jcircumflex by J circumflexcomb.case;
+		sub Kcommaaccent by K commaaccentcomb;
+		sub Lacute by L acutecomb.case;
+		sub Lcaron by L caron.alt;
+		sub Lcommaaccent by L commaaccentcomb;
+		# sub Ldot by L periodcentered;
+		sub Nacute by N acutecomb.case;
+		sub Ncaron by N caroncomb.case;
+		sub Ncommaaccent by N commaaccentcomb;
+		sub Ntilde by N tildecomb.case;
+		sub Oacute by O acutecomb.case;
+		sub Obreve by O brevecomb.case;
+		sub Ocaron by O caroncomb.case;
+		sub Ocircumflex by O circumflexcomb.case;
+		sub Odieresis by O dieresiscomb.case;
+		sub Ograve by O gravecomb.case;
+		sub Ohungarumlaut by O hungarumlautcomb.case;
+		sub Omacron by O macroncomb.case;
+		sub Otilde by O tildecomb.case;
+		sub Ocircumflexacute by O circumflexcomb_acutecomb.case;
+		sub Ocircumflexdotbelow by O dotbelowcomb circumflexcomb.case;
+		sub Ocircumflexgrave by O circumflexcomb_gravecomb.case;
+		sub Ocircumflexhookabove by O circumflexcomb_hookabovecomb.case;
+		sub Ocircumflextilde by O circumflexcomb_tildecomb;
+		sub Odotbelow by O dotbelowcomb;
+		sub Ohookabove by O hookabovecomb.case;
 
-    sub Ohornacute by Ohorn acutecomb.case;
-    sub Ohorndotbelow by Ohorn dotbelowcomb;
-    sub Ohorngrave by Ohorn gravecomb.case;
-    sub Ohornhookabove by Ohorn hookabovecomb.case;
-    sub Ohorntilde by Ohorn tildecomb.case;
+		sub Ohornacute by Ohorn acutecomb.case;
+		sub Ohorndotbelow by Ohorn dotbelowcomb;
+		sub Ohorngrave by Ohorn gravecomb.case;
+		sub Ohornhookabove by Ohorn hookabovecomb.case;
+		sub Ohorntilde by Ohorn tildecomb.case;
 
-    sub Racute by R acutecomb.case;
-    sub Rcaron by R caroncomb.case;
-    sub Rcommaaccent by R commaaccentcomb;
-    sub Sacute by S acutecomb.case;
-    sub Scaron by S caroncomb.case;
-    sub Scedilla by S cedillacomb;
-    sub Scircumflex by S circumflexcomb.case;
-    sub Scommaaccent by S commaaccentcomb;
-    sub Tcaron by T caroncomb.case;
-    sub Tcedilla by T cedillacomb;
-    sub Tcommaaccent by T commaaccentcomb;
-    sub Uacute by U acutecomb.case;
-    sub Ubreve by U brevecomb.case;
-    sub Ucaron by U caroncomb.case;
-    sub Ucircumflex by U circumflexcomb.case;
-    sub Udieresis by U dieresiscomb.case;
-    sub Ugrave by U gravecomb.case;
-    sub Uhungarumlaut by U hungarumlautcomb.case;
-    sub Umacron by U macroncomb.case;
-    sub Uring by U ringcomb.case;
-    sub Utilde by U tildecomb.case;
-    sub Udieresisacute by U dieresiscomb.case acutecomb.case;
-    sub Udieresiscaron by U dieresiscomb.case caroncomb.case;
-    sub Udieresisgrave by U dieresiscomb.case gravecomb.case;
-    sub Udieresismacron by U dieresiscomb.case macroncomb.case;
-    sub Udotbelow by U dotbelowcomb;
-    sub Uhookabove by U hookabovecomb.case;
+		sub Racute by R acutecomb.case;
+		sub Rcaron by R caroncomb.case;
+		sub Rcommaaccent by R commaaccentcomb;
+		sub Sacute by S acutecomb.case;
+		sub Scaron by S caroncomb.case;
+		sub Scedilla by S cedillacomb;
+		sub Scircumflex by S circumflexcomb.case;
+		sub Scommaaccent by S commaaccentcomb;
+		sub Tcaron by T caroncomb.case;
+		sub Tcedilla by T cedillacomb;
+		sub Tcommaaccent by T commaaccentcomb;
+		sub Uacute by U acutecomb.case;
+		sub Ubreve by U brevecomb.case;
+		sub Ucaron by U caroncomb.case;
+		sub Ucircumflex by U circumflexcomb.case;
+		sub Udieresis by U dieresiscomb.case;
+		sub Ugrave by U gravecomb.case;
+		sub Uhungarumlaut by U hungarumlautcomb.case;
+		sub Umacron by U macroncomb.case;
+		sub Uring by U ringcomb.case;
+		sub Utilde by U tildecomb.case;
+		sub Udieresisacute by U dieresiscomb.case acutecomb.case;
+		sub Udieresiscaron by U dieresiscomb.case caroncomb.case;
+		sub Udieresisgrave by U dieresiscomb.case gravecomb.case;
+		sub Udieresismacron by U dieresiscomb.case macroncomb.case;
+		sub Udotbelow by U dotbelowcomb;
+		sub Uhookabove by U hookabovecomb.case;
 
-    sub Uhornacute by Uhorn acutecomb.case;
-    sub Uhorndotbelow by Uhorn dotbelowcomb;
-    sub Uhorngrave by Uhorn gravecomb.case;
-    sub Uhornhookabove by Uhorn hookabovecomb.case;
-    sub Uhorntilde by Uhorn tildecomb.case;
+		sub Uhornacute by Uhorn acutecomb.case;
+		sub Uhorndotbelow by Uhorn dotbelowcomb;
+		sub Uhorngrave by Uhorn gravecomb.case;
+		sub Uhornhookabove by Uhorn hookabovecomb.case;
+		sub Uhorntilde by Uhorn tildecomb.case;
 
-    sub Wacute by W acutecomb.case;
-    sub Wcircumflex by W circumflexcomb.case;
-    sub Wdieresis by W dieresiscomb.case;
-    sub Wgrave by W gravecomb.case;
-    sub Yacute by Y acutecomb.case;
-    sub Ycircumflex by Y circumflexcomb.case;
-    sub Ydieresis by Y dieresiscomb.case;
-    sub Ygrave by Y gravecomb.case;
-    sub Ydotbelow by Y dotbelowcomb;
-    sub Yhookabove by Y hookabovecomb.case;
-    sub Ytilde by Y tildecomb.case;
-    sub Zacute by Z acutecomb.case;
-    sub Zcaron by Z caroncomb.case;
-    sub Zdotaccent by Z dotaccentcomb.case;
-    sub aacute by a acutecomb;
-    sub abreve by a brevecomb;
-    sub acaron by a caroncomb;
-    sub acircumflex by a circumflexcomb;
-    sub adieresis by a dieresiscomb;
-    sub agrave by a gravecomb;
-    sub amacron by a macroncomb;
-    sub aring by a ringcomb;
-    sub atilde by a tildecomb;
-    sub abreveacute by a brevecomb_acutecomb;
-    sub abrevedotbelow by a dotbelowcomb brevecomb;
-    sub abrevegrave by a brevecomb_gravecomb;
-    sub abrevehookabove by a brevecomb_hookabovecomb;
-    sub abrevetilde by a brevecomb_tildecomb;
-    sub acircumflexacute by a circumflexcomb_acutecomb;
-    sub acircumflexdotbelow by a dotbelowcomb circumflexcomb;
-    sub acircumflexgrave by a circumflexcomb_gravecomb;
-    sub acircumflexhookabove by a circumflexcomb_hookabovecomb;
-    sub acircumflextilde by a circumflexcomb_tildecomb;
-    sub adotbelow by a dotbelowcomb;
-    sub ahookabove by a hookabovecomb;
-    sub cacute by c acutecomb;
-    sub ccaron by c caroncomb;
-    sub ccedilla by c cedillacomb;
-    sub ccircumflex by c circumflexcomb;
-    sub cdotaccent by c dotaccentcomb;
-    # sub dcaron by d caron.alt;
-    sub eacute by e acutecomb;
-    sub ebreve by e brevecomb;
-    sub ecaron by e caroncomb;
-    sub ecircumflex by e circumflexcomb;
-    sub edieresis by e dieresiscomb;
-    sub edotaccent by e dotaccentcomb;
-    sub egrave by e gravecomb;
-    sub emacron by e macroncomb;
-    sub ecircumflexacute by e circumflexcomb_acutecomb;
-    sub ecircumflexdotbelow by e dotbelowcomb circumflexcomb;
-    sub ecircumflexgrave by e circumflexcomb_gravecomb;
-    sub ecircumflexhookabove by e circumflexcomb_hookabovecomb;
-    sub ecircumflextilde by e circumflexcomb_tildecomb;
-    sub edotbelow by e dotbelowcomb;
-    sub ehookabove by e hookabovecomb;
-    sub etilde by e tildecomb;
-    sub gbreve by g brevecomb;
-    sub gcircumflex by g circumflexcomb;
-    sub gcommaaccent by g commaturnedabovecomb;
-    sub gdotaccent by g dotaccentcomb;
-    sub hcircumflex by h circumflexcomb.case;
-    sub iacute by idotless acutecomb;
-    sub ibreve by idotless brevecomb;
-    sub icaron by idotless caroncomb;
-    sub icircumflex by idotless circumflexcomb;
-    sub idieresis by idotless dieresiscomb;
-    sub idotaccent by idotless dotaccentcomb;
-    sub igrave by idotless gravecomb;
-    sub imacron by idotless macroncomb;
-    sub itilde by idotless tildecomb;
-    sub idotbelow by idotless dotbelowcomb;
-    sub ihookabove by idotless hookabovecomb;
-    sub kcommaaccent by k commaaccentcomb;
-    sub lacute by l acutecomb.case;
-    sub lcommaaccent by l commaaccentcomb;
-    sub nacute by n acutecomb;
-    sub ncaron by n caroncomb;
-    sub ncommaaccent by n commaaccentcomb;
-    sub ntilde by n tildecomb;
-    sub oacute by o acutecomb;
-    sub obreve by o brevecomb;
-    sub ocaron by o caroncomb;
-    sub ocircumflex by o circumflexcomb;
-    sub odieresis by o dieresiscomb;
-    sub ograve by o gravecomb;
-    sub ohungarumlaut by o hungarumlautcomb;
-    sub omacron by o macroncomb;
-    sub otilde by o tildecomb;
-    sub ocircumflexacute by o circumflexcomb_acutecomb;
-    sub ocircumflexdotbelow by o dotbelowcomb circumflexcomb;
-    sub ocircumflexgrave by o circumflexcomb_gravecomb;
-    sub ocircumflexhookabove by o circumflexcomb_hookabovecomb;
-    sub ocircumflextilde by o circumflexcomb_tildecomb;
-    sub odotbelow by o dotbelowcomb;
-    sub ohookabove by o hookabovecomb;
+		sub Wacute by W acutecomb.case;
+		sub Wcircumflex by W circumflexcomb.case;
+		sub Wdieresis by W dieresiscomb.case;
+		sub Wgrave by W gravecomb.case;
+		sub Yacute by Y acutecomb.case;
+		sub Ycircumflex by Y circumflexcomb.case;
+		sub Ydieresis by Y dieresiscomb.case;
+		sub Ygrave by Y gravecomb.case;
+		sub Ydotbelow by Y dotbelowcomb;
+		sub Yhookabove by Y hookabovecomb.case;
+		sub Ytilde by Y tildecomb.case;
+		sub Zacute by Z acutecomb.case;
+		sub Zcaron by Z caroncomb.case;
+		sub Zdotaccent by Z dotaccentcomb.case;
+		sub aacute by a acutecomb;
+		sub abreve by a brevecomb;
+		sub acaron by a caroncomb;
+		sub acircumflex by a circumflexcomb;
+		sub adieresis by a dieresiscomb;
+		sub agrave by a gravecomb;
+		sub amacron by a macroncomb;
+		sub aring by a ringcomb;
+		sub atilde by a tildecomb;
+		sub abreveacute by a brevecomb_acutecomb;
+		sub abrevedotbelow by a dotbelowcomb brevecomb;
+		sub abrevegrave by a brevecomb_gravecomb;
+		sub abrevehookabove by a brevecomb_hookabovecomb;
+		sub abrevetilde by a brevecomb_tildecomb;
+		sub acircumflexacute by a circumflexcomb_acutecomb;
+		sub acircumflexdotbelow by a dotbelowcomb circumflexcomb;
+		sub acircumflexgrave by a circumflexcomb_gravecomb;
+		sub acircumflexhookabove by a circumflexcomb_hookabovecomb;
+		sub acircumflextilde by a circumflexcomb_tildecomb;
+		sub adotbelow by a dotbelowcomb;
+		sub ahookabove by a hookabovecomb;
+		sub cacute by c acutecomb;
+		sub ccaron by c caroncomb;
+		sub ccedilla by c cedillacomb;
+		sub ccircumflex by c circumflexcomb;
+		sub cdotaccent by c dotaccentcomb;
+		# sub dcaron by d caron.alt;
+		sub eacute by e acutecomb;
+		sub ebreve by e brevecomb;
+		sub ecaron by e caroncomb;
+		sub ecircumflex by e circumflexcomb;
+		sub edieresis by e dieresiscomb;
+		sub edotaccent by e dotaccentcomb;
+		sub egrave by e gravecomb;
+		sub emacron by e macroncomb;
+		sub ecircumflexacute by e circumflexcomb_acutecomb;
+		sub ecircumflexdotbelow by e dotbelowcomb circumflexcomb;
+		sub ecircumflexgrave by e circumflexcomb_gravecomb;
+		sub ecircumflexhookabove by e circumflexcomb_hookabovecomb;
+		sub ecircumflextilde by e circumflexcomb_tildecomb;
+		sub edotbelow by e dotbelowcomb;
+		sub ehookabove by e hookabovecomb;
+		sub etilde by e tildecomb;
+		sub gbreve by g brevecomb;
+		sub gcircumflex by g circumflexcomb;
+		sub gcommaaccent by g commaturnedabovecomb;
+		sub gdotaccent by g dotaccentcomb;
+		sub hcircumflex by h circumflexcomb.case;
+		sub iacute by idotless acutecomb;
+		sub ibreve by idotless brevecomb;
+		sub icaron by idotless caroncomb;
+		sub icircumflex by idotless circumflexcomb;
+		sub idieresis by idotless dieresiscomb;
+		sub idotaccent by idotless dotaccentcomb;
+		sub igrave by idotless gravecomb;
+		sub imacron by idotless macroncomb;
+		sub itilde by idotless tildecomb;
+		sub idotbelow by idotless dotbelowcomb;
+		sub ihookabove by idotless hookabovecomb;
+		sub kcommaaccent by k commaaccentcomb;
+		sub lacute by l acutecomb.case;
+		sub lcommaaccent by l commaaccentcomb;
+		sub nacute by n acutecomb;
+		sub ncaron by n caroncomb;
+		sub ncommaaccent by n commaaccentcomb;
+		sub ntilde by n tildecomb;
+		sub oacute by o acutecomb;
+		sub obreve by o brevecomb;
+		sub ocaron by o caroncomb;
+		sub ocircumflex by o circumflexcomb;
+		sub odieresis by o dieresiscomb;
+		sub ograve by o gravecomb;
+		sub ohungarumlaut by o hungarumlautcomb;
+		sub omacron by o macroncomb;
+		sub otilde by o tildecomb;
+		sub ocircumflexacute by o circumflexcomb_acutecomb;
+		sub ocircumflexdotbelow by o dotbelowcomb circumflexcomb;
+		sub ocircumflexgrave by o circumflexcomb_gravecomb;
+		sub ocircumflexhookabove by o circumflexcomb_hookabovecomb;
+		sub ocircumflextilde by o circumflexcomb_tildecomb;
+		sub odotbelow by o dotbelowcomb;
+		sub ohookabove by o hookabovecomb;
 
-    sub ohornacute by ohorn acutecomb;
-    sub ohorndotbelow by ohorn dotbelowcomb;
-    sub ohorngrave by ohorn gravecomb;
-    sub ohornhookabove by ohorn hookabovecomb;
-    sub ohorntilde by ohorn tildecomb;
+		sub ohornacute by ohorn acutecomb;
+		sub ohorndotbelow by ohorn dotbelowcomb;
+		sub ohorngrave by ohorn gravecomb;
+		sub ohornhookabove by ohorn hookabovecomb;
+		sub ohorntilde by ohorn tildecomb;
 
-    sub racute by r acutecomb;
-    sub rcaron by r caroncomb;
-    sub rcommaaccent by r commaaccentcomb;
-    sub sacute by s acutecomb;
-    sub scaron by s caroncomb;
-    sub scedilla by s cedillacomb;
-    sub scircumflex by s circumflexcomb;
-    sub scommaaccent by s commaaccentcomb;
-    # sub tcaron by t caron.alt;
-    sub tcedilla by t cedillacomb;
-    sub tcommaaccent by t commaaccentcomb;
-    sub uacute by u acutecomb;
-    sub ubreve by u brevecomb;
-    sub ucaron by u caroncomb;
-    sub ucircumflex by u circumflexcomb;
-    sub udieresis by u dieresiscomb;
-    sub ugrave by u gravecomb;
-    sub uhungarumlaut by u hungarumlautcomb;
-    sub umacron by u macroncomb;
-    sub uring by u ringcomb;
-    sub utilde by u tildecomb;
-    sub udieresisacute by u dieresiscomb acutecomb.case;
-    sub udieresiscaron by u dieresiscomb caroncomb.case;
-    sub udieresisgrave by u dieresiscomb gravecomb.case;
-    sub udieresismacron by u dieresiscomb macroncomb.case;
-    sub udotbelow by u dotbelowcomb;
-    sub uhookabove by u hookabovecomb;
-    
-    sub uhornacute by uhorn acutecomb;
-    sub uhorndotbelow by uhorn dotbelowcomb;
-    sub uhorngrave by uhorn gravecomb;
-    sub uhornhookabove by uhorn hookabovecomb;
-    sub uhorntilde by uhorn tildecomb;
+		sub racute by r acutecomb;
+		sub rcaron by r caroncomb;
+		sub rcommaaccent by r commaaccentcomb;
+		sub sacute by s acutecomb;
+		sub scaron by s caroncomb;
+		sub scedilla by s cedillacomb;
+		sub scircumflex by s circumflexcomb;
+		sub scommaaccent by s commaaccentcomb;
+		# sub tcaron by t caron.alt;
+		sub tcedilla by t cedillacomb;
+		sub tcommaaccent by t commaaccentcomb;
+		sub uacute by u acutecomb;
+		sub ubreve by u brevecomb;
+		sub ucaron by u caroncomb;
+		sub ucircumflex by u circumflexcomb;
+		sub udieresis by u dieresiscomb;
+		sub ugrave by u gravecomb;
+		sub uhungarumlaut by u hungarumlautcomb;
+		sub umacron by u macroncomb;
+		sub uring by u ringcomb;
+		sub utilde by u tildecomb;
+		sub udieresisacute by u dieresiscomb acutecomb.case;
+		sub udieresiscaron by u dieresiscomb caroncomb.case;
+		sub udieresisgrave by u dieresiscomb gravecomb.case;
+		sub udieresismacron by u dieresiscomb macroncomb.case;
+		sub udotbelow by u dotbelowcomb;
+		sub uhookabove by u hookabovecomb;
 
-    sub wacute by w acutecomb;
-    sub wcircumflex by w circumflexcomb;
-    sub wdieresis by w dieresiscomb;
-    sub wgrave by w gravecomb;
-    sub yacute by y acutecomb;
-    sub ycircumflex by y circumflexcomb;
-    sub ydieresis by y dieresiscomb;
-    sub ygrave by y gravecomb;
-    sub ydotbelow by y.ss01 dotbelowcomb;
-    sub yhookabove by y hookabovecomb;
-    sub ytilde by y tildecomb;
-    sub zacute by z acutecomb;
-    sub zcaron by z caroncomb;
-    sub zdotaccent by z dotaccentcomb;
+		sub uhornacute by uhorn acutecomb;
+		sub uhorndotbelow by uhorn dotbelowcomb;
+		sub uhorngrave by uhorn gravecomb;
+		sub uhornhookabove by uhorn hookabovecomb;
+		sub uhorntilde by uhorn tildecomb;
 
-    sub Eth by D strokeshortcomb.case;
-    sub Hbar by H strokelongcomb;
-    sub Lslash by L strokeshortcomb.case;
-    sub Oslash by O slashlongcomb.case;
-    sub dcroat by d strokeshortcomb;
-    sub hbar by h strokeshortcomb;
-    sub lslash by l slashshortcomb;
-    sub oslash by o slashlongcomb;
-    sub tbar by t strokeshortcomb.t;
-  } decomp_LAT;
+		sub wacute by w acutecomb;
+		sub wcircumflex by w circumflexcomb;
+		sub wdieresis by w dieresiscomb;
+		sub wgrave by w gravecomb;
+		sub yacute by y acutecomb;
+		sub ycircumflex by y circumflexcomb;
+		sub ydieresis by y dieresiscomb;
+		sub ygrave by y gravecomb;
+		sub ydotbelow by y.ss01 dotbelowcomb;
+		sub yhookabove by y hookabovecomb;
+		sub ytilde by y tildecomb;
+		sub zacute by z acutecomb;
+		sub zcaron by z caroncomb;
+		sub zdotaccent by z dotaccentcomb;
 
-  lookup comp_CYRL {
-    # compose
-    sub yi-cy yi-cy by yi_yi-cy;
-    sub Yi-cy Yi-cy by Yi_Yi-cy;
-  } comp_CYRL;
+		sub Eth by D strokeshortcomb.case;
+		sub Hbar by H strokelongcomb;
+		sub Lslash by L strokeshortcomb.case;
+		sub Oslash by O slashlongcomb.case;
+		sub dcroat by d strokeshortcomb;
+		sub hbar by h strokeshortcomb;
+		sub lslash by l slashshortcomb;
+		sub oslash by o slashlongcomb;
+		sub tbar by t strokeshortcomb.t;
+	} decomp_LAT;
 
-  lookup decomp_CYRL {
-    sub Abreve-cy by A-cy breve-cy.case;
-    sub Chedieresis-cy by Che-cy dieresiscomb.case;
-    sub Gje-cy by Ge-cy acutecomb;
-    sub Idieresis-cy by Ii-cy dieresiscomb.case;
-    sub Iebreve-cy by Ie-cy breve-cy.case;
-    sub Iigrave-cy by Ii-cy gravecomb.case;
-    sub Iishort-cy by Ii-cy breve-cy.case;
-    sub Imacron-cy by Ii-cy dieresiscomb.case;
-    sub Kje-cy by Ka-cy acutecomb.case;
-    sub Odieresis-cy by O-cy dieresiscomb.case;
-    sub Udieresis-cy by U-cy dieresiscomb.case;
-    sub Uhungarumlaut-cy by U-cy hungarumlautcomb.case;
-    sub Umacron-cy by U-cy macroncomb.case;
-    sub Ushort-cy by U-cy breve-cy.case;
-    sub Zedieresis-cy by Ze-cy dieresiscomb.case;
-    sub Zhedieresis-cy by Zhe-cy dieresiscomb.case;
-    sub abreve-cy by a-cy breve-cy;
-    sub chedieresis-cy by che-cy dieresiscomb;
-    sub gje-cy by ge-cy acutecomb;
-    sub idieresis-cy by ii-cy dieresiscomb;
-    sub iebreve-cy by ie-cy breve-cy;
-    sub iegrave-cy by e gravecomb;
-    sub iigrave-cy by ii-cy gravecomb;
-    sub imacron-cy by ii-cy dieresiscomb;
-    sub io-cy by e dieresiscomb;
-    sub kje-cy by ka-cy acutecomb;
-    sub odieresis-cy by o-cy dieresiscomb;
-    sub udieresis-cy by u-cy dieresiscomb;
-    sub uhungarumlaut-cy by u-cy hungarumlautcomb;
-    sub umacron-cy by u-cy macroncomb;
-    sub ushort-cy by y breve-cy;
-    sub ushort-cy.ss01 by y.ss01 breve-cy;
-    sub zedieresis-cy by ze-cy dieresiscomb;
-    sub zhedieresis-cy by zhe-cy dieresiscomb;
-  } decomp_CYRL;
+	lookup comp_CYRL {
+		# compose
+		sub yi-cy yi-cy by yi_yi-cy;
+		sub Yi-cy Yi-cy by Yi_Yi-cy;
+	} comp_CYRL;
 
-  lookup decomp_GREK {
-    # lookupflag 0;
-    sub Iotadieresis by Iota dieresiscomb;
-    sub Upsilondieresis by Upsilon dieresiscomb;
-    sub alphatonos by alpha tonos;
-    sub alphatonos.ss01 by alpha.ss01 tonos;
-    sub epsilontonos by epsilon tonos;
-    sub etatonos by eta tonos;
-    # sub iotatonos by iota tonos;
-    sub omicrontonos by omicron tonos;
-    sub upsilontonos by upsilon tonos;
-    sub omegatonos by omega tonos;
-    sub iotadieresis by iota dieresiscomb;
-    sub upsilondieresis by upsilon dieresiscomb;
-    # sub iotadieresistonos by iota dieresistonoscomb;
-    sub upsilondieresistonos by upsilon dieresistonoscomb;
-  } decomp_GREK;
+	lookup decomp_CYRL {
+		sub Abreve-cy by A-cy breve-cy.case;
+		sub Chedieresis-cy by Che-cy dieresiscomb.case;
+		sub Gje-cy by Ge-cy acutecomb;
+		sub Idieresis-cy by Ii-cy dieresiscomb.case;
+		sub Iebreve-cy by Ie-cy breve-cy.case;
+		sub Iigrave-cy by Ii-cy gravecomb.case;
+		sub Iishort-cy by Ii-cy breve-cy.case;
+		sub Imacron-cy by Ii-cy dieresiscomb.case;
+		sub Kje-cy by Ka-cy acutecomb.case;
+		sub Odieresis-cy by O-cy dieresiscomb.case;
+		sub Udieresis-cy by U-cy dieresiscomb.case;
+		sub Uhungarumlaut-cy by U-cy hungarumlautcomb.case;
+		sub Umacron-cy by U-cy macroncomb.case;
+		sub Ushort-cy by U-cy breve-cy.case;
+		sub Zedieresis-cy by Ze-cy dieresiscomb.case;
+		sub Zhedieresis-cy by Zhe-cy dieresiscomb.case;
+		sub abreve-cy by a-cy breve-cy;
+		sub chedieresis-cy by che-cy dieresiscomb;
+		sub gje-cy by ge-cy acutecomb;
+		sub idieresis-cy by ii-cy dieresiscomb;
+		sub iebreve-cy by ie-cy breve-cy;
+		sub iegrave-cy by e gravecomb;
+		sub iigrave-cy by ii-cy gravecomb;
+		sub imacron-cy by ii-cy dieresiscomb;
+		sub io-cy by e dieresiscomb;
+		sub kje-cy by ka-cy acutecomb;
+		sub odieresis-cy by o-cy dieresiscomb;
+		sub udieresis-cy by u-cy dieresiscomb;
+		sub uhungarumlaut-cy by u-cy hungarumlautcomb;
+		sub umacron-cy by u-cy macroncomb;
+		sub ushort-cy by y breve-cy;
+		sub ushort-cy.ss01 by y.ss01 breve-cy;
+		sub zedieresis-cy by ze-cy dieresiscomb;
+		sub zhedieresis-cy by zhe-cy dieresiscomb;
+	} decomp_CYRL;
 
-  lookup decomp_LATX {
-    # lookupflag 0;
-    sub Adblgrave by A dblgravecomb.case;
-    sub AEmacron by AE macroncomb.case;
-    sub Bdotbelow by B dotbelowcomb;
-    sub Dcircumflexbelow by D circumflexbelowcomb;
-    sub Ddotbelow by D dotbelowcomb;
-    sub Dmacronbelow by D macronbelowcomb;
-    sub Edblgrave by E dblgravecomb.case;
-    sub Ecedilla by E cedillacomb;
-    sub Ecedillabreve by E cedillacomb brevecomb.case;
-    sub Etildebelow by E tildebelowcomb;
-    sub Ezhcaron by Ezh caroncomb.case;
-    sub Gcaron by G caroncomb.case;
-    sub Hdotbelow by H dotbelowcomb;
-    sub Idblgrave by I dblgravecomb.case;
-    sub Idieresisacute by I dieresiscomb.case acutecomb.case;
-    # sub Istroke by I strokeshortcomb.case.narrow;
-    sub Itildebelow by I tildebelowcomb;
-    # sub Jcaron by J caroncomb.case;
-    # sub Jstroke by J strokeshortcomb.case;
-    sub Lcircumflexbelow by L circumflexbelowcomb;
-    sub Ldotbelow by L dotbelowcomb;
-    sub Macute by M acutecomb.case;
-    sub Ncircumflexbelow by N circumflexbelowcomb;
-    sub Ndotaccent by N dotaccentcomb.case;
-    sub Ngrave by N gravecomb.case;
-    sub Nmacronbelow by N macronbelowcomb;
-    sub Odblgrave by O dblgravecomb.case;
-    sub Oogonek by O ogonekcomb;
-    sub Oslashacute by Oslash acutecomb.case;
-    sub Otildeacute by O tildecomb.case acutecomb.case;
-    sub Otildedieresis by O tildecomb.case dieresiscomb.case;
-    sub Pacute by P acutecomb.case;
-    sub Rmacronbelow by R macronbelowcomb;
-    sub Sdotbelow by S dotbelowcomb;
-    sub Tcircumflexbelow by T circumflexbelowcomb;
-    sub Tdotbelow by T dotbelowcomb;
-    sub Tmacronbelow by T macronbelowcomb;
-    sub Udblgrave by U dblgravecomb.case;
-    sub Udieresisbelow by U dieresisbelowcomb;
-    sub Utildeacute by U tildecomb.case acutecomb.case;
-    sub Utildebelow by U tildebelowcomb;
-    sub Xdotaccent by X dotaccentcomb.case;
-    sub Zcircumflex by Z circumflexcomb.case;
-    sub Zdotbelow by Z dotbelowcomb;
-    sub Zmacronbelow by Z macronbelowcomb;
-    sub adblgrave by a dblgravecomb;
-    sub aemacron by ae macroncomb;
-    sub bdotbelow by b dotbelowcomb;
-    sub dcircumflexbelow by d circumflexbelowcomb;
-    sub ddotbelow by d dotbelowcomb;
-    sub dmacronbelow by d macronbelowcomb;
-    sub edblgrave by e dblgravecomb;
-    sub ecedilla by e cedillacomb;
-    sub ecedillabreve by e cedillacomb brevecomb;
-    sub etildebelow by e tildebelowcomb;
-    sub ezhcaron by ezh caroncomb;
-    sub gcaron by g caroncomb;
-    sub hdotbelow by h dotbelowcomb;
-    sub idblgrave by idotless dblgravecomb;
-    sub idieresisacute by idotless dieresiscomb acutecomb.case;
-    sub istroke by i strokeshortcomb.narrow;
-    sub itildebelow by i tildebelowcomb;
-    sub jcaron by jdotless caroncomb;
-    sub jstroke by j strokeshortcomb.narrow;
-    sub lcircumflexbelow by l circumflexbelowcomb;
-    sub ldotbelow by l dotbelowcomb;
-    sub macute by m acutecomb;
-    sub ncircumflexbelow by n circumflexbelowcomb;
-    sub ndotaccent by n dotaccentcomb;
-    sub ngrave by n gravecomb;
-    sub nmacronbelow by n macronbelowcomb;
-    sub odblgrave by o dblgravecomb;
-    sub oogonek by o ogonekcomb;
-    sub oslashacute by oslash acutecomb;
-    sub otildeacute by o tildecomb acutecomb.case;
-    sub otildedieresis by o tildecomb dieresiscomb.case;
-    sub pacute by p acutecomb;
-    sub rmacronbelow by r macronbelowcomb;
-    sub rstroke by r strokeshortcomb.narrow;
-    sub sdotbelow by s dotbelowcomb;
-    sub tcircumflexbelow by t circumflexbelowcomb;
-    sub tdotbelow by t dotbelowcomb;
-    sub tmacronbelow by t macronbelowcomb;
-    sub udblgrave by u dblgravecomb;
-    sub udieresisbelow by u dieresisbelowcomb;
-    sub utildeacute by u tildecomb acutecomb.case;
-    sub utildebelow by u tildebelowcomb;
-    # sub ubar by u strokelongcomb;
-    sub xdotaccent by x dotaccentcomb;
-    sub zcircumflex by z circumflexcomb;
-    sub zdotbelow by z dotbelowcomb;
-    sub zmacronbelow by z macronbelowcomb;
-    sub gravecomb_macroncomb by gravecomb macroncomb;
-    sub acutecomb_macroncomb by acutecomb macroncomb;
-    sub macroncomb_gravecomb by macroncomb gravecomb;
-    sub macroncomb_acutecomb by macroncomb acutecomb;
-    #
-    sub Adotaccent by A dotaccentcomb.case;
-    sub Bmacronbelow by B macronbelowcomb;
-    sub Ddotaccent by D dotaccentcomb.case;
-    sub Emacrongrave by E macroncomb.case gravecomb.case;
-    sub Hdotaccent by H dotaccentcomb.case;
-    sub Kdotbelow by K dotbelowcomb;
-    sub Kmacronbelow by K macronbelowcomb;
-    sub Mdotbelow by M dotbelowcomb;
-    sub Ndotbelow by N dotbelowcomb;
-    sub Rdotbelow by R dotbelowcomb;
-    sub Rinvertedbreve by R breveinvertedcomb.case;
-    sub Sdotaccent by S dotaccentcomb.case;
-    sub Tdotaccent by T dotaccentcomb.case;
-    sub Vdotbelow by V dotbelowcomb;
-    sub Vtilde by V tildecomb.case;
-    sub Ymacron by Y macroncomb.case;
-    sub adotaccent by a dotaccentcomb;
-    sub bmacronbelow by b macronbelowcomb;
-    sub ddotaccent by d dotaccentcomb.case;
-    sub emacrongrave by e macroncomb_gravecomb;
-    sub hdotaccent by h dotaccentcomb.case;
-    sub kdotbelow by k dotbelowcomb;
-    sub kmacronbelow by k macronbelowcomb;
-    sub mdotbelow by m dotbelowcomb;
-    sub ndotbelow by n dotbelowcomb;
-    sub rdotbelow by r dotbelowcomb;
-    sub rinvertedbreve by r breveinvertedcomb;
-    sub sdotaccent by s dotaccentcomb;
-    sub tdotaccent by t dotaccentcomb;
-    sub vdotbelow by v dotbelowcomb;
-    sub vtilde by v tildecomb;
-    sub ymacron by y macroncomb;
-  } decomp_LATX;
+	lookup decomp_GREK {
+		# lookupflag 0;
+		sub Iotadieresis by Iota dieresiscomb;
+		sub Upsilondieresis by Upsilon dieresiscomb;
+		sub alphatonos by alpha tonos;
+		sub alphatonos.ss01 by alpha.ss01 tonos;
+		sub epsilontonos by epsilon tonos;
+		sub etatonos by eta tonos;
+		# sub iotatonos by iota tonos;
+		sub omicrontonos by omicron tonos;
+		sub upsilontonos by upsilon tonos;
+		sub omegatonos by omega tonos;
+		sub iotadieresis by iota dieresiscomb;
+		sub upsilondieresis by upsilon dieresiscomb;
+		# sub iotadieresistonos by iota dieresistonoscomb;
+		sub upsilondieresistonos by upsilon dieresistonoscomb;
+	} decomp_GREK;
+
+	lookup decomp_LATX {
+		# lookupflag 0;
+		sub Adblgrave by A dblgravecomb.case;
+		sub AEmacron by AE macroncomb.case;
+		sub Bdotbelow by B dotbelowcomb;
+		sub Dcircumflexbelow by D circumflexbelowcomb;
+		sub Ddotbelow by D dotbelowcomb;
+		sub Dmacronbelow by D macronbelowcomb;
+		sub Edblgrave by E dblgravecomb.case;
+		sub Ecedilla by E cedillacomb;
+		sub Ecedillabreve by E cedillacomb brevecomb.case;
+		sub Etildebelow by E tildebelowcomb;
+		sub Ezhcaron by Ezh caroncomb.case;
+		sub Gcaron by G caroncomb.case;
+		sub Hdotbelow by H dotbelowcomb;
+		sub Idblgrave by I dblgravecomb.case;
+		sub Idieresisacute by I dieresiscomb.case acutecomb.case;
+		# sub Istroke by I strokeshortcomb.case.narrow;
+		sub Itildebelow by I tildebelowcomb;
+		# sub Jcaron by J caroncomb.case;
+		# sub Jstroke by J strokeshortcomb.case;
+		sub Lcircumflexbelow by L circumflexbelowcomb;
+		sub Ldotbelow by L dotbelowcomb;
+		sub Macute by M acutecomb.case;
+		sub Ncircumflexbelow by N circumflexbelowcomb;
+		sub Ndotaccent by N dotaccentcomb.case;
+		sub Ngrave by N gravecomb.case;
+		sub Nmacronbelow by N macronbelowcomb;
+		sub Odblgrave by O dblgravecomb.case;
+		sub Oogonek by O ogonekcomb;
+		sub Oslashacute by Oslash acutecomb.case;
+		sub Otildeacute by O tildecomb.case acutecomb.case;
+		sub Otildedieresis by O tildecomb.case dieresiscomb.case;
+		sub Pacute by P acutecomb.case;
+		sub Rmacronbelow by R macronbelowcomb;
+		sub Sdotbelow by S dotbelowcomb;
+		sub Tcircumflexbelow by T circumflexbelowcomb;
+		sub Tdotbelow by T dotbelowcomb;
+		sub Tmacronbelow by T macronbelowcomb;
+		sub Udblgrave by U dblgravecomb.case;
+		sub Udieresisbelow by U dieresisbelowcomb;
+		sub Utildeacute by U tildecomb.case acutecomb.case;
+		sub Utildebelow by U tildebelowcomb;
+		sub Xdotaccent by X dotaccentcomb.case;
+		sub Zcircumflex by Z circumflexcomb.case;
+		sub Zdotbelow by Z dotbelowcomb;
+		sub Zmacronbelow by Z macronbelowcomb;
+		sub adblgrave by a dblgravecomb;
+		sub aemacron by ae macroncomb;
+		sub bdotbelow by b dotbelowcomb;
+		sub dcircumflexbelow by d circumflexbelowcomb;
+		sub ddotbelow by d dotbelowcomb;
+		sub dmacronbelow by d macronbelowcomb;
+		sub edblgrave by e dblgravecomb;
+		sub ecedilla by e cedillacomb;
+		sub ecedillabreve by e cedillacomb brevecomb;
+		sub etildebelow by e tildebelowcomb;
+		sub ezhcaron by ezh caroncomb;
+		sub gcaron by g caroncomb;
+		sub hdotbelow by h dotbelowcomb;
+		sub idblgrave by idotless dblgravecomb;
+		sub idieresisacute by idotless dieresiscomb acutecomb.case;
+		sub istroke by i strokeshortcomb.narrow;
+		sub itildebelow by i tildebelowcomb;
+		sub jcaron by jdotless caroncomb;
+		sub jstroke by j strokeshortcomb.narrow;
+		sub lcircumflexbelow by l circumflexbelowcomb;
+		sub ldotbelow by l dotbelowcomb;
+		sub macute by m acutecomb;
+		sub ncircumflexbelow by n circumflexbelowcomb;
+		sub ndotaccent by n dotaccentcomb;
+		sub ngrave by n gravecomb;
+		sub nmacronbelow by n macronbelowcomb;
+		sub odblgrave by o dblgravecomb;
+		sub oogonek by o ogonekcomb;
+		sub oslashacute by oslash acutecomb;
+		sub otildeacute by o tildecomb acutecomb.case;
+		sub otildedieresis by o tildecomb dieresiscomb.case;
+		sub pacute by p acutecomb;
+		sub rmacronbelow by r macronbelowcomb;
+		sub rstroke by r strokeshortcomb.narrow;
+		sub sdotbelow by s dotbelowcomb;
+		sub tcircumflexbelow by t circumflexbelowcomb;
+		sub tdotbelow by t dotbelowcomb;
+		sub tmacronbelow by t macronbelowcomb;
+		sub udblgrave by u dblgravecomb;
+		sub udieresisbelow by u dieresisbelowcomb;
+		sub utildeacute by u tildecomb acutecomb.case;
+		sub utildebelow by u tildebelowcomb;
+		# sub ubar by u strokelongcomb;
+		sub xdotaccent by x dotaccentcomb;
+		sub zcircumflex by z circumflexcomb;
+		sub zdotbelow by z dotbelowcomb;
+		sub zmacronbelow by z macronbelowcomb;
+		sub gravecomb_macroncomb by gravecomb macroncomb;
+		sub acutecomb_macroncomb by acutecomb macroncomb;
+		sub macroncomb_gravecomb by macroncomb gravecomb;
+		sub macroncomb_acutecomb by macroncomb acutecomb;
+		#
+		sub Adotaccent by A dotaccentcomb.case;
+		sub Bmacronbelow by B macronbelowcomb;
+		sub Ddotaccent by D dotaccentcomb.case;
+		sub Emacrongrave by E macroncomb.case gravecomb.case;
+		sub Hdotaccent by H dotaccentcomb.case;
+		sub Kdotbelow by K dotbelowcomb;
+		sub Kmacronbelow by K macronbelowcomb;
+		sub Mdotbelow by M dotbelowcomb;
+		sub Ndotbelow by N dotbelowcomb;
+		sub Rdotbelow by R dotbelowcomb;
+		sub Rinvertedbreve by R breveinvertedcomb.case;
+		sub Sdotaccent by S dotaccentcomb.case;
+		sub Tdotaccent by T dotaccentcomb.case;
+		sub Vdotbelow by V dotbelowcomb;
+		sub Vtilde by V tildecomb.case;
+		sub Ymacron by Y macroncomb.case;
+		sub adotaccent by a dotaccentcomb;
+		sub bmacronbelow by b macronbelowcomb;
+		sub ddotaccent by d dotaccentcomb.case;
+		sub emacrongrave by e macroncomb_gravecomb;
+		sub hdotaccent by h dotaccentcomb.case;
+		sub kdotbelow by k dotbelowcomb;
+		sub kmacronbelow by k macronbelowcomb;
+		sub mdotbelow by m dotbelowcomb;
+		sub ndotbelow by n dotbelowcomb;
+		sub rdotbelow by r dotbelowcomb;
+		sub rinvertedbreve by r breveinvertedcomb;
+		sub sdotaccent by s dotaccentcomb;
+		sub tdotaccent by t dotaccentcomb;
+		sub vdotbelow by v dotbelowcomb;
+		sub vtilde by v tildecomb;
+		sub ymacron by y macroncomb;
+	} decomp_LATX;
 
 
-  lookup decomp_HEB_01 { 
-  lookupflag RightToLeft UseMarkFilteringSet [dagesh-hb];
-  # these composite characters MAY have different left sidebearings because of dagesh;
-  # ignoring dagesh as a mark is necessary in order to activate the precomposed forms
-  # otherwise only mark ordering 'base-dagesh-other mark' sequence will be
-  # correctly spaced on the left; orderings like 'base-below mark-dagesh' won't
+	lookup decomp_HEB_01 { 
+	lookupflag RightToLeft UseMarkFilteringSet [dagesh-hb];
+	# these composite characters MAY have different left sidebearings because of dagesh;
+	# ignoring dagesh as a mark is necessary in order to activate the precomposed forms
+	# otherwise only mark ordering 'base-dagesh-other mark' sequence will be
+	# correctly spaced on the left; orderings like 'base-below mark-dagesh' won't
  
-  # composites decomposed for shuffler
-  sub vavdagesh-hb by vav-hb dagesh-hb;
-  sub yoddagesh-hb by yod-hb dagesh-hb;
-  sub nundagesh-hb by nun-hb dagesh-hb;
-  } decomp_HEB_01;
+	# composites decomposed for shuffler
+	sub vavdagesh-hb by vav-hb dagesh-hb;
+	sub yoddagesh-hb by yod-hb dagesh-hb;
+	sub nundagesh-hb by nun-hb dagesh-hb;
+	} decomp_HEB_01;
 
 
-  lookup decomp_HEB_02 {
-  lookupflag RightToLeft UseMarkFilteringSet [holam-hb];
-  # these composite characters MAY have different left sidebearings because of holam;
-  # ignoring holam as a mark is necessary in order to activate the precomposed forms
-  # otherwise only mark ordering 'base-holam-other mark' sequence will be
-  # correctly spaced on the left; orderings like 'base-below mark-holam' won't
+	lookup decomp_HEB_02 {
+	lookupflag RightToLeft UseMarkFilteringSet [holam-hb];
+	# these composite characters MAY have different left sidebearings because of holam;
+	# ignoring holam as a mark is necessary in order to activate the precomposed forms
+	# otherwise only mark ordering 'base-holam-other mark' sequence will be
+	# correctly spaced on the left; orderings like 'base-below mark-holam' won't
 
-  # composites decomposed for shuffler
-  sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
-  sub lamedholam-hb by lamed-hb holam-hb;
-  } decomp_HEB_02;
-  
-  
-  lookup decomp_HEB_03 {
-    lookupflag RightToLeft;
-    sub alefdagesh-hb by alef-hb dagesh-hb;  
-    sub alefpatah-hb by alef-hb patah-hb;
-    sub alefqamats-hb by alef-hb qamats-hb;
-    sub betdagesh-hb by bet-hb dagesh-hb;
-    sub betrafe-hb by bet-hb rafe-hb;
-    sub daletdagesh-hb by dalet-hb dagesh-hb;
-    sub gimeldagesh-hb by gimel-hb dagesh-hb;
-    sub hedagesh-hb by he-hb dagesh-hb;
-    sub kafdagesh-hb by kaf-hb dagesh-hb;
-    sub kafrafe-hb by kaf-hb rafe-hb;
-    #sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
-    #sub lameddagesh-hb by lamed-hb dagesh-hb;
-    #sub lamedholam-hb by lamed-hb holam-hb;
-    sub memdagesh-hb by mem-hb dagesh-hb;
-    #sub nundagesh-hb by nun-hb dagesh-hb;
-    sub pedagesh-hb by pe-hb dagesh-hb;
-    sub pedageshFinal-hb by peFinal-hb dagesh-hb;
-    sub perafe-hb by pe-hb rafe-hb;
-    sub qofdagesh-hb by qof-hb dagesh-hb;
-    sub reshdagesh-hb by resh-hb dagesh-hb;
-    sub samekhdagesh-hb by samekh-hb dagesh-hb;
-    sub shindagesh-hb by shin-hb dagesh-hb;
-    sub shindageshshindot-hb by shin-hb dagesh-hb shindot-hb;
-    sub shinshindot-hb by shin-hb shindot-hb;
-    sub shinsindot-hb by shin-hb sindot-hb;
-    sub tavdagesh-hb by tav-hb dagesh-hb;
-    sub tetdagesh-hb by tet-hb dagesh-hb;
-    sub tsadidagesh-hb by tsadi-hb dagesh-hb;
-    sub vavholam-hb by vav-hb holam-hb;
-    sub yodhiriq-hb by yod-hb hiriq-hb;
-    #sub yodyodpatah-hb by yodyod-hb patah-hb; # breaks locl yodyodpatah formation
-    sub zayindagesh-hb by zayin-hb dagesh-hb;
-  } decomp_HEB_03;
+	# composites decomposed for shuffler
+	sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
+	sub lamedholam-hb by lamed-hb holam-hb;
+	} decomp_HEB_02;
 
-  # End decomposition
 
-  lookup SOFTDOT_IOGONEK {
-    sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by idotless ogonekcomb;
-  } SOFTDOT_IOGONEK;
+	lookup decomp_HEB_03 {
+		lookupflag RightToLeft;
+		sub alefdagesh-hb by alef-hb dagesh-hb;  
+		sub alefpatah-hb by alef-hb patah-hb;
+		sub alefqamats-hb by alef-hb qamats-hb;
+		sub betdagesh-hb by bet-hb dagesh-hb;
+		sub betrafe-hb by bet-hb rafe-hb;
+		sub daletdagesh-hb by dalet-hb dagesh-hb;
+		sub gimeldagesh-hb by gimel-hb dagesh-hb;
+		sub hedagesh-hb by he-hb dagesh-hb;
+		sub kafdagesh-hb by kaf-hb dagesh-hb;
+		sub kafrafe-hb by kaf-hb rafe-hb;
+		#sub lameddageshholam-hb by lamed-hb dagesh-hb holam-hb;
+		#sub lameddagesh-hb by lamed-hb dagesh-hb;
+		#sub lamedholam-hb by lamed-hb holam-hb;
+		sub memdagesh-hb by mem-hb dagesh-hb;
+		#sub nundagesh-hb by nun-hb dagesh-hb;
+		sub pedagesh-hb by pe-hb dagesh-hb;
+		sub pedageshFinal-hb by peFinal-hb dagesh-hb;
+		sub perafe-hb by pe-hb rafe-hb;
+		sub qofdagesh-hb by qof-hb dagesh-hb;
+		sub reshdagesh-hb by resh-hb dagesh-hb;
+		sub samekhdagesh-hb by samekh-hb dagesh-hb;
+		sub shindagesh-hb by shin-hb dagesh-hb;
+		sub shindageshshindot-hb by shin-hb dagesh-hb shindot-hb;
+		sub shinshindot-hb by shin-hb shindot-hb;
+		sub shinsindot-hb by shin-hb sindot-hb;
+		sub tavdagesh-hb by tav-hb dagesh-hb;
+		sub tetdagesh-hb by tet-hb dagesh-hb;
+		sub tsadidagesh-hb by tsadi-hb dagesh-hb;
+		sub vavholam-hb by vav-hb holam-hb;
+		sub yodhiriq-hb by yod-hb hiriq-hb;
+		#sub yodyodpatah-hb by yodyod-hb patah-hb; # breaks locl yodyodpatah formation
+		sub zayindagesh-hb by zayin-hb dagesh-hb;
+	} decomp_HEB_03;
 
-  lookup SOFTDOT_OTHERS {
-    sub i' strokeshortcomb.narrow [acutecomb gravecomb circumflexcomb] by idotless;
-  } SOFTDOT_OTHERS;
+	lookup decomp_THAI {
+		# lookupflag 0;
+		sub saraAm-thai by nikhahit-thai saraAa-thai;
+	} decomp_THAI;
 
-  # Comes from Glyphs.app
-  lookup ccmp_DFLT_1 {
-    @CombiningTopAccents = [acutecomb acutemacroncomb brevecomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb gravemacroncomb hookabovecomb hungarumlautcomb macronacutecomb macroncomb macrongravecomb ringcomb tildecomb verticallineabovecomb];
-    lookupflag UseMarkFilteringSet @CombiningTopAccents;
-    sub i' @CombiningTopAccents by idotless;
-    sub j' @CombiningTopAccents by jdotless;
-  } ccmp_DFLT_1;
+	# End decomposition
 
-  lookup ccmp_DFLT_2 {
-    lookupflag 0;
-    sub acutecomb macroncomb by acutecomb_macroncomb;
-    sub brevecomb acutecomb by brevecomb_acutecomb;
-    sub brevecomb gravecomb by brevecomb_gravecomb;
-    sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
-    sub brevecomb tildecomb by brevecomb_tildecomb;
-    sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-    sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-    sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
-    sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-    sub gravecomb macroncomb by gravecomb_macroncomb;
-    sub macroncomb acutecomb by macroncomb_acutecomb;
-    sub macroncomb gravecomb by macroncomb_gravecomb;
-  } ccmp_DFLT_2;
+	lookup SOFTDOT_IOGONEK {
+		sub iogonek' [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb hookabovecomb] by idotless ogonekcomb;
+	} SOFTDOT_IOGONEK;
 
-  lookup ccmp_Other_1 {
-    lookupflag 0;
-    @Markscomb = [brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb strokeshortcomb slashshortcomb slashlongcomb verticallineabovecomb dblgravecomb tonos breve-cy];
-    @MarkscombCase = [brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case verticallineabovecomb.case dblgravecomb.case tonos.case breve-cy.case];
-    sub @Markscomb @Markscomb' by @MarkscombCase;
-    sub @Uppercase @Markscomb' by @MarkscombCase;
-  } ccmp_Other_1;
+	lookup SOFTDOT_OTHERS {
+		sub i' strokeshortcomb.narrow [acutecomb gravecomb circumflexcomb] by idotless;
+	} SOFTDOT_OTHERS;
 
-  lookup ccmp_Other_2 {
-    lookupflag 0;
-    sub @Markscomb' @MarkscombCase by @MarkscombCase;
-    sub @MarkscombCase @Markscomb' by @MarkscombCase;
-  } ccmp_Other_2;
+	# Comes from Glyphs.app
+	lookup ccmp_DFLT_1 {
+		@CombiningTopAccents = [acutecomb acutemacroncomb brevecomb caroncomb circumflexcomb commaaboverightcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb gravemacroncomb hookabovecomb hungarumlautcomb macronacutecomb macroncomb macrongravecomb ringcomb tildecomb verticallineabovecomb];
+		lookupflag UseMarkFilteringSet @CombiningTopAccents;
+		sub i' @CombiningTopAccents by idotless;
+		sub j' @CombiningTopAccents by jdotless;
+	} ccmp_DFLT_1;
 
-  lookup ccmp_latn_1 {
-    lookupflag 0;
-    sub itildebelow by i tildebelowcomb;
-  } ccmp_latn_1;
+	lookup ccmp_DFLT_2 {
+		lookupflag 0;
+		sub acutecomb macroncomb by acutecomb_macroncomb;
+		sub brevecomb acutecomb by brevecomb_acutecomb;
+		sub brevecomb gravecomb by brevecomb_gravecomb;
+		sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+		sub brevecomb tildecomb by brevecomb_tildecomb;
+		sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+		sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+		sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+		sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+		sub gravecomb macroncomb by gravecomb_macroncomb;
+		sub macroncomb acutecomb by macroncomb_acutecomb;
+		sub macroncomb gravecomb by macroncomb_gravecomb;
+	} ccmp_DFLT_2;
 
-  lookup ccmp_latn_2 {
-    lookupflag 0;
-    sub fi by f i;
-    sub fl by f l;
-  } ccmp_latn_2;
+	lookup ccmp_Other_1 {
+		lookupflag 0;
+		@Markscomb = [brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb hookabovecomb strokeshortcomb slashshortcomb slashlongcomb verticallineabovecomb dblgravecomb tonos breve-cy];
+		@MarkscombCase = [brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case dieresiscomb.case dotaccentcomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case macroncomb.case hookabovecomb.case strokeshortcomb.case slashshortcomb.case slashlongcomb.case verticallineabovecomb.case dblgravecomb.case tonos.case breve-cy.case];
+		sub @Markscomb @Markscomb' by @MarkscombCase;
+		sub @Uppercase @Markscomb' by @MarkscombCase;
+	} ccmp_Other_1;
 
-  script latn;
-  lookup ccmp_latn_1;
-  lookup ccmp_latn_2;
+	lookup ccmp_Other_2 {
+		lookupflag 0;
+		sub @Markscomb' @MarkscombCase by @MarkscombCase;
+		sub @MarkscombCase @Markscomb' by @MarkscombCase;
+	} ccmp_Other_2;
 
-  script arab;
-  language dflt;
-  lookup ccmp_arab_1 {
-    # composition
-    lookupflag 0;
-    sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
-    sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
-    sub damma-ar shadda-ar by shaddaDamma-ar;
-    sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
-    sub dammatan-ar shadda-ar by shaddaDammatan-ar;
-    sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
-    sub fatha-ar shadda-ar by shaddaFatha-ar;
-    sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
-    sub fathatan-ar shadda-ar by shaddaFathatan-ar;
-    sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
-    sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
-    sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
-    sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
-    sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
-    sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
-    sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
-    sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
-    sub kasra-ar shadda-ar by shaddaKasra-ar;
-    sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
-    sub kasratan-ar shadda-ar by shaddaKasratan-ar;
-    sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
-    sub shadda-ar damma-ar by shaddaDamma-ar;
-    sub shadda-ar dammatan-ar by shaddaDammatan-ar;
-    sub shadda-ar fatha-ar by shaddaFatha-ar;
-    sub shadda-ar fathatan-ar by shaddaFathatan-ar;
-    sub shadda-ar kasra-ar by shaddaKasra-ar;
-    sub shadda-ar kasratan-ar by shaddaKasratan-ar;
-    sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
-  } ccmp_arab_1;
+	lookup ccmp_latn_1 {
+		lookupflag 0;
+		sub itildebelow by i tildebelowcomb;
+	} ccmp_latn_1;
 
-  lookup ccmp_arab_2 {
-    # decomposition
-    lookupflag 0;
-    sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
-    sub hehgoalHamzaabove-ar.fina by hehgoal-ar.fina hamzaabove-ar;
-    sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
-    sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
-    sub noon-ar by noonghunna-ar dotabove-ar;
-    sub noon-ar.fina by noonghunna-ar.fina dotabove-ar;
-    sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
-    sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
-  } ccmp_arab_2;
+	lookup ccmp_latn_2 {
+		lookupflag 0;
+		sub fi by f i;
+		sub fl by f l;
+	} ccmp_latn_2;
+
+	script latn;
+	lookup ccmp_latn_1;
+	lookup ccmp_latn_2;
+
+	script arab;
+	lookup ccmp_arab_1 {
+		# composition
+		lookupflag 0;
+		sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
+		sub damma-ar hamzaabove-ar by hamzaaboveDamma-ar;
+		sub damma-ar shadda-ar by shaddaDamma-ar;
+		sub dammatan-ar hamzaabove-ar by hamzaaboveDammatan-ar;
+		sub dammatan-ar shadda-ar by shaddaDammatan-ar;
+		sub fatha-ar hamzaabove-ar by hamzaaboveFatha-ar;
+		sub fatha-ar shadda-ar by shaddaFatha-ar;
+		sub fathatan-ar hamzaabove-ar by hamzaaboveFathatan-ar;
+		sub fathatan-ar shadda-ar by shaddaFathatan-ar;
+		sub hamzaabove-ar damma-ar by hamzaaboveDamma-ar;
+		sub hamzaabove-ar dammatan-ar by hamzaaboveDammatan-ar;
+		sub hamzaabove-ar fatha-ar by hamzaaboveFatha-ar;
+		sub hamzaabove-ar fathatan-ar by hamzaaboveFathatan-ar;
+		sub hamzaabove-ar sukun-ar by hamzaaboveSukun-ar;
+		sub hamzabelow-ar kasra-ar by hamzabelowKasra-ar;
+		sub hamzabelow-ar kasratan-ar by hamzabelowKasratan-ar;
+		sub kasra-ar hamzabelow-ar by hamzabelowKasra-ar;
+		sub kasra-ar shadda-ar by shaddaKasra-ar;
+		sub kasratan-ar hamzabelow-ar by hamzabelowKasratan-ar;
+		sub kasratan-ar shadda-ar by shaddaKasratan-ar;
+		sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
+		sub shadda-ar damma-ar by shaddaDamma-ar;
+		sub shadda-ar dammatan-ar by shaddaDammatan-ar;
+		sub shadda-ar fatha-ar by shaddaFatha-ar;
+		sub shadda-ar fathatan-ar by shaddaFathatan-ar;
+		sub shadda-ar kasra-ar by shaddaKasra-ar;
+		sub shadda-ar kasratan-ar by shaddaKasratan-ar;
+		sub sukun-ar hamzaabove-ar by hamzaaboveSukun-ar;
+	} ccmp_arab_1;
+
+	lookup ccmp_arab_2 {
+		# decomposition
+		lookupflag 0;
+		sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+		sub hehgoalHamzaabove-ar.fina by hehgoal-ar.fina hamzaabove-ar;
+		sub kehehThreedotsabove-ar by keheh-ar threedotsupabove-ar;
+		sub kehehThreedotsabove-ar.fina by keheh-ar.fina threedotsupabove-ar;
+		sub kehehThreedotsabove-ar.init by kaf-ar.init threedotsupabove-ar;
+		sub kehehThreedotsabove-ar.medi by kaf-ar.medi threedotsupabove-ar;
+		sub noon-ar by noonghunna-ar dotabove-ar;
+		sub noon-ar.fina by noonghunna-ar.fina dotabove-ar;
+		sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
+		sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
+	} ccmp_arab_2;
+
+	script thai;
+	lookup ccmp_thai_1 {
+	# lookupflag 0;
+			sub maiEk-thai nikhahit-thai by nikhahit_maiEk-thai;
+			sub maiTho-thai nikhahit-thai by nikhahit_maiTho-thai;
+			sub maiTri-thai nikhahit-thai by nikhahit_maiTri-thai;
+			sub maiChattawa-thai nikhahit-thai by nikhahit_maiChattawa-thai;
+			sub maiEk-thai.narrow nikhahit-thai.narrow by nikhahit_maiEk-thai.narrow;
+			sub maiTho-thai.narrow nikhahit-thai.narrow by nikhahit_maiTho-thai.narrow;
+			sub maiTri-thai.narrow nikhahit-thai.narrow by nikhahit_maiTri-thai.narrow;
+			sub maiChattawa-thai.narrow nikhahit-thai.narrow by nikhahit_maiChattawa-thai.narrow;
+			sub nikhahit-thai maiEk-thai by nikhahit_maiEk-thai;
+			sub nikhahit-thai maiTho-thai by nikhahit_maiTho-thai;
+			sub nikhahit-thai maiTri-thai by nikhahit_maiTri-thai;
+			sub nikhahit-thai maiChattawa-thai by nikhahit_maiChattawa-thai;
+			sub nikhahit-thai.narrow maiEk-thai.narrow by nikhahit_maiEk-thai.narrow;
+			sub nikhahit-thai.narrow maiTho-thai.narrow by nikhahit_maiTho-thai.narrow;
+			sub nikhahit-thai.narrow maiTri-thai.narrow by nikhahit_maiTri-thai.narrow;
+			sub nikhahit-thai.narrow maiChattawa-thai.narrow by nikhahit_maiChattawa-thai.narrow;
+	} ccmp_thai_1;
 } ccmp;
 
 
 # Fractions
 feature frac {
-  sub one slash two by onehalf;
-  sub one slash four by onequarter;
-  sub three slash four by threequarters;
+	sub one slash two by onehalf;
+	sub one slash four by onequarter;
+	sub three slash four by threequarters;
 } frac;
 
 
 # Ordinals
 feature ordn {
-  sub N o period by numero;
+	sub N o period by numero;
 } ordn;
 
 
@@ -921,741 +945,782 @@ include(features/ara-init-medi-fina.fea);
 include(features/deva-PlaypenSans.fea);
 
 feature calt {
-  lookup PseudoRandom {
-    lookupflag IgnoreMarks;
-    sub @dflt_1' @dflt_1 @dflt_1 @dflt_1 by @alt4_1;
-    sub @dflt_1' @dflt_1 @dflt_1 @dflt_2 by @alt5_1;
-    sub @dflt_1' @dflt_1 @dflt_1 @dflt_3 by @alt4_1;
-    sub @dflt_1' @dflt_1 @dflt_1 @dflt_4 by @alt1_1;
-    sub @dflt_1' @dflt_1 @dflt_2 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_1 @dflt_2 @dflt_2 by @alt2_1;
-    sub @dflt_1' @dflt_1 @dflt_2 @dflt_3 by @alt5_1;
-    sub @dflt_1' @dflt_1 @dflt_2 @dflt_4 by @alt3_1;
-    sub @dflt_1' @dflt_1 @dflt_3 @dflt_1 by @alt2_1;
-    sub @dflt_1' @dflt_1 @dflt_3 @dflt_2 by @alt2_1;
-    sub @dflt_1' @dflt_1 @dflt_3 @dflt_3 by @alt1_1;
-    sub @dflt_1' @dflt_1 @dflt_3 @dflt_4 by @alt2_1;
-    sub @dflt_1' @dflt_1 @dflt_4 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_1 @dflt_4 @dflt_2 by @alt5_1;
-    sub @dflt_1' @dflt_1 @dflt_4 @dflt_3 by @alt4_1;
-    sub @dflt_1' @dflt_1 @dflt_4 @dflt_4 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_1 @dflt_1 by @alt2_1;
-    sub @dflt_1' @dflt_2 @dflt_1 @dflt_2 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_1 @dflt_3 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_1 @dflt_4 by @alt4_1;
-    sub @dflt_1' @dflt_2 @dflt_2 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_2 @dflt_2 by @alt5_1;
-    sub @dflt_1' @dflt_2 @dflt_2 @dflt_3 by @alt5_1;
-    sub @dflt_1' @dflt_2 @dflt_2 @dflt_4 by @alt4_1;
-    sub @dflt_1' @dflt_2 @dflt_3 @dflt_1 by @alt2_1;
-    sub @dflt_1' @dflt_2 @dflt_3 @dflt_2 by @alt4_1;
-    sub @dflt_1' @dflt_2 @dflt_3 @dflt_3 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_3 @dflt_4 by @alt2_1;
-    sub @dflt_1' @dflt_2 @dflt_4 @dflt_1 by @alt1_1;
-    sub @dflt_1' @dflt_2 @dflt_4 @dflt_2 by @alt3_1;
-    sub @dflt_1' @dflt_2 @dflt_4 @dflt_3 by @alt4_1;
-    sub @dflt_1' @dflt_2 @dflt_4 @dflt_4 by @alt2_1;
-    sub @dflt_1' @dflt_3 @dflt_1 @dflt_1 by @alt1_1;
-    sub @dflt_1' @dflt_3 @dflt_1 @dflt_2 by @alt3_1;
-    sub @dflt_1' @dflt_3 @dflt_1 @dflt_3 by @alt1_1;
-    sub @dflt_1' @dflt_3 @dflt_1 @dflt_4 by @alt3_1;
-    sub @dflt_1' @dflt_3 @dflt_2 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_3 @dflt_2 @dflt_2 by @alt4_1;
-    sub @dflt_1' @dflt_3 @dflt_2 @dflt_3 by @alt4_1;
-    sub @dflt_1' @dflt_3 @dflt_2 @dflt_4 by @alt1_1;
-    sub @dflt_1' @dflt_3 @dflt_3 @dflt_1 by @alt5_1;
-    sub @dflt_1' @dflt_3 @dflt_3 @dflt_2 by @alt3_1;
-    sub @dflt_1' @dflt_3 @dflt_3 @dflt_3 by @alt4_1;
-    sub @dflt_1' @dflt_3 @dflt_3 @dflt_4 by @alt4_1;
-    sub @dflt_1' @dflt_3 @dflt_4 @dflt_1 by @alt5_1;
-    sub @dflt_1' @dflt_3 @dflt_4 @dflt_2 by @alt5_1;
-    sub @dflt_1' @dflt_3 @dflt_4 @dflt_3 by @alt5_1;
-    sub @dflt_1' @dflt_3 @dflt_4 @dflt_4 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_1 @dflt_1 by @alt1_1;
-    sub @dflt_1' @dflt_4 @dflt_1 @dflt_2 by @alt1_1;
-    sub @dflt_1' @dflt_4 @dflt_1 @dflt_3 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_1 @dflt_4 by @alt2_1;
-    sub @dflt_1' @dflt_4 @dflt_2 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_2 @dflt_2 by @alt5_1;
-    sub @dflt_1' @dflt_4 @dflt_2 @dflt_3 by @alt2_1;
-    sub @dflt_1' @dflt_4 @dflt_2 @dflt_4 by @alt5_1;
-    sub @dflt_1' @dflt_4 @dflt_3 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_3 @dflt_2 by @alt2_1;
-    sub @dflt_1' @dflt_4 @dflt_3 @dflt_3 by @alt5_1;
-    sub @dflt_1' @dflt_4 @dflt_3 @dflt_4 by @alt5_1;
-    sub @dflt_1' @dflt_4 @dflt_4 @dflt_1 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_4 @dflt_2 by @alt3_1;
-    sub @dflt_1' @dflt_4 @dflt_4 @dflt_3 by @alt5_1;
-    sub @dflt_1' @dflt_4 @dflt_4 @dflt_4 by @alt4_1;
-    sub @dflt_2' @dflt_1 @dflt_1 @dflt_1 by @alt5_2;
-    sub @dflt_2' @dflt_1 @dflt_1 @dflt_2 by @alt3_2;
-    sub @dflt_2' @dflt_1 @dflt_1 @dflt_3 by @alt5_2;
-    sub @dflt_2' @dflt_1 @dflt_1 @dflt_4 by @alt1_2;
-    sub @dflt_2' @dflt_1 @dflt_2 @dflt_1 by @alt1_2;
-    sub @dflt_2' @dflt_1 @dflt_2 @dflt_2 by @alt1_2;
-    sub @dflt_2' @dflt_1 @dflt_2 @dflt_3 by @alt3_2;
-    sub @dflt_2' @dflt_1 @dflt_2 @dflt_4 by @alt5_2;
-    sub @dflt_2' @dflt_1 @dflt_3 @dflt_1 by @alt3_2;
-    sub @dflt_2' @dflt_1 @dflt_3 @dflt_2 by @alt5_2;
-    sub @dflt_2' @dflt_1 @dflt_3 @dflt_3 by @alt1_2;
-    sub @dflt_2' @dflt_1 @dflt_3 @dflt_4 by @alt2_2;
-    sub @dflt_2' @dflt_1 @dflt_4 @dflt_1 by @alt5_2;
-    sub @dflt_2' @dflt_1 @dflt_4 @dflt_2 by @alt3_2;
-    sub @dflt_2' @dflt_1 @dflt_4 @dflt_3 by @alt1_2;
-    sub @dflt_2' @dflt_1 @dflt_4 @dflt_4 by @alt1_2;
-    sub @dflt_2' @dflt_2 @dflt_1 @dflt_1 by @alt2_2;
-    sub @dflt_2' @dflt_2 @dflt_1 @dflt_2 by @alt3_2;
-    sub @dflt_2' @dflt_2 @dflt_1 @dflt_3 by @alt3_2;
-    sub @dflt_2' @dflt_2 @dflt_1 @dflt_4 by @alt4_2;
-    sub @dflt_2' @dflt_2 @dflt_2 @dflt_1 by @alt2_2;
-    sub @dflt_2' @dflt_2 @dflt_2 @dflt_2 by @alt2_2;
-    sub @dflt_2' @dflt_2 @dflt_2 @dflt_3 by @alt2_2;
-    sub @dflt_2' @dflt_2 @dflt_2 @dflt_4 by @alt5_2;
-    sub @dflt_2' @dflt_2 @dflt_3 @dflt_1 by @alt1_2;
-    sub @dflt_2' @dflt_2 @dflt_3 @dflt_2 by @alt4_2;
-    sub @dflt_2' @dflt_2 @dflt_3 @dflt_3 by @alt3_2;
-    sub @dflt_2' @dflt_2 @dflt_3 @dflt_4 by @alt4_2;
-    sub @dflt_2' @dflt_2 @dflt_4 @dflt_1 by @alt5_2;
-    sub @dflt_2' @dflt_2 @dflt_4 @dflt_2 by @alt4_2;
-    sub @dflt_2' @dflt_2 @dflt_4 @dflt_3 by @alt2_2;
-    sub @dflt_2' @dflt_2 @dflt_4 @dflt_4 by @alt2_2;
-    sub @dflt_2' @dflt_3 @dflt_1 @dflt_1 by @alt5_2;
-    sub @dflt_2' @dflt_3 @dflt_1 @dflt_2 by @alt2_2;
-    sub @dflt_2' @dflt_3 @dflt_1 @dflt_3 by @alt1_2;
-    sub @dflt_2' @dflt_3 @dflt_1 @dflt_4 by @alt1_2;
-    sub @dflt_2' @dflt_3 @dflt_2 @dflt_1 by @alt4_2;
-    sub @dflt_2' @dflt_3 @dflt_2 @dflt_2 by @alt2_2;
-    sub @dflt_2' @dflt_3 @dflt_2 @dflt_3 by @alt3_2;
-    sub @dflt_2' @dflt_3 @dflt_2 @dflt_4 by @alt4_2;
-    sub @dflt_2' @dflt_3 @dflt_3 @dflt_1 by @alt2_2;
-    sub @dflt_2' @dflt_3 @dflt_3 @dflt_2 by @alt3_2;
-    sub @dflt_2' @dflt_3 @dflt_3 @dflt_3 by @alt4_2;
-    sub @dflt_2' @dflt_3 @dflt_3 @dflt_4 by @alt2_2;
-    sub @dflt_2' @dflt_3 @dflt_4 @dflt_1 by @alt3_2;
-    sub @dflt_2' @dflt_3 @dflt_4 @dflt_2 by @alt3_2;
-    sub @dflt_2' @dflt_3 @dflt_4 @dflt_3 by @alt5_2;
-    sub @dflt_2' @dflt_3 @dflt_4 @dflt_4 by @alt5_2;
-    sub @dflt_2' @dflt_4 @dflt_1 @dflt_1 by @alt3_2;
-    sub @dflt_2' @dflt_4 @dflt_1 @dflt_2 by @alt5_2;
-    sub @dflt_2' @dflt_4 @dflt_1 @dflt_3 by @alt2_2;
-    sub @dflt_2' @dflt_4 @dflt_1 @dflt_4 by @alt4_2;
-    sub @dflt_2' @dflt_4 @dflt_2 @dflt_1 by @alt3_2;
-    sub @dflt_2' @dflt_4 @dflt_2 @dflt_2 by @alt1_2;
-    sub @dflt_2' @dflt_4 @dflt_2 @dflt_3 by @alt1_2;
-    sub @dflt_2' @dflt_4 @dflt_2 @dflt_4 by @alt5_2;
-    sub @dflt_2' @dflt_4 @dflt_3 @dflt_1 by @alt1_2;
-    sub @dflt_2' @dflt_4 @dflt_3 @dflt_2 by @alt1_2;
-    sub @dflt_2' @dflt_4 @dflt_3 @dflt_3 by @alt4_2;
-    sub @dflt_2' @dflt_4 @dflt_3 @dflt_4 by @alt3_2;
-    sub @dflt_2' @dflt_4 @dflt_4 @dflt_1 by @alt2_2;
-    sub @dflt_2' @dflt_4 @dflt_4 @dflt_2 by @alt5_2;
-    sub @dflt_2' @dflt_4 @dflt_4 @dflt_3 by @alt4_2;
-    sub @dflt_2' @dflt_4 @dflt_4 @dflt_4 by @alt3_2;
-    sub @dflt_3' @dflt_1 @dflt_1 @dflt_1 by @alt4_3;
-    sub @dflt_3' @dflt_1 @dflt_1 @dflt_2 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_1 @dflt_3 by @alt4_3;
-    sub @dflt_3' @dflt_1 @dflt_1 @dflt_4 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_2 @dflt_1 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_2 @dflt_2 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_2 @dflt_3 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_2 @dflt_4 by @alt5_3;
-    sub @dflt_3' @dflt_1 @dflt_3 @dflt_1 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_3 @dflt_2 by @alt1_3;
-    sub @dflt_3' @dflt_1 @dflt_3 @dflt_3 by @alt1_3;
-    sub @dflt_3' @dflt_1 @dflt_3 @dflt_4 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_4 @dflt_1 by @alt1_3;
-    sub @dflt_3' @dflt_1 @dflt_4 @dflt_2 by @alt4_3;
-    sub @dflt_3' @dflt_1 @dflt_4 @dflt_3 by @alt2_3;
-    sub @dflt_3' @dflt_1 @dflt_4 @dflt_4 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_1 @dflt_1 by @alt2_3;
-    sub @dflt_3' @dflt_2 @dflt_1 @dflt_2 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_1 @dflt_3 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_1 @dflt_4 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_2 @dflt_1 by @alt5_3;
-    sub @dflt_3' @dflt_2 @dflt_2 @dflt_2 by @alt5_3;
-    sub @dflt_3' @dflt_2 @dflt_2 @dflt_3 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_2 @dflt_4 by @alt1_3;
-    sub @dflt_3' @dflt_2 @dflt_3 @dflt_1 by @alt3_3;
-    sub @dflt_3' @dflt_2 @dflt_3 @dflt_2 by @alt1_3;
-    sub @dflt_3' @dflt_2 @dflt_3 @dflt_3 by @alt1_3;
-    sub @dflt_3' @dflt_2 @dflt_3 @dflt_4 by @alt4_3;
-    sub @dflt_3' @dflt_2 @dflt_4 @dflt_1 by @alt1_3;
-    sub @dflt_3' @dflt_2 @dflt_4 @dflt_2 by @alt4_3;
-    sub @dflt_3' @dflt_2 @dflt_4 @dflt_3 by @alt5_3;
-    sub @dflt_3' @dflt_2 @dflt_4 @dflt_4 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_1 @dflt_1 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_1 @dflt_2 by @alt3_3;
-    sub @dflt_3' @dflt_3 @dflt_1 @dflt_3 by @alt3_3;
-    sub @dflt_3' @dflt_3 @dflt_1 @dflt_4 by @alt4_3;
-    sub @dflt_3' @dflt_3 @dflt_2 @dflt_1 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_2 @dflt_2 by @alt3_3;
-    sub @dflt_3' @dflt_3 @dflt_2 @dflt_3 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_2 @dflt_4 by @alt5_3;
-    sub @dflt_3' @dflt_3 @dflt_3 @dflt_1 by @alt3_3;
-    sub @dflt_3' @dflt_3 @dflt_3 @dflt_2 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_3 @dflt_3 by @alt4_3;
-    sub @dflt_3' @dflt_3 @dflt_3 @dflt_4 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_4 @dflt_1 by @alt5_3;
-    sub @dflt_3' @dflt_3 @dflt_4 @dflt_2 by @alt5_3;
-    sub @dflt_3' @dflt_3 @dflt_4 @dflt_3 by @alt2_3;
-    sub @dflt_3' @dflt_3 @dflt_4 @dflt_4 by @alt4_3;
-    sub @dflt_3' @dflt_4 @dflt_1 @dflt_1 by @alt5_3;
-    sub @dflt_3' @dflt_4 @dflt_1 @dflt_2 by @alt4_3;
-    sub @dflt_3' @dflt_4 @dflt_1 @dflt_3 by @alt3_3;
-    sub @dflt_3' @dflt_4 @dflt_1 @dflt_4 by @alt1_3;
-    sub @dflt_3' @dflt_4 @dflt_2 @dflt_1 by @alt4_3;
-    sub @dflt_3' @dflt_4 @dflt_2 @dflt_2 by @alt4_3;
-    sub @dflt_3' @dflt_4 @dflt_2 @dflt_3 by @alt5_3;
-    sub @dflt_3' @dflt_4 @dflt_2 @dflt_4 by @alt1_3;
-    sub @dflt_3' @dflt_4 @dflt_3 @dflt_1 by @alt5_3;
-    sub @dflt_3' @dflt_4 @dflt_3 @dflt_2 by @alt4_3;
-    sub @dflt_3' @dflt_4 @dflt_3 @dflt_3 by @alt2_3;
-    sub @dflt_3' @dflt_4 @dflt_3 @dflt_4 by @alt1_3;
-    sub @dflt_3' @dflt_4 @dflt_4 @dflt_1 by @alt3_3;
-    sub @dflt_3' @dflt_4 @dflt_4 @dflt_2 by @alt5_3;
-    sub @dflt_3' @dflt_4 @dflt_4 @dflt_3 by @alt5_3;
-    sub @dflt_3' @dflt_4 @dflt_4 @dflt_4 by @alt4_3;
-    sub @dflt_4' @dflt_1 @dflt_1 @dflt_1 by @alt3_4;
-    sub @dflt_4' @dflt_1 @dflt_1 @dflt_2 by @alt2_4;
-    sub @dflt_4' @dflt_1 @dflt_1 @dflt_3 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_1 @dflt_4 by @alt2_4;
-    sub @dflt_4' @dflt_1 @dflt_2 @dflt_1 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_2 @dflt_2 by @alt5_4;
-    sub @dflt_4' @dflt_1 @dflt_2 @dflt_3 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_2 @dflt_4 by @alt1_4;
-    sub @dflt_4' @dflt_1 @dflt_3 @dflt_1 by @alt1_4;
-    sub @dflt_4' @dflt_1 @dflt_3 @dflt_2 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_3 @dflt_3 by @alt3_4;
-    sub @dflt_4' @dflt_1 @dflt_3 @dflt_4 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_4 @dflt_1 by @alt4_4;
-    sub @dflt_4' @dflt_1 @dflt_4 @dflt_2 by @alt2_4;
-    sub @dflt_4' @dflt_1 @dflt_4 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_1 @dflt_4 @dflt_4 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_1 @dflt_1 by @alt3_4;
-    sub @dflt_4' @dflt_2 @dflt_1 @dflt_2 by @alt5_4;
-    sub @dflt_4' @dflt_2 @dflt_1 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_1 @dflt_4 by @alt5_4;
-    sub @dflt_4' @dflt_2 @dflt_2 @dflt_1 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_2 @dflt_2 by @alt5_4;
-    sub @dflt_4' @dflt_2 @dflt_2 @dflt_3 by @alt1_4;
-    sub @dflt_4' @dflt_2 @dflt_2 @dflt_4 by @alt1_4;
-    sub @dflt_4' @dflt_2 @dflt_3 @dflt_1 by @alt1_4;
-    sub @dflt_4' @dflt_2 @dflt_3 @dflt_2 by @alt1_4;
-    sub @dflt_4' @dflt_2 @dflt_3 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_3 @dflt_4 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_4 @dflt_1 by @alt3_4;
-    sub @dflt_4' @dflt_2 @dflt_4 @dflt_2 by @alt3_4;
-    sub @dflt_4' @dflt_2 @dflt_4 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_2 @dflt_4 @dflt_4 by @alt2_4;
-    sub @dflt_4' @dflt_3 @dflt_1 @dflt_1 by @alt5_4;
-    sub @dflt_4' @dflt_3 @dflt_1 @dflt_2 by @alt4_4;
-    sub @dflt_4' @dflt_3 @dflt_1 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_3 @dflt_1 @dflt_4 by @alt3_4;
-    sub @dflt_4' @dflt_3 @dflt_2 @dflt_1 by @alt5_4;
-    sub @dflt_4' @dflt_3 @dflt_2 @dflt_2 by @alt3_4;
-    sub @dflt_4' @dflt_3 @dflt_2 @dflt_3 by @alt1_4;
-    sub @dflt_4' @dflt_3 @dflt_2 @dflt_4 by @alt5_4;
-    sub @dflt_4' @dflt_3 @dflt_3 @dflt_1 by @alt5_4;
-    sub @dflt_4' @dflt_3 @dflt_3 @dflt_2 by @alt1_4;
-    sub @dflt_4' @dflt_3 @dflt_3 @dflt_3 by @alt2_4;
-    sub @dflt_4' @dflt_3 @dflt_3 @dflt_4 by @alt1_4;
-    sub @dflt_4' @dflt_3 @dflt_4 @dflt_1 by @alt4_4;
-    sub @dflt_4' @dflt_3 @dflt_4 @dflt_2 by @alt2_4;
-    sub @dflt_4' @dflt_3 @dflt_4 @dflt_3 by @alt4_4;
-    sub @dflt_4' @dflt_3 @dflt_4 @dflt_4 by @alt4_4;
-    sub @dflt_4' @dflt_4 @dflt_1 @dflt_1 by @alt4_4;
-    sub @dflt_4' @dflt_4 @dflt_1 @dflt_2 by @alt2_4;
-    sub @dflt_4' @dflt_4 @dflt_1 @dflt_3 by @alt3_4;
-    sub @dflt_4' @dflt_4 @dflt_1 @dflt_4 by @alt1_4;
-    sub @dflt_4' @dflt_4 @dflt_2 @dflt_1 by @alt5_4;
-    sub @dflt_4' @dflt_4 @dflt_2 @dflt_2 by @alt5_4;
-    sub @dflt_4' @dflt_4 @dflt_2 @dflt_3 by @alt3_4;
-    sub @dflt_4' @dflt_4 @dflt_2 @dflt_4 by @alt1_4;
-    sub @dflt_4' @dflt_4 @dflt_3 @dflt_1 by @alt1_4;
-    sub @dflt_4' @dflt_4 @dflt_3 @dflt_2 by @alt2_4;
-    sub @dflt_4' @dflt_4 @dflt_3 @dflt_3 by @alt4_4;
-    sub @dflt_4' @dflt_4 @dflt_3 @dflt_4 by @alt2_4;
-    sub @dflt_4' @dflt_4 @dflt_4 @dflt_1 by @alt4_4;
-    sub @dflt_4' @dflt_4 @dflt_4 @dflt_2 by @alt3_4;
-    sub @dflt_4' @dflt_4 @dflt_4 @dflt_3 by @alt3_4;
-    sub @dflt_4' @dflt_4 @dflt_4 @dflt_4 by @alt5_4;
-  } PseudoRandom;
+	lookup PseudoRandom {
+		lookupflag IgnoreMarks;
+		sub @dflt_1' @dflt_1 @dflt_1 @dflt_1 by @alt4_1;
+		sub @dflt_1' @dflt_1 @dflt_1 @dflt_2 by @alt5_1;
+		sub @dflt_1' @dflt_1 @dflt_1 @dflt_3 by @alt4_1;
+		sub @dflt_1' @dflt_1 @dflt_1 @dflt_4 by @alt1_1;
+		sub @dflt_1' @dflt_1 @dflt_2 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_1 @dflt_2 @dflt_2 by @alt2_1;
+		sub @dflt_1' @dflt_1 @dflt_2 @dflt_3 by @alt5_1;
+		sub @dflt_1' @dflt_1 @dflt_2 @dflt_4 by @alt3_1;
+		sub @dflt_1' @dflt_1 @dflt_3 @dflt_1 by @alt2_1;
+		sub @dflt_1' @dflt_1 @dflt_3 @dflt_2 by @alt2_1;
+		sub @dflt_1' @dflt_1 @dflt_3 @dflt_3 by @alt1_1;
+		sub @dflt_1' @dflt_1 @dflt_3 @dflt_4 by @alt2_1;
+		sub @dflt_1' @dflt_1 @dflt_4 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_1 @dflt_4 @dflt_2 by @alt5_1;
+		sub @dflt_1' @dflt_1 @dflt_4 @dflt_3 by @alt4_1;
+		sub @dflt_1' @dflt_1 @dflt_4 @dflt_4 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_1 @dflt_1 by @alt2_1;
+		sub @dflt_1' @dflt_2 @dflt_1 @dflt_2 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_1 @dflt_3 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_1 @dflt_4 by @alt4_1;
+		sub @dflt_1' @dflt_2 @dflt_2 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_2 @dflt_2 by @alt5_1;
+		sub @dflt_1' @dflt_2 @dflt_2 @dflt_3 by @alt5_1;
+		sub @dflt_1' @dflt_2 @dflt_2 @dflt_4 by @alt4_1;
+		sub @dflt_1' @dflt_2 @dflt_3 @dflt_1 by @alt2_1;
+		sub @dflt_1' @dflt_2 @dflt_3 @dflt_2 by @alt4_1;
+		sub @dflt_1' @dflt_2 @dflt_3 @dflt_3 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_3 @dflt_4 by @alt2_1;
+		sub @dflt_1' @dflt_2 @dflt_4 @dflt_1 by @alt1_1;
+		sub @dflt_1' @dflt_2 @dflt_4 @dflt_2 by @alt3_1;
+		sub @dflt_1' @dflt_2 @dflt_4 @dflt_3 by @alt4_1;
+		sub @dflt_1' @dflt_2 @dflt_4 @dflt_4 by @alt2_1;
+		sub @dflt_1' @dflt_3 @dflt_1 @dflt_1 by @alt1_1;
+		sub @dflt_1' @dflt_3 @dflt_1 @dflt_2 by @alt3_1;
+		sub @dflt_1' @dflt_3 @dflt_1 @dflt_3 by @alt1_1;
+		sub @dflt_1' @dflt_3 @dflt_1 @dflt_4 by @alt3_1;
+		sub @dflt_1' @dflt_3 @dflt_2 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_3 @dflt_2 @dflt_2 by @alt4_1;
+		sub @dflt_1' @dflt_3 @dflt_2 @dflt_3 by @alt4_1;
+		sub @dflt_1' @dflt_3 @dflt_2 @dflt_4 by @alt1_1;
+		sub @dflt_1' @dflt_3 @dflt_3 @dflt_1 by @alt5_1;
+		sub @dflt_1' @dflt_3 @dflt_3 @dflt_2 by @alt3_1;
+		sub @dflt_1' @dflt_3 @dflt_3 @dflt_3 by @alt4_1;
+		sub @dflt_1' @dflt_3 @dflt_3 @dflt_4 by @alt4_1;
+		sub @dflt_1' @dflt_3 @dflt_4 @dflt_1 by @alt5_1;
+		sub @dflt_1' @dflt_3 @dflt_4 @dflt_2 by @alt5_1;
+		sub @dflt_1' @dflt_3 @dflt_4 @dflt_3 by @alt5_1;
+		sub @dflt_1' @dflt_3 @dflt_4 @dflt_4 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_1 @dflt_1 by @alt1_1;
+		sub @dflt_1' @dflt_4 @dflt_1 @dflt_2 by @alt1_1;
+		sub @dflt_1' @dflt_4 @dflt_1 @dflt_3 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_1 @dflt_4 by @alt2_1;
+		sub @dflt_1' @dflt_4 @dflt_2 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_2 @dflt_2 by @alt5_1;
+		sub @dflt_1' @dflt_4 @dflt_2 @dflt_3 by @alt2_1;
+		sub @dflt_1' @dflt_4 @dflt_2 @dflt_4 by @alt5_1;
+		sub @dflt_1' @dflt_4 @dflt_3 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_3 @dflt_2 by @alt2_1;
+		sub @dflt_1' @dflt_4 @dflt_3 @dflt_3 by @alt5_1;
+		sub @dflt_1' @dflt_4 @dflt_3 @dflt_4 by @alt5_1;
+		sub @dflt_1' @dflt_4 @dflt_4 @dflt_1 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_4 @dflt_2 by @alt3_1;
+		sub @dflt_1' @dflt_4 @dflt_4 @dflt_3 by @alt5_1;
+		sub @dflt_1' @dflt_4 @dflt_4 @dflt_4 by @alt4_1;
+		sub @dflt_2' @dflt_1 @dflt_1 @dflt_1 by @alt5_2;
+		sub @dflt_2' @dflt_1 @dflt_1 @dflt_2 by @alt3_2;
+		sub @dflt_2' @dflt_1 @dflt_1 @dflt_3 by @alt5_2;
+		sub @dflt_2' @dflt_1 @dflt_1 @dflt_4 by @alt1_2;
+		sub @dflt_2' @dflt_1 @dflt_2 @dflt_1 by @alt1_2;
+		sub @dflt_2' @dflt_1 @dflt_2 @dflt_2 by @alt1_2;
+		sub @dflt_2' @dflt_1 @dflt_2 @dflt_3 by @alt3_2;
+		sub @dflt_2' @dflt_1 @dflt_2 @dflt_4 by @alt5_2;
+		sub @dflt_2' @dflt_1 @dflt_3 @dflt_1 by @alt3_2;
+		sub @dflt_2' @dflt_1 @dflt_3 @dflt_2 by @alt5_2;
+		sub @dflt_2' @dflt_1 @dflt_3 @dflt_3 by @alt1_2;
+		sub @dflt_2' @dflt_1 @dflt_3 @dflt_4 by @alt2_2;
+		sub @dflt_2' @dflt_1 @dflt_4 @dflt_1 by @alt5_2;
+		sub @dflt_2' @dflt_1 @dflt_4 @dflt_2 by @alt3_2;
+		sub @dflt_2' @dflt_1 @dflt_4 @dflt_3 by @alt1_2;
+		sub @dflt_2' @dflt_1 @dflt_4 @dflt_4 by @alt1_2;
+		sub @dflt_2' @dflt_2 @dflt_1 @dflt_1 by @alt2_2;
+		sub @dflt_2' @dflt_2 @dflt_1 @dflt_2 by @alt3_2;
+		sub @dflt_2' @dflt_2 @dflt_1 @dflt_3 by @alt3_2;
+		sub @dflt_2' @dflt_2 @dflt_1 @dflt_4 by @alt4_2;
+		sub @dflt_2' @dflt_2 @dflt_2 @dflt_1 by @alt2_2;
+		sub @dflt_2' @dflt_2 @dflt_2 @dflt_2 by @alt2_2;
+		sub @dflt_2' @dflt_2 @dflt_2 @dflt_3 by @alt2_2;
+		sub @dflt_2' @dflt_2 @dflt_2 @dflt_4 by @alt5_2;
+		sub @dflt_2' @dflt_2 @dflt_3 @dflt_1 by @alt1_2;
+		sub @dflt_2' @dflt_2 @dflt_3 @dflt_2 by @alt4_2;
+		sub @dflt_2' @dflt_2 @dflt_3 @dflt_3 by @alt3_2;
+		sub @dflt_2' @dflt_2 @dflt_3 @dflt_4 by @alt4_2;
+		sub @dflt_2' @dflt_2 @dflt_4 @dflt_1 by @alt5_2;
+		sub @dflt_2' @dflt_2 @dflt_4 @dflt_2 by @alt4_2;
+		sub @dflt_2' @dflt_2 @dflt_4 @dflt_3 by @alt2_2;
+		sub @dflt_2' @dflt_2 @dflt_4 @dflt_4 by @alt2_2;
+		sub @dflt_2' @dflt_3 @dflt_1 @dflt_1 by @alt5_2;
+		sub @dflt_2' @dflt_3 @dflt_1 @dflt_2 by @alt2_2;
+		sub @dflt_2' @dflt_3 @dflt_1 @dflt_3 by @alt1_2;
+		sub @dflt_2' @dflt_3 @dflt_1 @dflt_4 by @alt1_2;
+		sub @dflt_2' @dflt_3 @dflt_2 @dflt_1 by @alt4_2;
+		sub @dflt_2' @dflt_3 @dflt_2 @dflt_2 by @alt2_2;
+		sub @dflt_2' @dflt_3 @dflt_2 @dflt_3 by @alt3_2;
+		sub @dflt_2' @dflt_3 @dflt_2 @dflt_4 by @alt4_2;
+		sub @dflt_2' @dflt_3 @dflt_3 @dflt_1 by @alt2_2;
+		sub @dflt_2' @dflt_3 @dflt_3 @dflt_2 by @alt3_2;
+		sub @dflt_2' @dflt_3 @dflt_3 @dflt_3 by @alt4_2;
+		sub @dflt_2' @dflt_3 @dflt_3 @dflt_4 by @alt2_2;
+		sub @dflt_2' @dflt_3 @dflt_4 @dflt_1 by @alt3_2;
+		sub @dflt_2' @dflt_3 @dflt_4 @dflt_2 by @alt3_2;
+		sub @dflt_2' @dflt_3 @dflt_4 @dflt_3 by @alt5_2;
+		sub @dflt_2' @dflt_3 @dflt_4 @dflt_4 by @alt5_2;
+		sub @dflt_2' @dflt_4 @dflt_1 @dflt_1 by @alt3_2;
+		sub @dflt_2' @dflt_4 @dflt_1 @dflt_2 by @alt5_2;
+		sub @dflt_2' @dflt_4 @dflt_1 @dflt_3 by @alt2_2;
+		sub @dflt_2' @dflt_4 @dflt_1 @dflt_4 by @alt4_2;
+		sub @dflt_2' @dflt_4 @dflt_2 @dflt_1 by @alt3_2;
+		sub @dflt_2' @dflt_4 @dflt_2 @dflt_2 by @alt1_2;
+		sub @dflt_2' @dflt_4 @dflt_2 @dflt_3 by @alt1_2;
+		sub @dflt_2' @dflt_4 @dflt_2 @dflt_4 by @alt5_2;
+		sub @dflt_2' @dflt_4 @dflt_3 @dflt_1 by @alt1_2;
+		sub @dflt_2' @dflt_4 @dflt_3 @dflt_2 by @alt1_2;
+		sub @dflt_2' @dflt_4 @dflt_3 @dflt_3 by @alt4_2;
+		sub @dflt_2' @dflt_4 @dflt_3 @dflt_4 by @alt3_2;
+		sub @dflt_2' @dflt_4 @dflt_4 @dflt_1 by @alt2_2;
+		sub @dflt_2' @dflt_4 @dflt_4 @dflt_2 by @alt5_2;
+		sub @dflt_2' @dflt_4 @dflt_4 @dflt_3 by @alt4_2;
+		sub @dflt_2' @dflt_4 @dflt_4 @dflt_4 by @alt3_2;
+		sub @dflt_3' @dflt_1 @dflt_1 @dflt_1 by @alt4_3;
+		sub @dflt_3' @dflt_1 @dflt_1 @dflt_2 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_1 @dflt_3 by @alt4_3;
+		sub @dflt_3' @dflt_1 @dflt_1 @dflt_4 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_2 @dflt_1 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_2 @dflt_2 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_2 @dflt_3 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_2 @dflt_4 by @alt5_3;
+		sub @dflt_3' @dflt_1 @dflt_3 @dflt_1 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_3 @dflt_2 by @alt1_3;
+		sub @dflt_3' @dflt_1 @dflt_3 @dflt_3 by @alt1_3;
+		sub @dflt_3' @dflt_1 @dflt_3 @dflt_4 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_4 @dflt_1 by @alt1_3;
+		sub @dflt_3' @dflt_1 @dflt_4 @dflt_2 by @alt4_3;
+		sub @dflt_3' @dflt_1 @dflt_4 @dflt_3 by @alt2_3;
+		sub @dflt_3' @dflt_1 @dflt_4 @dflt_4 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_1 @dflt_1 by @alt2_3;
+		sub @dflt_3' @dflt_2 @dflt_1 @dflt_2 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_1 @dflt_3 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_1 @dflt_4 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_2 @dflt_1 by @alt5_3;
+		sub @dflt_3' @dflt_2 @dflt_2 @dflt_2 by @alt5_3;
+		sub @dflt_3' @dflt_2 @dflt_2 @dflt_3 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_2 @dflt_4 by @alt1_3;
+		sub @dflt_3' @dflt_2 @dflt_3 @dflt_1 by @alt3_3;
+		sub @dflt_3' @dflt_2 @dflt_3 @dflt_2 by @alt1_3;
+		sub @dflt_3' @dflt_2 @dflt_3 @dflt_3 by @alt1_3;
+		sub @dflt_3' @dflt_2 @dflt_3 @dflt_4 by @alt4_3;
+		sub @dflt_3' @dflt_2 @dflt_4 @dflt_1 by @alt1_3;
+		sub @dflt_3' @dflt_2 @dflt_4 @dflt_2 by @alt4_3;
+		sub @dflt_3' @dflt_2 @dflt_4 @dflt_3 by @alt5_3;
+		sub @dflt_3' @dflt_2 @dflt_4 @dflt_4 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_1 @dflt_1 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_1 @dflt_2 by @alt3_3;
+		sub @dflt_3' @dflt_3 @dflt_1 @dflt_3 by @alt3_3;
+		sub @dflt_3' @dflt_3 @dflt_1 @dflt_4 by @alt4_3;
+		sub @dflt_3' @dflt_3 @dflt_2 @dflt_1 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_2 @dflt_2 by @alt3_3;
+		sub @dflt_3' @dflt_3 @dflt_2 @dflt_3 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_2 @dflt_4 by @alt5_3;
+		sub @dflt_3' @dflt_3 @dflt_3 @dflt_1 by @alt3_3;
+		sub @dflt_3' @dflt_3 @dflt_3 @dflt_2 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_3 @dflt_3 by @alt4_3;
+		sub @dflt_3' @dflt_3 @dflt_3 @dflt_4 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_4 @dflt_1 by @alt5_3;
+		sub @dflt_3' @dflt_3 @dflt_4 @dflt_2 by @alt5_3;
+		sub @dflt_3' @dflt_3 @dflt_4 @dflt_3 by @alt2_3;
+		sub @dflt_3' @dflt_3 @dflt_4 @dflt_4 by @alt4_3;
+		sub @dflt_3' @dflt_4 @dflt_1 @dflt_1 by @alt5_3;
+		sub @dflt_3' @dflt_4 @dflt_1 @dflt_2 by @alt4_3;
+		sub @dflt_3' @dflt_4 @dflt_1 @dflt_3 by @alt3_3;
+		sub @dflt_3' @dflt_4 @dflt_1 @dflt_4 by @alt1_3;
+		sub @dflt_3' @dflt_4 @dflt_2 @dflt_1 by @alt4_3;
+		sub @dflt_3' @dflt_4 @dflt_2 @dflt_2 by @alt4_3;
+		sub @dflt_3' @dflt_4 @dflt_2 @dflt_3 by @alt5_3;
+		sub @dflt_3' @dflt_4 @dflt_2 @dflt_4 by @alt1_3;
+		sub @dflt_3' @dflt_4 @dflt_3 @dflt_1 by @alt5_3;
+		sub @dflt_3' @dflt_4 @dflt_3 @dflt_2 by @alt4_3;
+		sub @dflt_3' @dflt_4 @dflt_3 @dflt_3 by @alt2_3;
+		sub @dflt_3' @dflt_4 @dflt_3 @dflt_4 by @alt1_3;
+		sub @dflt_3' @dflt_4 @dflt_4 @dflt_1 by @alt3_3;
+		sub @dflt_3' @dflt_4 @dflt_4 @dflt_2 by @alt5_3;
+		sub @dflt_3' @dflt_4 @dflt_4 @dflt_3 by @alt5_3;
+		sub @dflt_3' @dflt_4 @dflt_4 @dflt_4 by @alt4_3;
+		sub @dflt_4' @dflt_1 @dflt_1 @dflt_1 by @alt3_4;
+		sub @dflt_4' @dflt_1 @dflt_1 @dflt_2 by @alt2_4;
+		sub @dflt_4' @dflt_1 @dflt_1 @dflt_3 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_1 @dflt_4 by @alt2_4;
+		sub @dflt_4' @dflt_1 @dflt_2 @dflt_1 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_2 @dflt_2 by @alt5_4;
+		sub @dflt_4' @dflt_1 @dflt_2 @dflt_3 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_2 @dflt_4 by @alt1_4;
+		sub @dflt_4' @dflt_1 @dflt_3 @dflt_1 by @alt1_4;
+		sub @dflt_4' @dflt_1 @dflt_3 @dflt_2 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_3 @dflt_3 by @alt3_4;
+		sub @dflt_4' @dflt_1 @dflt_3 @dflt_4 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_4 @dflt_1 by @alt4_4;
+		sub @dflt_4' @dflt_1 @dflt_4 @dflt_2 by @alt2_4;
+		sub @dflt_4' @dflt_1 @dflt_4 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_1 @dflt_4 @dflt_4 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_1 @dflt_1 by @alt3_4;
+		sub @dflt_4' @dflt_2 @dflt_1 @dflt_2 by @alt5_4;
+		sub @dflt_4' @dflt_2 @dflt_1 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_1 @dflt_4 by @alt5_4;
+		sub @dflt_4' @dflt_2 @dflt_2 @dflt_1 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_2 @dflt_2 by @alt5_4;
+		sub @dflt_4' @dflt_2 @dflt_2 @dflt_3 by @alt1_4;
+		sub @dflt_4' @dflt_2 @dflt_2 @dflt_4 by @alt1_4;
+		sub @dflt_4' @dflt_2 @dflt_3 @dflt_1 by @alt1_4;
+		sub @dflt_4' @dflt_2 @dflt_3 @dflt_2 by @alt1_4;
+		sub @dflt_4' @dflt_2 @dflt_3 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_3 @dflt_4 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_4 @dflt_1 by @alt3_4;
+		sub @dflt_4' @dflt_2 @dflt_4 @dflt_2 by @alt3_4;
+		sub @dflt_4' @dflt_2 @dflt_4 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_2 @dflt_4 @dflt_4 by @alt2_4;
+		sub @dflt_4' @dflt_3 @dflt_1 @dflt_1 by @alt5_4;
+		sub @dflt_4' @dflt_3 @dflt_1 @dflt_2 by @alt4_4;
+		sub @dflt_4' @dflt_3 @dflt_1 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_3 @dflt_1 @dflt_4 by @alt3_4;
+		sub @dflt_4' @dflt_3 @dflt_2 @dflt_1 by @alt5_4;
+		sub @dflt_4' @dflt_3 @dflt_2 @dflt_2 by @alt3_4;
+		sub @dflt_4' @dflt_3 @dflt_2 @dflt_3 by @alt1_4;
+		sub @dflt_4' @dflt_3 @dflt_2 @dflt_4 by @alt5_4;
+		sub @dflt_4' @dflt_3 @dflt_3 @dflt_1 by @alt5_4;
+		sub @dflt_4' @dflt_3 @dflt_3 @dflt_2 by @alt1_4;
+		sub @dflt_4' @dflt_3 @dflt_3 @dflt_3 by @alt2_4;
+		sub @dflt_4' @dflt_3 @dflt_3 @dflt_4 by @alt1_4;
+		sub @dflt_4' @dflt_3 @dflt_4 @dflt_1 by @alt4_4;
+		sub @dflt_4' @dflt_3 @dflt_4 @dflt_2 by @alt2_4;
+		sub @dflt_4' @dflt_3 @dflt_4 @dflt_3 by @alt4_4;
+		sub @dflt_4' @dflt_3 @dflt_4 @dflt_4 by @alt4_4;
+		sub @dflt_4' @dflt_4 @dflt_1 @dflt_1 by @alt4_4;
+		sub @dflt_4' @dflt_4 @dflt_1 @dflt_2 by @alt2_4;
+		sub @dflt_4' @dflt_4 @dflt_1 @dflt_3 by @alt3_4;
+		sub @dflt_4' @dflt_4 @dflt_1 @dflt_4 by @alt1_4;
+		sub @dflt_4' @dflt_4 @dflt_2 @dflt_1 by @alt5_4;
+		sub @dflt_4' @dflt_4 @dflt_2 @dflt_2 by @alt5_4;
+		sub @dflt_4' @dflt_4 @dflt_2 @dflt_3 by @alt3_4;
+		sub @dflt_4' @dflt_4 @dflt_2 @dflt_4 by @alt1_4;
+		sub @dflt_4' @dflt_4 @dflt_3 @dflt_1 by @alt1_4;
+		sub @dflt_4' @dflt_4 @dflt_3 @dflt_2 by @alt2_4;
+		sub @dflt_4' @dflt_4 @dflt_3 @dflt_3 by @alt4_4;
+		sub @dflt_4' @dflt_4 @dflt_3 @dflt_4 by @alt2_4;
+		sub @dflt_4' @dflt_4 @dflt_4 @dflt_1 by @alt4_4;
+		sub @dflt_4' @dflt_4 @dflt_4 @dflt_2 by @alt3_4;
+		sub @dflt_4' @dflt_4 @dflt_4 @dflt_3 by @alt3_4;
+		sub @dflt_4' @dflt_4 @dflt_4 @dflt_4 by @alt5_4;
+	} PseudoRandom;
 
-  lookup BackwardsCheck {
-    lookupflag IgnoreMarks;
-    sub @dflt_1 @dflt_1' by @alt1_1;
-    sub @alt1_1 @alt1_1' by @alt2_1;
-    sub @alt2_1 @alt2_1' by @alt3_1;
-    sub @alt3_1 @alt3_1' by @alt4_1;
-    sub @alt4_1 @alt4_1' by @alt5_1;
-    sub @alt5_1 @alt5_1' by @alt6_1;
-    sub @alt6_1 @alt6_1' by @dflt_1;
-    sub @dflt_2 @dflt_2' by @alt1_2;
-    sub @alt1_2 @alt1_2' by @alt2_2;
-    sub @alt2_2 @alt2_2' by @alt3_2;
-    sub @alt3_2 @alt3_2' by @alt4_2;
-    sub @alt4_2 @alt4_2' by @alt5_2;
-    sub @alt5_2 @alt5_2' by @alt6_2;
-    sub @alt6_2 @alt6_2' by @dflt_2;
-    sub @dflt_3 @dflt_3' by @alt1_3;
-    sub @alt1_3 @alt1_3' by @alt2_3;
-    sub @alt2_3 @alt2_3' by @alt3_3;
-    sub @alt3_3 @alt3_3' by @alt4_3;
-    sub @alt4_3 @alt4_3' by @alt5_3;
-    sub @alt5_3 @alt5_3' by @alt6_3;
-    sub @alt6_3 @alt6_3' by @dflt_3;
-    sub @dflt_4 @dflt_4' by @alt1_4;
-    sub @alt1_4 @alt1_4' by @alt2_4;
-    sub @alt2_4 @alt2_4' by @alt3_4;
-    sub @alt3_4 @alt3_4' by @alt4_4;
-    sub @alt4_4 @alt4_4' by @alt5_4;
-    sub @alt5_4 @alt5_4' by @alt6_4;
-    sub @alt6_4 @alt6_4' by @dflt_4;
-    sub @dflt_1 @ALL_ALL @dflt_1' by @alt2_1;
-    sub @alt1_1 @ALL_ALL @alt1_1' by @alt3_1;
-    sub @alt2_1 @ALL_ALL @alt2_1' by @alt4_1;
-    sub @alt3_1 @ALL_ALL @alt3_1' by @alt5_1;
-    sub @alt4_1 @ALL_ALL @alt4_1' by @alt6_1;
-    sub @alt5_1 @ALL_ALL @alt5_1' by @dflt_1;
-    sub @alt6_1 @ALL_ALL @alt6_1' by @alt1_1;
-    sub @dflt_2 @ALL_ALL @dflt_2' by @alt2_2;
-    sub @alt1_2 @ALL_ALL @alt1_2' by @alt3_2;
-    sub @alt2_2 @ALL_ALL @alt2_2' by @alt4_2;
-    sub @alt3_2 @ALL_ALL @alt3_2' by @alt5_2;
-    sub @alt4_2 @ALL_ALL @alt4_2' by @alt6_2;
-    sub @alt5_2 @ALL_ALL @alt5_2' by @dflt_2;
-    sub @alt6_2 @ALL_ALL @alt6_2' by @alt1_2;
-    sub @dflt_3 @ALL_ALL @dflt_3' by @alt2_3;
-    sub @alt1_3 @ALL_ALL @alt1_3' by @alt3_3;
-    sub @alt2_3 @ALL_ALL @alt2_3' by @alt4_3;
-    sub @alt3_3 @ALL_ALL @alt3_3' by @alt5_3;
-    sub @alt4_3 @ALL_ALL @alt4_3' by @alt6_3;
-    sub @alt5_3 @ALL_ALL @alt5_3' by @dflt_3;
-    sub @alt6_3 @ALL_ALL @alt6_3' by @alt1_3;
-    sub @dflt_4 @ALL_ALL @dflt_4' by @alt2_4;
-    sub @alt1_4 @ALL_ALL @alt1_4' by @alt3_4;
-    sub @alt2_4 @ALL_ALL @alt2_4' by @alt4_4;
-    sub @alt3_4 @ALL_ALL @alt3_4' by @alt5_4;
-    sub @alt4_4 @ALL_ALL @alt4_4' by @alt6_4;
-    sub @alt5_4 @ALL_ALL @alt5_4' by @dflt_4;
-    sub @alt6_4 @ALL_ALL @alt6_4' by @alt1_4;
-    sub @dflt_1 @ALL_ALL @ALL_ALL @dflt_1' by @alt3_1;
-    sub @alt1_1 @ALL_ALL @ALL_ALL @alt1_1' by @alt4_1;
-    sub @alt2_1 @ALL_ALL @ALL_ALL @alt2_1' by @alt5_1;
-    sub @alt3_1 @ALL_ALL @ALL_ALL @alt3_1' by @alt6_1;
-    sub @alt4_1 @ALL_ALL @ALL_ALL @alt4_1' by @dflt_1;
-    sub @alt5_1 @ALL_ALL @ALL_ALL @alt5_1' by @alt1_1;
-    sub @alt6_1 @ALL_ALL @ALL_ALL @alt6_1' by @alt2_1;
-    sub @dflt_2 @ALL_ALL @ALL_ALL @dflt_2' by @alt3_2;
-    sub @alt1_2 @ALL_ALL @ALL_ALL @alt1_2' by @alt4_2;
-    sub @alt2_2 @ALL_ALL @ALL_ALL @alt2_2' by @alt5_2;
-    sub @alt3_2 @ALL_ALL @ALL_ALL @alt3_2' by @alt6_2;
-    sub @alt4_2 @ALL_ALL @ALL_ALL @alt4_2' by @dflt_2;
-    sub @alt5_2 @ALL_ALL @ALL_ALL @alt5_2' by @alt1_2;
-    sub @alt6_2 @ALL_ALL @ALL_ALL @alt6_2' by @alt2_2;
-    sub @dflt_3 @ALL_ALL @ALL_ALL @dflt_3' by @alt3_3;
-    sub @alt1_3 @ALL_ALL @ALL_ALL @alt1_3' by @alt4_3;
-    sub @alt2_3 @ALL_ALL @ALL_ALL @alt2_3' by @alt5_3;
-    sub @alt3_3 @ALL_ALL @ALL_ALL @alt3_3' by @alt6_3;
-    sub @alt4_3 @ALL_ALL @ALL_ALL @alt4_3' by @dflt_3;
-    sub @alt5_3 @ALL_ALL @ALL_ALL @alt5_3' by @alt1_3;
-    sub @alt6_3 @ALL_ALL @ALL_ALL @alt6_3' by @alt2_3;
-    sub @dflt_4 @ALL_ALL @ALL_ALL @dflt_4' by @alt3_4;
-    sub @alt1_4 @ALL_ALL @ALL_ALL @alt1_4' by @alt4_4;
-    sub @alt2_4 @ALL_ALL @ALL_ALL @alt2_4' by @alt5_4;
-    sub @alt3_4 @ALL_ALL @ALL_ALL @alt3_4' by @alt6_4;
-    sub @alt4_4 @ALL_ALL @ALL_ALL @alt4_4' by @dflt_4;
-    sub @alt5_4 @ALL_ALL @ALL_ALL @alt5_4' by @alt1_4;
-    sub @alt6_4 @ALL_ALL @ALL_ALL @alt6_4' by @alt2_4;
-    sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt4_1;
-    sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @alt5_1;
-    sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @alt6_1;
-    sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @dflt_1;
-    sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt1_1;
-    sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt2_1;
-    sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt3_1;
-    sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt4_2;
-    sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @alt5_2;
-    sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @alt6_2;
-    sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @dflt_2;
-    sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt1_2;
-    sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt2_2;
-    sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt3_2;
-    sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt4_3;
-    sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @alt5_3;
-    sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @alt6_3;
-    sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @dflt_3;
-    sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt1_3;
-    sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt2_3;
-    sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt3_3;
-    sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt4_4;
-    sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @alt5_4;
-    sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @alt6_4;
-    sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @dflt_4;
-    sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt1_4;
-    sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt2_4;
-    sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt3_4;
-    sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt5_1;
-    sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @alt6_1;
-    sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @dflt_1;
-    sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @alt1_1;
-    sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt2_1;
-    sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt3_1;
-    sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt4_1;
-    sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt5_2;
-    sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @alt6_2;
-    sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @dflt_2;
-    sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @alt1_2;
-    sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt2_2;
-    sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt3_2;
-    sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt4_2;
-    sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt5_3;
-    sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @alt6_3;
-    sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @dflt_3;
-    sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @alt1_3;
-    sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt2_3;
-    sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt3_3;
-    sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt4_3;
-    sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt5_4;
-    sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @alt6_4;
-    sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @dflt_4;
-    sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @alt1_4;
-    sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt2_4;
-    sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt3_4;
-    sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt4_4;
-    sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt6_1;
-    sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @dflt_1;
-    sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @alt1_1;
-    sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @alt2_1;
-    sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt3_1;
-    sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt4_1;
-    sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt5_1;
-    sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt6_2;
-    sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @dflt_2;
-    sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @alt1_2;
-    sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @alt2_2;
-    sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt3_2;
-    sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt4_2;
-    sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt5_2;
-    sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt6_3;
-    sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @dflt_3;
-    sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @alt1_3;
-    sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @alt2_3;
-    sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt3_3;
-    sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt4_3;
-    sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt5_3;
-    sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt6_4;
-    sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @dflt_4;
-    sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @alt1_4;
-    sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @alt2_4;
-    sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt3_4;
-    sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt4_4;
-    sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt5_4;
-  } BackwardsCheck;
-
-
-  # script cyrl;
-  include(features/cyr-PseudoRandom.fea);
-  include(features/cyr-BackwardsCheck.fea);
+	lookup BackwardsCheck {
+		lookupflag IgnoreMarks;
+		sub @dflt_1 @dflt_1' by @alt1_1;
+		sub @alt1_1 @alt1_1' by @alt2_1;
+		sub @alt2_1 @alt2_1' by @alt3_1;
+		sub @alt3_1 @alt3_1' by @alt4_1;
+		sub @alt4_1 @alt4_1' by @alt5_1;
+		sub @alt5_1 @alt5_1' by @alt6_1;
+		sub @alt6_1 @alt6_1' by @dflt_1;
+		sub @dflt_2 @dflt_2' by @alt1_2;
+		sub @alt1_2 @alt1_2' by @alt2_2;
+		sub @alt2_2 @alt2_2' by @alt3_2;
+		sub @alt3_2 @alt3_2' by @alt4_2;
+		sub @alt4_2 @alt4_2' by @alt5_2;
+		sub @alt5_2 @alt5_2' by @alt6_2;
+		sub @alt6_2 @alt6_2' by @dflt_2;
+		sub @dflt_3 @dflt_3' by @alt1_3;
+		sub @alt1_3 @alt1_3' by @alt2_3;
+		sub @alt2_3 @alt2_3' by @alt3_3;
+		sub @alt3_3 @alt3_3' by @alt4_3;
+		sub @alt4_3 @alt4_3' by @alt5_3;
+		sub @alt5_3 @alt5_3' by @alt6_3;
+		sub @alt6_3 @alt6_3' by @dflt_3;
+		sub @dflt_4 @dflt_4' by @alt1_4;
+		sub @alt1_4 @alt1_4' by @alt2_4;
+		sub @alt2_4 @alt2_4' by @alt3_4;
+		sub @alt3_4 @alt3_4' by @alt4_4;
+		sub @alt4_4 @alt4_4' by @alt5_4;
+		sub @alt5_4 @alt5_4' by @alt6_4;
+		sub @alt6_4 @alt6_4' by @dflt_4;
+		sub @dflt_1 @ALL_ALL @dflt_1' by @alt2_1;
+		sub @alt1_1 @ALL_ALL @alt1_1' by @alt3_1;
+		sub @alt2_1 @ALL_ALL @alt2_1' by @alt4_1;
+		sub @alt3_1 @ALL_ALL @alt3_1' by @alt5_1;
+		sub @alt4_1 @ALL_ALL @alt4_1' by @alt6_1;
+		sub @alt5_1 @ALL_ALL @alt5_1' by @dflt_1;
+		sub @alt6_1 @ALL_ALL @alt6_1' by @alt1_1;
+		sub @dflt_2 @ALL_ALL @dflt_2' by @alt2_2;
+		sub @alt1_2 @ALL_ALL @alt1_2' by @alt3_2;
+		sub @alt2_2 @ALL_ALL @alt2_2' by @alt4_2;
+		sub @alt3_2 @ALL_ALL @alt3_2' by @alt5_2;
+		sub @alt4_2 @ALL_ALL @alt4_2' by @alt6_2;
+		sub @alt5_2 @ALL_ALL @alt5_2' by @dflt_2;
+		sub @alt6_2 @ALL_ALL @alt6_2' by @alt1_2;
+		sub @dflt_3 @ALL_ALL @dflt_3' by @alt2_3;
+		sub @alt1_3 @ALL_ALL @alt1_3' by @alt3_3;
+		sub @alt2_3 @ALL_ALL @alt2_3' by @alt4_3;
+		sub @alt3_3 @ALL_ALL @alt3_3' by @alt5_3;
+		sub @alt4_3 @ALL_ALL @alt4_3' by @alt6_3;
+		sub @alt5_3 @ALL_ALL @alt5_3' by @dflt_3;
+		sub @alt6_3 @ALL_ALL @alt6_3' by @alt1_3;
+		sub @dflt_4 @ALL_ALL @dflt_4' by @alt2_4;
+		sub @alt1_4 @ALL_ALL @alt1_4' by @alt3_4;
+		sub @alt2_4 @ALL_ALL @alt2_4' by @alt4_4;
+		sub @alt3_4 @ALL_ALL @alt3_4' by @alt5_4;
+		sub @alt4_4 @ALL_ALL @alt4_4' by @alt6_4;
+		sub @alt5_4 @ALL_ALL @alt5_4' by @dflt_4;
+		sub @alt6_4 @ALL_ALL @alt6_4' by @alt1_4;
+		sub @dflt_1 @ALL_ALL @ALL_ALL @dflt_1' by @alt3_1;
+		sub @alt1_1 @ALL_ALL @ALL_ALL @alt1_1' by @alt4_1;
+		sub @alt2_1 @ALL_ALL @ALL_ALL @alt2_1' by @alt5_1;
+		sub @alt3_1 @ALL_ALL @ALL_ALL @alt3_1' by @alt6_1;
+		sub @alt4_1 @ALL_ALL @ALL_ALL @alt4_1' by @dflt_1;
+		sub @alt5_1 @ALL_ALL @ALL_ALL @alt5_1' by @alt1_1;
+		sub @alt6_1 @ALL_ALL @ALL_ALL @alt6_1' by @alt2_1;
+		sub @dflt_2 @ALL_ALL @ALL_ALL @dflt_2' by @alt3_2;
+		sub @alt1_2 @ALL_ALL @ALL_ALL @alt1_2' by @alt4_2;
+		sub @alt2_2 @ALL_ALL @ALL_ALL @alt2_2' by @alt5_2;
+		sub @alt3_2 @ALL_ALL @ALL_ALL @alt3_2' by @alt6_2;
+		sub @alt4_2 @ALL_ALL @ALL_ALL @alt4_2' by @dflt_2;
+		sub @alt5_2 @ALL_ALL @ALL_ALL @alt5_2' by @alt1_2;
+		sub @alt6_2 @ALL_ALL @ALL_ALL @alt6_2' by @alt2_2;
+		sub @dflt_3 @ALL_ALL @ALL_ALL @dflt_3' by @alt3_3;
+		sub @alt1_3 @ALL_ALL @ALL_ALL @alt1_3' by @alt4_3;
+		sub @alt2_3 @ALL_ALL @ALL_ALL @alt2_3' by @alt5_3;
+		sub @alt3_3 @ALL_ALL @ALL_ALL @alt3_3' by @alt6_3;
+		sub @alt4_3 @ALL_ALL @ALL_ALL @alt4_3' by @dflt_3;
+		sub @alt5_3 @ALL_ALL @ALL_ALL @alt5_3' by @alt1_3;
+		sub @alt6_3 @ALL_ALL @ALL_ALL @alt6_3' by @alt2_3;
+		sub @dflt_4 @ALL_ALL @ALL_ALL @dflt_4' by @alt3_4;
+		sub @alt1_4 @ALL_ALL @ALL_ALL @alt1_4' by @alt4_4;
+		sub @alt2_4 @ALL_ALL @ALL_ALL @alt2_4' by @alt5_4;
+		sub @alt3_4 @ALL_ALL @ALL_ALL @alt3_4' by @alt6_4;
+		sub @alt4_4 @ALL_ALL @ALL_ALL @alt4_4' by @dflt_4;
+		sub @alt5_4 @ALL_ALL @ALL_ALL @alt5_4' by @alt1_4;
+		sub @alt6_4 @ALL_ALL @ALL_ALL @alt6_4' by @alt2_4;
+		sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt4_1;
+		sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @alt5_1;
+		sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @alt6_1;
+		sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @dflt_1;
+		sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt1_1;
+		sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt2_1;
+		sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt3_1;
+		sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt4_2;
+		sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @alt5_2;
+		sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @alt6_2;
+		sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @dflt_2;
+		sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt1_2;
+		sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt2_2;
+		sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt3_2;
+		sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt4_3;
+		sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @alt5_3;
+		sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @alt6_3;
+		sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @dflt_3;
+		sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt1_3;
+		sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt2_3;
+		sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt3_3;
+		sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt4_4;
+		sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @alt5_4;
+		sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @alt6_4;
+		sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @dflt_4;
+		sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt1_4;
+		sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt2_4;
+		sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt3_4;
+		sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt5_1;
+		sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @alt6_1;
+		sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @dflt_1;
+		sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @alt1_1;
+		sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt2_1;
+		sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt3_1;
+		sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt4_1;
+		sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt5_2;
+		sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @alt6_2;
+		sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @dflt_2;
+		sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @alt1_2;
+		sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt2_2;
+		sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt3_2;
+		sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt4_2;
+		sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt5_3;
+		sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @alt6_3;
+		sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @dflt_3;
+		sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @alt1_3;
+		sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt2_3;
+		sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt3_3;
+		sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt4_3;
+		sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt5_4;
+		sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @alt6_4;
+		sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @dflt_4;
+		sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @alt1_4;
+		sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt2_4;
+		sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt3_4;
+		sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt4_4;
+		sub @dflt_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_1' by @alt6_1;
+		sub @alt1_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_1' by @dflt_1;
+		sub @alt2_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_1' by @alt1_1;
+		sub @alt3_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_1' by @alt2_1;
+		sub @alt4_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_1' by @alt3_1;
+		sub @alt5_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_1' by @alt4_1;
+		sub @alt6_1 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_1' by @alt5_1;
+		sub @dflt_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_2' by @alt6_2;
+		sub @alt1_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_2' by @dflt_2;
+		sub @alt2_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_2' by @alt1_2;
+		sub @alt3_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_2' by @alt2_2;
+		sub @alt4_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_2' by @alt3_2;
+		sub @alt5_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_2' by @alt4_2;
+		sub @alt6_2 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_2' by @alt5_2;
+		sub @dflt_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_3' by @alt6_3;
+		sub @alt1_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_3' by @dflt_3;
+		sub @alt2_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_3' by @alt1_3;
+		sub @alt3_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_3' by @alt2_3;
+		sub @alt4_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_3' by @alt3_3;
+		sub @alt5_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_3' by @alt4_3;
+		sub @alt6_3 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_3' by @alt5_3;
+		sub @dflt_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @dflt_4' by @alt6_4;
+		sub @alt1_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt1_4' by @dflt_4;
+		sub @alt2_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt2_4' by @alt1_4;
+		sub @alt3_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt3_4' by @alt2_4;
+		sub @alt4_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt4_4' by @alt3_4;
+		sub @alt5_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt5_4' by @alt4_4;
+		sub @alt6_4 @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @ALL_ALL @alt6_4' by @alt5_4;
+	} BackwardsCheck;
 
 
-  # script grek;
-  include(features/grk-PseudoRandom.fea);
-  include(features/grk-BackwardsCheck.fea);
-  # extra calt
-  include(features/grk-calt.fea);
+	# script cyrl;
+	include(features/cyr-PseudoRandom.fea);
+	include(features/cyr-BackwardsCheck.fea);
 
 
-  #script hebr;
-  include(features/heb-PseudoRandom.fea);
-  include(features/heb-BackwardsCheck.fea);
-  # extra calt
-  include(features/heb-calt.fea);
+	# script grek;
+	include(features/grk-PseudoRandom.fea);
+	include(features/grk-BackwardsCheck.fea);
+	# extra calt
+	include(features/grk-calt.fea);
 
 
-  # DEVA
-  script deva;
-  language dflt;
-  lookup deva_uMatra_alt {
-    sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
-  } deva_uMatra_alt;
-
-  include(features/deva-PseudoRandom.fea);
-  include(features/deva-BackwardsCheck.fea);
-
-  language MAR;
-  lookup deva_uMatra_alt;
-  lookup PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA;
-
-  script dev2;
-  language dflt;
-  lookup deva_uMatra_alt;
-  lookup PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA;
-
-  language MAR;
-  lookup deva_uMatra_alt;
-  lookup PseudoRandom_DEVA;
-  lookup BackwardsCheck_DEVA;
+	#script hebr;
+	include(features/heb-PseudoRandom.fea);
+	include(features/heb-BackwardsCheck.fea);
+	# extra calt
+	include(features/heb-calt.fea);
 
 
-  # ARAB
-  script arab;
-  language dflt;
-  include(features/ara-pseudoRandom.fea);
-  include(features/ara-BackwardsCheck.fea);
-  # extra arab calt
-  lookup arab_extra {
-  lookupflag IgnoreMarks;
-  lookupflag RightToLeft;
-  sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
-  } arab_extra;
+	# DEVA
+	script deva;
+	language dflt;
+	lookup deva_uMatra_alt {
+		sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
+	} deva_uMatra_alt;
 
-  language URD;
-  lookup pseudoRandom_ARA;
-  lookup BackwardsCheck_ARA;
-  lookup arab_extra;
+	include(features/deva-PseudoRandom.fea);
+	include(features/deva-BackwardsCheck.fea);
+
+	language MAR;
+	lookup deva_uMatra_alt;
+	lookup PseudoRandom_DEVA;
+	lookup BackwardsCheck_DEVA;
+
+	script dev2;
+	language dflt;
+	lookup deva_uMatra_alt;
+	lookup PseudoRandom_DEVA;
+	lookup BackwardsCheck_DEVA;
+
+	language MAR;
+	lookup deva_uMatra_alt;
+	lookup PseudoRandom_DEVA;
+	lookup BackwardsCheck_DEVA;
+
+
+	# ARAB
+	script arab;
+	language dflt;
+	include(features/ara-pseudoRandom.fea);
+	include(features/ara-BackwardsCheck.fea);
+	# extra arab calt
+	lookup arab_extra {
+	lookupflag IgnoreMarks;
+	lookupflag RightToLeft;
+	sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
+	} arab_extra;
+
+	language URD;
+	lookup pseudoRandom_ARA;
+	lookup BackwardsCheck_ARA;
+	lookup arab_extra;
+
+	# THAI
+	script thai;
+	include(features/tha-pseudoRandom.fea);
+	include(features/tha-BackwardsCheck.fea);
+
+		lookup calt_thai_1 {
+		sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
+		} calt_thai_1;
+
+	lookup calt_thai_2 {
+		#lookupflag 0;
+		sub [yoYing-thai yoYing-thai.alt1 yoYing-thai.alt2 yoYing-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by yoYing-thai.less;
+		sub [thoThan-thai thoThan-thai.alt1 thoThan-thai.alt2 thoThan-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by thoThan-thai.less;
+		sub [doChada-thai doChada-thai.alt1 doChada-thai.alt2 doChada-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by doChada-thai.short;
+		sub [toPatak-thai toPatak-thai.alt1 toPatak-thai.alt2 toPatak-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by toPatak-thai.short;
+		sub [ru-thai ru-thai.alt1 ru-thai.alt2 ru-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by ru-thai.short;
+		sub [lu-thai lu-thai.alt1 lu-thai.alt2 lu-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by lu-thai.short;
+		sub [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
+		sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai] by loChula-thai.short;
+	} calt_thai_2;
+
+		lookup calt_thai_3 {
+		@thai_nonnarrowmarks = [maiHanaKat-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai];
+		lookupflag UseMarkFilteringSet @thai_nonnarrowmarks;
+		sub [poPla-thai poPla-thai.alt1 poPla-thai.alt2 poPla-thai.alt3 foFa-thai foFa-thai.alt1 foFa-thai.alt2 foFa-thai.alt3 foFan-thai foFan-thai.alt1 foFan-thai.alt2 foFan-thai.alt3] @thai_nonnarrowmarks' by [maiHanaKat-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow nikhahit-thai.narrow nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];
+		sub [nikhahit-thai.narrow maiChattawa-thai.narrow maiEk-thai.narrow maiHanaKat-thai.narrow thanthakhat-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maitaikhu-thai.narrow yamakkan-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
+		} calt_thai_3;
+
+		lookup calt_thai_4 {
+		sub nikhahit-thai saraAa-thai by saraAm-thai;
+		sub nikhahit-thai saraAa-thai.alt1 by saraAm-thai.alt1;
+		sub nikhahit-thai saraAa-thai.alt2 by saraAm-thai.alt2;
+		sub nikhahit-thai saraAa-thai.alt3 by saraAm-thai.alt3;
+		} calt_thai_4;
 } calt;
 
 
 feature case {
-  sub [at exclamdown hyphen questiondown] by [at.case exclamdown.case hyphen.case questiondown.case];
+	sub [at exclamdown hyphen questiondown] by [at.case exclamdown.case hyphen.case questiondown.case];
 } case;
 
 
 feature liga {
-  # lat
-  @idotless_all = [idotless idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
-  @i_all = [i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
-  sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
-  sub @idotless_all tildecomb @idotless_all tildecomb by itilde_itilde;
-  sub @i_all tildebelowcomb @i_all tildebelowcomb by itildebelow_itildebelow;
-  # cyr
-  @i_cy_all = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6];
-  # @yi_cy_all = [yi-cy yi-cy.alt1 yi-cy.alt2 yi-cy.alt3 yi-cy.alt4 yi-cy.alt5 yi-cy.alt6];;
-  @I_cy_all = [I-cy I-cy.alt1 I-cy.alt2 I-cy.alt3 I-cy.alt4 I-cy.alt5 I-cy.alt6];
-  sub @i_cy_all yi-cy by i_yi-cy;
-  sub yi-cy @i_cy_all by yi_i-cy;
-  sub @I_cy_all yi-cy by I_yi-cy;
+	# lat
+	@idotless_all = [idotless idotless.alt1 idotless.alt2 idotless.alt3 idotless.alt4 idotless.alt5 idotless.alt6];
+	@i_all = [i i.alt1 i.alt2 i.alt3 i.alt4 i.alt5 i.alt6];
+	sub @idotless_all dieresiscomb @idotless_all dieresiscomb by idieresis_idieresis;
+	sub @idotless_all tildecomb @idotless_all tildecomb by itilde_itilde;
+	sub @i_all tildebelowcomb @i_all tildebelowcomb by itildebelow_itildebelow;
+	# cyr
+	@i_cy_all = [i-cy i-cy.alt1 i-cy.alt2 i-cy.alt3 i-cy.alt4 i-cy.alt5 i-cy.alt6];
+	# @yi_cy_all = [yi-cy yi-cy.alt1 yi-cy.alt2 yi-cy.alt3 yi-cy.alt4 yi-cy.alt5 yi-cy.alt6];;
+	@I_cy_all = [I-cy I-cy.alt1 I-cy.alt2 I-cy.alt3 I-cy.alt4 I-cy.alt5 I-cy.alt6];
+	sub @i_cy_all yi-cy by i_yi-cy;
+	sub yi-cy @i_cy_all by yi_i-cy;
+	sub @I_cy_all yi-cy by I_yi-cy;
 } liga;
 
 
 feature ss01 {
-  featureNames {
-    name "Alternate letters"; # Windows English
-    name 1 0 0 "Alternate letters"; # Mac English
-  };
-  sub G by G.ss01;
-  sub G.alt1 by G.ss01.alt1;
-  sub G.alt2 by G.ss01.alt2;
-  sub G.alt3 by G.ss01.alt3;
-  sub G.alt4 by G.ss01.alt4;
-  sub G.alt5 by G.ss01.alt5;
-  sub G.alt6 by G.ss01.alt6;
-  sub I by I.ss01;
-  sub I.alt1 by I.ss01.alt1;
-  sub I.alt2 by I.ss01.alt2;
-  sub I.alt3 by I.ss01.alt3;
-  sub I.alt4 by I.ss01.alt4;
-  sub I.alt5 by I.ss01.alt5;
-  sub I.alt6 by I.ss01.alt6;
-  sub M by M.ss01;
-  sub M.alt1 by M.ss01.alt1;
-  sub M.alt2 by M.ss01.alt2;
-  sub M.alt3 by M.ss01.alt3;
-  sub M.alt4 by M.ss01.alt4;
-  sub M.alt5 by M.ss01.alt5;
-  sub M.alt6 by M.ss01.alt6;
-  sub a by a.ss01;
-  sub a.alt1 by a.ss01.alt1;
-  sub a.alt2 by a.ss01.alt2;
-  sub a.alt3 by a.ss01.alt3;
-  sub a.alt4 by a.ss01.alt4;
-  sub a.alt5 by a.ss01.alt5;
-  sub a.alt6 by a.ss01.alt6;
-  sub f by f.ss01;
-  sub f.alt1 by f.ss01.alt1;
-  sub f.alt2 by f.ss01.alt2;
-  sub f.alt3 by f.ss01.alt3;
-  sub f.alt4 by f.ss01.alt4;
-  sub f.alt5 by f.ss01.alt5;
-  sub f.alt6 by f.ss01.alt6;
-  sub i by i.ss01;
-  sub i.alt1 by i.ss01.alt1;
-  sub i.alt2 by i.ss01.alt2;
-  sub i.alt3 by i.ss01.alt3;
-  sub i.alt4 by i.ss01.alt4;
-  sub i.alt5 by i.ss01.alt5;
-  sub i.alt6 by i.ss01.alt6;
-  sub l by l.ss01;
-  sub l.alt1 by l.ss01.alt1;
-  sub l.alt2 by l.ss01.alt2;
-  sub l.alt3 by l.ss01.alt3;
-  sub l.alt4 by l.ss01.alt4;
-  sub l.alt5 by l.ss01.alt5;
-  sub l.alt6 by l.ss01.alt6;
-  sub lcaron by lcaron.ss01;
-  sub lcaron.alt1 by lcaron.ss01.alt1;
-  sub lcaron.alt2 by lcaron.ss01.alt2;
-  sub lcaron.alt3 by lcaron.ss01.alt3;
-  sub lcaron.alt4 by lcaron.ss01.alt4;
-  sub lcaron.alt5 by lcaron.ss01.alt5;
-  sub lcaron.alt6 by lcaron.ss01.alt6;
-  sub y by y.ss01;
-  sub y.alt1 by y.ss01.alt1;
-  sub y.alt2 by y.ss01.alt2;
-  sub y.alt3 by y.ss01.alt3;
-  sub y.alt4 by y.ss01.alt4;
-  sub y.alt5 by y.ss01.alt5;
-  sub y.alt6 by y.ss01.alt6;
-  #
-  sub Eng by Eng.ss01;
-  sub Eng.alt1 by Eng.ss01.alt1;
-  sub Eng.alt2 by Eng.ss01.alt2;
-  sub Eng.alt3 by Eng.ss01.alt3;
-  sub a-cy by a-cy.ss01;
-  sub a-cy.alt1 by a-cy.ss01.alt1;
-  sub a-cy.alt2 by a-cy.ss01.alt2;
-  sub a-cy.alt3 by a-cy.ss01.alt3;
-  sub a-cy.alt4 by a-cy.ss01.alt4;
-  sub a-cy.alt5 by a-cy.ss01.alt5;
-  sub a-cy.alt6 by a-cy.ss01.alt6;
-  sub u-cy by u-cy.ss01;
-  sub u-cy.alt1 by u-cy.ss01.alt1;
-  sub u-cy.alt2 by u-cy.ss01.alt2;
-  sub u-cy.alt3 by u-cy.ss01.alt3;
-  sub u-cy.alt4 by u-cy.ss01.alt4;
-  sub u-cy.alt5 by u-cy.ss01.alt5;
-  sub u-cy.alt6 by u-cy.ss01.alt6;
-  sub ushort-cy by ushort-cy.ss01;
-  sub ii-cy by ii-cy.ss01;
-  sub ii-cy.alt1 by ii-cy.ss01.alt1;
-  sub ii-cy.alt2 by ii-cy.ss01.alt2;
-  sub ii-cy.alt3 by ii-cy.ss01.alt3;
-  sub ii-cy.alt4 by ii-cy.ss01.alt4;
-  sub ii-cy.alt5 by ii-cy.ss01.alt5;
-  sub ii-cy.alt6 by ii-cy.ss01.alt6;
-  sub iishort-cy by iishort-cy.ss01;
-  sub iishort-cy.alt1 by iishort-cy.ss01.alt1;
-  sub iishort-cy.alt2 by iishort-cy.ss01.alt2;
-  sub iishort-cy.alt3 by iishort-cy.ss01.alt3;
-  sub iishort-cy.alt4 by iishort-cy.ss01.alt4;
-  sub iishort-cy.alt5 by iishort-cy.ss01.alt5;
-  sub iishort-cy.alt6 by iishort-cy.ss01.alt6;
-  sub Mu by Mu.ss01;
-  sub Mu.alt1 by Mu.ss01.alt1;
-  sub Mu.alt2 by Mu.ss01.alt2;
-  sub Mu.alt3 by Mu.ss01.alt3;
-  sub Mu.alt4 by Mu.ss01.alt4;
-  sub Mu.alt5 by Mu.ss01.alt5;
-  sub Mu.alt6 by Mu.ss01.alt6;
-  sub alpha by alpha.ss01;
-  sub alpha.alt1 by alpha.ss01.alt1;
-  sub alpha.alt2 by alpha.ss01.alt2;
-  sub alpha.alt3 by alpha.ss01.alt3;
-  sub alpha.alt4 by alpha.ss01.alt4;
-  sub alpha.alt5 by alpha.ss01.alt5;
-  sub alpha.alt6 by alpha.ss01.alt6;
-  sub delta by delta.ss01;
-  sub delta.alt1 by delta.ss01.alt1;
-  sub delta.alt2 by delta.ss01.alt2;
-  sub delta.alt3 by delta.ss01.alt3;
-  sub delta.alt4 by delta.ss01.alt4;
-  sub delta.alt5 by delta.ss01.alt5;
-  sub delta.alt6 by delta.ss01.alt6;
-  sub theta by theta.ss01;
-  sub theta.alt1 by theta.ss01.alt1;
-  sub theta.alt2 by theta.ss01.alt2;
-  sub theta.alt3 by theta.ss01.alt3;
-  sub theta.alt4 by theta.ss01.alt4;
-  sub theta.alt5 by theta.ss01.alt5;
-  sub theta.alt6 by theta.ss01.alt6;
-  sub lambda by lambda.ss01;
-  sub lambda.alt1 by lambda.ss01.alt1;
-  sub lambda.alt2 by lambda.ss01.alt2;
-  sub lambda.alt3 by lambda.ss01.alt3;
-  sub lambda.alt4 by lambda.ss01.alt4;
-  sub lambda.alt5 by lambda.ss01.alt5;
-  sub lambda.alt6 by lambda.ss01.alt6;
-  sub alphatonos by alphatonos.ss01;
-  #
-  sub Nhookleft by Nhookleft.ss01;
-  sub Nhookleft.alt1 by Nhookleft.ss01.alt1;
-  sub Nhookleft.alt2 by Nhookleft.ss01.alt2;
-  sub Nhookleft.alt3 by Nhookleft.ss01.alt3;
+	featureNames {
+		name "Alternate letters"; # Windows English
+		name 1 0 0 "Alternate letters"; # Mac English
+	};
+	sub G by G.ss01;
+	sub G.alt1 by G.ss01.alt1;
+	sub G.alt2 by G.ss01.alt2;
+	sub G.alt3 by G.ss01.alt3;
+	sub G.alt4 by G.ss01.alt4;
+	sub G.alt5 by G.ss01.alt5;
+	sub G.alt6 by G.ss01.alt6;
+	sub I by I.ss01;
+	sub I.alt1 by I.ss01.alt1;
+	sub I.alt2 by I.ss01.alt2;
+	sub I.alt3 by I.ss01.alt3;
+	sub I.alt4 by I.ss01.alt4;
+	sub I.alt5 by I.ss01.alt5;
+	sub I.alt6 by I.ss01.alt6;
+	sub M by M.ss01;
+	sub M.alt1 by M.ss01.alt1;
+	sub M.alt2 by M.ss01.alt2;
+	sub M.alt3 by M.ss01.alt3;
+	sub M.alt4 by M.ss01.alt4;
+	sub M.alt5 by M.ss01.alt5;
+	sub M.alt6 by M.ss01.alt6;
+	sub a by a.ss01;
+	sub a.alt1 by a.ss01.alt1;
+	sub a.alt2 by a.ss01.alt2;
+	sub a.alt3 by a.ss01.alt3;
+	sub a.alt4 by a.ss01.alt4;
+	sub a.alt5 by a.ss01.alt5;
+	sub a.alt6 by a.ss01.alt6;
+	sub f by f.ss01;
+	sub f.alt1 by f.ss01.alt1;
+	sub f.alt2 by f.ss01.alt2;
+	sub f.alt3 by f.ss01.alt3;
+	sub f.alt4 by f.ss01.alt4;
+	sub f.alt5 by f.ss01.alt5;
+	sub f.alt6 by f.ss01.alt6;
+	sub i by i.ss01;
+	sub i.alt1 by i.ss01.alt1;
+	sub i.alt2 by i.ss01.alt2;
+	sub i.alt3 by i.ss01.alt3;
+	sub i.alt4 by i.ss01.alt4;
+	sub i.alt5 by i.ss01.alt5;
+	sub i.alt6 by i.ss01.alt6;
+	sub l by l.ss01;
+	sub l.alt1 by l.ss01.alt1;
+	sub l.alt2 by l.ss01.alt2;
+	sub l.alt3 by l.ss01.alt3;
+	sub l.alt4 by l.ss01.alt4;
+	sub l.alt5 by l.ss01.alt5;
+	sub l.alt6 by l.ss01.alt6;
+	sub lcaron by lcaron.ss01;
+	sub lcaron.alt1 by lcaron.ss01.alt1;
+	sub lcaron.alt2 by lcaron.ss01.alt2;
+	sub lcaron.alt3 by lcaron.ss01.alt3;
+	sub lcaron.alt4 by lcaron.ss01.alt4;
+	sub lcaron.alt5 by lcaron.ss01.alt5;
+	sub lcaron.alt6 by lcaron.ss01.alt6;
+	sub y by y.ss01;
+	sub y.alt1 by y.ss01.alt1;
+	sub y.alt2 by y.ss01.alt2;
+	sub y.alt3 by y.ss01.alt3;
+	sub y.alt4 by y.ss01.alt4;
+	sub y.alt5 by y.ss01.alt5;
+	sub y.alt6 by y.ss01.alt6;
+	#
+	sub Eng by Eng.ss01;
+	sub Eng.alt1 by Eng.ss01.alt1;
+	sub Eng.alt2 by Eng.ss01.alt2;
+	sub Eng.alt3 by Eng.ss01.alt3;
+	sub a-cy by a-cy.ss01;
+	sub a-cy.alt1 by a-cy.ss01.alt1;
+	sub a-cy.alt2 by a-cy.ss01.alt2;
+	sub a-cy.alt3 by a-cy.ss01.alt3;
+	sub a-cy.alt4 by a-cy.ss01.alt4;
+	sub a-cy.alt5 by a-cy.ss01.alt5;
+	sub a-cy.alt6 by a-cy.ss01.alt6;
+	sub u-cy by u-cy.ss01;
+	sub u-cy.alt1 by u-cy.ss01.alt1;
+	sub u-cy.alt2 by u-cy.ss01.alt2;
+	sub u-cy.alt3 by u-cy.ss01.alt3;
+	sub u-cy.alt4 by u-cy.ss01.alt4;
+	sub u-cy.alt5 by u-cy.ss01.alt5;
+	sub u-cy.alt6 by u-cy.ss01.alt6;
+	sub ushort-cy by ushort-cy.ss01;
+	sub ii-cy by ii-cy.ss01;
+	sub ii-cy.alt1 by ii-cy.ss01.alt1;
+	sub ii-cy.alt2 by ii-cy.ss01.alt2;
+	sub ii-cy.alt3 by ii-cy.ss01.alt3;
+	sub ii-cy.alt4 by ii-cy.ss01.alt4;
+	sub ii-cy.alt5 by ii-cy.ss01.alt5;
+	sub ii-cy.alt6 by ii-cy.ss01.alt6;
+	sub iishort-cy by iishort-cy.ss01;
+	sub iishort-cy.alt1 by iishort-cy.ss01.alt1;
+	sub iishort-cy.alt2 by iishort-cy.ss01.alt2;
+	sub iishort-cy.alt3 by iishort-cy.ss01.alt3;
+	sub iishort-cy.alt4 by iishort-cy.ss01.alt4;
+	sub iishort-cy.alt5 by iishort-cy.ss01.alt5;
+	sub iishort-cy.alt6 by iishort-cy.ss01.alt6;
+	sub Mu by Mu.ss01;
+	sub Mu.alt1 by Mu.ss01.alt1;
+	sub Mu.alt2 by Mu.ss01.alt2;
+	sub Mu.alt3 by Mu.ss01.alt3;
+	sub Mu.alt4 by Mu.ss01.alt4;
+	sub Mu.alt5 by Mu.ss01.alt5;
+	sub Mu.alt6 by Mu.ss01.alt6;
+	sub alpha by alpha.ss01;
+	sub alpha.alt1 by alpha.ss01.alt1;
+	sub alpha.alt2 by alpha.ss01.alt2;
+	sub alpha.alt3 by alpha.ss01.alt3;
+	sub alpha.alt4 by alpha.ss01.alt4;
+	sub alpha.alt5 by alpha.ss01.alt5;
+	sub alpha.alt6 by alpha.ss01.alt6;
+	sub delta by delta.ss01;
+	sub delta.alt1 by delta.ss01.alt1;
+	sub delta.alt2 by delta.ss01.alt2;
+	sub delta.alt3 by delta.ss01.alt3;
+	sub delta.alt4 by delta.ss01.alt4;
+	sub delta.alt5 by delta.ss01.alt5;
+	sub delta.alt6 by delta.ss01.alt6;
+	sub theta by theta.ss01;
+	sub theta.alt1 by theta.ss01.alt1;
+	sub theta.alt2 by theta.ss01.alt2;
+	sub theta.alt3 by theta.ss01.alt3;
+	sub theta.alt4 by theta.ss01.alt4;
+	sub theta.alt5 by theta.ss01.alt5;
+	sub theta.alt6 by theta.ss01.alt6;
+	sub lambda by lambda.ss01;
+	sub lambda.alt1 by lambda.ss01.alt1;
+	sub lambda.alt2 by lambda.ss01.alt2;
+	sub lambda.alt3 by lambda.ss01.alt3;
+	sub lambda.alt4 by lambda.ss01.alt4;
+	sub lambda.alt5 by lambda.ss01.alt5;
+	sub lambda.alt6 by lambda.ss01.alt6;
+	sub alphatonos by alphatonos.ss01;
+	#
+	sub Nhookleft by Nhookleft.ss01;
+	sub Nhookleft.alt1 by Nhookleft.ss01.alt1;
+	sub Nhookleft.alt2 by Nhookleft.ss01.alt2;
+	sub Nhookleft.alt3 by Nhookleft.ss01.alt3;
 
-  # ARA stylistic sets
-  lookup ss01_ara_0 {
-    sub [hah-ar hah-ar.alt1 hah-ar.alt2 hah-ar.alt3] by hah-ar.ss01;
-    sub [hah-ar.fina hah-ar.fina.alt1 hah-ar.fina.alt2 hah-ar.fina.alt3] by hah-ar.fina.ss01;
-    sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3] by hah-ar.medi.ss01;
-    sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
-  } ss01_ara_0;
+	# ARA stylistic sets
+	lookup ss01_ara_0 {
+		sub [hah-ar hah-ar.alt1 hah-ar.alt2 hah-ar.alt3] by hah-ar.ss01;
+		sub [hah-ar.fina hah-ar.fina.alt1 hah-ar.fina.alt2 hah-ar.fina.alt3] by hah-ar.fina.ss01;
+		sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3] by hah-ar.medi.ss01;
+		sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
+	} ss01_ara_0;
 
-  # add to ss01 (name: Arabic Ruq'ah style)
-  lookup ss01_ara_1 {
-    sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
-    sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
-    sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
-    sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
-    sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
-  } ss01_ara_1;
+	# add to ss01 (name: Arabic Ruq'ah style)
+	lookup ss01_ara_1 {
+		sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+		sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+		sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+		sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+		sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+	} ss01_ara_1;
 
 } ss01;
 
 
-# ARA features after `calt`
-include(features/ara-rclt.fea);
-include(features/ara-rlig.fea);
+# Features after `calt`
+feature rclt {
+	include(features/ara-rclt.fea);
+} rclt;
+
+feature rlig {
+	include(features/ara-rlig.fea);
+	include(features/tha-rlig.fea);
+} rlig;
 
 
 feature ss02 {
-  featureNames {
-    name "Urdu numbers"; # Windows English
-    name 1 0 0 "Urdu numbers"; # Mac English
-  };
-  sub fourFarsi-ar by fourFarsi-ar.urdu;
-  sub sixFarsi-ar by six-ar;
-  sub sevenFarsi-ar by sevenFarsi-ar.urdu;
+	featureNames {
+		name "Urdu numbers"; # Windows English
+		name 1 0 0 "Urdu numbers"; # Mac English
+	};
+	sub fourFarsi-ar by fourFarsi-ar.urdu;
+	sub sixFarsi-ar by six-ar;
+	sub sevenFarsi-ar by sevenFarsi-ar.urdu;
 } ss02;
 
 
 feature ss03 {
-  featureNames {
-    name "Alternates: Yiddish"; # Windows English
-    name 1 0 0 "Alternates: Yiddish"; # Mac English
-  };
-  lookupflag RightToLeft;
-  lookup locl_hebr_jii_02;
-  lookup locl_hebr_jii_03;
-  lookup locl_hebr_jii_04;
-  lookup locl_hebr_jii_05;
+	featureNames {
+		name "Alternates: Yiddish"; # Windows English
+		name 1 0 0 "Alternates: Yiddish"; # Mac English
+	};
+	lookupflag RightToLeft;
+	lookup locl_hebr_jii_02;
+	lookup locl_hebr_jii_03;
+	lookup locl_hebr_jii_04;
+	lookup locl_hebr_jii_05;
 } ss03;
 
 
 feature ss04 {
-  featureNames {
-    name "Arabic Ruq'ah style"; # Windows English
-    name 1 0 0 "Arabic Ruq'ah style"; # Mac English
-  };
-  # lookupflag RightToLeft;
-  sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
-  sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
-  sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
-  sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
-  sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+	featureNames {
+		name "Arabic Ruq'ah style"; # Windows English
+		name 1 0 0 "Arabic Ruq'ah style"; # Mac English
+	};
+	# lookupflag RightToLeft;
+	sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+	sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+	sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+	sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+	sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
 } ss04;
 
 feature ss19 {
-  featureNames {
-    name "Currency florin"; # Windows English
-    name 1 0 0 "Currency florin"; # Mac English
-  };
-  sub florin by florin.ss19;;
+	featureNames {
+		name "Currency florin"; # Windows English
+		name 1 0 0 "Currency florin"; # Mac English
+	};
+	sub florin by florin.ss19;;
 } ss19;
 
 feature kern {
-  # Automatic Code
-  pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 80 [h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6] strokeshortcomb;
+	# Automatic Code
+	pos [f f.alt1 f.alt2 f.alt3 f.alt4 f.alt5 f.alt6 f.ss01 f.ss01.alt1 f.ss01.alt2 f.ss01.alt3 f.ss01.alt4 f.ss01.alt5 f.ss01.alt6]' 80 [h h.alt1 h.alt2 h.alt3 h.alt4 h.alt5 h.alt6] strokeshortcomb;
 } kern;

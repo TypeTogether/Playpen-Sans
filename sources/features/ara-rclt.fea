@@ -1,47 +1,45 @@
-feature rclt {
-	script arab;
-	language dflt;
-	lookup rclt_arab_0 {
-		sub feh_alefMaksura-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
-		sub feh_yeh-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
-		sub feh_yehHamzaabove-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
+script arab;
+language dflt;
+lookup rclt_arab_0 {
+	sub feh_alefMaksura-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
+	sub feh_yeh-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
+	sub feh_yehHamzaabove-ar @comb_marks_ara @comb_marks_ara dotabove-ar' by NULL;
 
-		sub feh_alefMaksura-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
-		sub feh_yeh-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
-		sub feh_yehHamzaabove-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
+	sub feh_alefMaksura-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
+	sub feh_yeh-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
+	sub feh_yehHamzaabove-ar dotabove-ar' @comb_marks_ara @comb_marks_ara by NULL;
 
-		sub feh_alefMaksura-ar @comb_marks_ara dotabove-ar' by NULL;
-		sub feh_yeh-ar @comb_marks_ara dotabove-ar' by NULL;
-		sub feh_yehHamzaabove-ar @comb_marks_ara dotabove-ar' by NULL;
+	sub feh_alefMaksura-ar @comb_marks_ara dotabove-ar' by NULL;
+	sub feh_yeh-ar @comb_marks_ara dotabove-ar' by NULL;
+	sub feh_yehHamzaabove-ar @comb_marks_ara dotabove-ar' by NULL;
 
-		sub feh_alefMaksura-ar dotabove-ar' @comb_marks_ara by NULL;
-		sub feh_yeh-ar dotabove-ar' @comb_marks_ara by NULL;
-		sub feh_yehHamzaabove-ar dotabove-ar' @comb_marks_ara by NULL;
+	sub feh_alefMaksura-ar dotabove-ar' @comb_marks_ara by NULL;
+	sub feh_yeh-ar dotabove-ar' @comb_marks_ara by NULL;
+	sub feh_yehHamzaabove-ar dotabove-ar' @comb_marks_ara by NULL;
 
-		sub feh_alefMaksura-ar dotabove-ar' by NULL;
-		sub feh_yeh-ar dotabove-ar' by NULL;
-		sub feh_yehHamzaabove-ar dotabove-ar' by NULL;
-		
-		sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3 hah-ar.medi.ss01] dotcenter-ar' by dotbelow-ar;
-		sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3 hah-ar.init.ss01] dotcenter-ar' by dotbelow-ar;
-		sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3 hah-ar.medi.ss01] threedotsdowncenter-ar' by threedotsdownbelow-ar;
-		sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3 hah-ar.init.ss01] threedotsdowncenter-ar' by threedotsdownbelow-ar;
-		
-		} rclt_arab_0;
-		
-	lookup rclt_arab_1 {
-		# substitutes with pre-composed /tcheh-ar.fina because the Extrabold has a scaled version of /threedotsdowncenter-ar
-		sub [hah-ar.fina hah-ar.fina.alt1 hah-ar.fina.alt2 hah-ar.fina.alt3] threedotsdownbelow-ar by tcheh-ar.fina;
-		} rclt_arab_1;
-		
-	lookup rclt_arab_2 {
-		# prevents the kashida-like /seen-ar.alt1 from appearing before 'basin' glyphs
-		lookupflag IgnoreMarks;
-		sub [seen-ar.alt1 seen-ar.fina.alt1 seen-ar.medi.alt1 seen-ar.init.alt1]' [beh-ar.fina behDotless-ar.fina behDotless-ar.fina.alt1 behDotless-ar.fina.alt2 behDotless-ar.fina.alt3 peh-ar.fina teh-ar.fina theh-ar.fina tteh-ar.fina feh-ar.fina fehDotless-ar.fina fehDotless-ar.fina.alt1 fehDotless-ar.fina.alt2 fehDotless-ar.fina.alt3 veh-ar.fina kaf-ar.fina kaf-ar.fina.alt1 kaf-ar.fina.alt2 kaf-ar.fina.alt3 keheh-ar.fina gaf-ar.fina] by [seen-ar.alt2 seen-ar.fina.alt2 seen-ar.medi.alt2 seen-ar.init.alt2];
-		} rclt_arab_2;
+	sub feh_alefMaksura-ar dotabove-ar' by NULL;
+	sub feh_yeh-ar dotabove-ar' by NULL;
+	sub feh_yehHamzaabove-ar dotabove-ar' by NULL;
 
-	language URD;
-	lookup rclt_arab_0;
-	lookup rclt_arab_1;
-	lookup rclt_arab_2;
-} rclt;
+	sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3 hah-ar.medi.ss01] dotcenter-ar' by dotbelow-ar;
+	sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3 hah-ar.init.ss01] dotcenter-ar' by dotbelow-ar;
+	sub [hah-ar.medi hah-ar.medi.alt1 hah-ar.medi.alt2 hah-ar.medi.alt3 hah-ar.medi.ss01] threedotsdowncenter-ar' by threedotsdownbelow-ar;
+	sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3 hah-ar.init.ss01] threedotsdowncenter-ar' by threedotsdownbelow-ar;
+
+	} rclt_arab_0;
+
+lookup rclt_arab_1 {
+	# substitutes with pre-composed /tcheh-ar.fina because the Extrabold has a scaled version of /threedotsdowncenter-ar
+	sub [hah-ar.fina hah-ar.fina.alt1 hah-ar.fina.alt2 hah-ar.fina.alt3] threedotsdownbelow-ar by tcheh-ar.fina;
+	} rclt_arab_1;
+
+lookup rclt_arab_2 {
+	# prevents the kashida-like /seen-ar.alt1 from appearing before 'basin' glyphs
+	lookupflag IgnoreMarks;
+	sub [seen-ar.alt1 seen-ar.fina.alt1 seen-ar.medi.alt1 seen-ar.init.alt1]' [beh-ar.fina behDotless-ar.fina behDotless-ar.fina.alt1 behDotless-ar.fina.alt2 behDotless-ar.fina.alt3 peh-ar.fina teh-ar.fina theh-ar.fina tteh-ar.fina feh-ar.fina fehDotless-ar.fina fehDotless-ar.fina.alt1 fehDotless-ar.fina.alt2 fehDotless-ar.fina.alt3 veh-ar.fina kaf-ar.fina kaf-ar.fina.alt1 kaf-ar.fina.alt2 kaf-ar.fina.alt3 keheh-ar.fina gaf-ar.fina] by [seen-ar.alt2 seen-ar.fina.alt2 seen-ar.medi.alt2 seen-ar.init.alt2];
+	} rclt_arab_2;
+
+language URD;
+lookup rclt_arab_0;
+lookup rclt_arab_1;
+lookup rclt_arab_2;
