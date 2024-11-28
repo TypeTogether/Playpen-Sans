@@ -38,4 +38,9 @@ feature rclt {
 		lookupflag IgnoreMarks;
 		sub [seen-ar.alt1 seen-ar.fina.alt1 seen-ar.medi.alt1 seen-ar.init.alt1]' [beh-ar.fina behDotless-ar.fina behDotless-ar.fina.alt1 behDotless-ar.fina.alt2 behDotless-ar.fina.alt3 peh-ar.fina teh-ar.fina theh-ar.fina tteh-ar.fina feh-ar.fina fehDotless-ar.fina fehDotless-ar.fina.alt1 fehDotless-ar.fina.alt2 fehDotless-ar.fina.alt3 veh-ar.fina kaf-ar.fina kaf-ar.fina.alt1 kaf-ar.fina.alt2 kaf-ar.fina.alt3 keheh-ar.fina gaf-ar.fina] by [seen-ar.alt2 seen-ar.fina.alt2 seen-ar.medi.alt2 seen-ar.init.alt2];
 		} rclt_arab_2;
+
+	language URD;
+	lookup rclt_arab_0;
+	lookup rclt_arab_1;
+	lookup rclt_arab_2;
 } rclt;

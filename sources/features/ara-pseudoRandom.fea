@@ -257,7 +257,6 @@ lookup pseudoRandom_ARA {
 	sub @dflt_ara_4' @dflt_ara_4 @dflt_ara_4 @dflt_ara_2 by @alt3_ara_4 ;
 	sub @dflt_ara_4' @dflt_ara_4 @dflt_ara_4 @dflt_ara_3 by @alt1_ara_4 ;
 	sub @dflt_ara_4' @dflt_ara_4 @dflt_ara_4 @dflt_ara_4 by @alt1_ara_4 ;
-
 } pseudoRandom_ARA;
 
 

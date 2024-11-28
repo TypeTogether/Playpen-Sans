@@ -915,7 +915,7 @@ feature ordn {
 
 
 # ARA features before `calt`
-include(features/ara-PlaypenSans.fea);
+include(features/ara-init-medi-fina.fea);
 # DEVA features before `calt`
 include(features/deva-PlaypenSans.fea);
 
@@ -1401,6 +1401,7 @@ feature calt {
 
   # ARAB
   script arab;
+  language dflt;
   include(features/ara-pseudoRandom.fea);
   include(features/ara-BackwardsCheck.fea);
   # extra arab calt
@@ -1409,6 +1410,10 @@ feature calt {
   lookupflag RightToLeft;
   sub [alefMaksura-ar alefMaksura-ar.alt1 alefMaksura-ar.alt2 alefMaksura-ar.alt3 alefMaksura-ar.fina alefMaksura-ar.fina.alt1 alefMaksura-ar.fina.alt2 alefMaksura-ar.fina.alt3] hamzaabove-ar' by hamzaabove-ar.calt;
   } arab_extra;
+  language URD;
+  lookup pseudoRandom_ARA;
+  lookup BackwardsCheck_ARA;
+  lookup arab_extra;
 } calt;
 
 
