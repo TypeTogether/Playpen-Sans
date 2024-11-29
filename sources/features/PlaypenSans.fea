@@ -189,7 +189,7 @@ feature locl {
 		} locl_arab_0;
 
 	script hebr;
-	language JII; # Yiddish  
+	language JII; # Yiddish
 
 	lookup locl_hebr_jii_02 {
 		lookupflag RightToLeft;
@@ -751,7 +751,7 @@ feature locl {
 
 	lookup decomp_HEB_03 {
 		lookupflag RightToLeft;
-		sub alefdagesh-hb by alef-hb dagesh-hb;  
+		sub alefdagesh-hb by alef-hb dagesh-hb;
 		sub alefpatah-hb by alef-hb patah-hb;
 		sub alefqamats-hb by alef-hb qamats-hb;
 		sub betdagesh-hb by bet-hb dagesh-hb;
