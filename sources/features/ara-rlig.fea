@@ -7,12 +7,12 @@ lookup rlig_arab_0 {
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.alt1;
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.alt2;
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.alt3;
-  
+
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.short alef-ar.fina alef-ar.fina.short] by lam_alef-ar.fina;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt1 alef-ar.fina.alt1] by lam_alef-ar.fina.alt1;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt2 alef-ar.fina.alt2] by lam_alef-ar.fina.alt2;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar.alt3 alef-ar.fina.alt3] by lam_alef-ar.fina.alt3;
-  
+
 
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefHamzaabove-ar.fina by lam_alefHamzaabove-ar;
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzaabove-ar by lam_alefHamzaabove-ar;
@@ -22,7 +22,7 @@ lookup rlig_arab_0 {
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefHamzabelow-ar.fina by lam_alefHamzabelow-ar.fina;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] hamzabelow-ar by lam_alefHamzabelow-ar.fina;
-  
+
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] alefMadda-ar.fina by lam_alefMadda-ar;
   sub [lam-ar.init lam-ar.init.alt1 lam-ar.init.alt2 lam-ar.init.alt3] [alef-ar alef-ar.alt1 alef-ar.alt2 alef-ar.alt3 alef-ar.short alef-ar.fina alef-ar.fina.alt1 alef-ar.fina.alt2 alef-ar.fina.alt3 alef-ar.fina.short] madda-ar by lam_alefMadda-ar;
   sub [lam-ar.medi lam-ar.medi.alt1 lam-ar.medi.alt2 lam-ar.medi.alt3] alefMadda-ar.fina by lam_alefMadda-ar.fina;
