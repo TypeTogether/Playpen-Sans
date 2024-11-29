@@ -1,0 +1,17 @@
+sources: 
+  - PlaypenSans.glyphspackage
+axisOrder:
+  - wght
+familyName: Playpen Sans
+buildVariable: true
+buildOTF: false
+buildTTF: false
+buildWebfont: false
+outputDir: "../fonts-builder-2"
+postCompile:
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-LGC.nam'
+  - operation: exec
+    exe: gftools-fontsetter
+    args: '$in ./helpers/LGC.yaml -o $out'
