@@ -2,7 +2,7 @@
 
 0x25CC # dotted circle
 
-# PPS GF LATIN PLUS codepoints
+# PPS GF LATIN PLUS codepoints in PPS
 
 0x00A6
 0x00AC
@@ -47,7 +47,7 @@
 0x2265
 0x25CA
 
-# PPS symbols & emojis
+# PPS Emojis
 
 1F320
 1F382
@@ -74,6 +74,7 @@
 1F31E
 2639
 1F609
+1FAAB
 
 # PPS Latin added glyphs not defined in Glyphsets
 
