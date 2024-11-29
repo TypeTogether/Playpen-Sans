@@ -1,0 +1,76 @@
+name: Build font and specimen
+on: [push, release]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+
+    - uses: actions/checkout@v4
+      name: Checkout files
+
+    # Check why we were run; if any files in sources/* were changed,
+    # this will set the output of this step to true. We can check this
+    # later with ${{steps.check.outputs.sources}}. See
+    # https://github.com/dorny/paths-filter
+    - uses: dorny/paths-filter@v3
+      id: check
+      name: Check for changes in sources
+      with:
+        filters: |
+          sources:
+            - 'sources/**'
+
+    - name: Install sys tools/deps
+      run: |
+        sudo apt-get update
+        sudo apt-get install ttfautohint
+
+    - name: Build font
+      run: make build
+
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: PlaypenSans-fonts
+        path: |
+          fonts-builder
+          OFL.txt
+  
+    # If any files in fonts/* were changed, commit them, but only if
+    # the check step above set the sources output to true.
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: Automated rebuild
+        file_pattern: "fonts-builder"
+      if: steps.check.outputs.sources == 'true'
+
+  release:
+    # only run if the commit is tagged...
+    if: github.event_name == 'release'
+    # ... and it builds successfully
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download artefact files
+        uses: actions/download-artifact@v4
+        with:
+          name: PlaypenSans-fonts
+          path: PlaypenSans-fonts
+      - name: Zip files
+        run: zip -r PlaypenSans-fonts.zip PlaypenSans-fonts
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: PlaypenSans-fonts.zip
+          asset_name: PlaypenSans-fonts.zip
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "Production ready fonts"
