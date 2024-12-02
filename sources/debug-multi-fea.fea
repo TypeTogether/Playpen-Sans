@@ -1497,7 +1497,7 @@ feature locl {
 
     script hebr;
     language JII;
-    # Yiddish  
+    # Yiddish
     lookup locl_hebr_jii_02 {
         lookupflag RightToLeft;
         sub yodhiriq-hb by yodhiriq-hb.JII;
@@ -2185,6 +2185,8 @@ feature ccmp {
         sub noon-ar by noonghunna-ar dotabove-ar;
         sub noon-ar.fina by noonghunna-ar.fina dotabove-ar;
         sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar.calt;
+        sub yehHamzaabove-ar.init by alefMaksura-ar.init hamzaabove-ar.calt;
+        sub yehHamzaabove-ar.medi by alefMaksura-ar.medi hamzaabove-ar.calt;
         sub yehHamzaabove-ar.fina by alefMaksura-ar.fina hamzaabove-ar.calt;
     } ccmp_arab_2;
 
