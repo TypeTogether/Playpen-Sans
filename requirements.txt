@@ -37,12 +37,12 @@ fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
 fontprimer==0.2.0
-fonttools==4.48.1
+fonttools==4.55.1
 freetype-py==2.3.0
 fs==2.4.16
 gflanguages==0.6.0
 gfsubsets==2024.2.5
-gftools==0.9.55
+gftools==0.9.76
 gitdb==4.0.10
 GitPython==3.1.37
 glyphsets==0.6.14
@@ -89,6 +89,7 @@ requests==2.31.0
 resvg-cli==0.22.0.post3
 rich==13.7.0
 rstr==3.2.2
+ruamel.yaml==0.18.6
 setuptools==75.3.0
 sh==2.0.6
 shaperglot==0.4.2
@@ -109,6 +110,7 @@ typing_extensions==4.8.0
 ufo2ft==2.33.4
 ufoLib2==0.16.0
 ufolint==1.2.0
+ufomerge==1.8.2
 ufonormalizer==0.6.1
 ufoProcessor==1.9.0
 uharfbuzz==0.37.3
