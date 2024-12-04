@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
 .appVersion = "3326";
-=======
-.appVersion = "3324";
->>>>>>> f1ad2f8 (weight values meet OT)
 .formatVersion = 3;
 axes = (
 {
@@ -6043,7 +6039,7 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Thin;
-weightClass = 100;
+weightClass = 250;
 },
 {
 axesValues = (
@@ -6065,7 +6061,7 @@ instanceInterpolations = {
 m01 = 0.67647;
 };
 name = ExtraLight;
-weightClass = 200;
+weightClass = 275;
 },
 {
 axesValues = (
