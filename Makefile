@@ -20,7 +20,7 @@ build: build.stamp
 venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
-	# rm -rf fonts
+	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
 .init.stamp: venv
