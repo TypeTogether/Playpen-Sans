@@ -1,5 +1,5 @@
 lookup BackwardsCheck_THA {
-  lookupflag IgnoreMarks;
+  #lookupflag IgnoreMarks;
   sub @dflt_tha_1 @dflt_tha_1' by @alt1_tha_1;
   sub @alt1_tha_1 @alt1_tha_1' by @alt2_tha_1;
   sub @alt2_tha_1 @alt2_tha_1' by @alt3_tha_1;
