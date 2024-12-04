@@ -5,9 +5,9 @@ axisOrder:
 familyName: Playpen Sans
 buildVariable: true
 buildOTF: false
-buildTTF: false
+# buildTTF: false
 buildWebfont: false
-outputDir: "../fonts-builder-2"
+outputDir: "../fonts"
 filenameSuffix: Hebrew
 postCompile:
   - operation: rename

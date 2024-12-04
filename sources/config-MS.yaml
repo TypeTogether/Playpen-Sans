@@ -7,7 +7,7 @@ buildVariable: true
 buildOTF: false
 buildTTF: false
 buildWebfont: false
-outputDir: "../fonts-builder-2"
+outputDir: "../fonts"
 filenameSuffix: MS
 postCompile:
   - operation: rename
