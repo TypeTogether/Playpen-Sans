@@ -1,5 +1,5 @@
 {
-.appVersion = "3326";
+.appVersion = "3327";
 .formatVersion = 3;
 axes = (
 {
@@ -5987,40 +5987,6 @@ GSOffsetVertical = -7;
 );
 instances = (
 {
-customParameters = (
-{
-name = "Variable Font Origin";
-value = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
-},
-{
-name = "Keep Transformed Components";
-value = 0;
-},
-{
-name = fileName;
-value = "PlaypenSans[wght]";
-}
-);
-exports = 0;
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Playpen Sans VF";
-}
-);
-},
-{
-key = variationsPostScriptNamePrefix;
-value = PlaypenSansVF;
-}
-);
-type = variable;
-},
-{
 axesValues = (
 100
 );
@@ -6039,7 +6005,7 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = Thin;
-weightClass = 250;
+weightClass = 100;
 },
 {
 axesValues = (
@@ -6061,7 +6027,7 @@ instanceInterpolations = {
 m01 = 0.67647;
 };
 name = ExtraLight;
-weightClass = 275;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -6193,6 +6159,40 @@ m003 = 1;
 };
 name = ExtraBold;
 weightClass = 800;
+},
+{
+customParameters = (
+{
+name = "Variable Font Origin";
+value = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+},
+{
+name = "Keep Transformed Components";
+value = 0;
+},
+{
+name = fileName;
+value = "PlaypenSans[wght]";
+}
+);
+exports = 0;
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Playpen Sans VF";
+}
+);
+},
+{
+key = variationsPostScriptNamePrefix;
+value = PlaypenSansVF;
+}
+);
+type = variable;
 }
 );
 kerningLTR = {
