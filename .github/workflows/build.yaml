@@ -38,7 +38,7 @@ jobs:
       with:
         name: PlaypenSans-fonts
         path: |
-          fonts-builder
+          fonts
           OFL.txt
   
     # If any files in fonts/* were changed, commit them, but only if
@@ -46,7 +46,7 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Automated rebuild
-        file_pattern: "fonts-builder"
+        file_pattern: "fonts"
       if: steps.check.outputs.sources == 'true'
 
   release:
