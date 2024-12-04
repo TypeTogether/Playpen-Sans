@@ -1,5 +1,5 @@
 lookup pseudoRandom_THA {
-	lookupflag IgnoreMarks;
+	#lookupflag IgnoreMarks;
 	sub @dflt_tha_1' @dflt_tha_1 @dflt_tha_1 @dflt_tha_1 by @alt3_tha_1 ;
 	sub @dflt_tha_1' @dflt_tha_1 @dflt_tha_1 @dflt_tha_2 by @alt1_tha_1 ;
 	sub @dflt_tha_1' @dflt_tha_1 @dflt_tha_1 @dflt_tha_3 by @alt1_tha_1 ;
