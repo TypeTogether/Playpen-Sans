@@ -19,5 +19,5 @@ postCompile:
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/DEVA.yaml -o $out'
-  - operation: buildStat
-    args: --src stat.yaml
+  # - operation: buildStat
+  #   args: --src stat.yaml
