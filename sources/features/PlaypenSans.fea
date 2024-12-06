@@ -1406,7 +1406,7 @@ feature calt {
 		sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
 	} deva_uMatra_alt;
 
-	include(features/deva-PseudoRandom.fea);
+	include(features/deva-pseudoRandom.fea);
 	include(features/deva-BackwardsCheck.fea);
 
 	language MAR;
