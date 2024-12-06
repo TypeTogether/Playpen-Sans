@@ -1,1 +1,2 @@
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
+OS/2->usWinAscent: 1363 # Set to the max bbox
