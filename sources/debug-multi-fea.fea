@@ -6721,10 +6721,6 @@ feature calt {
     } BackwardsCheck_THA;
 
     lookup calt_thai_1 {
-        sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
-    } calt_thai_1;
-
-    lookup calt_thai_2 {
         #lookupflag 0;
         sub [yoYing-thai yoYing-thai.alt1 yoYing-thai.alt2 yoYing-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by yoYing-thai.less;
         sub [thoThan-thai thoThan-thai.alt1 thoThan-thai.alt2 thoThan-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by thoThan-thai.less;
@@ -6734,6 +6730,10 @@ feature calt {
         sub [lu-thai lu-thai.alt1 lu-thai.alt2 lu-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by lu-thai.short;
         sub [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
         sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai] by loChula-thai.short;
+    } calt_thai_1;
+
+    lookup calt_thai_2 {
+        sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
     } calt_thai_2;
 
     lookup calt_thai_3 {
@@ -6743,13 +6743,32 @@ feature calt {
         sub [nikhahit-thai.narrow maiChattawa-thai.narrow maiEk-thai.narrow maiHanaKat-thai.narrow thanthakhat-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maitaikhu-thai.narrow yamakkan-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
     } calt_thai_3;
 
-    lookup calt_thai_4 {
-        sub nikhahit-thai saraAa-thai by saraAm-thai;
-        sub nikhahit-thai saraAa-thai.alt1 by saraAm-thai.alt1;
-        sub nikhahit-thai saraAa-thai.alt2 by saraAm-thai.alt2;
-        sub nikhahit-thai saraAa-thai.alt3 by saraAm-thai.alt3;
-    } calt_thai_4;
-
+    # lookup calt_thai_1 {
+    # sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
+    # } calt_thai_1;
+    # lookup calt_thai_2 {
+    # 	#lookupflag 0;
+    # 	sub [yoYing-thai yoYing-thai.alt1 yoYing-thai.alt2 yoYing-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by yoYing-thai.less;
+    # 	sub [thoThan-thai thoThan-thai.alt1 thoThan-thai.alt2 thoThan-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by thoThan-thai.less;
+    # 	sub [doChada-thai doChada-thai.alt1 doChada-thai.alt2 doChada-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by doChada-thai.short;
+    # 	sub [toPatak-thai toPatak-thai.alt1 toPatak-thai.alt2 toPatak-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by toPatak-thai.short;
+    # 	sub [ru-thai ru-thai.alt1 ru-thai.alt2 ru-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by ru-thai.short;
+    # 	sub [lu-thai lu-thai.alt1 lu-thai.alt2 lu-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by lu-thai.short;
+    # 	sub [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
+    # 	sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai] by loChula-thai.short;
+    # } calt_thai_2;
+    # 	lookup calt_thai_3 {
+    # 	@thai_nonnarrowmarks = [maiHanaKat-thai maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai];
+    # 	lookupflag UseMarkFilteringSet @thai_nonnarrowmarks;
+    # 	sub [poPla-thai poPla-thai.alt1 poPla-thai.alt2 poPla-thai.alt3 foFa-thai foFa-thai.alt1 foFa-thai.alt2 foFa-thai.alt3 foFan-thai foFan-thai.alt1 foFan-thai.alt2 foFan-thai.alt3] @thai_nonnarrowmarks' by [maiHanaKat-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow nikhahit-thai.narrow nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];
+    # 	sub [nikhahit-thai.narrow maiChattawa-thai.narrow maiEk-thai.narrow maiHanaKat-thai.narrow thanthakhat-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maitaikhu-thai.narrow yamakkan-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
+    # 	} calt_thai_3;
+    # 	lookup calt_thai_4 {
+    # 	sub nikhahit-thai saraAa-thai by saraAm-thai;
+    # 	sub nikhahit-thai saraAa-thai.alt1 by saraAm-thai.alt1;
+    # 	sub nikhahit-thai saraAa-thai.alt2 by saraAm-thai.alt2;
+    # 	sub nikhahit-thai saraAa-thai.alt3 by saraAm-thai.alt3;
+    # 	} calt_thai_4;
 } calt;
 
 feature case {
