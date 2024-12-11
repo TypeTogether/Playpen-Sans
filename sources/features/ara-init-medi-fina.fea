@@ -30,7 +30,8 @@ feature init {
     sub lam-ar by lam-ar.init;
     sub lamVabove-ar by lamVabove-ar.init;
     sub meem-ar by meem-ar.init;
-    sub noon-ar by noon-ar.init;
+    # sub noon-ar by noon-ar.init;
+    sub noonghunna-ar by behDotless-ar.init;
     sub heh-ar by heh-ar.init;
     sub hehgoal-ar by hehgoal-ar.init;
     sub hehDoachashmee-ar by hehDoachashmee-ar.init;
@@ -77,7 +78,8 @@ feature medi {
     sub lam-ar by lam-ar.medi;
     sub lamVabove-ar by lamVabove-ar.medi;
     sub meem-ar by meem-ar.medi;
-    sub noon-ar by noon-ar.medi;
+    # sub noon-ar by noon-ar.medi;
+    sub noonghunna-ar by behDotless-ar.medi;
     sub heh-ar by heh-ar.medi;
     sub hehgoal-ar by hehgoal-ar.medi;
     sub hehDoachashmee-ar by hehDoachashmee-ar.medi;
@@ -139,7 +141,7 @@ feature fina {
     sub lam-ar by lam-ar.fina;
     sub lamVabove-ar by lamVabove-ar.fina;
     sub meem-ar by meem-ar.fina;
-    sub noon-ar by noon-ar.fina;
+    # sub noon-ar by noon-ar.fina;
     sub noonghunna-ar by noonghunna-ar.fina;
     sub heh-ar by heh-ar.fina;
     sub hehgoal-ar by hehgoal-ar.fina;
