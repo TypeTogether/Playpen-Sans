@@ -1461,7 +1461,7 @@ feature calt {
 		sub [ru-thai ru-thai.alt1 ru-thai.alt2 ru-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by ru-thai.short;
 		sub [lu-thai lu-thai.alt1 lu-thai.alt2 lu-thai.alt3]' [saraU-thai saraUu-thai phinthu-thai] by lu-thai.short;
 		sub [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
-		sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai] by loChula-thai.short;
+		sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [nikhahit-thai maiChattawa-thai maiEk-thai maiHanaKat-thai thanthakhat-thai maiTho-thai maiTri-thai maitaikhu-thai yamakkan-thai saraAm-thai saraI-thai saraIi-thai saraUe-thai saraUee-thai nikhahit_maiEk-thai nikhahit_maiTho-thai nikhahit_maiTri-thai nikhahit_maiChattawa-thai] by loChula-thai.short;
 	} calt_thai_2;
 
 		lookup calt_thai_3 {
@@ -1477,6 +1477,11 @@ feature calt {
 		sub nikhahit-thai saraAa-thai.alt2 by saraAm-thai.alt2;
 		sub nikhahit-thai saraAa-thai.alt3 by saraAm-thai.alt3;
 		} calt_thai_4;
+		
+		lookup calt_thai_5 {
+		sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [saraAm-thai.alt1 saraAm-thai.alt2 saraAm-thai.alt3] by loChula-thai.short;
+		} calt_thai_5;
+		
 } calt;
 
 
