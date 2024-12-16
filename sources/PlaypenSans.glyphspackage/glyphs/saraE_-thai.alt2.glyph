@@ -1,5 +1,6 @@
 {
 glyphname = "saraE-thai.alt2";
+kernRight = "saraE-thai";
 layers = (
 {
 background = {

@@ -1,5 +1,6 @@
 {
 glyphname = "thoThan-thai.alt3";
+kernLeft = "thoThan-thai";
 layers = (
 {
 anchors = (

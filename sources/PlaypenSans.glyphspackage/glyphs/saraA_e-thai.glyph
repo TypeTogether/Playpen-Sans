@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = "saraAe-thai";
+kernRight = "saraE-thai";
 layers = (
 {
 background = {

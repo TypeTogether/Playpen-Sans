@@ -14165,6 +14165,12 @@ adblgrave = -60;
 "@MMK_R_yen" = 20;
 "@MMK_R_yturned" = -30;
 };
+"@MMK_L_saraE-thai" = {
+"@MMK_R_boBaimai-thai" = -30;
+"@MMK_R_choChan-thai" = -40;
+"@MMK_R_khoKhai-thai" = -30;
+"@MMK_R_thoThan-thai" = -30;
+};
 "@MMK_L_seven" = {
 "@MMK_R_AE" = -100;
 "@MMK_R_Ismall" = -30;
@@ -15625,6 +15631,9 @@ a.circled = {
 };
 dmacronbelow = {
 "@MMK_R_jcrossedtail" = -25;
+};
+"doDek-thai" = {
+"@MMK_R_saraAa-thai" = -10;
 };
 dtail.alt1 = {
 "@MMK_R_jcrossedtail" = 58;
@@ -24128,6 +24137,12 @@ adblgrave = -50;
 "@MMK_R_yen" = 20;
 "@MMK_R_yturned" = -40;
 };
+"@MMK_L_saraE-thai" = {
+"@MMK_R_boBaimai-thai" = -30;
+"@MMK_R_choChan-thai" = -40;
+"@MMK_R_khoKhai-thai" = -30;
+"@MMK_R_thoThan-thai" = -40;
+};
 "@MMK_L_seven" = {
 "@MMK_R_AE" = -100;
 "@MMK_R_Ismall" = -25;
@@ -25633,6 +25648,9 @@ a.circled = {
 };
 dmacronbelow = {
 "@MMK_R_jcrossedtail" = -5;
+};
+"doDek-thai" = {
+"@MMK_R_saraAa-thai" = -10;
 };
 dtail.alt1 = {
 "@MMK_R_jcrossedtail" = 75;
@@ -33762,6 +33780,12 @@ adblgrave = -39;
 "@MMK_R_yen" = 20;
 "@MMK_R_yturned" = -50;
 };
+"@MMK_L_saraE-thai" = {
+"@MMK_R_boBaimai-thai" = -30;
+"@MMK_R_choChan-thai" = -40;
+"@MMK_R_khoKhai-thai" = -30;
+"@MMK_R_thoThan-thai" = -45;
+};
 "@MMK_L_seven" = {
 "@MMK_R_AE" = -100;
 "@MMK_R_Ismall" = -20;
@@ -35270,6 +35294,9 @@ Udieresisbelow = {
 };
 a.circled = {
 "@MMK_R_oopen" = -10;
+};
+"doDek-thai" = {
+"@MMK_R_saraAa-thai" = -15;
 };
 dtail.alt1 = {
 "@MMK_R_jcrossedtail" = 50;

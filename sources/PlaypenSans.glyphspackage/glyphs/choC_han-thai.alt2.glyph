@@ -1,5 +1,6 @@
 {
 glyphname = "choChan-thai.alt2";
+kernLeft = "choChan-thai";
 layers = (
 {
 anchors = (

@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = "boBaimai-thai";
+kernLeft = "boBaimai-thai";
 layers = (
 {
 anchors = (

@@ -1,5 +1,6 @@
 {
 glyphname = "poPla-thai.alt3";
+kernLeft = "boBaimai-thai";
 layers = (
 {
 anchors = (

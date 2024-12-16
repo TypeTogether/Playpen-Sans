@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = "thoThan-thai";
+kernLeft = "thoThan-thai";
 layers = (
 {
 anchors = (
