@@ -10,7 +10,7 @@ pos = (374,0);
 },
 {
 name = top;
-pos = (402,526);
+pos = (418,526);
 }
 );
 background = {
@@ -78,6 +78,12 @@ AngleInDegrees = "360";
 }
 );
 };
+guides = (
+{
+angle = 85.2624;
+pos = (398,333);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -142,7 +148,7 @@ pos = (451,0);
 },
 {
 name = top;
-pos = (515,546);
+pos = (524,546);
 }
 );
 background = {
@@ -322,7 +328,7 @@ pos = (404,0);
 },
 {
 name = top;
-pos = (446,535);
+pos = (458,535);
 }
 );
 background = {

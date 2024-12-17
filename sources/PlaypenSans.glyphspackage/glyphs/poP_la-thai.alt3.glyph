@@ -410,7 +410,7 @@ AngleInDegrees = "0";
 );
 };
 backgroundImage = {
-imagePath = "/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 26-8-2567 BE, 20 09 20.jpg";
+imagePath = "/Users/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 26-8-2567 BE, 20 09 20.jpg";
 pos = (-178,-177);
 scale = (2.1609,2.0885);
 };

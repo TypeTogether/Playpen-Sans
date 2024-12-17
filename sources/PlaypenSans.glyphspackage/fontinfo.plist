@@ -1,5 +1,5 @@
 {
-.appVersion = "3327";
+.appVersion = "3317";
 .formatVersion = 3;
 axes = (
 {
@@ -5766,6 +5766,20 @@ name = typoDescender;
 value = -340;
 }
 );
+guides = (
+{
+angle = 85.2624;
+pos = (315,283);
+},
+{
+angle = 85.2624;
+pos = (425,333);
+},
+{
+angle = 85.2624;
+pos = (-113,333);
+}
+);
 iconName = Light;
 id = m01;
 metricValues = (
@@ -5860,6 +5874,17 @@ pos = (347,305);
 {
 locked = 1;
 pos = (347,669);
+},
+{
+angle = 85.2624;
+pos = (464,338);
+},
+{
+pos = (631,535);
+},
+{
+angle = 85.2624;
+pos = (-92,338);
 }
 );
 id = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
@@ -5945,6 +5970,12 @@ value = 1170;
 {
 name = typoDescender;
 value = -340;
+}
+);
+guides = (
+{
+angle = 85.2624;
+pos = (-64,333);
 }
 );
 iconName = Bold;

@@ -494,7 +494,7 @@ AngleInDegrees = "0";
 );
 };
 backgroundImage = {
-imagePath = "/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/THAI/Glyphs/2-SKETCHES/alt - [4] ผฝย อฮ ฐรธโ ษัะฯ๚ อฮะ บขชซฃ/Photo 27-8-2567 BE, 15 06 52.jpg";
+imagePath = "/Users/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/THAI/Glyphs/2-SKETCHES/alt - [4] ผฝย อฮ ฐรธโ ษัะฯ๚ อฮะ บขชซฃ/Photo 27-8-2567 BE, 15 06 52.jpg";
 locked = 1;
 pos = (-47,-159);
 scale = (2.4546,2.8924);

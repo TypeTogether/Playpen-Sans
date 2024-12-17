@@ -422,7 +422,7 @@ AngleInDegrees = "0";
 );
 };
 backgroundImage = {
-imagePath = "/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (2).jpg";
+imagePath = "/Users/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (2).jpg";
 pos = (-161,-112);
 scale = (1.7112,1.8062);
 };
@@ -621,7 +621,7 @@ AngleInDegrees = "359.99999";
 );
 };
 backgroundImage = {
-imagePath = "/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (2).jpg";
+imagePath = "/Users/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (2).jpg";
 pos = (-161,-112);
 scale = (1.7112,1.8062);
 };

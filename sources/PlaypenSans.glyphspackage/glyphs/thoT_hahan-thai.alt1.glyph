@@ -162,7 +162,7 @@ pos = (730,546);
 background = {
 backgroundImage = {
 angle = 4;
-imagePath = "../../Library/CloudStorage/Dropbox/Desktop/Screenshot 2567-08-11 at 14.21.49.png";
+imagePath = "../../../../Library/CloudStorage/Dropbox/Desktop/Screenshot 2567-08-11 at 14.21.49.png";
 pos = (45,-118);
 scale = (3.8431,3.8431);
 };
