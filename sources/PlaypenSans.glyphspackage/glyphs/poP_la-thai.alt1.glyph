@@ -425,7 +425,7 @@ ValidForParentMinorAxisWidth = "15";
 );
 };
 backgroundImage = {
-imagePath = "/Users/Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (3).jpg";
+imagePath = "../../Volumes/T7/Dropbox/TT_PlaypenSansExtension_2024/✳︎ PlaypenSans TH/2-SKETCHES/alt - [1] บปอ ฐ กถภ นส ะา หท/Photo 25-8-2567 BE, 09 49 54 (3).jpg";
 locked = 1;
 pos = (-222,-158);
 scale = (3.3657,3.3657);
