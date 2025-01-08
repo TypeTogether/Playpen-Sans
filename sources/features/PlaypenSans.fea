@@ -958,7 +958,10 @@ feature locl {
 		lookup ccmp_thai_6 {
 		sub [loChula-thai loChula-thai.alt1 loChula-thai.alt2 loChula-thai.alt3]' [saraAm-thai.alt1 saraAm-thai.alt2 saraAm-thai.alt3] by loChula-thai.short;
 		} ccmp_thai_6;
-
+		
+		lookup ccmp_thai_7 {
+		sub [saraAm-thai saraAm-thai.alt1 saraAm-thai.alt2 saraAm-thai.alt3] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
+		} ccmp_thai_7;
 } ccmp;
 
 
