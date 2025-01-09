@@ -111,6 +111,12 @@ FEFF
 202C
 202B
 202E
+FB01
+FB02
+# Defined in SSA, but needed for some european languages
+014A
+014B 
+02BC
 
 # LATIN CORE
 
