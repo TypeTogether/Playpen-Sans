@@ -1663,14 +1663,14 @@ feature ss01 {
 		sub [hah-ar.init hah-ar.init.alt1 hah-ar.init.alt2 hah-ar.init.alt3] by hah-ar.init.ss01;
 	} ss01_ara_0;
 
-	# add to ss01 (name: Arabic Ruq'ah style)
-	lookup ss01_ara_1 {
-		sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
-		sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
-		sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
-		sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
-		sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
-	} ss01_ara_1;
+	# # add to ss01
+	# lookup ss01_ara_1 {
+	# 	sub [seen-ar seen-ar.alt1 seen-ar.alt2 seen-ar.alt3] by seen-ar.ss01;
+	# 	sub [seen-ar.init seen-ar.init.alt1 seen-ar.init.alt2 seen-ar.init.alt3] by seen-ar.init.ss01;
+	# 	sub [seen-ar.medi seen-ar.medi.alt1 seen-ar.medi.alt2 seen-ar.medi.alt3] by seen-ar.medi.ss01;
+	# 	sub [seen-ar.fina seen-ar.fina.alt1 seen-ar.fina.alt2 seen-ar.fina.alt3] by seen-ar.fina.ss01;
+	# 	sub [meem-ar.medi meem-ar.medi.alt1 meem-ar.medi.alt2 meem-ar.medi.alt3] by meem-ar.medi.ss01;
+	# } ss01_ara_1;
 
 } ss01;
 
