@@ -1,6 +1,6 @@
-OS/2->sTypoAscender: 1300 # 1330 ii_candraBindu-deva
-OS/2->sTypoDescender: -480 # Lowest descender identified so far -501 rrVocalic-deva
-hhea->ascender: 1300 # to match the new sTypeDescender
-hhea->descender: -480 # to match the new sTypeDescender
-OS/2->usWinAscent: 1382 # Set to the max bbox
-OS/2->usWinDescent: 808 # Set to the max bbox
+OS/2->sTypoAscender: 1360 # 1330 ii_candraBindu-deva
+OS/2->sTypoDescender: -420 # Lowest descender identified so far -501 rrVocalic-deva
+hhea->ascender: 1360 # to match the new sTypeDescender
+hhea->descender: -420 # to match the new sTypeDescender
+OS/2->usWinAscent: 1382 # Set to the max bbox glyph01571
+OS/2->usWinDescent: 808 # Set to the max bbox llVocalicMatra-deva
