@@ -1,4 +1,4 @@
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
-hhea->descender: -450 # to match the new sTypeDescender
-OS/2->sTypoDescender: -450 # Lowest descender is Yeh-ar.fina -510
+hhea->descender: -400 # to match the new sTypeDescender
+OS/2->sTypoDescender: -400 # Lowest descender is Yeh-ar.fina -510
 OS/2->usWinDescent: 604 # Set to the max bbox
