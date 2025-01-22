@@ -1,2 +1,8 @@
+OS/2->sTypoAescender: 1230 # # 1363 maiChattawa-thai.ccmp0.001
+# OS/2->sTypoDescender: -340 # Lowest descender yehbarreeHamzaabove-ar.fina -397
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
+hhea->descender: 1230 # to match the new sTypeAscender
+# hhea->descender: -340 # to match the new sTypeDescender
 OS/2->usWinAscent: 1363 # maiChattawa-thai.small
+OS/2->xAvgCharWidth: 622 # Set to the average width
+meta->dlng: 'Thai' # Set the design language
