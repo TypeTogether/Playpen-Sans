@@ -1372,6 +1372,7 @@ feature pres {
 		sub sh-deva ka-deva by sh_ka-deva;
 		sub sh-deva.loclMAR ka-deva by sh_ka-deva.loclMAR;
 		sub sh-deva ca-deva by sh_ca-deva;
+		sub sh-deva.loclMAR ca-deva by sh_ca-deva.loclMAR;
 		sub sh-deva cha-deva by sh_cha-deva;
 		sub sh-deva.loclMAR cha-deva by sh_cha-deva.loclMAR;
 		sub sh-deva tta-deva by sh_tta-deva;
@@ -1417,6 +1418,7 @@ feature pres {
 		sub s-deva ma-deva by s_ma-deva;
 		sub s-deva ya-deva by s_ya-deva;
 		sub s-deva la-deva by s_la-deva;
+		sub s-deva la-deva.loclMAR by s_la-deva.loclMAR;
 		sub s-deva va-deva by s_va-deva;
 		sub s-deva sa-deva by s_sa-deva;
 
