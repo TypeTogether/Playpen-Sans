@@ -15,7 +15,7 @@ pos = (673,0);
 ref = "ma-deva.alt2";
 }
 );
-width = 1676;
+width = 1556;
 },
 {
 layerId = m003;
@@ -43,8 +43,9 @@ pos = (710,0);
 ref = "ma-deva.alt2";
 }
 );
-width = 1617;
+width = 1544;
 }
 );
+metricRight = "ma-deva.alt2";
 subCategory = Conjunct;
 }
