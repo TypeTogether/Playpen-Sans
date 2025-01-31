@@ -8,7 +8,7 @@ buildOTF: false
 buildTTF: false
 buildWebfont: false
 outputDir: "../fonts"
-filenameSuffix: MS
+filenameSuffix: Multi
 postCompile:
   - operation: rename
     args: --just-family
