@@ -4,3 +4,4 @@ hhea->ascender: 1360 # to match the new sTypeDescender
 hhea->descender: -400 # to match the new sTypeDescender
 OS/2->usWinAscent: 1382 # Set to the max bbox glyph01571
 OS/2->usWinDescent: 808 # Set to the max bbox llVocalicMatra-deva
+meta->data: {'dlng': 'Deva', 'slng': 'Deva'}
