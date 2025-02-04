@@ -2,6 +2,12 @@
 glyphname = "nukta-deva";
 layers = (
 {
+anchors = (
+{
+name = _nukt;
+pos = (-1,-147);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -25,6 +31,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _nukt;
+pos = (-1,-147);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -48,6 +60,12 @@ nodes = (
 width = 0;
 },
 {
+anchors = (
+{
+name = _nukt;
+pos = (-1,-147);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
