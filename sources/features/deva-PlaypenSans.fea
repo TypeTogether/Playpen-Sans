@@ -846,7 +846,7 @@ feature rkrf {
 	sub cha-deva halant-deva ra-deva by ch_ra-deva;
 	sub ja-deva halant-deva ra-deva by j_ra-deva;
 	sub jha-deva halant-deva ra-deva by jh_ra-deva;
-	sub jha-deva.loclMAR halant-deva ra-deva by jh_ra-deva.loclMAR;
+	sub jha-deva.loclNEP halant-deva ra-deva by jh_ra-deva.loclNEP;
 	sub nya-deva halant-deva ra-deva by ny_ra-deva;
 
 	sub tta-deva halant-deva ra-deva by tt_ra-deva;
