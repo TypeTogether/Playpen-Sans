@@ -834,6 +834,7 @@ feature rkrf {
 	sub sha-deva.loclMAR halant-deva ra-deva halant-deva ya-deva by sh_rakar_ya-deva;
 
 	sub k_ss-deva ra-deva by k_ss_ra-deva;
+	sub j_ny-deva ra-deva by j_ny_ra-deva;
 
 	sub ka-deva halant-deva ra-deva by k_ra-deva;
 	sub kha-deva halant-deva ra-deva by kh_ra-deva;
@@ -844,6 +845,9 @@ feature rkrf {
 	sub ca-deva halant-deva ra-deva by c_ra-deva;
 	sub cha-deva halant-deva ra-deva by ch_ra-deva;
 	sub ja-deva halant-deva ra-deva by j_ra-deva;
+	sub jha-deva halant-deva ra-deva by jh_ra-deva;
+	sub jha-deva.loclMAR halant-deva ra-deva by jh_ra-deva.loclMAR;
+	sub nya-deva halant-deva ra-deva by ny_ra-deva;
 
 	sub tta-deva halant-deva ra-deva by tt_ra-deva;
 	sub ttha-deva halant-deva ra-deva by tth_ra-deva;
@@ -865,6 +869,7 @@ feature rkrf {
 
 	sub ya-deva halant-deva ra-deva by y_ra-deva;
 	sub la-deva halant-deva ra-deva by l_ra-deva;
+	sub la-deva.loclMAR halant-deva ra-deva by l_ra-deva.loclMAR;
 	sub lla-deva halant-deva ra-deva by ll_ra-deva;
 	sub va-deva halant-deva ra-deva by v_ra-deva;
 	sub sha-deva halant-deva ra-deva by sh_ra-deva;
