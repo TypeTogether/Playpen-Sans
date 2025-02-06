@@ -8,7 +8,7 @@ shapes = (
 ref = "eMatra-deva";
 },
 {
-pos = (54,70);
+pos = (74,70);
 ref = "candraBindu-deva";
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = "eMatra-deva";
 },
 {
-pos = (192,78);
+pos = (222,78);
 ref = "candraBindu-deva";
 }
 );
@@ -36,7 +36,7 @@ ref = "eMatra-deva";
 },
 {
 alignment = -1;
-pos = (109,73);
+pos = (129,73);
 ref = "candraBindu-deva";
 }
 );

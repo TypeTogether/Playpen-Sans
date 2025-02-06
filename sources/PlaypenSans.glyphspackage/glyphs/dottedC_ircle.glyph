@@ -16,6 +16,10 @@ name = holamhaser;
 pos = (31,526);
 },
 {
+name = nukt;
+pos = (36,29);
+},
+{
 name = ogonek;
 pos = (491,0);
 },
@@ -276,6 +280,10 @@ name = holamhaser;
 pos = (31,537);
 },
 {
+name = nukt;
+pos = (16,19);
+},
+{
 name = ogonek;
 pos = (491,0);
 },
@@ -534,6 +542,10 @@ pos = (352,322);
 {
 name = holamhaser;
 pos = (31,546);
+},
+{
+name = nukt;
+pos = (3,0);
 },
 {
 name = ogonek;

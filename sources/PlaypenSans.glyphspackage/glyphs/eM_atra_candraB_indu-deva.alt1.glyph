@@ -21,7 +21,7 @@ shapes = (
 ref = "eMatra-deva.alt1";
 },
 {
-pos = (192,71);
+pos = (222,71);
 ref = "candraBindu-deva.alt1";
 }
 );

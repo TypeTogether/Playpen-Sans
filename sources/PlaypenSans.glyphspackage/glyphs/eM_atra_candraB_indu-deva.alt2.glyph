@@ -21,7 +21,7 @@ shapes = (
 ref = "eMatra-deva.alt2";
 },
 {
-pos = (192,79);
+pos = (222,99);
 ref = "candraBindu-deva";
 }
 );
@@ -36,7 +36,7 @@ ref = "eMatra-deva.alt2";
 },
 {
 alignment = -1;
-pos = (113,74);
+pos = (113,97);
 ref = "candraBindu-deva";
 }
 );

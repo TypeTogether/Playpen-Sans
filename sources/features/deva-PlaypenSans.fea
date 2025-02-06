@@ -18,7 +18,7 @@
 
 @iMatra-deva.w5 = [ga-deva ghha-deva la-deva.loclMAR ya-deva yya-deva g_ra-deva ghh_ra-deva t_ra-deva d_dha-deva y_ra-deva yy_ra-deva];
 
-@iMatra-deva.w6 = [cha-deva ja-deva za-deva nya-deva nna-deva la-deva lla-deva llla-deva sha-deva sha-deva.loclMAR sa-deva k_ssa-deva k_ss_ra-deva ch_na-deva ch_ra-deva ch_va-deva j_ra-deva j_nya-deva nn_ra-deva d_ya-deva n_ka-deva n_dda-deva l_ra-deva sh_ra-deva s_ra-deva h_ya-deva z_ra-deva];
+@iMatra-deva.w6 = [cha-deva ja-deva za-deva nya-deva nna-deva la-deva lla-deva llla-deva sha-deva sha-deva.loclMAR sa-deva k_ssa-deva k_ss_ra-deva ch_na-deva ch_ra-deva ch_va-deva j_ra-deva j_nya-deva nn_ra-deva d_ya-deva n_ka-deva n_dda-deva l_ra-deva ll_ra-deva sh_ra-deva s_ra-deva h_ya-deva z_ra-deva];
 
 @iMatra-deva.w7 = [jha-deva ny_ca-deva ny_ja-deva n_ca-deva n_tta-deva n_ta-deva n_da-deva n_d_ra-deva n_d_va-deva n_na-deva n_pa-deva n_p_ra-deva n_pha-deva n_ha-deva h_ma-deva];
 
@@ -834,6 +834,7 @@ feature rkrf {
 	sub sha-deva.loclMAR halant-deva ra-deva halant-deva ya-deva by sh_rakar_ya-deva;
 
 	sub k_ss-deva ra-deva by k_ss_ra-deva;
+	sub j_ny-deva ra-deva by j_ny_ra-deva;
 
 	sub ka-deva halant-deva ra-deva by k_ra-deva;
 	sub kha-deva halant-deva ra-deva by kh_ra-deva;
@@ -844,6 +845,9 @@ feature rkrf {
 	sub ca-deva halant-deva ra-deva by c_ra-deva;
 	sub cha-deva halant-deva ra-deva by ch_ra-deva;
 	sub ja-deva halant-deva ra-deva by j_ra-deva;
+	sub jha-deva halant-deva ra-deva by jh_ra-deva;
+	sub jha-deva.loclNEP halant-deva ra-deva by jh_ra-deva.loclNEP;
+	sub nya-deva halant-deva ra-deva by ny_ra-deva;
 
 	sub tta-deva halant-deva ra-deva by tt_ra-deva;
 	sub ttha-deva halant-deva ra-deva by tth_ra-deva;
@@ -865,6 +869,7 @@ feature rkrf {
 
 	sub ya-deva halant-deva ra-deva by y_ra-deva;
 	sub la-deva halant-deva ra-deva by l_ra-deva;
+	sub la-deva.loclMAR halant-deva ra-deva by l_ra-deva.loclMAR;
 	sub lla-deva halant-deva ra-deva by ll_ra-deva;
 	sub va-deva halant-deva ra-deva by v_ra-deva;
 	sub sha-deva halant-deva ra-deva by sh_ra-deva;

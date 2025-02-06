@@ -21,7 +21,7 @@ shapes = (
 ref = "eMatra-deva.alt2";
 },
 {
-pos = (105,78);
+pos = (125,98);
 ref = "anusvara-deva";
 }
 );

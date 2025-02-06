@@ -1,0 +1,56 @@
+{
+glyphname = "jh_ra-deva";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "jha-deva";
+},
+{
+pos = (828,0);
+ref = "halant-deva";
+},
+{
+pos = (1040,0);
+ref = "ra-deva";
+}
+);
+width = 1580;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "jha-deva";
+},
+{
+pos = (812,0);
+ref = "halant-deva";
+},
+{
+pos = (1019,0);
+ref = "ra-deva";
+}
+);
+width = 1559;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "jha-deva";
+},
+{
+pos = (793,0);
+ref = "halant-deva";
+},
+{
+pos = (988,0);
+ref = "ra-deva";
+}
+);
+width = 1527;
+}
+);
+}

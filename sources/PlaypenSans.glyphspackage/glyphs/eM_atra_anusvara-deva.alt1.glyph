@@ -8,7 +8,7 @@ shapes = (
 ref = "eMatra-deva.alt1";
 },
 {
-pos = (17,46);
+pos = (37,46);
 ref = "anusvara-deva.alt1";
 }
 );
@@ -21,7 +21,7 @@ shapes = (
 ref = "eMatra-deva.alt1";
 },
 {
-pos = (101,83);
+pos = (111,83);
 ref = "anusvara-deva.alt1";
 }
 );

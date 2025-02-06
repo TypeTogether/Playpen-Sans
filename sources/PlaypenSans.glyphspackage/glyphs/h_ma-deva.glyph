@@ -180,7 +180,7 @@ width = 1020;
 anchors = (
 {
 name = bottom;
-pos = (877,-225);
+pos = (877,-245);
 },
 {
 name = top;
