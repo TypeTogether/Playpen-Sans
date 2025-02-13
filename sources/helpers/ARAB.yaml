@@ -1,5 +1,8 @@
+OS/2->sTypoAscender: 1100 # Set to the max bbox
+OS/2->sTypoDescender: -550 # Lowest descender is Yeh-ar.fina -510
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
-hhea->descender: -450 # to match the new sTypeDescender
-OS/2->sTypoDescender: -450 # Lowest descender is Yeh-ar.fina -510
-OS/2->usWinDescent: 604 # Set to the max bbox
+hhea->ascender: 1100 # to match the new sTypeDescender
+hhea->descender: -550 # to match the new sTypeDescender
+OS/2->usWinAscent: 1170 # Set to the max bbox
+OS/2->usWinDescent: 600 # Set to the max bbox
 meta->data: {'dlng': 'Arab', 'slng': 'Arab'}
