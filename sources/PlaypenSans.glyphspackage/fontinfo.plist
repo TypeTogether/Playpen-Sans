@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3342";
 .formatVersion = 3;
 axes = (
 {
@@ -5784,6 +5784,10 @@ pos = (425,333);
 {
 angle = 85.2624;
 pos = (-113,333);
+},
+{
+angle = 85.2624;
+pos = (132,284);
 }
 );
 iconName = Light;
@@ -5886,6 +5890,7 @@ angle = 85.2624;
 pos = (464,338);
 },
 {
+angle = 90;
 pos = (631,535);
 },
 {
