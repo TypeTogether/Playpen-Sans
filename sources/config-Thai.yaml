@@ -14,6 +14,9 @@ postCompile:
     args: --just-family
     name: Playpen Sans Thai
   - operation: exec
+    exe: gftools-update-nameids
+    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Sirin Gunkloy" $in && mv $in.fix $out'
+  - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-THAI.nam'
   - operation: exec

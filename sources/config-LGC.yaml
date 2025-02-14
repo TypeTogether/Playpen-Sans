@@ -10,6 +10,9 @@ buildWebfont: false
 outputDir: "../fonts"
 postCompile:
   - operation: exec
+    exe: gftools-update-nameids
+    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos" $in && mv $in.fix $out'
+  - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-LGC.nam'
   - operation: exec
