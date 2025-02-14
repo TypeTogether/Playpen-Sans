@@ -3,6 +3,6 @@ OS/2->sTypoDescender: -550 # Lowest descender is Yeh-ar.fina -510
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
 hhea->ascender: 1100 # to match the new sTypeDescender
 hhea->descender: -550 # to match the new sTypeDescender
-OS/2->usWinAscent: 1170 # Set to the max bbox
-OS/2->usWinDescent: 600 # Set to the max bbox
+OS/2->usWinAscent: 1170 # == Latin typoAscender
+OS/2->usWinDescent: 600 # to a higher value than the typoDescender
 meta->data: {'dlng': 'Arab', 'slng': 'Arab'}
