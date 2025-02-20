@@ -15,4 +15,4 @@ postCompile:
     name: Playpen Sans Multi
   - operation: exec
     exe: gftools-update-nameids
-    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos, Azza Alameddine, Pooja Saxena, Sirin Gunkloy" $in && mv $in.fix $out'
+    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos, Azza Alameddine, Pooja Saxena, Gunjan Panchal, Sirin Gunkloy" $in && mv $in.fix $out'
