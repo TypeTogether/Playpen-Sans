@@ -8,9 +8,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (343,32);
 ref = ogonekcomb;
 }
@@ -21,9 +23,11 @@ width = 535;
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (322,12);
 ref = ogonekcomb;
 }
@@ -34,9 +38,11 @@ width = 555;
 layerId = m003;
 shapes = (
 {
+alignment = -1;
 ref = o;
 },
 {
+alignment = -1;
 pos = (411,34);
 ref = ogonekcomb;
 }
