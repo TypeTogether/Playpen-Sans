@@ -1,7 +1,7 @@
 {
 glyphname = "Ustraightstroke-cy.alt6";
-kernLeft = "Ustraight-cy";
-kernRight = "Ustraight-cy";
+kernLeft = "Ustraightstroke-cy";
+kernRight = "Ustraightstroke-cy";
 layers = (
 {
 layerId = m01;
