@@ -14,10 +14,11 @@ postCompile:
     args: --just-family
     name: Playpen Sans Deva
   - operation: exec
+    exe: gftools-update-nameids
+    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Pooja Saxena" $in && mv $in.fix $out'
+  - operation: exec
     exe: pyftsubset
-    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --unicodes-file=./helpers/PPS-DEVA.nam'
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-DEVA.nam'
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/DEVA.yaml -o $out'
-  # - operation: buildStat
-  #   args: --src stat.yaml

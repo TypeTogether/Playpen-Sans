@@ -1,0 +1,18 @@
+sources: 
+  - PlaypenSans.glyphspackage
+axisOrder:
+  - wght
+familyName: Playpen Sans
+buildVariable: true
+buildOTF: false
+buildTTF: false
+buildWebfont: false
+outputDir: "../fonts"
+filenameSuffix: Multi
+postCompile:
+  - operation: rename
+    args: --just-family
+    name: Playpen Sans Multi
+  - operation: exec
+    exe: gftools-update-nameids
+    args: '-d="Laura Meseguer, Veronika Burian, José Scaglione, Kostas Bartsokas, Vera Evstafieva, Tom Grace, Yorlmar Campos, Azza Alameddine, Pooja Saxena, Sirin Gunkloy" $in && mv $in.fix $out'
