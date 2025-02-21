@@ -34,6 +34,11 @@ nodes = (
 width = 248;
 },
 {
+guides = (
+{
+pos = (141,-124);
+}
+);
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
