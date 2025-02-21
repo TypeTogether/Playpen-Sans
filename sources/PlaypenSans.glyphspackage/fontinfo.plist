@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3342";
 .formatVersion = 3;
 axes = (
 {
@@ -6332,9 +6332,10 @@ a.circled = -25;
 };
 "@MMK_L_Alpha" = {
 "@MMK_R_Omicron" = -15;
+"@MMK_R_Phi" = -30;
 "@MMK_R_Psi" = -45;
 "@MMK_R_Tau" = -70;
-"@MMK_R_Upsilon" = -65;
+"@MMK_R_Upsilon" = -80;
 "@MMK_R_anoteleia" = -30;
 "@MMK_R_at" = -10;
 "@MMK_R_backslash" = -60;
@@ -7496,7 +7497,7 @@ jcaron = -10;
 "@MMK_R_z" = -5;
 };
 "@MMK_L_Gamma" = {
-"@MMK_R_Alpha" = -100;
+"@MMK_R_Alpha" = -115;
 "@MMK_R_Eta" = -15;
 "@MMK_R_Mu.ss01" = -65;
 "@MMK_R_Omega" = -20;
@@ -9065,7 +9066,7 @@ micro = -20;
 "@MMK_R_yturned" = -20;
 };
 "@MMK_L_Rho" = {
-"@MMK_R_Alpha" = -95;
+"@MMK_R_Alpha" = -110;
 "@MMK_R_Chi" = -30;
 "@MMK_R_Mu.ss01" = -50;
 "@MMK_R_Omicron" = -35;
@@ -16060,6 +16061,7 @@ a.circled = -18;
 };
 "@MMK_L_Alpha" = {
 "@MMK_R_Omicron" = -10;
+"@MMK_R_Phi" = -15;
 "@MMK_R_Psi" = -49;
 "@MMK_R_Tau" = -74;
 "@MMK_R_Upsilon" = -60;
@@ -17258,7 +17260,7 @@ jcaron = -20;
 "@MMK_R_z" = -7;
 };
 "@MMK_L_Gamma" = {
-"@MMK_R_Alpha" = -96;
+"@MMK_R_Alpha" = -112;
 "@MMK_R_Eta" = -10;
 "@MMK_R_Mu.ss01" = -61;
 "@MMK_R_Omega" = -20;
@@ -18849,7 +18851,7 @@ micro = -20;
 "@MMK_R_yturned" = -30;
 };
 "@MMK_L_Rho" = {
-"@MMK_R_Alpha" = -82;
+"@MMK_R_Alpha" = -97;
 "@MMK_R_Chi" = -30;
 "@MMK_R_Mu.ss01" = -50;
 "@MMK_R_Omicron" = -23;
@@ -26203,6 +26205,7 @@ a.circled = -20;
 };
 "@MMK_L_Alpha" = {
 "@MMK_R_Omicron" = 0;
+"@MMK_R_Phi" = -25;
 "@MMK_R_Psi" = -55;
 "@MMK_R_Tau" = -80;
 "@MMK_R_Upsilon" = -50;
@@ -27322,7 +27325,7 @@ jcaron = -30;
 "@MMK_R_z" = -20;
 };
 "@MMK_L_Gamma" = {
-"@MMK_R_Alpha" = -90;
+"@MMK_R_Alpha" = -105;
 "@MMK_R_Eta" = -1;
 "@MMK_R_Mu.ss01" = -55;
 "@MMK_R_Omega" = -20;
