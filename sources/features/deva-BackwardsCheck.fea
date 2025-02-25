@@ -1,3 +1,6 @@
+script deva;
+language dflt;
+
 lookup BackwardsCheck_DEVA {
 	# lookupflag IgnoreMarks;
 	sub @dflt_deva_1 @dflt_deva_1' by @alt1_deva_1;
@@ -97,3 +100,8 @@ lookup BackwardsCheck_DEVA {
 	sub @alt2_deva_4 @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @alt2_deva_4' by @alt1_deva_4;
 	sub @alt3_deva_4 @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @ALL_deva_ALL @alt3_deva_4' by @alt2_deva_4;
 } BackwardsCheck_DEVA;
+
+script dev2;
+language dflt;
+
+lookup BackwardsCheck_DEVA;

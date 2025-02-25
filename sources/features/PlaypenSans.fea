@@ -1439,14 +1439,15 @@ feature calt {
 
 
 	# DEVA
-	script deva;
-	language dflt;
-	lookup deva_uMatra_alt {
-		sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;;
-	} deva_uMatra_alt;
 
 	include(features/deva-pseudoRandom.fea);
 	include(features/deva-BackwardsCheck.fea);
+
+	script deva;
+	language dflt;
+	lookup deva_uMatra_alt {
+		sub [jha-deva jha-deva.alt1 jha-deva.alt2 jha-deva.alt3 j_nya-deva j_jha-deva jh_jha-deva] [uMatra-deva uMatra-deva.alt1 uMatra-deva.alt2 uMatra-deva.alt3]' by uMatra-deva.alt;
+	} deva_uMatra_alt;
 
 	language MAR;
 	lookup deva_uMatra_alt;
