@@ -28,7 +28,7 @@
 
 @iMatra-deva.w8 = [kha-deva khha-deva kh_ra-deva khh_ra-deva g_ga-deva g_da-deva g_na-deva g_ba-deva g_ma-deva g_ya-deva g_rakar_ya-deva g_va-deva gh_na-deva c_na-deva t_ka-deva t_k_ra-deva t_na-deva t_pa-deva t_p_ra-deva t_pha-deva t_ma-deva t_rakar_ya-deva t_va-deva d_bha-deva d_ma-deva n_t_ra-deva n_tha-deva n_dha-deva n_dh_ra-deva n_bha-deva n_ma-deva n_ya-deva n_va-deva p_tta-deva p_ta-deva p_na-deva p_pa-deva p_pha-deva p_ma-deva p_ya-deva p_va-deva b_ta-deva b_da-deva b_na-deva b_ba-deva b_va-deva m_ta-deva m_da-deva m_na-deva m_pa-deva m_p_ra-deva m_pha-deva m_ba-deva m_b_ra-deva m_bha-deva m_bh_ra-deva m_ma-deva m_ya-deva m_va-deva m_ha-deva y_na-deva y_ya-deva v_na-deva v_ya-deva v_la-deva.loclMAR v_va-deva v_ha-deva sh_ka-deva sh_ka-deva.loclMAR sh_tta-deva sh_tta-deva.loclMAR sh_qa-deva ss_ka-deva ss_k_ra-deva ss_tta-deva ss_tt_ra-deva ss_tt_va-deva ss_ttha-deva ss_pa-deva ss_p_ra-deva ss_pha-deva ss_ma-deva ss_ya-deva ss_va-deva ss_ssa-deva rr_ya-deva rr_ha-deva];
 
-@iMatra-deva.w9 = [k_pha-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva g_gha-deva g_ja-deva g_dha-deva g_bha-deva g_la-deva g_la-deva.loclMAR g_sa-deva gh_ma-deva gh_ya-deva c_ca-deva c_ma-deva c_ya-deva j_ka-deva j_jha-deva.loclNEP j_tta-deva j_dda-deva j_ta-deva j_da-deva j_na-deva j_ba-deva j_va-deva j_ny_ya-deva nn_tta-deva nn_ttha-deva nn_dda-deva nn_ddha-deva nn_ya-deva nn_va-deva t_t_ya-deva t_t_va-deva t_tha-deva t_ya-deva t_la-deva t_la-deva.loclMAR t_sa-deva th_na-deva th_ya-deva th_va-deva d_d_ya-deva dh_na-deva dh_ma-deva dh_ya-deva dh_va-deva n_sa-deva n_h_ya-deva p_la-deva p_la-deva.loclMAR p_sa-deva b_dha-deva b_ya-deva b_la-deva.loclMAR bh_na-deva bh_ya-deva bh_rakar_ya-deva bh_va-deva m_la-deva m_la-deva.loclMAR m_sha-deva m_sha-deva.loclMAR m_sa-deva l_ka-deva l_ga-deva l_tta-deva l_ttha-deva l_dda-deva l_ddha-deva l_ta-deva l_da-deva l_d_ra-deva l_pa-deva l_pha-deva l_ba-deva l_bha-deva l_ma-deva l_va-deva l_ha-deva l_fa-deva v_la-deva sh_ca-deva sh_ca-deva.loclMAR sh_ta-deva sh_ta-deva.loclMAR sh_na-deva sh_na-deva.loclMAR sh_ma-deva sh_ma-deva.loclMAR sh_ya-deva sh_ya-deva.loclMAR sh_va-deva sh_va-deva.loclMAR sh_sha-deva ss_nna-deva s_ka-deva s_k_ra-deva s_tta-deva s_ta-deva s_da-deva s_na-deva s_pa-deva s_p_ra-deva s_pha-deva s_ba-deva s_va-deva s_sa-deva q_pha-deva q_qa-deva q_fa-deva z_ba-deva];
+@iMatra-deva.w9 = [k_ka-deva k_pha-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva g_gha-deva g_ja-deva g_dha-deva g_bha-deva g_la-deva g_la-deva.loclMAR g_sa-deva gh_ma-deva gh_ya-deva c_ca-deva c_ma-deva c_ya-deva j_ka-deva j_jha-deva.loclNEP j_tta-deva j_dda-deva j_ta-deva j_da-deva j_na-deva j_ba-deva j_va-deva j_ny_ya-deva nn_tta-deva nn_ttha-deva nn_dda-deva nn_ddha-deva nn_ya-deva nn_va-deva t_t_ya-deva t_t_va-deva t_tha-deva t_ya-deva t_la-deva t_la-deva.loclMAR t_sa-deva th_na-deva th_ya-deva th_va-deva d_d_ya-deva dh_na-deva dh_ma-deva dh_ya-deva dh_va-deva n_sa-deva n_h_ya-deva p_la-deva p_la-deva.loclMAR p_sa-deva b_dha-deva b_ya-deva b_la-deva.loclMAR bh_na-deva bh_ya-deva bh_rakar_ya-deva bh_va-deva m_la-deva m_la-deva.loclMAR m_sha-deva m_sha-deva.loclMAR m_sa-deva l_ka-deva l_ga-deva l_tta-deva l_ttha-deva l_dda-deva l_ddha-deva l_ta-deva l_da-deva l_d_ra-deva l_pa-deva l_pha-deva l_ba-deva l_bha-deva l_ma-deva l_va-deva l_ha-deva l_fa-deva v_la-deva sh_ca-deva sh_ca-deva.loclMAR sh_ta-deva sh_ta-deva.loclMAR sh_na-deva sh_na-deva.loclMAR sh_ma-deva sh_ma-deva.loclMAR sh_ya-deva sh_ya-deva.loclMAR sh_va-deva sh_va-deva.loclMAR sh_sha-deva ss_nna-deva s_ka-deva s_k_ra-deva s_tta-deva s_ta-deva s_da-deva s_na-deva s_pa-deva s_p_ra-deva s_pha-deva s_ba-deva s_va-deva s_sa-deva q_pha-deva q_qa-deva q_fa-deva z_ba-deva];
 
 @iMatra-deva.w10 = [k_tta-deva k_ta-deva k_t_ta-deva k_t_ra-deva k_tha-deva k_da-deva k_na-deva k_pa-deva k_ma-deva k_ya-deva k_va-deva kh_na-deva kh_va-deva g_nna-deva c_cha-deva c_ch_va-deva j_j_nya-deva j_ma-deva j_ya-deva jh_na-deva jh_ma-deva tt_ya-deva nn_ma-deva t_k_ssa-deva d_rakar_ya-deva ph_tta-deva ph_ta-deva ph_na-deva ph_pa-deva ph_pha-deva b_ja-deva b_bha-deva b_bh_ra-deva b_la-deva b_sha-deva b_sha-deva.loclMAR b_sa-deva b_za-deva l_tha-deva l_ya-deva l_la-deva.loclMAR sh_cha-deva sh_cha-deva.loclMAR sh_la-deva sh_la-deva.loclMAR sh_sha-deva.loclMAR s_t_ra-deva s_tha-deva sh_rakar_ya-deva s_ma-deva s_ya-deva s_la-deva.loclMAR h_m_ya-deva q_ta-deva q_ba-deva q_ma-deva khh_va-deva z_ma-deva z_ya-deva f_ta-deva f_fa-deva];
 
@@ -51,122 +51,6 @@
 # -------------
 # LOOKUPS
 # -------------
-
-
-#Quadriconsonantal Conjuncts
-	lookup pres_cjct_quadri {
-		sub k-deva s-deva p_ra-deva by k_s_p_ra-deva;
-		sub k-deva s-deva p-deva la-deva by k_s_p_la-deva;
-		sub k-deva s-deva p-deva la-deva.loclMAR by k_s_p_la-deva.loclMAR;
-	} pres_cjct_quadri;
-
-#Triconsonantal Conjuncts
-	lookup pres_cjct_tri {
-		sub k-deva t-deva ta-deva by k_t_ta-deva;
-		sub k-deva t-deva ya-deva by k_t_ya-deva;
-		sub k-deva t_ra-deva by k_t_ra-deva;
-		sub k-deva t-deva va-deva by k_t_va-deva;
-		sub k-deva v-deva ya-deva by k_v_ya-deva;
-		sub k-deva s-deva tta-deva by k_s_tta-deva; 
-		sub k-deva s-deva dda-deva by k_s_dda-deva;
-		sub k-deva s-deva ta-deva by k_s_ta-deva;
-		sub k-deva s-deva pa-deva by k_s_pa-deva;
-		sub k_ss-deva ma-deva by k_ss_ma-deva;
-		sub k_ss-deva va-deva by k_ss_va-deva;
-		sub k_ss-deva ya-deva by k_ss_ya-deva;
-
-		sub g-deva dh-deva ya-deva by g_dh_ya-deva;
-		sub g-deva dh-deva va-deva by g_dh_va-deva;
-		sub g-deva n-deva ya-deva by g_n_ya-deva;
-		sub g-deva bh-deva ya-deva by g_bh_ya-deva;
-
-		sub ng-deva k_ra-deva by ng_k_ra-deva;
-		sub ng-deva k-deva ta-deva by ng_k_ta-deva;
-		sub ng-deva g_ra-deva by ng_g_ra-deva;
-		sub ng-deva gh_ra-deva by ng_gh_ra-deva;
-
-		sub c-deva ch_va-deva by c_ch_va-deva;
-
-		sub j-deva j-deva ya-deva by j_j_ya-deva;
-		sub j-deva j-deva va-deva by j_j_va-deva;
-		sub j_ny-deva ya-deva by j_ny_ya-deva; 
-		sub j-deva j_nya-deva by j_j_nya-deva;
-
-		sub t-deva k-deva ya-deva by t_k_ya-deva;
-		sub t-deva k_ra-deva by t_k_ra-deva;
-		sub t-deva k-deva va-deva by t_k_va-deva;
-		sub t-deva k_ssa-deva by t_k_ssa-deva;
-		sub t-deva kh-deva na-deva by t_kh_na-deva;
-		sub t-deva kh_ra-deva by t_kh_ra-deva;
-		sub t-deva t-deva ya-deva by t_t_ya-deva;
-		sub t-deva t-deva va-deva by t_t_va-deva;
-		sub t-deva n-deva ya-deva by t_n_ya-deva;
-		sub t-deva p_ra-deva by t_p_ra-deva;
-		sub t-deva p-deva la-deva by t_p_la-deva;
-		sub t-deva p-deva la-deva.loclMAR by t_p_la-deva.loclMAR;
-		sub t-deva m-deva ya-deva by t_m_ya-deva;
-		sub t-deva s-deva na-deva by t_s_na-deva;
-		sub t-deva s-deva ya-deva by t_s_ya-deva;
-		sub t-deva s-deva va-deva by t_s_va-deva;
-
-		sub dh-deva n-deva va-deva by dh_n_va-deva;
-
-		sub n-deva k-deva sa-deva by n_k_sa-deva;
-		sub n-deva t-deva sa-deva by n_t_sa-deva;
-		sub n-deva t-deva ya-deva by n_t_ya-deva;
-		sub n-deva t_ra-deva by n_t_ra-deva;
-		sub n-deva th-deva ya-deva by n_th_ya-deva;
-		sub n-deva th-deva va-deva by n_th_va-deva;
-		sub n-deva d_ra-deva by n_d_ra-deva;
-		sub n-deva d_va-deva by n_d_va-deva;
-		sub n-deva dh-deva ya-deva by n_dh_ya-deva;
-		sub n-deva dh_ra-deva by n_dh_ra-deva;
-		sub n-deva dh-deva va-deva by n_dh_va-deva;
-		sub n-deva n-deva ya-deva by n_n_ya-deva;
-		sub n-deva p_ra-deva by n_p_ra-deva;
-		sub n-deva m-deva ya-deva by n_m_ya-deva;
-		sub n-deva s-deva tta-deva by n_s_tta-deva;
-		sub n-deva h_ya-deva by n_h_ya-deva;
-
-		sub p-deva t-deva ya-deva by p_t_ya-deva;
-
-		sub b-deva j-deva ya-deva by b_j_ya-deva;
-		sub b-deva dh-deva va-deva by b_dh_va-deva;
-		sub b-deva bh_ra-deva by b_bh_ra-deva;
-		sub b-deva l-deva ya-deva by b_l_ya-deva;
-
-		sub m-deva p_ra-deva by m_p_ra-deva;
-		sub m-deva b-deva ya-deva by m_b_ya-deva;
-		sub m-deva b_ra-deva by m_b_ra-deva;
-		sub m-deva bh_ra-deva by m_bh_ra-deva;
-
-		sub l-deva k-deva ya-deva by l_k_ya-deva;
-		sub l-deva th-deva ya-deva by l_th_ya-deva;
-		sub l-deva d_ra-deva by l_d_ra-deva;
-		sub l-deva l-deva ya-deva by l_l_ya-deva;
-		sub l-deva v-deva dda-deva by l_v_dda-deva;
-		sub l-deva h_ya-deva by l_h_ya-deva;
-
-		sub ll-deva ya-deva by ll_ya-deva;
-
-		sub ss-deva k_ra-deva by ss_k_ra-deva;
-		sub ss-deva tt_ra-deva by ss_tt_ra-deva;
-		sub ss-deva tt_ya-deva by ss_tt_ya-deva;
-		sub ss-deva tt_va-deva by ss_tt_va-deva;
-		sub ss-deva tth_ya-deva by ss_tth_ya-deva;
-		sub ss-deva nn-deva ya-deva by ss_nn_ya-deva;
-		sub ss-deva p_ra-deva by ss_p_ra-deva;
-		sub ss-deva m-deva ya-deva by ss_m_ya-deva;
-
-		sub s-deva k_ra-deva by s_k_ra-deva;
-		sub s-deva k-deva va-deva by s_k_va-deva;
-		sub s-deva t-deva ya-deva by s_t_ya-deva;
-		sub s-deva t-deva va-deva by s_t_va-deva;
-		sub s-deva t_ra-deva by s_t_ra-deva;
-		sub s-deva th-deva ya-deva by s_th_ya-deva;
-		sub s-deva p_ra-deva by s_p_ra-deva;
-		sub s-deva m-deva ya-deva by s_m_ya-deva;
-	} pres_cjct_tri;
 
 #Biconsonantal Conjuncts
 
@@ -236,35 +120,480 @@ sub iMatra-deva' lookup iMatraRephCandraBindu @HalfGlyphs-deva' @BaseGlyphs-deva
 } iMatra_ligatures ; 
 
 
-# testing new contextual matras
+lookup raliquid {
+	sub ra-deva' rVocalicMatra-deva by rVocalic-deva;
+	sub ra-deva' rrVocalicMatra-deva by rrVocalic-deva;
+	sub ra-deva' lVocalicMatra-deva by lVocalic-deva;
+	sub ra-deva' llVocalicMatra-deva by llVocalic-deva;
+} raliquid;
 
-lookup iMatra_conjunct_contextual {
+lookup vocalicreph {
+	sub rVocalic-deva rVocalicMatra-deva' by reph-deva;
+	sub rrVocalic-deva rrVocalicMatra-deva' by reph-deva;
+	sub lVocalic-deva lVocalicMatra-deva' by reph-deva;
+	sub llVocalic-deva llVocalicMatra-deva' by reph-deva;
+} vocalicreph;
 
-	sub iMatra-deva' k-ka-deva by iMatra-deva.w9;
-	
-} iMatra_conjunct_contextual;
+#Quadriconsonantal Conjuncts
+	lookup pres_cjct_quadri {
+		sub k-deva s-deva p_ra-deva by k_s_p_ra-deva;
+		sub k-deva s-deva p-deva la-deva by k_s_p_la-deva;
+		sub k-deva s-deva p-deva la-deva.loclMAR by k_s_p_la-deva.loclMAR;
+	} pres_cjct_quadri;
+
+#Triconsonantal Conjuncts
+lookup pres_cjct_tri {
+	sub k-deva t-deva ta-deva by k_t_ta-deva;
+	sub k-deva t-deva ya-deva by k_t_ya-deva;
+	sub k-deva t_ra-deva by k_t_ra-deva;
+	sub k-deva t-deva va-deva by k_t_va-deva;
+	sub k-deva v-deva ya-deva by k_v_ya-deva;
+	sub k-deva s-deva tta-deva by k_s_tta-deva; 
+	sub k-deva s-deva dda-deva by k_s_dda-deva;
+	sub k-deva s-deva ta-deva by k_s_ta-deva;
+	sub k-deva s-deva pa-deva by k_s_pa-deva;
+	sub k_ss-deva ma-deva by k_ss_ma-deva;
+	sub k_ss-deva va-deva by k_ss_va-deva;
+	sub k_ss-deva ya-deva by k_ss_ya-deva;
+
+	sub g-deva dh-deva ya-deva by g_dh_ya-deva;
+	sub g-deva dh-deva va-deva by g_dh_va-deva;
+	sub g-deva n-deva ya-deva by g_n_ya-deva;
+	sub g-deva bh-deva ya-deva by g_bh_ya-deva;
+
+	sub ng-deva k_ra-deva by ng_k_ra-deva;
+	sub ng-deva k-deva ta-deva by ng_k_ta-deva;
+	sub ng-deva g_ra-deva by ng_g_ra-deva;
+	sub ng-deva gh_ra-deva by ng_gh_ra-deva;
+
+	sub c-deva ch_va-deva by c_ch_va-deva;
+
+	sub j-deva j-deva ya-deva by j_j_ya-deva;
+	sub j-deva j-deva va-deva by j_j_va-deva;
+	sub j_ny-deva ya-deva by j_ny_ya-deva; 
+	sub j-deva j_nya-deva by j_j_nya-deva;
+
+	sub t-deva k-deva ya-deva by t_k_ya-deva;
+	sub t-deva k_ra-deva by t_k_ra-deva;
+	sub t-deva k-deva va-deva by t_k_va-deva;
+	sub t-deva k_ssa-deva by t_k_ssa-deva;
+	sub t-deva kh-deva na-deva by t_kh_na-deva;
+	sub t-deva kh_ra-deva by t_kh_ra-deva;
+	sub t-deva t-deva ya-deva by t_t_ya-deva;
+	sub t-deva t-deva va-deva by t_t_va-deva;
+	sub t-deva n-deva ya-deva by t_n_ya-deva;
+	sub t-deva p_ra-deva by t_p_ra-deva;
+	sub t-deva p-deva la-deva by t_p_la-deva;
+	sub t-deva p-deva la-deva.loclMAR by t_p_la-deva.loclMAR;
+	sub t-deva m-deva ya-deva by t_m_ya-deva;
+	sub t-deva s-deva na-deva by t_s_na-deva;
+	sub t-deva s-deva ya-deva by t_s_ya-deva;
+	sub t-deva s-deva va-deva by t_s_va-deva;
+
+	sub dh-deva n-deva va-deva by dh_n_va-deva;
+
+	sub n-deva k-deva sa-deva by n_k_sa-deva;
+	sub n-deva t-deva sa-deva by n_t_sa-deva;
+	sub n-deva t-deva ya-deva by n_t_ya-deva;
+	sub n-deva t_ra-deva by n_t_ra-deva;
+	sub n-deva th-deva ya-deva by n_th_ya-deva;
+	sub n-deva th-deva va-deva by n_th_va-deva;
+	sub n-deva d_ra-deva by n_d_ra-deva;
+	sub n-deva d_va-deva by n_d_va-deva;
+	sub n-deva dh-deva ya-deva by n_dh_ya-deva;
+	sub n-deva dh_ra-deva by n_dh_ra-deva;
+	sub n-deva dh-deva va-deva by n_dh_va-deva;
+	sub n-deva n-deva ya-deva by n_n_ya-deva;
+	sub n-deva p_ra-deva by n_p_ra-deva;
+	sub n-deva m-deva ya-deva by n_m_ya-deva;
+	sub n-deva s-deva tta-deva by n_s_tta-deva;
+	sub n-deva h_ya-deva by n_h_ya-deva;
+
+	sub p-deva t-deva ya-deva by p_t_ya-deva;
+
+	sub b-deva j-deva ya-deva by b_j_ya-deva;
+	sub b-deva dh-deva va-deva by b_dh_va-deva;
+	sub b-deva bh_ra-deva by b_bh_ra-deva;
+	sub b-deva l-deva ya-deva by b_l_ya-deva;
+
+	sub m-deva p_ra-deva by m_p_ra-deva;
+	sub m-deva b-deva ya-deva by m_b_ya-deva;
+	sub m-deva b_ra-deva by m_b_ra-deva;
+	sub m-deva bh_ra-deva by m_bh_ra-deva;
+
+	sub l-deva k-deva ya-deva by l_k_ya-deva;
+	sub l-deva th-deva ya-deva by l_th_ya-deva;
+	sub l-deva d_ra-deva by l_d_ra-deva;
+	sub l-deva l-deva ya-deva by l_l_ya-deva;
+	sub l-deva v-deva dda-deva by l_v_dda-deva;
+	sub l-deva h_ya-deva by l_h_ya-deva;
+
+	sub ll-deva ya-deva by ll_ya-deva;
+
+	sub ss-deva k_ra-deva by ss_k_ra-deva;
+	sub ss-deva tt_ra-deva by ss_tt_ra-deva;
+	sub ss-deva tt_ya-deva by ss_tt_ya-deva;
+	sub ss-deva tt_va-deva by ss_tt_va-deva;
+	sub ss-deva tth_ya-deva by ss_tth_ya-deva;
+	sub ss-deva nn-deva ya-deva by ss_nn_ya-deva;
+	sub ss-deva p_ra-deva by ss_p_ra-deva;
+	sub ss-deva m-deva ya-deva by ss_m_ya-deva;
+
+	sub s-deva k_ra-deva by s_k_ra-deva;
+	sub s-deva k-deva va-deva by s_k_va-deva;
+	sub s-deva t-deva ya-deva by s_t_ya-deva;
+	sub s-deva t-deva va-deva by s_t_va-deva;
+	sub s-deva t_ra-deva by s_t_ra-deva;
+	sub s-deva th-deva ya-deva by s_th_ya-deva;
+	sub s-deva p_ra-deva by s_p_ra-deva;
+	sub s-deva m-deva ya-deva by s_m_ya-deva;
+} pres_cjct_tri;
+
+lookup pres_cjct_bi {
+	sub k-deva ka-deva by k_ka-deva;
+	sub k-deva kha-deva by k_kha-deva;
+	sub k-deva ca-deva by k_ca-deva;
+	sub k-deva ja-deva by k_ja-deva;
+	sub k-deva tta-deva by k_tta-deva;
+	sub k-deva nna-deva by k_nna-deva;
+	sub k-deva ta-deva by k_ta-deva;
+	sub k-deva tha-deva by k_tha-deva;
+	sub k-deva da-deva by k_da-deva;
+	sub k-deva na-deva by k_na-deva;
+	sub k-deva pa-deva by k_pa-deva;
+	sub k-deva pha-deva by k_pha-deva;
+	sub k-deva ma-deva by k_ma-deva;
+	sub k-deva ya-deva by k_ya-deva;
+	sub k-deva la-deva by k_la-deva;
+	sub k-deva la-deva.loclMAR by k_la-deva.loclMAR;
+	sub k-deva va-deva by k_va-deva;
+	sub k-deva sha-deva by k_sha-deva;
+	sub k-deva sha-deva.loclMAR by k_sha-deva.loclMAR;
+	sub k-deva sa-deva by k_sa-deva;
+
+	sub kh-deva kha-deva by kh_kha-deva;
+	sub kh-deva ta-deva by kh_ta-deva;
+	sub kh-deva na-deva by kh_na-deva;
+	sub kh-deva ma-deva by kh_ma-deva;
+	sub kh-deva ya-deva by kh_ya-deva;
+	sub kh-deva va-deva by kh_va-deva;
+	sub kh-deva sha-deva by kh_sha-deva;
+	sub kh-deva sha-deva.loclMAR by kh_sha-deva.loclMAR;
+
+	sub g-deva ga-deva by g_ga-deva;
+	sub g-deva gha-deva by g_gha-deva;
+	sub g-deva ja-deva by g_ja-deva;
+	sub g-deva nna-deva by g_nna-deva;
+	sub g-deva da-deva by g_da-deva;
+	sub g-deva dha-deva by g_dha-deva;
+	sub g-deva na-deva by g_na-deva;
+	sub g-deva ba-deva by g_ba-deva;
+	sub g-deva bha-deva by g_bha-deva;
+	sub g-deva ma-deva by g_ma-deva;
+	sub g-deva ya-deva by g_ya-deva;
+	sub g-deva la-deva by g_la-deva;
+	sub g-deva la-deva.loclMAR by g_la-deva.loclMAR;
+	sub g-deva va-deva by g_va-deva;
+	sub g-deva sa-deva by g_sa-deva;
+
+	sub gh-deva na-deva by gh_na-deva;
+	sub gh-deva ma-deva by gh_ma-deva;
+	sub gh-deva ya-deva by gh_ya-deva;
+
+	sub ng-deva ka-deva by ng_ka-deva;
+	sub ng-deva ga-deva by ng_ga-deva;
+	sub ng-deva kha-deva by ng_kha-deva;
+	sub ng-deva gha-deva by ng_gha-deva;
+	sub ng-deva ma-deva by ng_ma-deva;
+	sub ng-deva ya-deva by ng_ya-deva;
+
+	sub c-deva ca-deva by c_ca-deva;
+	sub c-deva cha-deva by c_cha-deva;
+	sub c-deva na-deva by c_na-deva;
+	sub c-deva ma-deva by c_ma-deva;
+	sub c-deva ya-deva by c_ya-deva;
+
+	sub j-deva ka-deva by j_ka-deva;
+	sub j-deva ja-deva by j_ja-deva;
+	sub j-deva jha-deva by j_jha-deva;
+	sub j-deva jha-deva.loclNEP by j_jha-deva.loclNEP;
+	sub j-deva tta-deva by j_tta-deva;
+	sub j-deva dda-deva by j_dda-deva;
+	sub j-deva ta-deva by j_ta-deva;
+	sub j-deva da-deva by j_da-deva;
+	sub j-deva na-deva by j_na-deva;
+	sub j-deva ba-deva by j_ba-deva;
+	sub j-deva ma-deva by j_ma-deva;
+	sub j-deva ya-deva by j_ya-deva;
+	sub j-deva va-deva by j_va-deva;
+
+	sub jh-deva jha-deva by jh_jha-deva;
+	sub jh-deva.loclNEP jha-deva.loclNEP by jh_jha-deva.loclNEP;
+	sub jh-deva na-deva by jh_na-deva;
+	sub jh-deva.loclNEP na-deva by jh_na-deva.loclNEP;
+	sub jh-deva ma-deva by jh_ma-deva;
+	sub jh-deva.loclNEP ma-deva by jh_ma-deva.loclNEP;
+	sub jh-deva ya-deva by jh_ya-deva;
+	sub jh-deva.loclNEP ya-deva by jh_ya-deva.loclNEP;
+
+	sub ny-deva ca-deva by ny_ca-deva;
+	sub ny-deva cha-deva by ny_cha-deva;
+	sub ny-deva ja-deva by ny_ja-deva;
+	sub ny-deva sha-deva by ny_sha-deva;
+	sub ny-deva sha-deva.loclMAR by ny_sha-deva.loclMAR;
+
+	sub nn-deva tta-deva by nn_tta-deva;
+	sub nn-deva ttha-deva by nn_ttha-deva;
+	sub nn-deva dda-deva by nn_dda-deva;
+	sub nn-deva ddha-deva by nn_ddha-deva;
+	sub nn-deva nna-deva by nn_nna-deva;
+	sub nn-deva ma-deva by nn_ma-deva;
+	sub nn-deva ya-deva by nn_ya-deva;
+	sub nn-deva va-deva by nn_va-deva;
+
+	sub t-deva ka-deva by t_ka-deva;
+	sub t-deva kha-deva by t_kha-deva;
+	sub t-deva ta-deva by t_ta-deva;
+	sub t-deva tha-deva by t_tha-deva;
+	sub t-deva na-deva by t_na-deva;
+	sub t-deva pa-deva by t_pa-deva;
+	sub t-deva pha-deva by t_pha-deva;
+	sub t-deva ma-deva by t_ma-deva;
+	sub t-deva ya-deva by t_ya-deva;
+	sub t-deva la-deva by t_la-deva;
+	sub t-deva la-deva.loclMAR by t_la-deva.loclMAR;
+	sub t-deva va-deva by t_va-deva;
+	sub t-deva sa-deva by t_sa-deva;
+
+	sub th-deva na-deva by th_na-deva;
+	sub th-deva ya-deva by th_ya-deva;
+	sub th-deva va-deva by th_va-deva;
+
+	sub dh-deva na-deva by dh_na-deva;
+	sub dh-deva ma-deva by dh_ma-deva;
+	sub dh-deva ya-deva by dh_ya-deva;
+	sub dh-deva va-deva by dh_va-deva;
+
+	sub n-deva ka-deva by n_ka-deva;
+	sub n-deva ca-deva by n_ca-deva;
+	sub n-deva tta-deva by n_tta-deva;
+	sub n-deva dda-deva by n_dda-deva;
+	sub n-deva ta-deva by n_ta-deva;
+	sub n-deva tha-deva by n_tha-deva;
+	sub n-deva da-deva by n_da-deva;
+	sub n-deva dha-deva by n_dha-deva;
+	sub n-deva na-deva by n_na-deva;
+	sub n-deva pa-deva by n_pa-deva;
+	sub n-deva pha-deva by n_pha-deva;
+	sub n-deva bha-deva by n_bha-deva;
+	sub n-deva ma-deva by n_ma-deva;
+	sub n-deva ya-deva by n_ya-deva;
+	sub n-deva ra-deva by n_ra-deva;
+	sub n-deva va-deva by n_va-deva;
+	sub n-deva sa-deva by n_sa-deva;
+	sub n-deva ha-deva by n_ha-deva;
+
+	sub p-deva tta-deva by p_tta-deva;
+	sub p-deva ta-deva by p_ta-deva;
+	sub p-deva na-deva by p_na-deva;
+	sub p-deva pa-deva by p_pa-deva;
+	sub p-deva pha-deva by p_pha-deva;
+	sub p-deva ma-deva by p_ma-deva;
+	sub p-deva ya-deva by p_ya-deva;
+	sub p-deva la-deva by p_la-deva;
+	sub p-deva la-deva.loclMAR by p_la-deva.loclMAR;
+	sub p-deva va-deva by p_va-deva;
+	sub p-deva sa-deva by p_sa-deva;
+
+	sub ph-deva ja-deva by ph_ja-deva;
+	sub ph-deva tta-deva by ph_tta-deva;
+	sub ph-deva ta-deva by ph_ta-deva;
+	sub ph-deva na-deva by ph_na-deva;
+	sub ph-deva pa-deva by ph_pa-deva;
+	sub ph-deva pha-deva by ph_pha-deva;
+	sub ph-deva ya-deva by ph_ya-deva;
+	sub ph-deva la-deva by ph_la-deva;
+	sub ph-deva la-deva.loclMAR by ph_la-deva.loclMAR;
+	sub ph-deva sha-deva by ph_sha-deva;
+	sub ph-deva sha-deva.loclMAR by ph_sha-deva.loclMAR;
+
+	sub b-deva ja-deva by b_ja-deva;
+	sub b-deva ta-deva by b_ta-deva;
+	sub b-deva da-deva by b_da-deva;
+	sub b-deva dha-deva by b_dha-deva;
+	sub b-deva na-deva by b_na-deva;
+	sub b-deva ba-deva by b_ba-deva;
+	sub b-deva bha-deva by b_bha-deva;
+	sub b-deva ya-deva by b_ya-deva;
+	sub b-deva la-deva by b_la-deva;
+	sub b-deva la-deva.loclMAR by b_la-deva.loclMAR;
+	sub b-deva va-deva by b_va-deva;
+	sub b-deva sha-deva by b_sha-deva;
+	sub b-deva sha-deva.loclMAR by b_sha-deva.loclMAR;
+	sub b-deva sa-deva by b_sa-deva;
+	sub b-deva za-deva by b_za-deva;
+
+	sub bh-deva na-deva by bh_na-deva;
+	sub bh-deva ya-deva by bh_ya-deva;
+	sub bh-deva va-deva by bh_va-deva;
+
+	sub m-deva ta-deva by m_ta-deva;
+	sub m-deva da-deva by m_da-deva;
+	sub m-deva na-deva by m_na-deva;
+	sub m-deva pa-deva by m_pa-deva;
+	sub m-deva pha-deva by m_pha-deva;
+	sub m-deva ba-deva by m_ba-deva;
+	sub m-deva bha-deva by m_bha-deva;
+	sub m-deva ma-deva by m_ma-deva;
+	sub m-deva ya-deva by m_ya-deva;
+	sub m-deva la-deva by m_la-deva;
+	sub m-deva la-deva.loclMAR by m_la-deva.loclMAR;
+	sub m-deva va-deva by m_va-deva;
+	sub m-deva sha-deva by m_sha-deva;
+	sub m-deva sha-deva.loclMAR by m_sha-deva.loclMAR;
+	sub m-deva sa-deva by m_sa-deva;
+	sub m-deva ha-deva by m_ha-deva;
+
+	sub y-deva na-deva by y_na-deva;
+	sub y-deva ya-deva by y_ya-deva;
+
+	sub rr-deva ya-deva by rr_ya-deva;
+	sub rr-deva ha-deva by rr_ha-deva;
+
+	sub l-deva ka-deva by l_ka-deva;
+	sub l-deva kha-deva by l_kha-deva;
+	sub l-deva ga-deva by l_ga-deva;
+	sub l-deva ja-deva by l_ja-deva;
+	sub l-deva tta-deva by l_tta-deva;
+	sub l-deva ttha-deva by l_ttha-deva;
+	sub l-deva dda-deva by l_dda-deva;
+	sub l-deva ddha-deva by l_ddha-deva;
+	sub l-deva ta-deva by l_ta-deva;
+	sub l-deva tha-deva by l_tha-deva;
+	sub l-deva da-deva by l_da-deva;
+	sub l-deva pa-deva by l_pa-deva;
+	sub l-deva pha-deva by l_pha-deva;
+	sub l-deva ba-deva by l_ba-deva;
+	sub l-deva bha-deva by l_bha-deva;
+	sub l-deva ma-deva by l_ma-deva;
+	sub l-deva ya-deva by l_ya-deva;
+	sub l-deva la-deva by l_la-deva;
+	sub l-deva la-deva.loclMAR by l_la-deva.loclMAR;
+	sub l-deva va-deva by l_va-deva;
+	sub l-deva sha-deva by l_sha-deva;
+	sub l-deva sha-deva.loclMAR by l_sha-deva.loclMAR;
+	sub l-deva sa-deva by l_sa-deva;
+	sub l-deva ha-deva by l_ha-deva;
+	sub l-deva za-deva by l_za-deva;
+	sub l-deva fa-deva by l_fa-deva;
+
+	sub v-deva na-deva by v_na-deva;
+	sub v-deva ya-deva by v_ya-deva;
+	sub v-deva la-deva by v_la-deva;
+	sub v-deva la-deva.loclMAR by v_la-deva.loclMAR;
+	sub v-deva va-deva by v_va-deva;
+	sub v-deva ha-deva by v_ha-deva;
+
+	sub sh-deva ka-deva by sh_ka-deva;
+	sub sh-deva.loclMAR ka-deva by sh_ka-deva.loclMAR;
+	sub sh-deva ca-deva by sh_ca-deva;
+	sub sh-deva.loclMAR ca-deva by sh_ca-deva.loclMAR;
+	sub sh-deva cha-deva by sh_cha-deva;
+	sub sh-deva.loclMAR cha-deva by sh_cha-deva.loclMAR;
+	sub sh-deva tta-deva by sh_tta-deva;
+	sub sh-deva.loclMAR tta-deva by sh_tta-deva.loclMAR;
+	sub sh-deva ta-deva by sh_ta-deva;
+	sub sh-deva.loclMAR ta-deva by sh_ta-deva.loclMAR;
+	sub sh-deva na-deva by sh_na-deva;
+	sub sh-deva.loclMAR na-deva by sh_na-deva.loclMAR;
+	sub sh-deva ma-deva by sh_ma-deva;
+	sub sh-deva.loclMAR ma-deva by sh_ma-deva.loclMAR;
+	sub sh-deva ya-deva by sh_ya-deva;
+	sub sh-deva.loclMAR ya-deva by sh_ya-deva.loclMAR;
+	sub sh-deva la-deva by sh_la-deva;
+	sub sh-deva.loclMAR la-deva.loclMAR by sh_la-deva.loclMAR;
+	sub sh-deva va-deva by sh_va-deva;
+	sub sh-deva.loclMAR va-deva by sh_va-deva.loclMAR;
+	sub sh-deva sha-deva by sh_sha-deva;
+	sub sh-deva.loclMAR sha-deva.loclMAR by sh_sha-deva.loclMAR;
+	sub sh-deva qa-deva by sh_qa-deva;
+
+	sub ss-deva ka-deva by ss_ka-deva;
+	sub ss-deva tta-deva by ss_tta-deva;
+	sub ss-deva ttha-deva by ss_ttha-deva;
+	sub ss-deva nna-deva by ss_nna-deva;
+	sub ss-deva pa-deva by ss_pa-deva;
+	sub ss-deva pha-deva by ss_pha-deva;
+	sub ss-deva ma-deva by ss_ma-deva;
+	sub ss-deva ya-deva by ss_ya-deva;
+	sub ss-deva va-deva by ss_va-deva;
+	sub ss-deva ssa-deva by ss_ssa-deva;
+
+	sub s-deva ka-deva by s_ka-deva;
+	sub s-deva kha-deva by s_kha-deva;
+	sub s-deva ja-deva by s_ja-deva;
+	sub s-deva tta-deva by s_tta-deva;
+	sub s-deva ta-deva by s_ta-deva;
+	sub s-deva da-deva by s_da-deva;
+	sub s-deva tha-deva by s_tha-deva;
+	sub s-deva na-deva by s_na-deva;
+	sub s-deva pa-deva by s_pa-deva;
+	sub s-deva pha-deva by s_pha-deva;
+	sub s-deva ba-deva by s_ba-deva;
+	sub s-deva ma-deva by s_ma-deva;
+	sub s-deva ya-deva by s_ya-deva;
+	sub s-deva la-deva by s_la-deva;
+	sub s-deva la-deva.loclMAR by s_la-deva.loclMAR;
+	sub s-deva va-deva by s_va-deva;
+	sub s-deva sa-deva by s_sa-deva;
+
+	sub q-deva ta-deva by q_ta-deva;
+	sub q-deva pha-deva by q_pha-deva;
+	sub q-deva ba-deva by q_ba-deva;
+	sub q-deva ma-deva by q_ma-deva;
+	sub q-deva qa-deva by q_qa-deva;
+	sub q-deva fa-deva by q_fa-deva;
+
+	sub khh-deva ta-deva by khh_ta-deva;
+	sub khh-deva ma-deva by khh_ma-deva;
+	sub khh-deva ya-deva by khh_ya-deva;
+	sub khh-deva va-deva by khh_va-deva;
+	sub khh-deva sha-deva by khh_sha-deva;
+	sub khh-deva sha-deva.loclMAR by khh_sha-deva.loclMAR;
+	sub khh-deva sa-deva by khh_sa-deva;
+
+	sub z-deva ba-deva by z_ba-deva;
+	sub z-deva ma-deva by z_ma-deva;
+	sub z-deva ya-deva by z_ya-deva;
+	sub z-deva za-deva by z_za-deva;
+
+	sub f-deva ta-deva by f_ta-deva;
+	sub f-deva sa-deva by f_sa-deva;
+	sub f-deva za-deva by f_za-deva;
+	sub f-deva fa-deva by f_fa-deva;
+} pres_cjct_bi;
+
+# # testing new contextual matras
+
+# lookup iMatra_conjunct_contextual {
+# 	sub iMatra-deva' k-deva ka-deva by iMatra-deva.w9;
+# } iMatra_conjunct_contextual;
 
 
-lookup iMatra_reph_conjunct_contextual {
-
-	sub iMatra_reph-deva' k-deva ka-deva by iMatra_reph-deva.w9;
-	
-} iMatra_reph_conjunct_contextual;
+# lookup iMatra_reph_conjunct_contextual {
+# 	sub iMatra_reph-deva' k-deva ka-deva by iMatra_reph-deva.w9;
+# } iMatra_reph_conjunct_contextual;
 
 
-lookup iMatra_anusvara_conjunct_contextual {
+# lookup iMatra_anusvara_conjunct_contextual {
+# 	# sub iMatra_anusvara-deva' k-deva ka-deva by iMatra_anusvara-deva.w9;
+# 	sub iMatra_anusvara-deva' k_ka-deva by iMatra_anusvara-deva.w9;
+# } iMatra_anusvara_conjunct_contextual;
 
-	sub iMatra_anusvara-deva' k-deva ka-deva by iMatra_anusvara-deva.w9;
-	
-} iMatra_anusvara_conjunct_contextual;
 
-
-lookup iMatra_reph_anusvara_conjunct_contextual {
-
-	sub iMatra_reph_anusvara-deva' k-deva ka-deva by iMatra_reph_anusvara-deva.w9;
-	
-} iMatra_reph_anusvara_conjunct_contextual;
-
+# lookup iMatra_reph_anusvara_conjunct_contextual {
+# 	sub iMatra_reph_anusvara-deva' k-deva ka-deva by iMatra_reph_anusvara-deva.w9;
+# } iMatra_reph_anusvara_conjunct_contextual;
 
 
 lookup iMatra_contextual {
@@ -380,344 +709,6 @@ lookup iMatra_reph_candraBindu_contextual {
 		sub iMatra_reph_candraBindu-deva' @iMatra-deva.w15 by iMatra_reph_candraBindu-deva.w15;
 		sub iMatra_reph_candraBindu-deva' @iMatra-deva.w16 by iMatra_reph_candraBindu-deva.w16;
 } iMatra_reph_candraBindu_contextual;
-
-lookup raliquid {
-	sub ra-deva' rVocalicMatra-deva by rVocalic-deva;
-	sub ra-deva' rrVocalicMatra-deva by rrVocalic-deva;
-	sub ra-deva' lVocalicMatra-deva by lVocalic-deva;
-	sub ra-deva' llVocalicMatra-deva by llVocalic-deva;
-} raliquid;
-
-lookup vocalicreph {
-	sub rVocalic-deva rVocalicMatra-deva' by reph-deva;
-	sub rrVocalic-deva rrVocalicMatra-deva' by reph-deva;
-	sub lVocalic-deva lVocalicMatra-deva' by reph-deva;
-	sub llVocalic-deva llVocalicMatra-deva' by reph-deva;
-} vocalicreph;
-
-	lookup pres_cjct_bi {
-		sub k-deva ka-deva by k_ka-deva;
-		sub k-deva kha-deva by k_kha-deva;
-		sub k-deva ca-deva by k_ca-deva;
-		sub k-deva ja-deva by k_ja-deva;
-		sub k-deva tta-deva by k_tta-deva;
-		sub k-deva nna-deva by k_nna-deva;
-		sub k-deva ta-deva by k_ta-deva;
-		sub k-deva tha-deva by k_tha-deva;
-		sub k-deva da-deva by k_da-deva;
-		sub k-deva na-deva by k_na-deva;
-		sub k-deva pa-deva by k_pa-deva;
-		sub k-deva pha-deva by k_pha-deva;
-		sub k-deva ma-deva by k_ma-deva;
-		sub k-deva ya-deva by k_ya-deva;
-		sub k-deva la-deva by k_la-deva;
-		sub k-deva la-deva.loclMAR by k_la-deva.loclMAR;
-		sub k-deva va-deva by k_va-deva;
-		sub k-deva sha-deva by k_sha-deva;
-		sub k-deva sha-deva.loclMAR by k_sha-deva.loclMAR;
-		sub k-deva sa-deva by k_sa-deva;
-
-		sub kh-deva kha-deva by kh_kha-deva;
-		sub kh-deva ta-deva by kh_ta-deva;
-		sub kh-deva na-deva by kh_na-deva;
-		sub kh-deva ma-deva by kh_ma-deva;
-		sub kh-deva ya-deva by kh_ya-deva;
-		sub kh-deva va-deva by kh_va-deva;
-		sub kh-deva sha-deva by kh_sha-deva;
-		sub kh-deva sha-deva.loclMAR by kh_sha-deva.loclMAR;
-
-		sub g-deva ga-deva by g_ga-deva;
-		sub g-deva gha-deva by g_gha-deva;
-		sub g-deva ja-deva by g_ja-deva;
-		sub g-deva nna-deva by g_nna-deva;
-		sub g-deva da-deva by g_da-deva;
-		sub g-deva dha-deva by g_dha-deva;
-		sub g-deva na-deva by g_na-deva;
-		sub g-deva ba-deva by g_ba-deva;
-		sub g-deva bha-deva by g_bha-deva;
-		sub g-deva ma-deva by g_ma-deva;
-		sub g-deva ya-deva by g_ya-deva;
-		sub g-deva la-deva by g_la-deva;
-		sub g-deva la-deva.loclMAR by g_la-deva.loclMAR;
-		sub g-deva va-deva by g_va-deva;
-		sub g-deva sa-deva by g_sa-deva;
-
-		sub gh-deva na-deva by gh_na-deva;
-		sub gh-deva ma-deva by gh_ma-deva;
-		sub gh-deva ya-deva by gh_ya-deva;
-
-		sub ng-deva ka-deva by ng_ka-deva;
-		sub ng-deva ga-deva by ng_ga-deva;
-		sub ng-deva kha-deva by ng_kha-deva;
-		sub ng-deva gha-deva by ng_gha-deva;
-		sub ng-deva ma-deva by ng_ma-deva;
-		sub ng-deva ya-deva by ng_ya-deva;
-
-		sub c-deva ca-deva by c_ca-deva;
-		sub c-deva cha-deva by c_cha-deva;
-		sub c-deva na-deva by c_na-deva;
-		sub c-deva ma-deva by c_ma-deva;
-		sub c-deva ya-deva by c_ya-deva;
-
-		sub j-deva ka-deva by j_ka-deva;
-		sub j-deva ja-deva by j_ja-deva;
-		sub j-deva jha-deva by j_jha-deva;
-		sub j-deva jha-deva.loclNEP by j_jha-deva.loclNEP;
-		sub j-deva tta-deva by j_tta-deva;
-		sub j-deva dda-deva by j_dda-deva;
-		sub j-deva ta-deva by j_ta-deva;
-		sub j-deva da-deva by j_da-deva;
-		sub j-deva na-deva by j_na-deva;
-		sub j-deva ba-deva by j_ba-deva;
-		sub j-deva ma-deva by j_ma-deva;
-		sub j-deva ya-deva by j_ya-deva;
-		sub j-deva va-deva by j_va-deva;
-
-		sub jh-deva jha-deva by jh_jha-deva;
-		sub jh-deva.loclNEP jha-deva.loclNEP by jh_jha-deva.loclNEP;
-			sub jh-deva na-deva by jh_na-deva;
-			sub jh-deva.loclNEP na-deva by jh_na-deva.loclNEP;
-		sub jh-deva ma-deva by jh_ma-deva;
-		sub jh-deva.loclNEP ma-deva by jh_ma-deva.loclNEP;
-		sub jh-deva ya-deva by jh_ya-deva;
-		sub jh-deva.loclNEP ya-deva by jh_ya-deva.loclNEP;
-
-		sub ny-deva ca-deva by ny_ca-deva;
-		sub ny-deva cha-deva by ny_cha-deva;
-		sub ny-deva ja-deva by ny_ja-deva;
-		sub ny-deva sha-deva by ny_sha-deva;
-		sub ny-deva sha-deva.loclMAR by ny_sha-deva.loclMAR;
-
-		sub nn-deva tta-deva by nn_tta-deva;
-		sub nn-deva ttha-deva by nn_ttha-deva;
-		sub nn-deva dda-deva by nn_dda-deva;
-		sub nn-deva ddha-deva by nn_ddha-deva;
-		sub nn-deva nna-deva by nn_nna-deva;
-		sub nn-deva ma-deva by nn_ma-deva;
-		sub nn-deva ya-deva by nn_ya-deva;
-		sub nn-deva va-deva by nn_va-deva;
-
-		sub t-deva ka-deva by t_ka-deva;
-		sub t-deva kha-deva by t_kha-deva;
-		sub t-deva ta-deva by t_ta-deva;
-		sub t-deva tha-deva by t_tha-deva;
-		sub t-deva na-deva by t_na-deva;
-		sub t-deva pa-deva by t_pa-deva;
-		sub t-deva pha-deva by t_pha-deva;
-		sub t-deva ma-deva by t_ma-deva;
-		sub t-deva ya-deva by t_ya-deva;
-		sub t-deva la-deva by t_la-deva;
-		sub t-deva la-deva.loclMAR by t_la-deva.loclMAR;
-		sub t-deva va-deva by t_va-deva;
-		sub t-deva sa-deva by t_sa-deva;
-
-		sub th-deva na-deva by th_na-deva;
-		sub th-deva ya-deva by th_ya-deva;
-		sub th-deva va-deva by th_va-deva;
-
-		sub dh-deva na-deva by dh_na-deva;
-		sub dh-deva ma-deva by dh_ma-deva;
-		sub dh-deva ya-deva by dh_ya-deva;
-		sub dh-deva va-deva by dh_va-deva;
-
-		sub n-deva ka-deva by n_ka-deva;
-		sub n-deva ca-deva by n_ca-deva;
-		sub n-deva tta-deva by n_tta-deva;
-		sub n-deva dda-deva by n_dda-deva;
-		sub n-deva ta-deva by n_ta-deva;
-		sub n-deva tha-deva by n_tha-deva;
-		sub n-deva da-deva by n_da-deva;
-		sub n-deva dha-deva by n_dha-deva;
-		sub n-deva na-deva by n_na-deva;
-		sub n-deva pa-deva by n_pa-deva;
-		sub n-deva pha-deva by n_pha-deva;
-		sub n-deva bha-deva by n_bha-deva;
-		sub n-deva ma-deva by n_ma-deva;
-		sub n-deva ya-deva by n_ya-deva;
-		sub n-deva ra-deva by n_ra-deva;
-		sub n-deva va-deva by n_va-deva;
-		sub n-deva sa-deva by n_sa-deva;
-		sub n-deva ha-deva by n_ha-deva;
-
-		sub p-deva tta-deva by p_tta-deva;
-		sub p-deva ta-deva by p_ta-deva;
-		sub p-deva na-deva by p_na-deva;
-		sub p-deva pa-deva by p_pa-deva;
-		sub p-deva pha-deva by p_pha-deva;
-		sub p-deva ma-deva by p_ma-deva;
-		sub p-deva ya-deva by p_ya-deva;
-		sub p-deva la-deva by p_la-deva;
-		sub p-deva la-deva.loclMAR by p_la-deva.loclMAR;
-		sub p-deva va-deva by p_va-deva;
-		sub p-deva sa-deva by p_sa-deva;
-
-		sub ph-deva ja-deva by ph_ja-deva;
-		sub ph-deva tta-deva by ph_tta-deva;
-		sub ph-deva ta-deva by ph_ta-deva;
-		sub ph-deva na-deva by ph_na-deva;
-		sub ph-deva pa-deva by ph_pa-deva;
-		sub ph-deva pha-deva by ph_pha-deva;
-		sub ph-deva ya-deva by ph_ya-deva;
-		sub ph-deva la-deva by ph_la-deva;
-		sub ph-deva la-deva.loclMAR by ph_la-deva.loclMAR;
-		sub ph-deva sha-deva by ph_sha-deva;
-		sub ph-deva sha-deva.loclMAR by ph_sha-deva.loclMAR;
-
-		sub b-deva ja-deva by b_ja-deva;
-		sub b-deva ta-deva by b_ta-deva;
-		sub b-deva da-deva by b_da-deva;
-		sub b-deva dha-deva by b_dha-deva;
-		sub b-deva na-deva by b_na-deva;
-		sub b-deva ba-deva by b_ba-deva;
-		sub b-deva bha-deva by b_bha-deva;
-		sub b-deva ya-deva by b_ya-deva;
-		sub b-deva la-deva by b_la-deva;
-		sub b-deva la-deva.loclMAR by b_la-deva.loclMAR;
-		sub b-deva va-deva by b_va-deva;
-		sub b-deva sha-deva by b_sha-deva;
-		sub b-deva sha-deva.loclMAR by b_sha-deva.loclMAR;
-		sub b-deva sa-deva by b_sa-deva;
-		sub b-deva za-deva by b_za-deva;
-
-		sub bh-deva na-deva by bh_na-deva;
-		sub bh-deva ya-deva by bh_ya-deva;
-		sub bh-deva va-deva by bh_va-deva;
-
-		sub m-deva ta-deva by m_ta-deva;
-		sub m-deva da-deva by m_da-deva;
-		sub m-deva na-deva by m_na-deva;
-		sub m-deva pa-deva by m_pa-deva;
-		sub m-deva pha-deva by m_pha-deva;
-		sub m-deva ba-deva by m_ba-deva;
-		sub m-deva bha-deva by m_bha-deva;
-		sub m-deva ma-deva by m_ma-deva;
-		sub m-deva ya-deva by m_ya-deva;
-		sub m-deva la-deva by m_la-deva;
-		sub m-deva la-deva.loclMAR by m_la-deva.loclMAR;
-		sub m-deva va-deva by m_va-deva;
-		sub m-deva sha-deva by m_sha-deva;
-		sub m-deva sha-deva.loclMAR by m_sha-deva.loclMAR;
-		sub m-deva sa-deva by m_sa-deva;
-		sub m-deva ha-deva by m_ha-deva;
-
-		sub y-deva na-deva by y_na-deva;
-		sub y-deva ya-deva by y_ya-deva;
-
-		sub rr-deva ya-deva by rr_ya-deva;
-		sub rr-deva ha-deva by rr_ha-deva;
-
-		sub l-deva ka-deva by l_ka-deva;
-		sub l-deva kha-deva by l_kha-deva;
-		sub l-deva ga-deva by l_ga-deva;
-		sub l-deva ja-deva by l_ja-deva;
-		sub l-deva tta-deva by l_tta-deva;
-		sub l-deva ttha-deva by l_ttha-deva;
-		sub l-deva dda-deva by l_dda-deva;
-		sub l-deva ddha-deva by l_ddha-deva;
-		sub l-deva ta-deva by l_ta-deva;
-		sub l-deva tha-deva by l_tha-deva;
-		sub l-deva da-deva by l_da-deva;
-		sub l-deva pa-deva by l_pa-deva;
-		sub l-deva pha-deva by l_pha-deva;
-		sub l-deva ba-deva by l_ba-deva;
-		sub l-deva bha-deva by l_bha-deva;
-		sub l-deva ma-deva by l_ma-deva;
-		sub l-deva ya-deva by l_ya-deva;
-		sub l-deva la-deva by l_la-deva;
-		sub l-deva la-deva.loclMAR by l_la-deva.loclMAR;
-		sub l-deva va-deva by l_va-deva;
-		sub l-deva sha-deva by l_sha-deva;
-		sub l-deva sha-deva.loclMAR by l_sha-deva.loclMAR;
-		sub l-deva sa-deva by l_sa-deva;
-		sub l-deva ha-deva by l_ha-deva;
-		sub l-deva za-deva by l_za-deva;
-		sub l-deva fa-deva by l_fa-deva;
-
-		sub v-deva na-deva by v_na-deva;
-		sub v-deva ya-deva by v_ya-deva;
-		sub v-deva la-deva by v_la-deva;
-		sub v-deva la-deva.loclMAR by v_la-deva.loclMAR;
-		sub v-deva va-deva by v_va-deva;
-		sub v-deva ha-deva by v_ha-deva;
-
-		sub sh-deva ka-deva by sh_ka-deva;
-		sub sh-deva.loclMAR ka-deva by sh_ka-deva.loclMAR;
-		sub sh-deva ca-deva by sh_ca-deva;
-		sub sh-deva.loclMAR ca-deva by sh_ca-deva.loclMAR;
-		sub sh-deva cha-deva by sh_cha-deva;
-		sub sh-deva.loclMAR cha-deva by sh_cha-deva.loclMAR;
-		sub sh-deva tta-deva by sh_tta-deva;
-		sub sh-deva.loclMAR tta-deva by sh_tta-deva.loclMAR;
-		sub sh-deva ta-deva by sh_ta-deva;
-		sub sh-deva.loclMAR ta-deva by sh_ta-deva.loclMAR;
-		sub sh-deva na-deva by sh_na-deva;
-		sub sh-deva.loclMAR na-deva by sh_na-deva.loclMAR;
-		sub sh-deva ma-deva by sh_ma-deva;
-		sub sh-deva.loclMAR ma-deva by sh_ma-deva.loclMAR;
-		sub sh-deva ya-deva by sh_ya-deva;
-		sub sh-deva.loclMAR ya-deva by sh_ya-deva.loclMAR;
-		sub sh-deva la-deva by sh_la-deva;
-		sub sh-deva.loclMAR la-deva.loclMAR by sh_la-deva.loclMAR;
-		sub sh-deva va-deva by sh_va-deva;
-		sub sh-deva.loclMAR va-deva by sh_va-deva.loclMAR;
-		sub sh-deva sha-deva by sh_sha-deva;
-		sub sh-deva.loclMAR sha-deva.loclMAR by sh_sha-deva.loclMAR;
-		sub sh-deva qa-deva by sh_qa-deva;
-
-		sub ss-deva ka-deva by ss_ka-deva;
-		sub ss-deva tta-deva by ss_tta-deva;
-		sub ss-deva ttha-deva by ss_ttha-deva;
-		sub ss-deva nna-deva by ss_nna-deva;
-		sub ss-deva pa-deva by ss_pa-deva;
-		sub ss-deva pha-deva by ss_pha-deva;
-		sub ss-deva ma-deva by ss_ma-deva;
-		sub ss-deva ya-deva by ss_ya-deva;
-		sub ss-deva va-deva by ss_va-deva;
-		sub ss-deva ssa-deva by ss_ssa-deva;
-
-		sub s-deva ka-deva by s_ka-deva;
-		sub s-deva kha-deva by s_kha-deva;
-		sub s-deva ja-deva by s_ja-deva;
-		sub s-deva tta-deva by s_tta-deva;
-		sub s-deva ta-deva by s_ta-deva;
-		sub s-deva da-deva by s_da-deva;
-		sub s-deva tha-deva by s_tha-deva;
-		sub s-deva na-deva by s_na-deva;
-		sub s-deva pa-deva by s_pa-deva;
-		sub s-deva pha-deva by s_pha-deva;
-		sub s-deva ba-deva by s_ba-deva;
-		sub s-deva ma-deva by s_ma-deva;
-		sub s-deva ya-deva by s_ya-deva;
-		sub s-deva la-deva by s_la-deva;
-		sub s-deva la-deva.loclMAR by s_la-deva.loclMAR;
-		sub s-deva va-deva by s_va-deva;
-		sub s-deva sa-deva by s_sa-deva;
-
-		sub q-deva ta-deva by q_ta-deva;
-		sub q-deva pha-deva by q_pha-deva;
-		sub q-deva ba-deva by q_ba-deva;
-		sub q-deva ma-deva by q_ma-deva;
-		sub q-deva qa-deva by q_qa-deva;
-		sub q-deva fa-deva by q_fa-deva;
-
-		sub khh-deva ta-deva by khh_ta-deva;
-		sub khh-deva ma-deva by khh_ma-deva;
-		sub khh-deva ya-deva by khh_ya-deva;
-		sub khh-deva va-deva by khh_va-deva;
-		sub khh-deva sha-deva by khh_sha-deva;
-		sub khh-deva sha-deva.loclMAR by khh_sha-deva.loclMAR;
-		sub khh-deva sa-deva by khh_sa-deva;
-
-		sub z-deva ba-deva by z_ba-deva;
-		sub z-deva ma-deva by z_ma-deva;
-		sub z-deva ya-deva by z_ya-deva;
-		sub z-deva za-deva by z_za-deva;
-
-		sub f-deva ta-deva by f_ta-deva;
-		sub f-deva sa-deva by f_sa-deva;
-		sub f-deva za-deva by f_za-deva;
-		sub f-deva fa-deva by f_fa-deva;
-	} pres_cjct_bi;
 
 # -------------
 # FEATURES
@@ -950,7 +941,6 @@ feature pres {
 		sub @Vocalic' lookup vocalicreph;
 	} liquid;
 
-	
 
 	#iiMatra Matching
 	lookup ii_match {
@@ -959,25 +949,31 @@ feature pres {
 	} ii_match;
 
 
+	# script dev2;
+	# lookup pres_cjct_quadri;
+	# lookup pres_cjct_tri;
+	# lookup pres_cjct_bi;
+	# lookup rephCombination;
+	# lookup iMatra_ligatures; 
+
+	# script deva;
+	# lookup pres_cjct_quadri;
+	# lookup pres_cjct_tri;
+	# lookup pres_cjct_bi;
+	# lookup rephCombination;
+	# lookup iMatra_ligatures;
+
 	script dev2;
-	lookup pres_cjct_quadri;
-	lookup pres_cjct_tri;
-	lookup pres_cjct_bi;
 	lookup rephCombination;
 	lookup iMatra_ligatures; 
-
-	script deva;
 	lookup pres_cjct_quadri;
 	lookup pres_cjct_tri;
 	lookup pres_cjct_bi;
-	lookup rephCombination;
-	lookup iMatra_ligatures;
 
-	script dev2;
-	lookup iMatra_conjunct_contextual;
-	lookup iMatra_reph_conjunct_contextual;
-	lookup iMatra_anusvara_conjunct_contextual;
-	lookup iMatra_reph_anusvara_conjunct_contextual;
+	# lookup iMatra_conjunct_contextual;
+	# lookup iMatra_reph_conjunct_contextual;
+	# lookup iMatra_anusvara_conjunct_contextual;
+	# lookup iMatra_reph_anusvara_conjunct_contextual;
 	lookup iMatra_contextual;
 	lookup iMatra_anusvara_contextual;
 	lookup iMatra_candraBindu_contextual;
@@ -985,11 +981,18 @@ feature pres {
 	lookup iMatra_reph_anusvara_contextual;
 	lookup iMatra_reph_candraBindu_contextual;
 
+
 	script deva;
-	lookup iMatra_conjunct_contextual;
-	lookup iMatra_reph_conjunct_contextual;
-	lookup iMatra_anusvara_conjunct_contextual;
-	lookup iMatra_reph_anusvara_conjunct_contextual;
+	lookup rephCombination;
+	lookup iMatra_ligatures; 
+	lookup pres_cjct_quadri;
+	lookup pres_cjct_tri;
+	lookup pres_cjct_bi;
+
+	# lookup iMatra_conjunct_contextual;
+	# lookup iMatra_reph_conjunct_contextual;
+	# lookup iMatra_anusvara_conjunct_contextual;
+	# lookup iMatra_reph_anusvara_conjunct_contextual;
 	lookup iMatra_contextual;
 	lookup iMatra_anusvara_contextual;
 	lookup iMatra_candraBindu_contextual;
