@@ -104,6 +104,8 @@ lookup iMatra_ligatures {
 
 sub iMatra-deva' lookup iMatraAnusvara @BaseGlyphs-deva' anusvara-deva' lookup anusvaraNULL;
 sub iMatra-deva' lookup iMatraAnusvara @HalfGlyphs-deva' @BaseGlyphs-deva' anusvara-deva' lookup anusvaraNULL;
+sub iMatra-deva' lookup iMatraAnusvara @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' anusvara-deva' lookup anusvaraNULL;
+sub iMatra-deva' lookup iMatraAnusvara @HalfGlyphs-deva' @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' anusvara-deva' lookup anusvaraNULL;
 
 sub iMatra-deva' lookup iMatraReph @BaseGlyphs-deva' reph-deva' lookup rephNULL;
 sub iMatra-deva' lookup iMatraReph @HalfGlyphs-deva' @BaseGlyphs-deva' reph-deva' lookup rephNULL;
