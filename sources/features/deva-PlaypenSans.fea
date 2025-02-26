@@ -1041,7 +1041,7 @@ feature abvs {
 
 		#EMatra
 		sub eMatra-deva reph-deva candraBindu-deva by eMatra_reph_candraBindu-deva;
-		sub eMatra-deva reph-deva anusvara-deva by eMatra_reph_anusvara-deva;
+		sub eMatra-deva reph_anusvara-deva by eMatra_reph_anusvara-deva; #replaced constituents with joined form
 		sub eMatra-deva candraBindu-deva by eMatra_candraBindu-deva;
 		sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
 		sub eMatra-deva reph-deva by eMatra_reph-deva;
