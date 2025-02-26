@@ -109,15 +109,23 @@ sub iMatra-deva' lookup iMatraAnusvara @HalfGlyphs-deva' @HalfGlyphs-deva' @Half
 
 sub iMatra-deva' lookup iMatraReph @BaseGlyphs-deva' reph-deva' lookup rephNULL;
 sub iMatra-deva' lookup iMatraReph @HalfGlyphs-deva' @BaseGlyphs-deva' reph-deva' lookup rephNULL;
+sub iMatra-deva' lookup iMatraReph @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph-deva' lookup rephNULL;
+sub iMatra-deva' lookup iMatraReph @HalfGlyphs-deva' @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph-deva' lookup rephNULL;
 
 sub iMatra-deva' lookup iMatraCandraBindu @BaseGlyphs-deva' candraBindu-deva' lookup candraBinduNULL;
 sub iMatra-deva' lookup iMatraCandraBindu @HalfGlyphs-deva' @BaseGlyphs-deva' candraBindu-deva' lookup candraBinduNULL;
+sub iMatra-deva' lookup iMatraCandraBindu @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' candraBindu-deva' lookup candraBinduNULL;
+sub iMatra-deva' lookup iMatraCandraBindu @HalfGlyphs-deva' @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' candraBindu-deva' lookup candraBinduNULL;
 
 sub iMatra-deva' lookup iMatraRephAnusvara @BaseGlyphs-deva' reph_anusvara-deva' lookup rephAnusvaraNULL;
 sub iMatra-deva' lookup iMatraRephAnusvara @HalfGlyphs-deva' @BaseGlyphs-deva' reph_anusvara-deva' lookup rephAnusvaraNULL;
+sub iMatra-deva' lookup iMatraRephAnusvara @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph_anusvara-deva' lookup rephAnusvaraNULL;
+sub iMatra-deva' lookup iMatraRephAnusvara @HalfGlyphs-deva' @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph_anusvara-deva' lookup rephAnusvaraNULL;
 
 sub iMatra-deva' lookup iMatraRephCandraBindu @BaseGlyphs-deva' reph_candraBindu-deva' lookup rephCandraBinduNULL;
 sub iMatra-deva' lookup iMatraRephCandraBindu @HalfGlyphs-deva' @BaseGlyphs-deva' reph_candraBindu-deva' lookup rephCandraBinduNULL;
+sub iMatra-deva' lookup iMatraRephCandraBindu @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph_candraBindu-deva' lookup rephCandraBinduNULL;
+sub iMatra-deva' lookup iMatraRephCandraBindu @HalfGlyphs-deva' @HalfGlyphs-deva' @HalfGlyphs-deva' @BaseGlyphs-deva' reph_candraBindu-deva' lookup rephCandraBinduNULL;
 
 } iMatra_ligatures ; 
 
