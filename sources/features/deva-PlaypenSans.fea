@@ -1040,49 +1040,49 @@ feature abvs {
 		sub au-deva candraBindu-deva by au_candraBindu-deva;
 
 		#EMatra
-		sub eMatra-deva reph-deva candraBindu-deva by eMatra_reph_candraBindu-deva;
-		sub eMatra-deva reph_anusvara-deva by eMatra_reph_anusvara-deva; #replaced constituents with joined form
+		sub eMatra-deva reph_candraBindu-deva by eMatra_reph_candraBindu-deva;
+		sub eMatra-deva reph_anusvara-deva by eMatra_reph_anusvara-deva; 
 		sub eMatra-deva candraBindu-deva by eMatra_candraBindu-deva;
 		sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
 		sub eMatra-deva reph-deva by eMatra_reph-deva;
 
 		#AiMatra
-		sub aiMatra-deva reph-deva candraBindu-deva by aiMatra_reph_candraBindu-deva;
-		sub aiMatra-deva reph-deva anusvara-deva by aiMatra_reph_anusvara-deva;
+		sub aiMatra-deva reph_candraBindu-deva by aiMatra_reph_candraBindu-deva;
+		sub aiMatra-deva reph_anusvara-deva by aiMatra_reph_anusvara-deva;
 		sub aiMatra-deva candraBindu-deva by aiMatra_candraBindu-deva;
 		sub aiMatra-deva anusvara-deva by aiMatra_anusvara-deva;
 		sub aiMatra-deva reph-deva by aiMatra_reph-deva;
 
 		#OMatra
-		sub oMatra-deva reph-deva candraBindu-deva by oMatra_reph_candraBindu-deva;
-		sub oMatra-deva reph-deva anusvara-deva by oMatra_reph_anusvara-deva;
+		sub oMatra-deva reph_candraBindu-deva by oMatra_reph_candraBindu-deva;
+		sub oMatra-deva reph_anusvara-deva by oMatra_reph_anusvara-deva;
 		sub oMatra-deva candraBindu-deva by oMatra_candraBindu-deva;
 		sub oMatra-deva anusvara-deva by oMatra_anusvara-deva;
 		sub oMatra-deva reph-deva by oMatra_reph-deva;
 
 		#AuMatra
-		sub auMatra-deva reph-deva candraBindu-deva by auMatra_reph_candraBindu-deva;
-		sub auMatra-deva reph-deva anusvara-deva by auMatra_reph_anusvara-deva;
+		sub auMatra-deva reph_candraBindu-deva by auMatra_reph_candraBindu-deva;
+		sub auMatra-deva reph_anusvara-deva by auMatra_reph_anusvara-deva;
 		sub auMatra-deva candraBindu-deva by auMatra_candraBindu-deva;
 		sub auMatra-deva anusvara-deva by auMatra_anusvara-deva;
 		sub auMatra-deva reph-deva by auMatra_reph-deva;
 
 
 		#iiMatra
-		sub iiMatra-deva reph-deva candraBindu-deva by iiMatra_reph_candraBindu-deva;
-		sub iiMatra-deva reph-deva anusvara-deva by iiMatra_reph_anusvara-deva;
+		sub iiMatra-deva reph_candraBindu-deva by iiMatra_reph_candraBindu-deva;
+		sub iiMatra-deva reph_anusvara-deva by iiMatra_reph_anusvara-deva;
 		sub iiMatra-deva candraBindu-deva by iiMatra_candraBindu-deva;
 		sub iiMatra-deva anusvara-deva by iiMatra_anusvara-deva;
 		sub iiMatra-deva reph-deva by iiMatra_reph-deva;
 
-		sub iiMatra-deva.w1 reph-deva candraBindu-deva by iiMatra_reph_candraBindu-deva.w1;
-		sub iiMatra-deva.w1 reph-deva anusvara-deva by iiMatra_reph_anusvara-deva.w1;
+		sub iiMatra-deva.w1 reph_candraBindu-deva by iiMatra_reph_candraBindu-deva.w1;
+		sub iiMatra-deva.w1 reph_anusvara-deva by iiMatra_reph_anusvara-deva.w1;
 		sub iiMatra-deva.w1 candraBindu-deva by iiMatra_candraBindu-deva.w1;
 		sub iiMatra-deva.w1 anusvara-deva by iiMatra_anusvara-deva.w1;
 		sub iiMatra-deva.w1 reph-deva by iiMatra_reph-deva.w1;
 
-		sub iiMatra-deva.w2 reph-deva candraBindu-deva by iiMatra_reph_candraBindu-deva.w2;
-		sub iiMatra-deva.w2 reph-deva anusvara-deva by iiMatra_reph_anusvara-deva.w2;
+		sub iiMatra-deva.w2 reph_candraBindu-deva by iiMatra_reph_candraBindu-deva.w2;
+		sub iiMatra-deva.w2 reph_anusvara-deva by iiMatra_reph_anusvara-deva.w2;
 		sub iiMatra-deva.w2 candraBindu-deva by iiMatra_candraBindu-deva.w2;
 		sub iiMatra-deva.w2 anusvara-deva by iiMatra_anusvara-deva.w2;
 		sub iiMatra-deva.w2 reph-deva by iiMatra_reph-deva.w2;
