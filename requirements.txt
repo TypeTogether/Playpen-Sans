@@ -122,7 +122,7 @@ trio==0.27.0
 trio-websocket==0.11.1
 ttfautohint-py==0.5.1
 typing_extensions==4.12.2
-ufo2ft==2.33.4
+ufo2ft==3.4.2
 ufoLib2==0.16.0
 ufolint==1.2.0
 ufomerge==1.8.2
