@@ -925,10 +925,8 @@ feature cjct {
 feature pres {
 	lookup liquid {
 		sub ra-deva' lookup raliquid;
-		# shouldn't this be just lookup vocalicreph; ??
 		sub @Vocalic' lookup vocalicreph;
 	} liquid;
-
 
 	#iiMatra Matching
 	lookup ii_match {
@@ -937,6 +935,7 @@ feature pres {
 	} ii_match;
 
 	script dev2;
+	language dflt;
 	lookup rephCombination;
 	lookup iMatra_ligatures; 
 	lookup pres_cjct_quadri;
@@ -951,6 +950,65 @@ feature pres {
 
 
 	script deva;
+	language dflt;
+	lookup rephCombination;
+	lookup iMatra_ligatures; 
+	lookup pres_cjct_quadri;
+	lookup pres_cjct_tri;
+	lookup pres_cjct_bi;
+	lookup iMatra_contextual;
+	lookup iMatra_anusvara_contextual;
+	lookup iMatra_candraBindu_contextual;
+	lookup iMatra_reph_contextual;
+	lookup iMatra_reph_anusvara_contextual;
+	lookup iMatra_reph_candraBindu_contextual;
+
+	script dev2;
+	language MAR;
+	lookup rephCombination;
+	lookup iMatra_ligatures; 
+	lookup pres_cjct_quadri;
+	lookup pres_cjct_tri;
+	lookup pres_cjct_bi;
+	lookup iMatra_contextual;
+	lookup iMatra_anusvara_contextual;
+	lookup iMatra_candraBindu_contextual;
+	lookup iMatra_reph_contextual;
+	lookup iMatra_reph_anusvara_contextual;
+	lookup iMatra_reph_candraBindu_contextual;
+
+
+	script deva;
+	language MAR;
+	lookup rephCombination;
+	lookup iMatra_ligatures; 
+	lookup pres_cjct_quadri;
+	lookup pres_cjct_tri;
+	lookup pres_cjct_bi;
+	lookup iMatra_contextual;
+	lookup iMatra_anusvara_contextual;
+	lookup iMatra_candraBindu_contextual;
+	lookup iMatra_reph_contextual;
+	lookup iMatra_reph_anusvara_contextual;
+	lookup iMatra_reph_candraBindu_contextual;
+
+	script dev2;
+	language NEP;
+	lookup rephCombination;
+	lookup iMatra_ligatures; 
+	lookup pres_cjct_quadri;
+	lookup pres_cjct_tri;
+	lookup pres_cjct_bi;
+	lookup iMatra_contextual;
+	lookup iMatra_anusvara_contextual;
+	lookup iMatra_candraBindu_contextual;
+	lookup iMatra_reph_contextual;
+	lookup iMatra_reph_anusvara_contextual;
+	lookup iMatra_reph_candraBindu_contextual;
+
+
+	script deva;
+	language NEP;
 	lookup rephCombination;
 	lookup iMatra_ligatures; 
 	lookup pres_cjct_quadri;
