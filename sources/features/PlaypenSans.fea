@@ -218,7 +218,6 @@ feature locl {
 
 	script deva;
 	language MAR;
-	sub ta-deva halant-deva pa-deva halant-deva la-deva by t_p_la-deva.loclMAR #testing
 	sub la-deva by la-deva.loclMAR;
 	sub sha-deva by sha-deva.loclMAR;
 
