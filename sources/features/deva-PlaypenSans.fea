@@ -147,8 +147,8 @@ lookup vocalicreph {
 #Quadriconsonantal Conjuncts
 	lookup pres_cjct_quadri {
 		sub k-deva s-deva p_ra-deva by k_s_p_ra-deva;
-		sub k-deva s-deva p-deva la-deva by k_s_p_la-deva;
 		sub k-deva s-deva p-deva la-deva.loclMAR by k_s_p_la-deva.loclMAR;
+		sub k-deva s-deva p-deva la-deva by k_s_p_la-deva;	
 	} pres_cjct_quadri;
 
 #Triconsonantal Conjuncts
