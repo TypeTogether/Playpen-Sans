@@ -1,6 +1,6 @@
 # This defines the nam files to subset PPS LGC font
 
-0x25CC # dotted circle
+# 0x25CC # dotted circle
 
 # PPS GF LATIN PLUS codepoints in PPS
 
