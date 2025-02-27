@@ -583,28 +583,6 @@ lookup pres_cjct_bi {
 	sub f-deva fa-deva by f_fa-deva;
 } pres_cjct_bi;
 
-# # testing new contextual matras
-
-# lookup iMatra_conjunct_contextual {
-# 	sub iMatra-deva' k-deva ka-deva by iMatra-deva.w9;
-# } iMatra_conjunct_contextual;
-
-
-# lookup iMatra_reph_conjunct_contextual {
-# 	sub iMatra_reph-deva' k-deva ka-deva by iMatra_reph-deva.w9;
-# } iMatra_reph_conjunct_contextual;
-
-
-# lookup iMatra_anusvara_conjunct_contextual {
-# 	# sub iMatra_anusvara-deva' k-deva ka-deva by iMatra_anusvara-deva.w9;
-# 	sub iMatra_anusvara-deva' k_ka-deva by iMatra_anusvara-deva.w9;
-# } iMatra_anusvara_conjunct_contextual;
-
-
-# lookup iMatra_reph_anusvara_conjunct_contextual {
-# 	sub iMatra_reph_anusvara-deva' k-deva ka-deva by iMatra_reph_anusvara-deva.w9;
-# } iMatra_reph_anusvara_conjunct_contextual;
-
 
 lookup iMatra_contextual {
 		sub iMatra-deva' @iMatra-deva.w1 by iMatra-deva.w1;
@@ -958,32 +936,12 @@ feature pres {
 		sub @iiMatra-deva.w2 iiMatra-deva' by iiMatra-deva.w2;
 	} ii_match;
 
-
-	# script dev2;
-	# lookup pres_cjct_quadri;
-	# lookup pres_cjct_tri;
-	# lookup pres_cjct_bi;
-	# lookup rephCombination;
-	# lookup iMatra_ligatures; 
-
-	# script deva;
-	# lookup pres_cjct_quadri;
-	# lookup pres_cjct_tri;
-	# lookup pres_cjct_bi;
-	# lookup rephCombination;
-	# lookup iMatra_ligatures;
-
 	script dev2;
 	lookup rephCombination;
 	lookup iMatra_ligatures; 
 	lookup pres_cjct_quadri;
 	lookup pres_cjct_tri;
 	lookup pres_cjct_bi;
-
-	# lookup iMatra_conjunct_contextual;
-	# lookup iMatra_reph_conjunct_contextual;
-	# lookup iMatra_anusvara_conjunct_contextual;
-	# lookup iMatra_reph_anusvara_conjunct_contextual;
 	lookup iMatra_contextual;
 	lookup iMatra_anusvara_contextual;
 	lookup iMatra_candraBindu_contextual;
@@ -998,11 +956,6 @@ feature pres {
 	lookup pres_cjct_quadri;
 	lookup pres_cjct_tri;
 	lookup pres_cjct_bi;
-
-	# lookup iMatra_conjunct_contextual;
-	# lookup iMatra_reph_conjunct_contextual;
-	# lookup iMatra_anusvara_conjunct_contextual;
-	# lookup iMatra_reph_anusvara_conjunct_contextual;
 	lookup iMatra_contextual;
 	lookup iMatra_anusvara_contextual;
 	lookup iMatra_candraBindu_contextual;
