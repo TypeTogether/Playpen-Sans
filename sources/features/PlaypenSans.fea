@@ -930,7 +930,7 @@ feature locl {
     # makes room for descender mark
 		sub [doChada-thai.short toPatak-thai.short ru-thai.short lu-thai.short] [phinthu-thai saraU-thai saraUu-thai]' by [phinthu-thai.small saraU-thai.small saraUu-thai.small];
 		} ccmp_thai_2;
-		
+
 
 	lookup ccmp_thai_saraAa_comb {
 		sub nikhahit-thai' saraAa-thai maiEk-thai by nikhahit_maiEk-thai;
@@ -974,8 +974,10 @@ feature locl {
 		@thai_narrowmarks = [maiHanaKat-thai.narrow maiEk-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maiChattawa-thai.narrow thanthakhat-thai.narrow maitaikhu-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow nikhahit-thai.narrow nikhahit_maiEk-thai.narrow nikhahit_maiTho-thai.narrow nikhahit_maiTri-thai.narrow nikhahit_maiChattawa-thai.narrow];
 
 		lookupflag UseMarkFilteringSet @thai_nonnarrowmarks;
+		
+		sub [poPla-thai foFa-thai foFan-thai] @thai_nonnarrowmarks' by @thai_narrowmarks;
 
-		sub [poPla-thai poPla-thai.alt1 poPla-thai.alt2 poPla-thai.alt3 foFa-thai foFa-thai.alt1 foFa-thai.alt2 foFa-thai.alt3 foFan-thai foFan-thai.alt1 foFan-thai.alt2 foFan-thai.alt3] @thai_nonnarrowmarks' by @thai_narrowmarks;
+		#sub [poPla-thai poPla-thai.alt1 poPla-thai.alt2 poPla-thai.alt3 foFa-thai foFa-thai.alt1 foFa-thai.alt2 foFa-thai.alt3 foFan-thai foFan-thai.alt1 foFan-thai.alt2 foFan-thai.alt3] @thai_nonnarrowmarks' by @thai_narrowmarks;
 
 		sub [nikhahit-thai.narrow maiChattawa-thai.narrow maiEk-thai.narrow maiHanaKat-thai.narrow thanthakhat-thai.narrow maiTho-thai.narrow maiTri-thai.narrow maitaikhu-thai.narrow yamakkan-thai.narrow saraI-thai.narrow saraIi-thai.narrow saraUe-thai.narrow saraUee-thai.narrow] [maiEk-thai maiTho-thai maiTri-thai maiChattawa-thai thanthakhat-thai maitaikhu-thai yamakkan-thai maitaikhu-thai]' by [maiEk-thai.small maiTho-thai.small maiTri-thai.small maiChattawa-thai.small thanthakhat-thai.small maitaikhu-thai.small yamakkan-thai.small maitaikhu-thai.small];
 		} ccmp_thai_4;
