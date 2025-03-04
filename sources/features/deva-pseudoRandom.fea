@@ -1,3 +1,6 @@
+script deva;
+language dflt;
+
 lookup PseudoRandom_DEVA {
 	# lookupflag IgnoreMarks;
 	sub @dflt_deva_1' @dflt_deva_1 @dflt_deva_1 @dflt_deva_1 by @alt3_deva_1;
@@ -257,3 +260,9 @@ lookup PseudoRandom_DEVA {
 	sub @dflt_deva_4' @dflt_deva_4 @dflt_deva_4 @dflt_deva_3 by @alt1_deva_4;
 	sub @dflt_deva_4' @dflt_deva_4 @dflt_deva_4 @dflt_deva_4 by @alt1_deva_4;
 } PseudoRandom_DEVA;
+
+
+script dev2;
+language dflt;
+
+lookup PseudoRandom_DEVA;
