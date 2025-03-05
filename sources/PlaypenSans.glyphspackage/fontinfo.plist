@@ -37310,10 +37310,6 @@ value = "www.type-together.com";
 {
 key = vendorID;
 value = TT;
-},
-{
-key = versionString;
-value = "Version 1.006";
 }
 );
 stems = (
