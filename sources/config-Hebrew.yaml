@@ -15,7 +15,7 @@ postCompile:
     name: Playpen Sans Hebrew
   - operation: exec
     exe: gftools-update-nameids
-    args: '-v=1.009 -d="Tom Grace, Laura Meseguer, Veronika Burian, José Scaglione" $in && mv $in.fix $out'
+    args: '-d="Tom Grace, Laura Meseguer, Veronika Burian, José Scaglione" $in && mv $in.fix $out'
   - operation: exec
     exe: pyftsubset
     args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-HEB.nam'
