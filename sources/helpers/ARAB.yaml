@@ -5,4 +5,5 @@ hhea->ascender: 1100 # to match the new sTypeDescender
 hhea->descender: -550 # to match the new sTypeDescender
 OS/2->usWinAscent: 1224 # == Latin typoAscender
 OS/2->usWinDescent: 604 # thamzabelow_kasratan-ar at 800
+OS/2->xAvgCharWidth: 618 # Set to the average width
 meta->data: {'dlng': 'Arab', 'slng': 'Arab'}

@@ -1,12 +1,8 @@
-OS/2->sTypoAscender: 1363 # # 1363 maiChattawa-thai.ccmp0.001, tg
-#OS/2->sTypoAscender: 1300 # # 1363 maiChattawa-thai.ccmp0.001, VM
+OS/2->sTypoAscender: 1363 # # 1363 maiChattawa-thai.ccmp0.001
 OS/2->sTypoDescender: -380 # Lowest descender 
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
-hhea->ascender: 1363 # to match the new sTypeAscender, tg
-#hhea->ascender: 1300 # to match the new sTypeAscender, VM
+hhea->ascender: 1363 # to match the new sTypeAscender
 hhea->descender: -380 # to match the new sTypeDescender
 OS/2->usWinAscent: 1363 # maiChattawa-thai.small
-# OS/2->usWinAscent: 1363 # maiChattawa-thai.small
 OS/2->xAvgCharWidth: 622 # Set to the average width
-# meta->dlng: 'Thai' # Set the design language
 meta->data: {'dlng': 'Thai', 'slng': 'Thai'}

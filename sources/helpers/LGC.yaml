@@ -1,3 +1,4 @@
 hhea->advanceWidthMax: 1495 # Set a value in the hhea table
 OS/2->usWinDescent: 502 # Set to the max bbox
+OS/2->xAvgCharWidth: 634 # Set to the average width
 meta->data: {'dlng': 'Latn, Cyrl, Grek', 'slng': 'Latn, Cyrl, Grek'}
