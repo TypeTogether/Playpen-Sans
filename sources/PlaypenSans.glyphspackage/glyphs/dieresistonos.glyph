@@ -1,5 +1,4 @@
 {
-category = Mark;
 glyphname = dieresistonos;
 layers = (
 {
@@ -213,6 +212,5 @@ width = 402;
 }
 );
 script = greek;
-subCategory = Nonspacing;
 unicode = 901;
 }

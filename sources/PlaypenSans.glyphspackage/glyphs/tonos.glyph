@@ -1,5 +1,4 @@
 {
-category = Mark;
 glyphname = tonos;
 layers = (
 {
@@ -111,6 +110,5 @@ width = 301;
 }
 );
 script = greek;
-subCategory = Nonspacing;
 unicode = 900;
 }
