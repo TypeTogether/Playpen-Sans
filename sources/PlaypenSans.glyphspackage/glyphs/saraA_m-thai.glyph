@@ -10,18 +10,6 @@ name = top;
 pos = (-62,925);
 }
 );
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (14,0);
-ref = "nikhahit-thai";
-},
-{
-ref = "saraAa-thai";
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -142,17 +130,6 @@ name = top;
 pos = (-46,1038);
 }
 );
-background = {
-shapes = (
-{
-pos = (2,0);
-ref = "nikhahit-thai";
-},
-{
-ref = "saraAa-thai";
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -277,19 +254,6 @@ name = top;
 pos = (-56,973);
 }
 );
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (9,0);
-ref = "nikhahit-thai";
-},
-{
-alignment = -1;
-ref = "saraAa-thai";
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
