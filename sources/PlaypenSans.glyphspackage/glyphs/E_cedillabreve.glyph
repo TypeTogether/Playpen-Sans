@@ -52,7 +52,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (317,0);
+pos = (317,8);
 ref = cedillacomb;
 },
 {

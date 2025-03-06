@@ -107,7 +107,7 @@ width = 623;
 anchors = (
 {
 name = bottom;
-pos = (317,0);
+pos = (317,8);
 },
 {
 name = ogonek;
