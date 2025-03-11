@@ -1,0 +1,107 @@
+{
+glyphname = "vavdagesh-hb.alt4";
+kernLeft = "vavdagesh-hb";
+kernRight = "vav-hb";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (137,0);
+},
+{
+name = holamhaser;
+pos = (58,570);
+},
+{
+name = top;
+pos = (154,570);
+},
+{
+name = topleft;
+pos = (150,570);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = "vav-hb.alt4";
+},
+{
+pos = (14,29);
+ref = "dagesh-hb";
+}
+);
+width = 274;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (183,0);
+},
+{
+name = holamhaser;
+pos = (67,579);
+},
+{
+name = top;
+pos = (201,596);
+},
+{
+name = topleft;
+pos = (192,606);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (55,0);
+ref = "vav-hb.alt4";
+},
+{
+pos = (26,22);
+ref = "dagesh-hb";
+}
+);
+width = 357;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (154,0);
+},
+{
+name = holamhaser;
+pos = (65,581);
+},
+{
+name = top;
+pos = (172,581);
+},
+{
+name = topleft;
+pos = (166,581);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (27,0);
+ref = "vav-hb.alt4";
+},
+{
+alignment = -1;
+pos = (18,26);
+ref = "dagesh-hb";
+}
+);
+width = 305;
+}
+);
+}

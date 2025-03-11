@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "shha-cy";
+kernLeft = "yu-bgr";
+kernRight = "shha-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h;
+}
+);
+width = 538;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = h;
+}
+);
+width = 625;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = h;
+}
+);
+width = 582;
+}
+);
+unicode = 1211;
+}

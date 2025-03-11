@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = Kappa;
+kernLeft = Eta;
+kernRight = Kappa;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K.alt1;
+}
+);
+width = 715;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = K.alt1;
+}
+);
+width = 767;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = K.alt1;
+}
+);
+width = 714;
+}
+);
+unicode = 922;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = alpha.ss01.alt2;
+kernLeft = alpha;
+kernRight = alphaalt;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.alt5;
+}
+);
+width = 599;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = a.alt5;
+}
+);
+width = 725;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = a.alt5;
+}
+);
+width = 630;
+}
+);
+}

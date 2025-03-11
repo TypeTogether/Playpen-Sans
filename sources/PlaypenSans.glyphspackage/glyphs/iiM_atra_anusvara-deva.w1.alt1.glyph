@@ -1,0 +1,47 @@
+{
+glyphname = "iiMatra_anusvara-deva.w1.alt1";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (296,-10);
+ref = "anusvara-deva";
+},
+{
+ref = "iiMatra-deva.w1.alt1";
+}
+);
+width = 340;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (404,56);
+ref = "anusvara-deva";
+},
+{
+ref = "iiMatra-deva.w1.alt1";
+}
+);
+width = 353;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (339,19);
+ref = "anusvara-deva";
+},
+{
+alignment = -1;
+ref = "iiMatra-deva.w1.alt1";
+}
+);
+width = 345;
+}
+);
+}

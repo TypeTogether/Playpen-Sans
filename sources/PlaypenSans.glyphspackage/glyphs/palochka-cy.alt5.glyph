@@ -1,0 +1,34 @@
+{
+glyphname = "palochka-cy.alt5";
+kernLeft = "yu-cy.loclBGR";
+kernRight = "palochka-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = l.alt5;
+}
+);
+width = 287;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = l.alt5;
+}
+);
+width = 276;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = l.alt5;
+}
+);
+width = 285;
+}
+);
+}

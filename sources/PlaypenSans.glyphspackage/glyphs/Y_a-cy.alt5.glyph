@@ -1,0 +1,53 @@
+{
+glyphname = "Ya-cy.alt5";
+kernLeft = "Ya-cy";
+kernRight = "En-cy";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (423,764);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = "Ya-cy.alt1";
+}
+);
+width = 706;
+},
+{
+anchors = (
+{
+name = top;
+pos = (437,774);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "Ya-cy.alt1";
+}
+);
+width = 670;
+},
+{
+anchors = (
+{
+name = top;
+pos = (432,770);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Ya-cy.alt1";
+}
+);
+width = 688;
+}
+);
+metricRight = "En-cy";
+}

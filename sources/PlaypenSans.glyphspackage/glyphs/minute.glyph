@@ -1,21 +1,9 @@
 {
 glyphname = minute;
+kernLeft = minute;
+kernRight = minute;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(48,567,l),
-(87,555,l),
-(198,822,l),
-(198,849,l),
-(112,849,l)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -61,33 +49,6 @@ com.hugojourdan.ColorFlow = {
 width = 212;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(85,560,o),
-(96,569,o),
-(102,585,cs),
-(129,654,o),
-(156,752,o),
-(163,816,cs),
-(165,835,o),
-(151,847,o),
-(126,847,cs),
-(101,847,o),
-(88,835,o),
-(86,817,cs),
-(80,759,o),
-(64,680,o),
-(43,605,cs),
-(37,585,o),
-(41,569,o),
-(61,565,cs)
-);
-}
-);
-};
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
 shapes = (
 {
@@ -133,33 +94,6 @@ com.hugojourdan.ColorFlow = {
 width = 190;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(86,556,o),
-(96,567,o),
-(103,583,cs),
-(132,652,o),
-(160,752,o),
-(167,816,cs),
-(169,835,o),
-(158,848,o),
-(126,848,cs),
-(98,848,o),
-(88,837,o),
-(86,817,cs),
-(80,759,o),
-(63,678,o),
-(40,603,cs),
-(34,583,o),
-(38,568,o),
-(58,563,cs)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

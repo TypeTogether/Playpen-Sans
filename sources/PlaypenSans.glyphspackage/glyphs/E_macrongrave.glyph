@@ -1,0 +1,59 @@
+{
+glyphname = Emacrongrave;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (348,1);
+ref = macroncomb.case;
+},
+{
+pos = (358,167);
+ref = gravecomb.case;
+}
+);
+width = 623;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (332,0);
+ref = macroncomb.case;
+},
+{
+pos = (341,165);
+ref = gravecomb.case;
+}
+);
+width = 628;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (326,0);
+ref = macroncomb.case;
+},
+{
+pos = (336,204);
+ref = gravecomb.case;
+}
+);
+width = 622;
+}
+);
+unicode = 7700;
+}

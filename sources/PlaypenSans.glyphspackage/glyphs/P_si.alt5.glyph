@@ -1,0 +1,34 @@
+{
+glyphname = Psi.alt5;
+kernLeft = Psi;
+kernRight = Psi;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Psi.alt1;
+}
+);
+width = 836;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Psi.alt1;
+}
+);
+width = 893;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Psi.alt1;
+}
+);
+width = 856;
+}
+);
+}

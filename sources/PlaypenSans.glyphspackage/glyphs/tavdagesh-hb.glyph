@@ -1,0 +1,92 @@
+{
+color = 10;
+glyphname = "tavdagesh-hb";
+kernLeft = "tav-hb";
+kernRight = "tav-hb";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (345,0);
+},
+{
+name = top;
+pos = (302,570);
+},
+{
+name = topleft;
+pos = (24,550);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "tav-hb";
+},
+{
+pos = (355,-7);
+ref = "dagesh-hb";
+}
+);
+width = 651;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (391,0);
+},
+{
+name = top;
+pos = (346,596);
+},
+{
+name = topleft;
+pos = (21,568);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = "tav-hb";
+},
+{
+pos = (379,-45);
+ref = "dagesh-hb";
+}
+);
+width = 705;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (362,0);
+},
+{
+name = top;
+pos = (318,581);
+},
+{
+name = topleft;
+pos = (30,561);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "tav-hb";
+},
+{
+alignment = -1;
+pos = (364,-23);
+ref = "dagesh-hb";
+}
+);
+width = 671;
+}
+);
+unicode = 64330;
+}

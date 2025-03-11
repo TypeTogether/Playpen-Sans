@@ -1,0 +1,47 @@
+{
+glyphname = rmacronbelow;
+kernLeft = n;
+kernRight = r;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = r;
+},
+{
+pos = (122,0);
+ref = macronbelowcomb;
+}
+);
+width = 447;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = r;
+},
+{
+pos = (129,0);
+ref = macronbelowcomb;
+}
+);
+width = 465;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = r;
+},
+{
+pos = (137,0);
+ref = macronbelowcomb;
+}
+);
+width = 531;
+}
+);
+unicode = 7775;
+}

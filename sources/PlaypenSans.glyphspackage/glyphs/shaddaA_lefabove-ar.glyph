@@ -1,0 +1,114 @@
+{
+glyphname = "shaddaAlefabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (305,500);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "shadda-ar";
+},
+{
+pos = (6,202);
+ref = "alefabove-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (300,500);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+ref = "shadda-ar";
+},
+{
+pos = (0,243);
+ref = "alefabove-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (303,500);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "shadda-ar";
+},
+{
+alignment = -1;
+pos = (4,219);
+ref = "alefabove-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+}
+);
+unicode = 64611;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = Upsilontonos.calt;
+kernLeft = Upsilon;
+kernRight = Upsilon;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Upsilon;
+}
+);
+width = 612;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Upsilon;
+}
+);
+width = 604;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Upsilon;
+}
+);
+width = 609;
+}
+);
+}

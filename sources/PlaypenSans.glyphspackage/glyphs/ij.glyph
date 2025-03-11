@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = ij;
 kernLeft = i;
 kernRight = j;
@@ -11,7 +10,7 @@ shapes = (
 ref = i;
 },
 {
-pos = (266,0);
+pos = (267,0);
 ref = j;
 }
 );
@@ -31,7 +30,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 533;
+width = 534;
 },
 {
 layerId = m003;

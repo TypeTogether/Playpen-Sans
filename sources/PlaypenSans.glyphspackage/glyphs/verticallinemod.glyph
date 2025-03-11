@@ -1,0 +1,38 @@
+{
+glyphname = verticallinemod;
+kernLeft = superior;
+kernRight = superior;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (111,0);
+ref = verticallineabovecomb;
+}
+);
+width = 197;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+pos = (116,0);
+ref = verticallineabovecomb;
+}
+);
+width = 206;
+},
+{
+layerId = m003;
+shapes = (
+{
+pos = (113,0);
+ref = verticallineabovecomb;
+}
+);
+width = 187;
+}
+);
+unicode = 712;
+}

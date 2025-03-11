@@ -1,0 +1,34 @@
+{
+glyphname = "ka-cy.loclBGR.alt5";
+kernLeft = "yu-bgr";
+kernRight = "ka-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = k.alt5;
+}
+);
+width = 494;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = k.alt5;
+}
+);
+width = 664;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = k.alt5;
+}
+);
+width = 572;
+}
+);
+}

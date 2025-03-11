@@ -1,0 +1,34 @@
+{
+glyphname = "Ereversed-cy.alt5";
+kernLeft = "Ereversed-cy";
+kernRight = "O-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Ereversed-cy.alt2";
+}
+);
+width = 676;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "Ereversed-cy.alt2";
+}
+);
+width = 692;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Ereversed-cy.alt2";
+}
+);
+width = 692;
+}
+);
+}

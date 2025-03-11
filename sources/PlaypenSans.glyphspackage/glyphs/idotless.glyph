@@ -11,6 +11,10 @@ name = bottom;
 pos = (121,0);
 },
 {
+name = center;
+pos = (152,305);
+},
+{
 name = ogonek;
 pos = (133,10);
 },
@@ -19,33 +23,6 @@ name = top;
 pos = (138,536);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(113,354,o),
-(97,74,o),
-(97,45,cs),
-(97,15,o),
-(97,-15,o),
-(114,-15,cs),
-(125,-15,o),
-(129,3,o),
-(129,26,cs),
-(131,224,o),
-(144,307,o),
-(144,502,cs),
-(144,528,o),
-(142,541,o),
-(131,541,cs),
-(116,541,o),
-(113,528,o),
-(113,502,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -95,6 +72,10 @@ anchors = (
 {
 name = bottom;
 pos = (121,0);
+},
+{
+name = center;
+pos = (160,292);
 },
 {
 name = ogonek;
@@ -154,6 +135,10 @@ anchors = (
 {
 name = bottom;
 pos = (128,0);
+},
+{
+name = center;
+pos = (156,294);
 },
 {
 name = ogonek;

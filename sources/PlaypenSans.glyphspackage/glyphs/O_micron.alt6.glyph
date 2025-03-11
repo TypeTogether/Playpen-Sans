@@ -1,0 +1,52 @@
+{
+glyphname = Omicron.alt6;
+kernLeft = Omicron;
+kernRight = Omicron;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (129,758);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = O.alt5;
+}
+);
+width = 766;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (106,755);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = O.alt5;
+}
+);
+width = 770;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (115,757);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = O.alt5;
+}
+);
+width = 780;
+}
+);
+}

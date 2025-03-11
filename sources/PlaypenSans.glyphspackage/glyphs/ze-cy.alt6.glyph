@@ -1,0 +1,34 @@
+{
+glyphname = "ze-cy.alt6";
+kernLeft = "ze-cy";
+kernRight = "ze-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "ze-cy.alt2";
+}
+);
+width = 528;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "ze-cy.alt2";
+}
+);
+width = 469;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ze-cy.alt2";
+}
+);
+width = 493;
+}
+);
+}

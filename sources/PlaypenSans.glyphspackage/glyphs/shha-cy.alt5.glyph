@@ -1,0 +1,34 @@
+{
+glyphname = "shha-cy.alt5";
+kernLeft = "yu-bgr";
+kernRight = "shha-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = h.alt5;
+}
+);
+width = 537;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = h.alt5;
+}
+);
+width = 617;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = h.alt5;
+}
+);
+width = 576;
+}
+);
+}

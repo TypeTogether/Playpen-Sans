@@ -1,0 +1,47 @@
+{
+glyphname = "Zedescender-cy";
+kernLeft = "Ze-cy";
+kernRight = "Ve-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (283,0);
+ref = cedillacomb;
+}
+);
+width = 619;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (294,0);
+ref = cedillacomb;
+}
+);
+width = 636;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "Ze-cy";
+},
+{
+pos = (294,-10);
+ref = cedillacomb;
+}
+);
+width = 664;
+}
+);
+unicode = 1176;
+}

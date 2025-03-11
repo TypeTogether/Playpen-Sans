@@ -1,0 +1,45 @@
+{
+glyphname = "Zhedieresis-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (480,2);
+ref = dieresiscomb.case;
+}
+);
+width = 941;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (506,3);
+ref = dieresiscomb.case;
+}
+);
+width = 998;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+pos = (551,0);
+ref = dieresiscomb.case;
+}
+);
+width = 1096;
+}
+);
+unicode = 1244;
+}

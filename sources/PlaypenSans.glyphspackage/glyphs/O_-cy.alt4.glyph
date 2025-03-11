@@ -1,0 +1,34 @@
+{
+glyphname = "O-cy.alt4";
+kernLeft = "O-cy";
+kernRight = "O-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = O.alt4;
+}
+);
+width = 753;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = O.alt4;
+}
+);
+width = 745;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = O.alt4;
+}
+);
+width = 763;
+}
+);
+}

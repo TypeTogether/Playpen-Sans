@@ -1,0 +1,54 @@
+{
+color = 4;
+glyphname = "A-cy";
+kernLeft = "A-cy";
+kernRight = "A-cy";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (392,764);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = A;
+}
+);
+width = 760;
+},
+{
+anchors = (
+{
+name = top;
+pos = (403,764);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = A;
+}
+);
+width = 793;
+},
+{
+anchors = (
+{
+name = top;
+pos = (396,764);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = A;
+}
+);
+width = 766;
+}
+);
+unicode = 1040;
+}

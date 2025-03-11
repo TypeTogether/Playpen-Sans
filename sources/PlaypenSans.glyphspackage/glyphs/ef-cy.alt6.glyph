@@ -1,0 +1,34 @@
+{
+glyphname = "ef-cy.alt6";
+kernLeft = "o-cy";
+kernRight = "o-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ef-cy.alt3";
+}
+);
+width = 742;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ef-cy.alt3";
+}
+);
+width = 830;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ef-cy.alt3";
+}
+);
+width = 794;
+}
+);
+}

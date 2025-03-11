@@ -1,0 +1,73 @@
+{
+glyphname = aturned.alt2;
+kernLeft = aturned;
+kernRight = aturned;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = top;
+pos = (292,526);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (515,526);
+ref = a.ss01.alt2;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = top;
+pos = (306,537);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (557,537);
+ref = a.ss01.alt2;
+}
+);
+width = 557;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,546);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (625,546);
+ref = a.ss01.alt2;
+}
+);
+width = 631;
+}
+);
+}

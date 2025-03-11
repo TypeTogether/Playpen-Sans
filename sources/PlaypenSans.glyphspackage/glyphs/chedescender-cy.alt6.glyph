@@ -1,0 +1,35 @@
+{
+glyphname = "chedescender-cy.alt6";
+kernLeft = "che-cy";
+kernRight = "tse-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "chedescender-cy.alt3";
+}
+);
+width = 637;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "chedescender-cy.alt3";
+}
+);
+width = 543;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "chedescender-cy.alt3";
+}
+);
+width = 579;
+}
+);
+metricRight = "endescender-cy";
+}

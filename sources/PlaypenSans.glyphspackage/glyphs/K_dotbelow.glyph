@@ -1,0 +1,47 @@
+{
+glyphname = Kdotbelow;
+kernLeft = H;
+kernRight = K;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (336,0);
+ref = dotbelowcomb;
+}
+);
+width = 681;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = K;
+},
+{
+pos = (341,10);
+ref = dotbelowcomb;
+}
+);
+width = 685;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = K;
+},
+{
+pos = (385,8);
+ref = dotbelowcomb;
+}
+);
+width = 745;
+}
+);
+unicode = 7730;
+}

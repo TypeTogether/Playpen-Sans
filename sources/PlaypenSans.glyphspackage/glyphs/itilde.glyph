@@ -12,7 +12,7 @@ ref = idotless;
 },
 {
 pos = (120,0);
-ref = tildecomb;
+ref = tildecomb.narrow;
 }
 );
 userData = {
@@ -41,7 +41,7 @@ ref = idotless;
 },
 {
 pos = (149,0);
-ref = tildecomb;
+ref = tildecomb.narrow;
 }
 );
 userData = {
@@ -70,7 +70,7 @@ ref = idotless;
 },
 {
 pos = (135,0);
-ref = tildecomb;
+ref = tildecomb.narrow;
 }
 );
 userData = {

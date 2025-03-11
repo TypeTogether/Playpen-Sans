@@ -1,0 +1,45 @@
+{
+glyphname = "iebreve-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (22,-13);
+ref = "brevecomb-cy";
+}
+);
+width = 518;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (103,-5);
+ref = "brevecomb-cy";
+}
+);
+width = 531;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ie-cy";
+},
+{
+pos = (237,0);
+ref = "brevecomb-cy";
+}
+);
+width = 546;
+}
+);
+unicode = 1239;
+}

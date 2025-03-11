@@ -1,0 +1,44 @@
+{
+glyphname = acutecomb_macroncomb;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = acutecomb;
+},
+{
+pos = (13,196);
+ref = macroncomb;
+}
+);
+width = 266;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = acutecomb;
+},
+{
+pos = (15,236);
+ref = macroncomb;
+}
+);
+width = 255;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = acutecomb;
+},
+{
+pos = (27,284);
+ref = macroncomb;
+}
+);
+width = 250;
+}
+);
+}

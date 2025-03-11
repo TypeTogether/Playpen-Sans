@@ -1,0 +1,38 @@
+{
+glyphname = questiongreek;
+kernLeft = colon;
+kernRight = colon;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = 1;
+ref = semicolon;
+}
+);
+width = 266;
+},
+{
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+ref = semicolon;
+}
+);
+width = 296;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = 1;
+ref = semicolon;
+}
+);
+width = 285;
+}
+);
+unicode = 894;
+}

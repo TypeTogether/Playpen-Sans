@@ -1,0 +1,48 @@
+{
+color = 10;
+glyphname = zcircumflex;
+kernLeft = z;
+kernRight = z;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = z;
+},
+{
+pos = (232,-10);
+ref = circumflexcomb;
+}
+);
+width = 468;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = z;
+},
+{
+pos = (246,-10);
+ref = circumflexcomb;
+}
+);
+width = 474;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = z;
+},
+{
+pos = (289,-10);
+ref = circumflexcomb;
+}
+);
+width = 584;
+}
+);
+unicode = 7825;
+}

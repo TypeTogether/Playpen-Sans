@@ -1,0 +1,34 @@
+{
+glyphname = zeta.alt6;
+kernLeft = zeta;
+kernRight = zeta;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = zeta.alt2;
+}
+);
+width = 489;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = zeta.alt2;
+}
+);
+width = 553;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = zeta.alt2;
+}
+);
+width = 512;
+}
+);
+}

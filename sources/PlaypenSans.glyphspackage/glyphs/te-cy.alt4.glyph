@@ -1,0 +1,34 @@
+{
+glyphname = "te-cy.alt4";
+kernLeft = "te-cy";
+kernRight = "te-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "te-cy.alt1";
+}
+);
+width = 482;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "te-cy.alt1";
+}
+);
+width = 518;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "te-cy.alt1";
+}
+);
+width = 496;
+}
+);
+}

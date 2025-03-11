@@ -1,0 +1,36 @@
+{
+glyphname = chi.alt5;
+kernLeft = chi;
+kernRight = chi;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = chi.alt1;
+}
+);
+width = 631;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = chi.alt1;
+}
+);
+width = 659;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = chi.alt1;
+}
+);
+width = 628;
+}
+);
+metricLeft = chi;
+metricRight = chi;
+}

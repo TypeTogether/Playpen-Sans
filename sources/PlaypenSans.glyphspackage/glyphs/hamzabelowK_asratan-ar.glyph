@@ -1,0 +1,118 @@
+{
+glyphname = "hamzabelowKasratan-ar";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (280,-40);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (1,0);
+ref = "hamzabelow-ar";
+},
+{
+anchor = bottom;
+pos = (1,-224);
+ref = "kasratan-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (298,-40);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = 1;
+ref = "hamzabelow-ar";
+},
+{
+anchor = bottom;
+pos = (14,-268);
+ref = "kasratan-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (287,-40);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = "hamzabelow-ar";
+},
+{
+alignment = -1;
+anchor = bottom;
+pos = (6,-242);
+ref = "kasratan-ar";
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 600;
+}
+);
+}

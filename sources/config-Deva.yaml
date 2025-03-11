@@ -1,0 +1,24 @@
+sources: 
+  - PlaypenSans.glyphspackage
+axisOrder:
+  - wght
+familyName: Playpen Sans
+buildVariable: true
+buildOTF: false
+# buildTTF: false
+buildWebfont: false
+outputDir: "../fonts"
+filenameSuffix: Deva
+postCompile:
+  - operation: rename
+    args: --just-family
+    name: Playpen Sans Deva
+  - operation: exec
+    exe: gftools-update-nameids
+    args: '-d="Pooja Saxena, Gunjan Panchal, Laura Meseguer, Veronika Burian, José Scaglione" $in && mv $in.fix $out'
+  - operation: exec
+    exe: pyftsubset
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-DEVA.nam'
+  - operation: exec
+    exe: gftools-fontsetter
+    args: '$in ./helpers/DEVA.yaml -o $out'

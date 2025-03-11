@@ -1,0 +1,52 @@
+{
+glyphname = Epsilon.alt4;
+kernLeft = Eta;
+kernRight = Epsilon;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (120,768);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = E.alt5;
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (69,753);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = E.alt5;
+}
+);
+width = 597;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (69,762);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = E.alt5;
+}
+);
+width = 600;
+}
+);
+}

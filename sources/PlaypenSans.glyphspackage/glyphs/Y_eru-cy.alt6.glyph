@@ -1,0 +1,34 @@
+{
+glyphname = "Yeru-cy.alt6";
+kernLeft = "En-cy";
+kernRight = "En-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Yeru-cy.alt1";
+}
+);
+width = 855;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "Yeru-cy.alt1";
+}
+);
+width = 979;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "Yeru-cy.alt1";
+}
+);
+width = 906;
+}
+);
+}

@@ -1,0 +1,52 @@
+{
+glyphname = Alpha.alt6;
+kernLeft = Alpha;
+kernRight = Alpha;
+layers = (
+{
+anchors = (
+{
+name = topleft;
+pos = (250,768);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = A.alt1;
+}
+);
+width = 708;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (221,756);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = A.alt1;
+}
+);
+width = 764;
+},
+{
+anchors = (
+{
+name = topleft;
+pos = (232,763);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = A.alt1;
+}
+);
+width = 724;
+}
+);
+}

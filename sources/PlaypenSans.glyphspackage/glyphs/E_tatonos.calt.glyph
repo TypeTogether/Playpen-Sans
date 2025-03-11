@@ -1,0 +1,34 @@
+{
+glyphname = Etatonos.calt;
+kernLeft = Eta;
+kernRight = Eta;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Eta;
+}
+);
+width = 782;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = Eta;
+}
+);
+width = 784;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = Eta;
+}
+);
+width = 812;
+}
+);
+}

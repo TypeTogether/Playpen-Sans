@@ -1,0 +1,44 @@
+{
+glyphname = "j_ny_ra-deva";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "j_ny-deva";
+},
+{
+pos = (842,0);
+ref = "ra-deva.alt2";
+}
+);
+width = 1422;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "j_ny-deva";
+},
+{
+pos = (855,0);
+ref = "ra-deva.alt2";
+}
+);
+width = 1419;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "j_ny-deva";
+},
+{
+pos = (874,0);
+ref = "ra-deva.alt2";
+}
+);
+width = 1413;
+}
+);
+}

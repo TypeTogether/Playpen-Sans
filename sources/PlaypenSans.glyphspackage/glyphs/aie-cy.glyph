@@ -1,0 +1,35 @@
+{
+glyphname = "aie-cy";
+kernLeft = "a-cy.ss01";
+kernRight = "ie-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ae;
+}
+);
+width = 777;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = ae;
+}
+);
+width = 819;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = ae;
+}
+);
+width = 846;
+}
+);
+unicode = 1237;
+}

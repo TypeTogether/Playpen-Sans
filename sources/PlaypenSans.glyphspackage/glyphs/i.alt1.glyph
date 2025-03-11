@@ -8,6 +8,14 @@ anchors = (
 {
 name = bottom;
 pos = (121,-10);
+},
+{
+name = center;
+pos = (152,305);
+},
+{
+name = top;
+pos = (144,770);
 }
 );
 layerId = m01;
@@ -79,29 +87,16 @@ anchors = (
 {
 name = bottom;
 pos = (151,-3);
-}
-);
-background = {
-shapes = (
+},
 {
-closed = 1;
-nodes = (
-(71,773,o),
-(71,711,cs),
-(71,653,o),
-(110,625,o),
-(172,625,cs),
-(239,625,o),
-(284,660,o),
-(284,722,cs),
-(284,759,o),
-(263,809,o),
-(170,809,cs),
-(116,809,o)
-);
+name = center;
+pos = (153,292);
+},
+{
+name = top;
+pos = (168,800);
 }
 );
-};
 layerId = m003;
 shapes = (
 {
@@ -171,6 +166,14 @@ anchors = (
 {
 name = bottom;
 pos = (130,-9);
+},
+{
+name = center;
+pos = (141,294);
+},
+{
+name = top;
+pos = (154,780);
 }
 );
 layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";

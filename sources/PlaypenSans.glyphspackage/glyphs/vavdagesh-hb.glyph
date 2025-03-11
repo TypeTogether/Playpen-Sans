@@ -1,0 +1,109 @@
+{
+color = 4;
+glyphname = "vavdagesh-hb";
+kernLeft = "vav-hb";
+kernRight = "vav-hb";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (131,0);
+},
+{
+name = holamhaser;
+pos = (60,570);
+},
+{
+name = top;
+pos = (151,570);
+},
+{
+name = topleft;
+pos = (148,570);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (11,0);
+ref = "vav-hb";
+},
+{
+pos = (24,29);
+ref = "dagesh-hb";
+}
+);
+width = 270;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (191,0);
+},
+{
+name = holamhaser;
+pos = (81,576);
+},
+{
+name = top;
+pos = (206,596);
+},
+{
+name = topleft;
+pos = (199,612);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+pos = (63,0);
+ref = "vav-hb";
+},
+{
+pos = (34,22);
+ref = "dagesh-hb";
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (153,0);
+},
+{
+name = holamhaser;
+pos = (68,581);
+},
+{
+name = top;
+pos = (171,581);
+},
+{
+name = topleft;
+pos = (167,581);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (30,0);
+ref = "vav-hb";
+},
+{
+alignment = -1;
+pos = (28,26);
+ref = "dagesh-hb";
+}
+);
+width = 302;
+}
+);
+unicode = 64309;
+}

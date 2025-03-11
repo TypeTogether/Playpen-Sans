@@ -1,0 +1,78 @@
+{
+glyphname = "qubuts-hb";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-49);
+ref = "hiriq-hb";
+},
+{
+pos = (-55,15);
+ref = "hiriq-hb";
+},
+{
+pos = (58,-108);
+ref = "hiriq-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = m003;
+shapes = (
+{
+pos = (-3,-53);
+ref = "hiriq-hb";
+},
+{
+pos = (-102,17);
+ref = "hiriq-hb";
+},
+{
+pos = (97,-120);
+ref = "hiriq-hb";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _bottom;
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+pos = (-1,-51);
+ref = "hiriq-hb";
+},
+{
+alignment = -1;
+pos = (-72,16);
+ref = "hiriq-hb";
+},
+{
+alignment = -1;
+pos = (72,-113);
+ref = "hiriq-hb";
+}
+);
+width = 0;
+}
+);
+unicode = 1467;
+}

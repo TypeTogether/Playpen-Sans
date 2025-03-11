@@ -1,0 +1,6 @@
+script thai;
+lookup rlig_thai_1 {
+	lookupflag IgnoreMarks;
+	sub [lu-thai lu-thai.alt1 lu-thai.alt2 lu-thai.alt3] [lakkhangyao-thai lakkhangyao-thai.alt1 lakkhangyao-thai.alt2 lakkhangyao-thai.alt3] by lu_lakkhangyao-thai;
+	sub [ru-thai ru-thai.alt1 ru-thai.alt2 ru-thai.alt3] [lakkhangyao-thai lakkhangyao-thai.alt1 lakkhangyao-thai.alt2 lakkhangyao-thai.alt3] by ru_lakkhangyao-thai;
+} rlig_thai_1;

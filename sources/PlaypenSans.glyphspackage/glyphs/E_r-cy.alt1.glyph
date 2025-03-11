@@ -1,0 +1,34 @@
+{
+glyphname = "Er-cy.alt1";
+kernLeft = "En-cy";
+kernRight = "Er-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = P.alt1;
+}
+);
+width = 629;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = P.alt1;
+}
+);
+width = 651;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = P.alt1;
+}
+);
+width = 617;
+}
+);
+}

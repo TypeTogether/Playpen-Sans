@@ -1,0 +1,50 @@
+{
+glyphname = "ai-deva.alt2";
+kernLeft = "deva-beg";
+kernRight = "deva-end";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "e-deva.alt2";
+},
+{
+alignment = -1;
+pos = (549,14);
+ref = "eMatra-deva.alt2";
+}
+);
+width = 712;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "e-deva.alt2";
+},
+{
+alignment = -1;
+pos = (559,14);
+ref = "eMatra-deva.alt2";
+}
+);
+width = 711;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "e-deva.alt2";
+},
+{
+alignment = -1;
+pos = (553,14);
+ref = "eMatra-deva.alt2";
+}
+);
+width = 712;
+}
+);
+}

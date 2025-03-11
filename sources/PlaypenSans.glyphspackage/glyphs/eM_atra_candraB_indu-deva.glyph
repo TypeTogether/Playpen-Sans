@@ -1,0 +1,46 @@
+{
+glyphname = "eMatra_candraBindu-deva";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "eMatra-deva";
+},
+{
+pos = (74,70);
+ref = "candraBindu-deva";
+}
+);
+width = 0;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "eMatra-deva";
+},
+{
+pos = (222,78);
+ref = "candraBindu-deva";
+}
+);
+width = 0;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+alignment = -1;
+ref = "eMatra-deva";
+},
+{
+alignment = -1;
+pos = (129,73);
+ref = "candraBindu-deva";
+}
+);
+width = 0;
+}
+);
+}

@@ -1,0 +1,34 @@
+{
+glyphname = "Ka-cy.alt6";
+kernLeft = "En-cy";
+kernRight = "Ka-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K.alt4;
+}
+);
+width = 636;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = K.alt4;
+}
+);
+width = 698;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = K.alt4;
+}
+);
+width = 625;
+}
+);
+}

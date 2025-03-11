@@ -1,0 +1,76 @@
+{
+glyphname = schwa.alt3;
+kernLeft = eturned;
+kernRight = o;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (247,7);
+},
+{
+name = ogonek;
+pos = (352,35);
+},
+{
+name = top;
+pos = (254,533);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = eturned.alt2;
+}
+);
+width = 523;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (269,9);
+},
+{
+name = ogonek;
+pos = (365,33);
+},
+{
+name = top;
+pos = (282,536);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = eturned.alt2;
+}
+);
+width = 562;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (266,9);
+},
+{
+name = ogonek;
+pos = (370,38);
+},
+{
+name = top;
+pos = (281,536);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = eturned.alt2;
+}
+);
+width = 563;
+}
+);
+}

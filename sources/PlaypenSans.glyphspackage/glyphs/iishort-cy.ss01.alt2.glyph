@@ -1,0 +1,46 @@
+{
+glyphname = "iishort-cy.ss01.alt2";
+kernLeft = "en-cy";
+kernRight = "en-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = "ii-cy.ss01.alt1";
+},
+{
+pos = (265,10);
+ref = "breve-cy.alt2";
+}
+);
+width = 626;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = "ii-cy.ss01.alt1";
+},
+{
+pos = (42,-13);
+ref = "breve-cy.alt2";
+}
+);
+width = 600;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ii-cy.ss01.alt1";
+},
+{
+pos = (129,-1);
+ref = "breve-cy.alt2";
+}
+);
+width = 610;
+}
+);
+}

@@ -11,7 +11,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (359,10);
+pos = (384,10);
 ref = brevecomb.case;
 }
 );
@@ -40,7 +40,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (377,2);
+pos = (394,2);
 ref = brevecomb.case;
 }
 );
@@ -69,7 +69,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (377,-9);
+pos = (397,-9);
 ref = brevecomb.case;
 }
 );

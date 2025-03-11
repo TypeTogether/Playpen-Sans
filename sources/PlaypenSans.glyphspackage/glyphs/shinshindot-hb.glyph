@@ -1,0 +1,114 @@
+{
+color = 10;
+glyphname = "shinshindot-hb";
+kernLeft = "shin-hb";
+kernRight = "shin-hb";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (303,0);
+},
+{
+name = center;
+pos = (412,220);
+},
+{
+name = sindot;
+pos = (101,570);
+},
+{
+name = top;
+pos = (269,633);
+},
+{
+name = topleft;
+pos = (36,570);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "shin-hb";
+},
+{
+pos = (402,40);
+ref = "shindot-hb";
+}
+);
+width = 550;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (342,0);
+},
+{
+name = center;
+pos = (488,311);
+},
+{
+name = sindot;
+pos = (122,596);
+},
+{
+name = top;
+pos = (293,654);
+},
+{
+name = topleft;
+pos = (31,566);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = "shin-hb";
+},
+{
+pos = (455,30);
+ref = "shindot-hb";
+}
+);
+width = 619;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (317,0);
+},
+{
+name = center;
+pos = (440,258);
+},
+{
+name = sindot;
+pos = (109,581);
+},
+{
+name = top;
+pos = (278,642);
+},
+{
+name = topleft;
+pos = (38,571);
+}
+);
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "shin-hb";
+},
+{
+pos = (422,30);
+ref = "shindot-hb";
+}
+);
+width = 576;
+}
+);
+unicode = 64298;
+}

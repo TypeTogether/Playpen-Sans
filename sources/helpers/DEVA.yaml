@@ -1,0 +1,8 @@
+OS/2->sTypoAscender: 1280 # 1330 ii_candraBindu-deva
+OS/2->sTypoDescender: -520 # Lowest descender identified so far -501 rrVocalic-deva
+hhea->ascender: 1280 # to match the new sTypeDescender
+hhea->descender: -520 # to match the new sTypeDescender
+OS/2->usWinAscent: 1382 # Set to the max bbox glyph01571
+OS/2->usWinDescent: 1040 # Set to the max bbox llVocalicMatra-deva lowest identified placement
+OS/2->xAvgCharWidth: 775 # Set to the average width
+meta->data: {'dlng': 'Deva, hi, mr, ne', 'slng': 'Deva'}

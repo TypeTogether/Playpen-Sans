@@ -18,22 +18,6 @@ name = top;
 pos = (284,531);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(36,223,ls)
-);
-},
-{
-closed = 0;
-nodes = (
-(66,232,ls)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -123,7 +107,7 @@ width = 588;
 anchors = (
 {
 name = bottom;
-pos = (295,-10);
+pos = (320,-10);
 },
 {
 name = ogonek;

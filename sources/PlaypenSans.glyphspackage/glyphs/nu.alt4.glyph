@@ -1,0 +1,36 @@
+{
+glyphname = nu.alt4;
+kernLeft = gamma;
+kernRight = nu;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = nu.alt1;
+}
+);
+width = 516;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = nu.alt1;
+}
+);
+width = 594;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = nu.alt1;
+}
+);
+width = 544;
+}
+);
+metricLeft = nu;
+metricRight = nu;
+}

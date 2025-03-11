@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = eth;
 kernLeft = eth;
 kernRight = eth;
@@ -99,33 +98,6 @@ com.hugojourdan.ColorFlow = {
 width = 604;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(367,716,o),
-(130,535,o),
-(-246,241,cs),
-(-283,213,o),
-(-290,185,o),
-(-267,158,cs),
-(-239,123,o),
-(-207,120,o),
-(-173,148,cs),
-(135,397,o),
-(370,577,o),
-(536,691,cs),
-(574,716,o),
-(583,744,o),
-(563,773,cs),
-(539,811,o),
-(508,815,o),
-(469,788,cs)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {

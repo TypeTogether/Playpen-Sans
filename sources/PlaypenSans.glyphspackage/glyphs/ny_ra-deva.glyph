@@ -1,0 +1,56 @@
+{
+glyphname = "ny_ra-deva";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "nya-deva.alt1";
+},
+{
+pos = (754,3);
+ref = "halant-deva";
+},
+{
+pos = (861,0);
+ref = "ra-deva.alt3";
+}
+);
+width = 1441;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "nya-deva.alt1";
+},
+{
+pos = (730,2);
+ref = "halant-deva";
+},
+{
+pos = (871,0);
+ref = "ra-deva.alt3";
+}
+);
+width = 1435;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "nya-deva.alt1";
+},
+{
+pos = (695,0);
+ref = "halant-deva";
+},
+{
+pos = (885,0);
+ref = "ra-deva.alt3";
+}
+);
+width = 1424;
+}
+);
+}

@@ -1,0 +1,46 @@
+{
+glyphname = "iigrave-cy.loclBGR";
+kernLeft = "sha-cy";
+kernRight = "en-cy";
+layers = (
+{
+layerId = m003;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (308,10);
+ref = gravecomb;
+}
+);
+width = 622;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (284,10);
+ref = gravecomb;
+}
+);
+width = 581;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (278,10);
+ref = gravecomb;
+}
+);
+width = 582;
+}
+);
+}

@@ -1,0 +1,36 @@
+{
+glyphname = phi.alt2;
+kernLeft = omicron;
+kernRight = omicron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = phi.alt4;
+}
+);
+width = 638;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = phi.alt4;
+}
+);
+width = 837;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = phi.alt4;
+}
+);
+width = 728;
+}
+);
+metricLeft = phi;
+metricRight = phi;
+}

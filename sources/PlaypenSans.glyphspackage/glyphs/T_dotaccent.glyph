@@ -1,0 +1,47 @@
+{
+glyphname = Tdotaccent;
+kernLeft = T;
+kernRight = T;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (316,10);
+ref = dotaccentcomb.case;
+}
+);
+width = 665;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (319,-9);
+ref = dotaccentcomb.case;
+}
+);
+width = 680;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = T;
+},
+{
+pos = (328,3);
+ref = dotaccentcomb.case;
+}
+);
+width = 675;
+}
+);
+unicode = 7786;
+}

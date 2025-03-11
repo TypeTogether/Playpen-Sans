@@ -1,0 +1,47 @@
+{
+color = 10;
+glyphname = "gje-cy.loclMKD";
+kernLeft = "gje-cy.loclMKD";
+kernRight = "gje-cy.loclMKD";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ge-cy.loclSRB";
+},
+{
+pos = (126,94);
+ref = acutecomb;
+}
+);
+width = 255;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = "ge-cy.loclSRB";
+},
+{
+pos = (181,176);
+ref = acutecomb;
+}
+);
+width = 353;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = "ge-cy.loclSRB";
+},
+{
+pos = (149,135);
+ref = acutecomb;
+}
+);
+width = 293;
+}
+);
+}

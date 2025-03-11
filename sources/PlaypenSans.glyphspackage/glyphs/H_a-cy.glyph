@@ -1,0 +1,36 @@
+{
+color = 4;
+glyphname = "Ha-cy";
+kernLeft = "Ha-cy";
+kernRight = "Ha-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = X;
+}
+);
+width = 674;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = X;
+}
+);
+width = 661;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = X;
+}
+);
+width = 664;
+}
+);
+unicode = 1061;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = upsilon.alt6;
+kernLeft = upsilon;
+kernRight = upsilon;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = upsilon.alt3;
+}
+);
+width = 559;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = upsilon.alt3;
+}
+);
+width = 620;
+},
+{
+layerId = "5FC9277C-B92C-4C3C-88AB-70E16AEC7C11";
+shapes = (
+{
+ref = upsilon.alt3;
+}
+);
+width = 580;
+}
+);
+metricLeft = upsilon;
+metricRight = upsilon;
+}
