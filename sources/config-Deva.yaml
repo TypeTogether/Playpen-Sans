@@ -9,7 +9,6 @@ buildOTF: false
 buildWebfont: false
 outputDir: "../fonts"
 filenameSuffix: Deva
-# extraFontmakeArgs: "--production-names"
 postCompile:
   - operation: rename
     args: --just-family
@@ -19,7 +18,7 @@ postCompile:
     args: '-v="1.011" -d="Pooja Saxena, Gunjan Panchal, Laura Meseguer, Veronika Burian, José Scaglione" $in && mv $in.fix $out'
   - operation: exec
     exe: pyftsubset
-    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-DEVA.nam'
+    args: '$in --output-file=$out --layout-features="*" --notdef-glyph --notdef-outline --name-IDs=* --passthrough-tables --unicodes-file=./helpers/PPS-DEVA.nam --glyph-names'
   - operation: exec
     exe: gftools-fontsetter
     args: '$in ./helpers/DEVA.yaml -o $out'
