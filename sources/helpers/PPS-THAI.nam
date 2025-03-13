@@ -78,45 +78,30 @@
 
 # PPS Latin added glyphs not defined in Glyphsets
 
-000D
-2009
-02C9
-02BB
-0312
-0335
-0336
-0337
-0338
-00A4
-2215
-2219
-25CC
-200B
-2060
-034F
-0315
-0329
-0332
-06C2
-06C3
-06D3
-FC31
-FC32
-061C
-200C
-200D
-FEFF
-202A
-202D
-202C
-202B
-202E
-FB01 #fi
-FB02 #fl
+000D # CR
+2009 # Thin space
+02C9 # firsttonechinese
+02BB # commaturnedmod
+0312 # commaturnedabovecomb
+0335 # strokeshortcomb
+0336 # strokelongcomb
+0337 # slashshortcomb
+0338 # slashlongcomb
+00A4 # currency
+2215 # divisionslash
+2219 # bulletoperator
+200B # zerowidthspace
+2060 # wordjoiner
+034F # graphemejoinercomb
+0315 # commaaboverightcomb
+0329 # verticallinebelowcomb
+0332 # lowlinecomb
+FB01 # fi ligature
+FB02 # fl ligature
 # Defined in SSA, but needed for some european languages
-014A
-014B 
-02BC
+014A # Eng
+014B # eng
+02BC # apostrophemod
 
 # LATIN CORE
 
