@@ -915,6 +915,7 @@ feature cjct {
 		sub ha-deva halant-deva na-deva by h_na-deva;
 		sub ha-deva halant-deva ma-deva by h_ma-deva;
 		sub ha-deva halant-deva ya-deva by h_ya-deva;
+		sub ha-deva halant-deva la-deva.loclMAR by h_la-deva;
 		sub ha-deva halant-deva la-deva by h_la-deva;
 		sub ha-deva halant-deva va-deva by h_va-deva;
 } cjct;
