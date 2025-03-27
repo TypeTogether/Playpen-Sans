@@ -4843,8 +4843,10 @@ righttoleftoverride,
 "ny_ra-deva",
 "tt_tta-deva",
 "tt_tta-deva.alt1",
+"tt_tt_ya-deva",
 "tt_ttha-deva",
 "tt_ttha-deva.alt1",
+"tth_tth_ya-deva",
 "tt_ra-deva",
 "tt_ra-deva.alt1",
 "tt_ya-deva",
@@ -5774,10 +5776,6 @@ value = -340;
 }
 );
 guides = (
-{
-angle = 85.2624;
-pos = (315,283);
-},
 {
 angle = 85.2624;
 pos = (425,333);
