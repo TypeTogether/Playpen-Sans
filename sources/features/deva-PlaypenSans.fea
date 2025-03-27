@@ -1038,7 +1038,7 @@ feature blws {
 #---------------------
 # Above Base Substitutions
 feature abvs {
-	script dev2;
+
 	lookup abvs1_devanagari {
 		#Vowel Mark Matching
 		sub ii-deva anusvara-deva by ii_anusvara-deva;
@@ -1100,6 +1100,36 @@ feature abvs {
 		sub iiMatra-deva.w2 reph-deva by iiMatra_reph-deva.w2;
 	} abvs1_devanagari;
 
-	script deva;
+	script dev2;
+	language dflt;
 	lookup abvs1_devanagari;
+
+	script deva;
+	language dflt;
+	lookup abvs1_devanagari;
+
+	script dev2;
+	language MAR;
+	lookup abvs1_devanagari;
+
+	script deva;
+	language MAR;
+	lookup abvs1_devanagari;
+
+	script dev2;
+	language NEP;
+	lookup abvs1_devanagari;
+
+	script deva;
+	language NEP;
+	lookup abvs1_devanagari;
+
+	script dev2;
+	language HIN;
+	lookup abvs1_devanagari;
+
+	script deva;
+	language HIN;
+	lookup abvs1_devanagari;
+
 } abvs;
