@@ -1,3 +1,7 @@
-hhea->advanceWidthMax: 1495 # Set a value in the hhea table
 OS/2->xAvgCharWidth: 600 # Set to the average width
+OS/2->sTypoAscender: 1070 # Set to fit better the Hebrew script, rather than Latin
+OS/2->sTypoDescender: -460 # to avoid clipping for below vowel marks נֶ
+hhea->ascender: 1070 # to match the new sTypeAscender
+hhea->descender: -460 # to match the new sTypeDescender
+hhea->advanceWidthMax: 1495 # Set a value in the hhea table
 meta->data: {'dlng': 'Hebr', 'slng': 'Hebr'}
