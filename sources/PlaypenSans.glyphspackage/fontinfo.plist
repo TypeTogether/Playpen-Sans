@@ -5708,8 +5708,10 @@ languagesystem hebr JII;
 
 languagesystem deva MAR;
 languagesystem deva NEP;
+languagesystem deva HIN;
 languagesystem dev2 MAR;
 languagesystem dev2 NEP;
+languagesystem dev2 HIN;
 
 languagesystem arab URD;
 
