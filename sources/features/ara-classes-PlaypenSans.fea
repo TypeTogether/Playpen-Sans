@@ -38,4 +38,4 @@
 
 @ALL_ara_ALL = [@dflt_ara_ALL @alt1_ara_ALL @alt2_ara_ALL @alt3_ara_ALL @no_ara_ALTS dottedCircle];
 
-@comb_marks_ara = [tahabove-ar wasla-ar gafsarkashabove-ar alefabove-ar alefbelow-ar hamzaabove-ar hamzabelow-ar hamzaaboveDamma-ar hamzaaboveDammatan-ar hamzaaboveFatha-ar hamzaaboveFathatan-ar hamzaaboveSukun-ar hamzabelowKasra-ar hamzabelowKasratan-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar shaddaFathatan-ar shaddaDammatan-ar shaddaKasratan-ar shaddaFatha-ar shaddaDamma-ar shaddaKasra-ar shaddaAlefabove-ar sukun-ar madda-ar noonghunnaabove-ar threedotsabove-ar goalcomma-ar]
+@comb_marks_ara = [tahabove-ar wasla-ar gafsarkashabove-ar alefabove-ar alefbelow-ar hamzaabove-ar hamzabelow-ar hamzaaboveDamma-ar hamzaaboveDammatan-ar hamzaaboveFatha-ar hamzaaboveFathatan-ar hamzaaboveSukun-ar hamzabelowKasra-ar hamzabelowKasratan-ar fathatan-ar dammatan-ar kasratan-ar fatha-ar damma-ar kasra-ar shadda-ar shaddaFathatan-ar shaddaDammatan-ar shaddaKasratan-ar shaddaFatha-ar shaddaDamma-ar shaddaKasra-ar shaddaAlefabove-ar sukun-ar madda-ar noonghunnaabove-ar threedotsabove-ar goalcomma-ar];
